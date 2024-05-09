@@ -1,0 +1,42 @@
+{
+  "name": "@medenia/client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run cdn\" \"vite\"",
+    "cdn": "http-server ./public --cors -s",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^1.7.0",
+    "@sveltejs/vite-plugin-svelte": "^3.1.0",
+    "@types/stats.js": "^0.17.3",
+    "autoprefixer": "^10.4.19",
+    "concurrently": "^8.2.2",
+    "http-server": "^14.1.1",
+    "postcss": "^8.4.38",
+    "svelte": "^4.2.13",
+    "svelte-check": "^3.6.9",
+    "tailwindcss": "^3.4.3",
+    "type-fest": "^4.15.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-comlink": "^4.0.3",
+    "vite-plugin-node-polyfills": "^0.21.0",
+    "vite-plugin-top-level-await": "^1.4.1"
+  },
+  "dependencies": {
+    "@medenia/encryption": "*",
+    "@medenia/maxrects-packer": "*",
+    "@medenia/network": "*",
+    "@medenia/serialization": "*",
+    "comlink": "^4.4.1",
+    "phaser": "^3.80.1",
+    "poolifier-web-worker": "^0.3.16",
+    "reflect-metadata": "^0.2.2",
+    "stats.js": "^0.17.0",
+    "uuid": "^9.0.1"
+  }
+}

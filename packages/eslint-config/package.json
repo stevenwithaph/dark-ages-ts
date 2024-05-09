@@ -1,0 +1,19 @@
+{
+  "name": "@medenia/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "files": [
+    "library.cjs",
+    "next.js",
+    "react-internal.js"
+  ],
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "@vercel/style-guide": "^5.2.0",
+    "eslint-config-turbo": "^1.12.4",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@medenia/encryption",
+  "version": "0.0.0",
+  "description": "",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@medenia/serialization": "^0.0.0",
+    "js-md5": "^0.8.3"
+  }
+}

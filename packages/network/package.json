@@ -1,0 +1,14 @@
+{
+  "name": "@medenia/network",
+  "version": "0.0.0",
+  "description": "",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "type-fest": "^4.15.0"
+  }
+}
