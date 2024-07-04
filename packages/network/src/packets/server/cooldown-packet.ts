@@ -1,9 +1,6 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class CooldownPacket implements Packet {
   constructor(
@@ -11,22 +8,15 @@ export class CooldownPacket implements Packet {
     public slot: number,
     public seconds: number
   ) {}
-}
-
-class CooldownSerializer extends BasePacketSerializer<CooldownPacket> {
-  constructor() {
-    super(ServerOpCode.Cooldown, CooldownPacket);
+  get opCode(): number {
+    return ServerOpCode.Cooldown;
   }
-
-  serialize(writer: BinaryWriter, packet: CooldownPacket) {
-    writer.writeBoolean(packet.isSkill);
-    writer.writeUint8(packet.slot);
-    writer.writeUint32(packet.seconds);
+  serialize(writer: BinaryWriter): void {
+    writer.writeBoolean(this.isSkill);
+    writer.writeUint8(this.slot);
+    writer.writeUint32(this.seconds);
   }
-
-  deserialize(reader: BinaryReader, packet: CooldownPacket) {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ServerPacketFactory.register(CooldownSerializer);

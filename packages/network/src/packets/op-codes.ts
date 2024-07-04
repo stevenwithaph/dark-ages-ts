@@ -64,7 +64,7 @@ export enum ServerOpCode {
   ServerMessage = 10,
   ConfirmClientWalk = 11,
   CreatureWalk = 12,
-  PublicMessage = 13,
+  ChatMessage = 13,
   RemoveObject = 14,
   AddItemToPane = 15,
   RemoveItemFromPane = 16,

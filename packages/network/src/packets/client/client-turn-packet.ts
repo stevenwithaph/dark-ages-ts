@@ -1,24 +1,16 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ClientOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ClientPacketFactory } from '../packet-factory';
 
 export class ClientTurnPacket implements Packet {
   constructor(public direction: number) {}
-}
-
-class ClientTurnSerializer extends BasePacketSerializer<ClientTurnPacket> {
-  constructor() {
-    super(ClientOpCode.ClientTurn, ClientTurnPacket);
+  get opCode(): number {
+    return ClientOpCode.ClientTurn;
   }
-  serialize(writer: BinaryWriter, packet: ClientTurnPacket): void {
-    writer.writeUint8(packet.direction);
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint8(this.direction);
   }
-  deserialize(reader: BinaryReader, packet: ClientTurnPacket): void {
-    packet.direction = reader.readUint8();
+  deserialize(reader: BinaryReader): void {
+    this.direction = reader.readUint8();
   }
 }
-
-ClientPacketFactory.register(ClientTurnSerializer);

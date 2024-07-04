@@ -4,9 +4,7 @@ import { BinaryWriter } from '../binary-writer';
 export const IpAddressConverter = {
   serialize(value: string, writer: BinaryWriter) {
     const decimals = value.split('.');
-    const int =
-      ((+decimals[3] * 256 + +decimals[2]) * 256 + +decimals[1]) * 256 +
-      +decimals[0];
+    const int = ((+decimals[3] * 256 + +decimals[2]) * 256 + +decimals[1]) * 256 + +decimals[0];
 
     writer.writeUint32(int);
   },

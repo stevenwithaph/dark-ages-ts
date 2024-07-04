@@ -1,26 +1,15 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
-export class MetaDataPacket implements Packet {}
-
-class MetaDataSerializer extends BasePacketSerializer<MetaDataPacket> {
-  constructor() {
-    super(ServerOpCode.MetaData, MetaDataPacket);
+export class MetaDataPacket implements Packet {
+  get opCode(): number {
+    return ServerOpCode.MetaData;
   }
-
-  serialize(writer: BinaryWriter, packet: MetaDataPacket) {
+  serialize(writer: BinaryWriter): void {
     //TODO
-    //throw new Error('Method not implemented.');
   }
-
-  deserialize(reader: BinaryReader, packet: MetaDataPacket) {
+  deserialize(reader: BinaryReader): void {
     //TODO
-    //throw new Error('Method not implemented.');
   }
 }
-
-ServerPacketFactory.register(MetaDataSerializer);

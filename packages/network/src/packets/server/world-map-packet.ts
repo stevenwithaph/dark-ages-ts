@@ -1,24 +1,15 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
-export class WorldMapPacket implements Packet {}
-
-class WorldMapSerializer extends BasePacketSerializer<WorldMapPacket> {
-  constructor() {
-    super(ServerOpCode.WorldMap, WorldMapPacket);
+export class WorldMapPacket implements Packet {
+  get opCode(): number {
+    return ServerOpCode.WorldMap;
   }
-
-  serialize(writer: BinaryWriter, packet: WorldMapPacket) {
+  serialize(writer: BinaryWriter): void {
     throw new Error('Method not implemented.');
   }
-
-  deserialize(reader: BinaryReader, packet: WorldMapPacket) {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ServerPacketFactory.register(WorldMapSerializer);

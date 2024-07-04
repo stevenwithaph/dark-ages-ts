@@ -7,7 +7,7 @@ export class BinaryWriter {
 
   constructor() {
     this.offset = 0;
-    this.buffer = Buffer.alloc(64);
+    this.buffer = Buffer.alloc(32);
   }
 
   writeUint8(value: number) {
@@ -103,20 +103,11 @@ export class BinaryWriter {
     value.serialize(this);
   }
 
-  skip(offset: number) {
-    //this.byteBuffer.offset += offset;
-  }
-
-  reset() {
-    //this.byteBuffer.reset();
-  }
-
   grow(size: number) {
     if (size + this.offset > this.buffer.byteLength) {
-      const buffer = Buffer.alloc(this.buffer.byteLength + size);
+      const buffer = Buffer.alloc(this.offset + size);
 
       this.buffer.copy(buffer);
-
       this.buffer = buffer;
     }
   }

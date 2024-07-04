@@ -1,52 +1,57 @@
-import { Service } from 'typedi';
-
-import { ClientPackets, ServerPackets } from '@medenia/network';
+import { ClientPackets, ServerPackets, PanelType } from '@medenia/network';
 import { Client } from '../client';
 import { PacketHandler } from '../packet-handler';
-import { MapService } from '../../services/map-service';
 import { Listener } from './listener';
+import { playerCache } from '../../services/player-cache';
 
-@Service()
-export class MapServer extends Listener {
-  constructor(private maps: MapService) {
-    super(2612);
+export class WorldServer extends Listener {
+  constructor() {
+    super(2612, Client);
+  }
+
+  async onRedirect(client: Client, packet: ClientPackets.ClientRedirectedPacket) {
+    playerCache.connect(client, packet.redirect.keySalts);
   }
 
   @PacketHandler(ClientPackets.RequestProfilePacket)
   onRequestProfile(client: Client) {
-    client.sendPacket(
-      new ServerPackets.SelfProfilePacket(
-        0,
-        'guild',
-        'hero',
-        'partying',
-        false,
-        0,
-        'hero',
-        'guild name',
-        0,
-        1
-      )
-    );
+    client.sendPacket(new ServerPackets.SelfProfilePacket(0, '', '', '', false, 0, '', '', 0));
   }
 
-  @PacketHandler(ClientPackets.ClientRedirectedPacket)
-  async onClientRedirected(
-    client: Client,
-    packet: ClientPackets.ClientRedirectedPacket
-  ) {
-    client.key = packet.key;
-    client.keySalts = packet.keySalts;
-    client.seed = packet.seed;
+  @PacketHandler(ClientPackets.UnequipPacket)
+  onUnequip(client: Client, packet: ClientPackets.UnequipPacket) {
+    const player = playerCache.get(client.id);
 
-    this.maps.transfer(500, client, 27, 45, 0);
+    if (!player) {
+      return;
+    }
+
+    player.equipment.remove(packet.slot);
+  }
+
+  @PacketHandler(ClientPackets.SwapSlotPacket)
+  onSwapSlot(client: Client, packet: ClientPackets.SwapSlotPacket) {
+    const player = playerCache.get(client.id);
+
+    if (!player) {
+      return;
+    }
+
+    switch (packet.panelType) {
+      case PanelType.Inventory:
+        player.inventory.move(packet.slot1, packet.slot2);
+        break;
+      case PanelType.SpellBook:
+        player.spells.move(packet.slot1, packet.slot2);
+        break;
+      case PanelType.SkillBook:
+        player.skills.move(packet.slot1, packet.slot2);
+        break;
+    }
   }
 
   @PacketHandler(ClientPackets.SynchronizeTicksPacket)
-  onSynchronizeTicks(
-    client: Client,
-    packet: ClientPackets.SynchronizeTicksPacket
-  ) {
+  onSynchronizeTicks(client: Client, packet: ClientPackets.SynchronizeTicksPacket) {
     //  Intentionally left blank
   }
 }

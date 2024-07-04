@@ -1,26 +1,16 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class RemoveObjectPacket implements Packet {
   constructor(public entityId: number) {}
-}
-
-class RemoveObjectSerializer extends BasePacketSerializer<RemoveObjectPacket> {
-  constructor() {
-    super(ServerOpCode.RemoveObject, RemoveObjectPacket);
+  get opCode(): number {
+    return ServerOpCode.RemoveObject;
   }
-
-  serialize(writer: BinaryWriter, packet: RemoveObjectPacket) {
-    writer.writeUint32(packet.entityId);
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint32(this.entityId);
   }
-
-  deserialize(reader: BinaryReader, packet: RemoveObjectPacket) {
-    packet.entityId = reader.readUint32();
+  deserialize(reader: BinaryReader): void {
+    this.entityId = reader.readUint32();
   }
 }
-
-ServerPacketFactory.register(RemoveObjectSerializer);

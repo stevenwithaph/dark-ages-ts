@@ -5,8 +5,9 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "esModuleInterop": true,
+    "strictPropertyInitialization": false,
     "module": "NodeNext"
   },
-  "include": ["src"],
+  "include": ["./src"],
   "exclude": ["node_modules", "dist"]
 }

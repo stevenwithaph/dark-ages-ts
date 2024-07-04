@@ -1,34 +1,25 @@
-import { ServerTable } from '../../entities/server-table';
-import { BinaryReader, Fields } from '@medenia/serialization';
+import { BinaryReader, Fields, Serializable } from '@medenia/serialization';
 import { BinaryWriter } from '@medenia/serialization';
+import { ServerTable } from '../../entities/server-table';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class ServerTablePacket implements Packet {
   constructor(public serverTable: ServerTable) {}
-}
-
-class ServerTableSerializer extends BasePacketSerializer<ServerTablePacket> {
-  constructor() {
-    super(ServerOpCode.ServerTable, ServerTablePacket);
+  get opCode(): number {
+    return ServerOpCode.ServerTable;
   }
-
-  serialize(writer: BinaryWriter, packet: ServerTablePacket) {
+  serialize(writer: BinaryWriter): void {
     const tableWriter = new BinaryWriter();
-    packet.serverTable.serialize(tableWriter);
+    this.serverTable.serialize(tableWriter);
     Fields.CompressedConverter.serialize(tableWriter.toArray(), writer);
   }
-
-  deserialize(reader: BinaryReader, packet: ServerTablePacket) {
+  deserialize(reader: BinaryReader): void {
     const decompressed = Fields.CompressedConverter.deserialize(reader);
 
     const serverTable = new ServerTable();
     serverTable.deserialize(new BinaryReader(decompressed));
 
-    packet.serverTable = serverTable;
+    this.serverTable = serverTable;
   }
 }
-
-ServerPacketFactory.register(ServerTableSerializer);

@@ -1,24 +1,16 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
-export class UnequipPacket implements Packet {}
-
-class UnequipSerializer extends BasePacketSerializer<UnequipPacket> {
-  constructor() {
-    super(ServerOpCode.Unequip, UnequipPacket);
+export class UnequipPacket implements Packet {
+  constructor(public slot: number) {}
+  get opCode(): number {
+    return ServerOpCode.Unequip;
   }
-
-  serialize(writer: BinaryWriter, packet: UnequipPacket) {
-    throw new Error('Method not implemented.');
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint8(this.slot);
   }
-
-  deserialize(reader: BinaryReader, packet: UnequipPacket) {
-    throw new Error('Method not implemented.');
+  deserialize(reader: BinaryReader): void {
+    this.slot = reader.readUint8();
   }
 }
-
-ServerPacketFactory.register(UnequipSerializer);

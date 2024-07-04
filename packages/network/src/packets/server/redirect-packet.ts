@@ -1,42 +1,31 @@
 import { Redirect } from '../../entities';
-import { BinaryReader, Fields } from '@medenia/serialization';
+import { BinaryReader, Fields, Serializable } from '@medenia/serialization';
 import { BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
-
 export class RedirectPacket implements Packet {
   constructor(
     public ip: string,
     public port: number,
     public redirect: Redirect
   ) {}
-}
-
-class RedirectSerializer extends BasePacketSerializer<RedirectPacket> {
-  constructor() {
-    super(ServerOpCode.Redirect, RedirectPacket);
+  get opCode(): number {
+    return ServerOpCode.Redirect;
   }
-
-  serialize(writer: BinaryWriter, packet: RedirectPacket) {
-    Fields.IpAddressConverter.serialize(packet.ip, writer);
-    writer.writeUint16(packet.port);
+  serialize(writer: BinaryWriter): void {
+    Fields.IpAddressConverter.serialize(this.ip, writer);
+    writer.writeUint16(this.port);
 
     const redirectWriter = new BinaryWriter();
-    packet.redirect.serialize(redirectWriter);
+    this.redirect.serialize(redirectWriter);
 
     writer.writeBytes8(redirectWriter.toArray());
   }
-
-  deserialize(reader: BinaryReader, packet: RedirectPacket) {
-    packet.ip = Fields.IpAddressConverter.deserialize(reader);
-    packet.port = reader.readUint16();
+  deserialize(reader: BinaryReader): void {
+    this.ip = Fields.IpAddressConverter.deserialize(reader);
+    this.port = reader.readUint16();
 
     reader.offset += 1;
-
-    packet.redirect = reader.readSerializable(Redirect);
+    this.redirect = reader.readSerializable(Redirect);
   }
 }
-
-ServerPacketFactory.register(RedirectSerializer);

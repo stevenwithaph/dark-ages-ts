@@ -1,24 +1,15 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
-export class LoginControlsPacket implements Packet {}
-
-class LoginControlsPacketSerializer extends BasePacketSerializer<LoginControlsPacket> {
-  constructor() {
-    super(ServerOpCode.LoginControls, LoginControlsPacket);
+export class LoginControlsPacket implements Packet {
+  get opCode(): number {
+    return ServerOpCode.LoginControls;
   }
-
-  serialize(writer: BinaryWriter, packet: LoginControlsPacket) {
-    throw new Error('Method Not Implemented');
+  serialize(writer: BinaryWriter): void {
+    throw new Error('Method not implemented.');
   }
-
-  deserialize(reader: BinaryReader, packet: LoginControlsPacket) {
-    throw new Error('Method Not Implemented');
+  deserialize(reader: BinaryReader): void {
+    throw new Error('Method not implemented.');
   }
 }
-
-ServerPacketFactory.register(LoginControlsPacketSerializer);

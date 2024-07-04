@@ -1,22 +1,15 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ClientOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ClientPacketFactory } from '../packet-factory';
 
-export class GroupRequestPacket implements Packet {}
-
-class GroupRequestSerializer extends BasePacketSerializer<GroupRequestPacket> {
-  constructor() {
-    super(ClientOpCode.GroupRequest, GroupRequestPacket);
+export class GroupRequestPacket implements Packet {
+  get opCode(): number {
+    return ClientOpCode.GroupRequest;
   }
-  serialize(writer: BinaryWriter, packet: GroupRequestPacket): void {
+  serialize(writer: BinaryWriter): void {
     throw new Error('Method not implemented.');
   }
-  deserialize(reader: BinaryReader, packet: GroupRequestPacket): void {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ClientPacketFactory.register(GroupRequestSerializer);

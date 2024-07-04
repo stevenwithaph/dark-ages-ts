@@ -36,7 +36,7 @@ export * from './menu-packet';
 export * from './meta-data-packet';
 export * from './notepad-packet';
 export * from './profile-packet';
-export * from './public-message-packet';
+export * from './chat-message-packet';
 export * from './redirect-packet';
 export * from './remove-item-from-pane-packet';
 export * from './remove-object-packet';

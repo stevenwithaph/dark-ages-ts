@@ -1,26 +1,16 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ClientOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ClientPacketFactory } from '../packet-factory';
 
 export class VersionPacket implements Packet {
   constructor(public version: number) {}
-}
-
-class VersionPacketSerializer extends BasePacketSerializer<VersionPacket> {
-  constructor() {
-    super(ClientOpCode.Version, VersionPacket);
+  get opCode(): number {
+    return ClientOpCode.Version;
   }
-
-  serialize(writer: BinaryWriter, packet: VersionPacket) {
-    writer.writeUint16(packet.version);
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint16(this.version);
   }
-
-  deserialize(reader: BinaryReader, packet: VersionPacket) {
-    packet.version = reader.readUint16();
+  deserialize(reader: BinaryReader): void {
+    this.version = reader.readUint16();
   }
 }
-
-ClientPacketFactory.register(VersionPacketSerializer);

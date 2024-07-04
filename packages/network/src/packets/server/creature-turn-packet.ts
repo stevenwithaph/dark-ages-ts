@@ -1,31 +1,21 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class CreatureTurnPacket implements Packet {
   constructor(
     public entityId: number,
     public direction: number
   ) {}
-}
-
-class CreatureTurnSerializer extends BasePacketSerializer<CreatureTurnPacket> {
-  constructor() {
-    super(ServerOpCode.CreatureTurn, CreatureTurnPacket);
+  get opCode(): number {
+    return ServerOpCode.CreatureTurn;
   }
-
-  serialize(writer: BinaryWriter, packet: CreatureTurnPacket) {
-    writer.writeUint32(packet.entityId);
-    writer.writeUint8(packet.direction);
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint32(this.entityId);
+    writer.writeUint8(this.direction);
   }
-
-  deserialize(reader: BinaryReader, packet: CreatureTurnPacket) {
-    packet.entityId = reader.readUint32();
-    packet.direction = reader.readUint8();
+  deserialize(reader: BinaryReader): void {
+    this.entityId = reader.readUint32();
+    this.direction = reader.readUint8();
   }
 }
-
-ServerPacketFactory.register(CreatureTurnSerializer);

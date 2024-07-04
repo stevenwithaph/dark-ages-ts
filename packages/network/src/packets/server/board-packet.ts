@@ -1,24 +1,15 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
-export class BoardPacket implements Packet {}
-
-class BoardSerializer extends BasePacketSerializer<BoardPacket> {
-  constructor() {
-    super(ServerOpCode.Board, BoardPacket);
+export class BoardPacket implements Packet {
+  get opCode(): number {
+    return ServerOpCode.Board;
   }
-
-  serialize(writer: BinaryWriter, packet: BoardPacket) {
+  serialize(writer: BinaryWriter): void {
     throw new Error('Method not implemented.');
   }
-
-  deserialize(reader: BinaryReader, packet: BoardPacket) {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ServerPacketFactory.register(BoardSerializer);

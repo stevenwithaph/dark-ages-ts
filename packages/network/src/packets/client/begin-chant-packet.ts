@@ -1,25 +1,17 @@
 import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ClientOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ClientPacketFactory } from '../packet-factory';
 
 export class BeginChantPacket implements Packet {
   constructor(public castLines: string) {}
-}
-
-class BeginChantSerializer extends BasePacketSerializer<BeginChantPacket> {
-  constructor() {
-    super(ClientOpCode.BeginChant, BeginChantPacket);
+  get opCode(): number {
+    return ClientOpCode.BeginChant;
   }
 
-  serialize(writer: BinaryWriter, packet: BeginChantPacket) {
-    writer.writeString8(packet.castLines);
+  serialize(writer: BinaryWriter): void {
+    writer.writeString8(this.castLines);
   }
-
-  deserialize(reader: BinaryReader, packet: BeginChantPacket) {
-    throw new Error('Method not implemented.');
+  deserialize(reader: BinaryReader): void {
+    this.castLines = reader.readString8();
   }
 }
-
-ClientPacketFactory.register(BeginChantSerializer);

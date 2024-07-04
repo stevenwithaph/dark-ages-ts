@@ -1,22 +1,15 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ClientOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ClientPacketFactory } from '../packet-factory';
 
-export class DialogResponsePacket implements Packet {}
-
-class DialogResponseSerializer extends BasePacketSerializer<DialogResponsePacket> {
-  constructor() {
-    super(ClientOpCode.DialogResponse, DialogResponsePacket);
+export class DialogResponsePacket implements Packet {
+  get opCode(): number {
+    return ClientOpCode.DialogResponse;
   }
-  serialize(writer: BinaryWriter, packet: DialogResponsePacket): void {
+  serialize(writer: BinaryWriter): void {
     throw new Error('Method not implemented.');
   }
-  deserialize(reader: BinaryReader, packet: DialogResponsePacket): void {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ClientPacketFactory.register(DialogResponseSerializer);

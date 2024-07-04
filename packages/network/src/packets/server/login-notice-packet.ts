@@ -1,9 +1,7 @@
-import { BinaryReader, Fields } from '@medenia/serialization';
+import { BinaryReader, Fields, Serializable } from '@medenia/serialization';
 import { BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class LoginNoticePacket implements Packet {
   constructor(
@@ -11,34 +9,25 @@ export class LoginNoticePacket implements Packet {
     public message: string,
     public messageCrc: number
   ) {}
-}
-
-class LoginNoticeSerializer extends BasePacketSerializer<LoginNoticePacket> {
-  constructor() {
-    super(ServerOpCode.LoginNotice, LoginNoticePacket);
+  get opCode(): number {
+    return ServerOpCode.LoginNotice;
   }
+  serialize(writer: BinaryWriter): void {
+    writer.writeBoolean(this.hasMessage);
 
-  serialize(writer: BinaryWriter, packet: LoginNoticePacket) {
-    writer.writeBoolean(packet.hasMessage);
-
-    if (packet.hasMessage) {
-      Fields.CompressedConverter.serialize(Buffer.from(packet.message), writer);
+    if (this.hasMessage) {
+      Fields.CompressedConverter.serialize(Buffer.from(this.message), writer);
     } else {
-      writer.writeUint32(packet.messageCrc);
+      writer.writeUint32(this.messageCrc);
     }
   }
+  deserialize(reader: BinaryReader): void {
+    this.hasMessage = reader.readBoolean();
 
-  deserialize(reader: BinaryReader, packet: LoginNoticePacket) {
-    packet.hasMessage = reader.readBoolean();
-
-    if (packet.hasMessage) {
-      packet.message = new TextDecoder().decode(
-        Fields.CompressedConverter.deserialize(reader)
-      );
+    if (this.hasMessage) {
+      this.message = new TextDecoder().decode(Fields.CompressedConverter.deserialize(reader));
     } else {
-      packet.messageCrc = reader.readUint32();
+      this.messageCrc = reader.readUint32();
     }
   }
 }
-
-ServerPacketFactory.register(LoginNoticeSerializer);

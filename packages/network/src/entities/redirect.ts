@@ -1,8 +1,4 @@
-import {
-  BinaryReader,
-  BinaryWriter,
-  Serializable,
-} from '@medenia/serialization';
+import { BinaryReader, BinaryWriter, Serializable } from '@medenia/serialization';
 
 export class Redirect implements Serializable {
   constructor(

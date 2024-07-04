@@ -1,9 +1,6 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 //  TODO: seperate this into two different animations
 //  one targeted, one at a point
@@ -17,37 +14,25 @@ export class AnimationPacket implements Packet {
     public targetX?: number,
     public targetY?: number
   ) {}
-}
-
-class AnimationSerializer extends BasePacketSerializer<AnimationPacket> {
-  constructor() {
-    super(ServerOpCode.Animation, AnimationPacket);
+  get opCode(): number {
+    return ServerOpCode.Animation;
   }
-
-  serialize(writer: BinaryWriter, packet: AnimationPacket) {
-    if (packet.targetX && packet.targetY && packet.targetAnimationId) {
+  serialize(writer: BinaryWriter): void {
+    if (this.targetX && this.targetY && this.targetAnimationId) {
       writer.writeUint32(0);
-      writer.writeUint16(packet.targetAnimationId);
-      writer.writeUint16(packet.animationDuration);
-      writer.writeUint8(packet.targetX);
-      writer.writeUint8(packet.targetY);
-    } else if (
-      packet.sourceId &&
-      packet.targetId &&
-      packet.sourceAnimationId &&
-      packet.targetAnimationId
-    ) {
-      writer.writeUint32(packet.targetId);
-      writer.writeUint32(packet.sourceId);
-      writer.writeUint16(packet.targetAnimationId);
-      writer.writeUint16(packet.sourceAnimationId);
-      writer.writeUint16(packet.animationDuration);
+      writer.writeUint16(this.targetAnimationId);
+      writer.writeUint16(this.animationDuration);
+      writer.writeUint8(this.targetX);
+      writer.writeUint8(this.targetY);
+    } else if (this.sourceId && this.targetId && this.sourceAnimationId && this.targetAnimationId) {
+      writer.writeUint32(this.targetId);
+      writer.writeUint32(this.sourceId);
+      writer.writeUint16(this.targetAnimationId);
+      writer.writeUint16(this.sourceAnimationId);
+      writer.writeUint16(this.animationDuration);
     }
   }
-
-  deserialize(reader: BinaryReader, packet: AnimationPacket) {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ServerPacketFactory.register(AnimationSerializer);

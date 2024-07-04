@@ -1,25 +1,15 @@
 import EventEmitter from 'eventemitter3';
+
 import { ClientCrypto, ServerCrypto } from '@medenia/encryption';
+import { ClientPacketFactory, Packet, PacketEncoder, PacketPayload, ServerPacketFactory } from '@medenia/network';
 
-import {
-  ClientPacketFactory,
-  Packet,
-  PacketEncoder,
-  PacketPayload,
-  ServerPacketFactory,
-} from '@medenia/network';
 import { Socket } from './servers/socket';
+import { Constructor } from 'type-fest';
 
-type ClientEvents = {
-  packet: (packet: Packet, client: Client) => void;
-  error: (error: Error, client: Client) => void;
-  disconnect: (client: Client) => void;
-};
+const ACK_TIMEOUT = 5000;
 
-export class Client extends EventEmitter<ClientEvents> {
+export class Client extends EventEmitter {
   private readonly crypto: ClientCrypto;
-
-  public networkId: number = 0;
 
   public get key() {
     return this.crypto.key;
@@ -57,14 +47,11 @@ export class Client extends EventEmitter<ClientEvents> {
   }
 
   protected onData(buffer: Uint8Array) {
-    const packets = PacketEncoder.decode(
-      buffer,
-      ClientPacketFactory,
-      this.crypto
-    );
+    const packets = PacketEncoder.decode(buffer, ClientPacketFactory, this.crypto);
 
     for (const packet of packets) {
       this.emit('packet', packet, this);
+      this.emit(packet.constructor.name, packet, this);
     }
   }
 
@@ -76,6 +63,22 @@ export class Client extends EventEmitter<ClientEvents> {
     this.emit('disconnect', this);
   }
 
+  async await<T extends Packet>(packet: Constructor<T>) {
+    return new Promise<T>((resolve, reject) => {
+      const timeout = setTimeout(() => {
+        reject('timeout');
+        this.off(packet.name, listener);
+      }, ACK_TIMEOUT);
+
+      const listener = (packet: T) => {
+        resolve(packet);
+        clearTimeout(timeout);
+      };
+
+      this.once(packet.name, listener);
+    });
+  }
+
   sendPacket(packet: Packet) {
     const payload = ServerPacketFactory.serialize(packet);
     if (!payload) return;
@@ -85,5 +88,9 @@ export class Client extends EventEmitter<ClientEvents> {
   send(payload: PacketPayload) {
     const buffer = PacketEncoder.encode(payload, this.crypto);
     this.socket.send(buffer);
+  }
+
+  disconnect() {
+    this.socket.disconnect();
   }
 }

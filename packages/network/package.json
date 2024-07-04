@@ -8,6 +8,9 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@medenia/serialization": "^0.0.0"
+  },
   "devDependencies": {
     "type-fest": "^4.15.0"
   }

@@ -1,9 +1,6 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ClientOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ClientPacketFactory } from '../packet-factory';
 import { MetaDataRequestType } from '../../entities/meta-data-request-type';
 
 export class MetaDataRequestPacket implements Packet {
@@ -11,37 +8,30 @@ export class MetaDataRequestPacket implements Packet {
     public type: MetaDataRequestType,
     public name?: string
   ) {}
-}
-
-class MetaDataRequestPacketSerializer extends BasePacketSerializer<MetaDataRequestPacket> {
-  constructor() {
-    super(ClientOpCode.RequestMetaData, MetaDataRequestPacket);
+  get opCode(): number {
+    return ClientOpCode.RequestMetaData;
   }
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint8(this.type);
 
-  serialize(writer: BinaryWriter, packet: MetaDataRequestPacket): void {
-    writer.writeUint8(packet.type);
-
-    switch (packet.type) {
+    switch (this.type) {
       case MetaDataRequestType.DataByName:
-        if (packet.name) {
-          writer.writeString8(packet.name);
+        if (this.name) {
+          writer.writeString8(this.name);
         }
         break;
       case MetaDataRequestType.AllCheckSum:
         break;
     }
   }
-
-  deserialize(reader: BinaryReader, packet: MetaDataRequestPacket): void {
-    packet.type = reader.readUint8();
-    switch (packet.type) {
+  deserialize(reader: BinaryReader): void {
+    this.type = reader.readUint8();
+    switch (this.type) {
       case MetaDataRequestType.DataByName:
-        packet.name = reader.readString8();
+        this.name = reader.readString8();
         break;
       case MetaDataRequestType.AllCheckSum:
         break;
     }
   }
 }
-
-ClientPacketFactory.register(MetaDataRequestPacketSerializer);

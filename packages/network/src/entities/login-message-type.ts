@@ -3,5 +3,5 @@ export enum LoginMessageType {
   ClearName = 3,
   ClearPassword = 5,
   InvalidUsername = 14,
-  IncorrectPassowrd = 15,
+  IncorrectPassword = 15,
 }

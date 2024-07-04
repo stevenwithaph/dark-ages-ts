@@ -1,28 +1,26 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ClientOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ClientPacketFactory } from '../packet-factory';
 
-export class CharacterCreationFinalizePacket implements Packet {}
+export class CharacterCreationFinalizePacket implements Packet {
+  constructor(
+    public hairStyle: number,
+    public bodyType: number,
+    public hairColour: number
+  ) {}
 
-class CharacterCreationFinalizeSerializer extends BasePacketSerializer<CharacterCreationFinalizePacket> {
-  constructor() {
-    super(ClientOpCode.CreateCharFinalize, CharacterCreationFinalizePacket);
+  get opCode(): number {
+    return ClientOpCode.CreateCharFinalize;
   }
-  serialize(
-    writer: BinaryWriter,
-    packet: CharacterCreationFinalizePacket
-  ): void {
-    throw new Error('Method not implemented.');
+
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint8(this.hairStyle);
+    writer.writeUint8(this.bodyType);
+    writer.writeUint8(this.hairColour);
   }
-  deserialize(
-    reader: BinaryReader,
-    packet: CharacterCreationFinalizePacket
-  ): void {
-    throw new Error('Method not implemented.');
+  deserialize(reader: BinaryReader): void {
+    this.hairStyle = reader.readUint8();
+    this.bodyType = reader.readUint8();
+    this.hairColour = reader.readUint8();
   }
 }
-
-ClientPacketFactory.register(CharacterCreationFinalizeSerializer);

@@ -1,22 +1,15 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ClientOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ClientPacketFactory } from '../packet-factory';
 
-export class IgnorePacket implements Packet {}
-
-class IgnoreSerializer extends BasePacketSerializer<IgnorePacket> {
-  constructor() {
-    super(ClientOpCode.Ignore, IgnorePacket);
+export class IgnorePacket implements Packet {
+  get opCode(): number {
+    return ClientOpCode.Ignore;
   }
-  serialize(writer: BinaryWriter, packet: IgnorePacket): void {
+  serialize(writer: BinaryWriter): void {
     throw new Error('Method not implemented.');
   }
-  deserialize(reader: BinaryReader, packet: IgnorePacket): void {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ClientPacketFactory.register(IgnoreSerializer);

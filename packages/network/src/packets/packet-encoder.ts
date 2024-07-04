@@ -21,11 +21,7 @@ export function encode(payload: PacketPayload, crypto: Crypto): Uint8Array {
   return payloadBuffer;
 }
 
-export function decode(
-  buffer: Uint8Array,
-  factory: PacketFactory,
-  crypto: Crypto
-) {
+export function decode(buffer: Uint8Array, factory: PacketFactory, crypto: Crypto) {
   const packets = [];
   while (buffer.length !== 0) {
     if (buffer[0] !== 170) {
@@ -37,14 +33,14 @@ export function decode(
 
     const data = buffer.subarray(4, length + 3);
 
-    const serializer = factory.get(opCode);
+    const ctx = factory.get(opCode);
 
-    if (serializer) {
+    if (ctx) {
       const decrypted = crypto.decrypt(data, opCode);
       const reader = new BinaryReader(decrypted);
-      const packet = new serializer.packet();
+      const packet = new ctx();
       try {
-        serializer.deserialize(reader, packet);
+        packet.deserialize(reader);
       } catch (e) {}
 
       packets.push(packet);

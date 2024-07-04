@@ -2,50 +2,40 @@ import { Constructor } from 'type-fest';
 import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 
 import { Packet } from './packet';
-import { PacketSerializer } from './packet-serializer';
 import { PacketPayload } from './packet-payload';
+import { ClientPackets } from './client-packets';
+import { ServerPackets } from './server-packets';
 
 export class PacketFactory {
-  protected packetToSerializer: Map<Constructor<Packet>, PacketSerializer> =
-    new Map();
+  protected opCodeToSerializer: Map<number, Constructor<Packet>> = new Map();
 
-  protected opCodeToSerializer: Map<number, PacketSerializer> = new Map();
-
-  register(serializer: Constructor<PacketSerializer>) {
-    const instance = new serializer();
-    this.packetToSerializer.set(instance.packet, instance);
-    this.opCodeToSerializer.set(instance.opCode, instance);
+  register(packet: Constructor<Packet>) {
+    //const instance = new serializer();
+    //this.packetToSerializer.set(instance.packet, instance);
+    this.opCodeToSerializer.set(packet.prototype.opCode, packet);
   }
 
-  serialize(message: Packet) {
-    const serializer = this.packetToSerializer.get(
-      message.constructor as Constructor<Packet>
-    );
-
-    if (!serializer) {
-      return undefined;
-    }
-
+  serialize(packet: Packet) {
     const writer = new BinaryWriter();
-    serializer.serialize(writer, message);
+    packet.serialize(writer);
 
     return {
-      opCode: serializer.opCode,
+      opCode: packet.opCode,
       data: writer.toArray(),
     } satisfies PacketPayload;
   }
 
   deserialize(payload: PacketPayload) {
-    const serializer = this.opCodeToSerializer.get(payload.opCode);
+    const ctx = this.opCodeToSerializer.get(payload.opCode);
 
-    if (!serializer) {
+    if (!ctx) {
       return undefined;
     }
 
     const reader = new BinaryReader(payload.data);
-    const packet = new serializer.packet();
+    const packet = new ctx();
 
-    serializer.deserialize(reader, packet);
+    packet.deserialize(reader);
 
     return packet;
   }
@@ -57,5 +47,15 @@ export class PacketFactory {
 
 const ClientPacketFactory = new PacketFactory();
 const ServerPacketFactory = new PacketFactory();
+
+for (const packet in ClientPackets) {
+  //@ts-ignore
+  ClientPacketFactory.register(ClientPackets[packet]);
+}
+
+for (const packet in ServerPackets) {
+  //@ts-ignore
+  ServerPacketFactory.register(ServerPackets[packet]);
+}
 
 export { ClientPacketFactory, ServerPacketFactory };

@@ -1,0 +1,27 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:../db.sqlite"
+}
+
+
+model AislingModel {
+  @@map("aisling")
+
+  id Int @id @default(autoincrement())
+  username String @unique
+  password  String
+  bodyType Int @default(1)
+  hairStyle Int @default(1)
+  hairColour Int @default(0)
+  mapId Int @default(0)
+  x Int @default(0)
+  y Int @default(0)
+  direction Int @default(0)
+}

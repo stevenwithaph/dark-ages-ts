@@ -1,24 +1,15 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
-export class NotepadPacket implements Packet {}
-
-class NotepadSerializer extends BasePacketSerializer<NotepadPacket> {
-  constructor() {
-    super(ServerOpCode.Notepad, NotepadPacket);
+export class NotepadPacket implements Packet {
+  get opCode(): number {
+    return ServerOpCode.Notepad;
   }
-
-  serialize(writer: BinaryWriter, packet: NotepadPacket) {
+  serialize(writer: BinaryWriter): void {
     throw new Error('Method not implemented.');
   }
-
-  deserialize(reader: BinaryReader, packet: NotepadPacket) {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ServerPacketFactory.register(NotepadSerializer);

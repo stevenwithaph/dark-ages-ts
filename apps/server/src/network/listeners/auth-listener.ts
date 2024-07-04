@@ -1,54 +1,62 @@
-import { Service } from 'typedi';
-import {
-  ClientPackets,
-  LoginMessageType,
-  Redirect,
-  ServerPackets,
-} from '@medenia/network';
+import { ClientPackets, LoginMessageType, Redirect, ServerPackets } from '@medenia/network';
 
 import { Client } from '../client';
 import { PacketHandler } from '../packet-handler';
 import { Listener } from './listener';
+import { AuthError, authService } from '../../services/auth-service';
 
-@Service()
+class AuthClient extends Client {}
+
 export class AuthListener extends Listener {
   constructor() {
-    super(2611);
+    super(2611, AuthClient);
   }
 
-  @PacketHandler(ClientPackets.ClientRedirectedPacket)
-  onClientRedirected(
-    client: Client,
-    packet: ClientPackets.ClientRedirectedPacket
-  ) {
-    client.key = packet.key;
-    client.keySalts = packet.keySalts;
-    client.seed = packet.seed;
-
-    client.sendPacket(new ServerPackets.LoginNoticePacket(true, 'MOTD', 12));
+  onRedirect(client: Client): void {
+    client.sendPacket(new ServerPackets.LoginNoticePacket(true, 'MOTD2', 12));
   }
 
   @PacketHandler(ClientPackets.LoginPacket)
-  onLogin(client: Client, packet: ClientPackets.LoginPacket) {
-    client.sendPacket(
-      new ServerPackets.LoginMessagePacket(LoginMessageType.Confirm, 'success!')
-    );
+  async onLogin(client: AuthClient, packet: ClientPackets.LoginPacket) {
+    try {
+      await authService.login(packet.username, packet.password);
+      client.keySalts = packet.username;
 
-    client.keySalts = packet.username;
+      client.sendPacket(new ServerPackets.LoginMessagePacket(LoginMessageType.Confirm, 'Success!'));
 
-    client.sendPacket(
-      new ServerPackets.RedirectPacket(
-        '127.0.0.1',
-        2612,
-        new Redirect(client.seed, client.key, client.keySalts, 0)
-      )
-    );
+      this.redirect(client, '127.0.0.1', 2612);
+    } catch (error) {
+      this.handleAuthError(client, error);
+    }
   }
 
-  //  Client is good to go and can be logged in.
+  @PacketHandler(ClientPackets.CharacterCreationRequestPacket)
+  async onCharacterCreationPacket(client: AuthClient, packet: ClientPackets.CharacterCreationRequestPacket) {
+    try {
+      const aisling = await authService.create(packet.name, packet.password);
+      client.sendPacket(new ServerPackets.LoginMessagePacket(LoginMessageType.Confirm, 'Success!'));
+
+      const finalize = await client.await(ClientPackets.CharacterCreationFinalizePacket);
+
+      await authService.finalize(aisling.id, finalize.hairStyle, finalize.hairColour, finalize.bodyType);
+
+      client.sendPacket(new ServerPackets.LoginMessagePacket(LoginMessageType.Confirm, 'Success!'));
+    } catch (error) {
+      this.handleAuthError(client, error);
+    }
+  }
+
   //  still should be double-checked to make sure auth info is correct
   @PacketHandler(ClientPackets.MetaDataRequestPacket)
-  onMetaDataRequest(client: Client) {
+  onMetaDataRequest(client: AuthClient) {
     //client.sendPacket(new ServerPackets.MetaDataPacket());
+  }
+
+  handleAuthError(client: Client, error: any) {
+    if (error instanceof AuthError) {
+      client.sendPacket(new ServerPackets.LoginMessagePacket(error.type, error.message));
+    } else {
+      client.sendPacket(new ServerPackets.LoginMessagePacket(LoginMessageType.InvalidUsername, 'Something went wrong.'));
+    }
   }
 }

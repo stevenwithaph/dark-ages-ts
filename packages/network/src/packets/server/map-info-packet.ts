@@ -1,9 +1,6 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class MapInfoPacket implements Packet {
   constructor(
@@ -14,35 +11,28 @@ export class MapInfoPacket implements Packet {
     public crc: number,
     public name: string
   ) {}
-}
-
-class MapInfoSerializer extends BasePacketSerializer<MapInfoPacket> {
-  constructor() {
-    super(ServerOpCode.MapInfo, MapInfoPacket);
+  get opCode(): number {
+    return ServerOpCode.MapInfo;
   }
-
-  serialize(writer: BinaryWriter, packet: MapInfoPacket) {
-    writer.writeUint16(packet.areaId);
-    writer.writeUint8(packet.width);
-    writer.writeUint8(packet.height);
-    writer.writeUint8(packet.flags);
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint16(this.areaId);
+    writer.writeUint8(this.width);
+    writer.writeUint8(this.height);
+    writer.writeUint8(this.flags);
     writer.offset += 2;
 
-    writer.writeUint16(packet.crc);
-    writer.writeString8(packet.name);
+    writer.writeUint16(this.crc);
+    writer.writeString8(this.name);
   }
-
-  deserialize(reader: BinaryReader, packet: MapInfoPacket) {
-    packet.areaId = reader.readUint16();
-    packet.width = reader.readUint8();
-    packet.height = reader.readUint8();
-    packet.flags = reader.readUint8();
+  deserialize(reader: BinaryReader): void {
+    this.areaId = reader.readUint16();
+    this.width = reader.readUint8();
+    this.height = reader.readUint8();
+    this.flags = reader.readUint8();
 
     reader.offset += 2;
 
-    packet.crc = reader.readUint16();
-    packet.name = reader.readString8();
+    this.crc = reader.readUint16();
+    this.name = reader.readString8();
   }
 }
-
-ServerPacketFactory.register(MapInfoSerializer);

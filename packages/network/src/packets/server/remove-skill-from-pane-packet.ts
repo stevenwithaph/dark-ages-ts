@@ -1,24 +1,16 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
-export class RemoveSkillFromPanePacket implements Packet {}
-
-class RemoveSkillFromPaneSerializer extends BasePacketSerializer<RemoveSkillFromPanePacket> {
-  constructor() {
-    super(ServerOpCode.RemoveSkillFromPane, RemoveSkillFromPanePacket);
+export class RemoveSkillFromPanePacket implements Packet {
+  constructor(public slot: number) {}
+  get opCode(): number {
+    return ServerOpCode.RemoveSkillFromPane;
   }
-
-  serialize(writer: BinaryWriter, packet: RemoveSkillFromPanePacket) {
-    throw new Error('Method not implemented.');
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint8(this.slot);
   }
-
-  deserialize(reader: BinaryReader, packet: RemoveSkillFromPanePacket) {
-    throw new Error('Method not implemented.');
+  deserialize(reader: BinaryReader): void {
+    this.slot = reader.readUint8();
   }
 }
-
-ServerPacketFactory.register(RemoveSkillFromPaneSerializer);

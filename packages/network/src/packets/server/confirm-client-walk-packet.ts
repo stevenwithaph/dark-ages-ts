@@ -1,9 +1,6 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 //  TODO: I don't think this packet does anything
 export class ConfirmClientWalkPacket implements Packet {
@@ -12,28 +9,17 @@ export class ConfirmClientWalkPacket implements Packet {
     public x: number,
     public y: number
   ) {}
-}
-
-class ConfirmClientWalkSerializer extends BasePacketSerializer<ConfirmClientWalkPacket> {
-  constructor() {
-    super(ServerOpCode.ConfirmClientWalk, ConfirmClientWalkPacket);
+  get opCode(): number {
+    return ServerOpCode.ConfirmClientWalk;
   }
-
-  serialize(writer: BinaryWriter, packet: ConfirmClientWalkPacket) {
-    writer.writeUint8(packet.direction);
-    writer.writeUint8(packet.x);
-    writer.writeUint8(packet.y);
-
-    writer.writeUint16(11);
-    writer.writeUint16(11);
-    writer.writeUint8(1);
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint8(this.direction);
+    writer.writeUint8(this.x);
+    writer.writeUint8(this.y);
   }
-
-  deserialize(reader: BinaryReader, packet: ConfirmClientWalkPacket) {
-    packet.direction = reader.readUint8();
-    packet.x = reader.readUint8();
-    packet.y = reader.readUint8();
+  deserialize(reader: BinaryReader): void {
+    this.direction = reader.readUint8();
+    this.x = reader.readUint8();
+    this.y = reader.readUint8();
   }
 }
-
-ServerPacketFactory.register(ConfirmClientWalkSerializer);

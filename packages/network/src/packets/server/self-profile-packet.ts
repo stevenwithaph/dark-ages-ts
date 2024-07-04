@@ -1,9 +1,6 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class SelfProfilePacket implements Packet {
   constructor(
@@ -15,43 +12,29 @@ export class SelfProfilePacket implements Packet {
     public classId: number,
     public className: string,
     public guildName: string,
-    public marks: number,
-    public gender: number
+    public marks: number
   ) {}
-}
-
-//  TODO: update this packet to https://github.com/Sichii/Chaos-Server/blob/12bbe4b8fb4d86e0d79bfe3e4647c03f72168ac3/Chaos.Networking/Converters/Server/SelfProfileConverter.cs
-class SelfProfileSerializer extends BasePacketSerializer<SelfProfilePacket> {
-  constructor() {
-    super(ServerOpCode.SelfProfile, SelfProfilePacket);
+  get opCode(): number {
+    return ServerOpCode.SelfProfile;
   }
-
-  serialize(writer: BinaryWriter, packet: SelfProfilePacket) {
-    writer.writeUint8(packet.nationId);
-    writer.writeString8(packet.guildRank);
-    writer.writeString8(packet.title);
-    writer.writeString8(packet.partyStatus);
-    writer.writeBoolean(packet.canGroup);
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint8(this.nationId);
+    writer.writeString8(this.guildRank);
+    writer.writeString8(this.title);
+    writer.writeString8(this.partyStatus);
+    writer.writeBoolean(this.canGroup);
 
     writer.offset += 1;
 
-    writer.writeUint8(packet.classId);
+    writer.writeUint8(this.classId);
 
     writer.offset += 2;
 
-    writer.writeString8(packet.className);
-    writer.writeString8(packet.guildName);
-    writer.writeUint8(packet.marks);
-
-    writer.offset += 1;
-
-    //??
-    writer.writeUint16(packet.gender);
+    writer.writeString8(this.className);
+    writer.writeString8(this.guildName);
+    writer.writeUint8(this.marks);
   }
-
-  deserialize(reader: BinaryReader, packet: SelfProfilePacket) {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ServerPacketFactory.register(SelfProfileSerializer);

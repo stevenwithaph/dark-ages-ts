@@ -1,26 +1,16 @@
-import { BinaryReader, Fields } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class MapChangeCompletePacket implements Packet {
   constructor() {}
-}
-
-class MapChangeCompleteSerializer extends BasePacketSerializer<MapChangeCompletePacket> {
-  constructor() {
-    super(ServerOpCode.MapChangeComplete, MapChangeCompletePacket);
+  get opCode(): number {
+    return ServerOpCode.MapChangeComplete;
   }
-
-  serialize(writer: BinaryWriter, packet: MapChangeCompletePacket) {
+  serialize(writer: BinaryWriter): void {
     //  Intentionally left blank
   }
-
-  deserialize(reader: BinaryReader, packet: MapChangeCompletePacket) {
+  deserialize(reader: BinaryReader): void {
     //  Intentionally left blank
   }
 }
-
-ServerPacketFactory.register(MapChangeCompleteSerializer);

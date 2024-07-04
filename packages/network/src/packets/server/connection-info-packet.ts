@@ -1,9 +1,6 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class ConnectionInfoPacket implements Packet {
   constructor(
@@ -12,26 +9,19 @@ export class ConnectionInfoPacket implements Packet {
     public seed: number,
     public key: string
   ) {}
-}
-
-class ConnectionInfoSerializer extends BasePacketSerializer<ConnectionInfoPacket> {
-  constructor() {
-    super(ServerOpCode.ConnectionInfo, ConnectionInfoPacket);
+  get opCode(): number {
+    return ServerOpCode.ConnectionInfo;
   }
-
-  serialize(writer: BinaryWriter, packet: ConnectionInfoPacket) {
-    writer.writeBoolean(packet.versionMismatch);
-    writer.writeUint32(packet.serverTableCrc);
-    writer.writeUint8(packet.seed);
-    writer.writeString8(packet.key);
+  serialize(writer: BinaryWriter): void {
+    writer.writeBoolean(this.versionMismatch);
+    writer.writeUint32(this.serverTableCrc);
+    writer.writeUint8(this.seed);
+    writer.writeString8(this.key);
   }
-
-  deserialize(reader: BinaryReader, packet: ConnectionInfoPacket) {
-    packet.versionMismatch = reader.readBoolean();
-    packet.serverTableCrc = reader.readUint32();
-    packet.seed = reader.readUint8();
-    packet.key = reader.readString8();
+  deserialize(reader: BinaryReader): void {
+    this.versionMismatch = reader.readBoolean();
+    this.serverTableCrc = reader.readUint32();
+    this.seed = reader.readUint8();
+    this.key = reader.readString8();
   }
 }
-
-ServerPacketFactory.register(ConnectionInfoSerializer);

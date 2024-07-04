@@ -4,10 +4,6 @@ A [Dark Ages](https://www.darkages.com/index.html) private client / server writt
 
 ![screenshot](apps/client/public/preview.png)
 
-## Hosting
-
-As the assets are copyrighted by [Kru Interactive](https://www.kru.com/index.html) I wouldn't be able to legally host them anywhere.
-
 ## Running Locally
 
 Clone this repo and install dependancies using npm:

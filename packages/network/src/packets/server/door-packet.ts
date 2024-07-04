@@ -1,24 +1,15 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
-export class DoorPacket implements Packet {}
-
-class DoorSerializer extends BasePacketSerializer<DoorPacket> {
-  constructor() {
-    super(ServerOpCode.Door, DoorPacket);
+export class DoorPacket implements Packet {
+  get opCode(): number {
+    return ServerOpCode.Door;
   }
-
-  serialize(writer: BinaryWriter, packet: DoorPacket) {
+  serialize(writer: BinaryWriter): void {
     throw new Error('Method not implemented.');
   }
-
-  deserialize(reader: BinaryReader, packet: DoorPacket) {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ServerPacketFactory.register(DoorSerializer);

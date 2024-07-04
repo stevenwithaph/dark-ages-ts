@@ -1,9 +1,6 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class UserIdPacket implements Packet {
   constructor(
@@ -11,29 +8,22 @@ export class UserIdPacket implements Packet {
     public direction: number,
     public classId: number
   ) {}
-}
-
-class UserIdSerializer extends BasePacketSerializer<UserIdPacket> {
-  constructor() {
-    super(ServerOpCode.UserId, UserIdPacket);
+  get opCode(): number {
+    return ServerOpCode.UserId;
   }
-
-  serialize(writer: BinaryWriter, packet: UserIdPacket) {
-    writer.writeUint32(packet.userId);
-    writer.writeUint8(packet.direction);
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint32(this.userId);
+    writer.writeUint8(this.direction);
 
     //  if these are removed, occasionally the client will not recongize their aisling
     writer.writeUint8(0);
-    writer.writeUint8(packet.classId);
+    writer.writeUint8(this.classId);
     writer.writeUint8(0);
     writer.writeUint8(0);
     writer.writeUint8(0);
   }
-
-  deserialize(reader: BinaryReader, packet: UserIdPacket) {
-    packet.userId = reader.readUint32();
-    packet.direction = reader.readUint8();
+  deserialize(reader: BinaryReader): void {
+    this.userId = reader.readUint32();
+    this.direction = reader.readUint8();
   }
 }
-
-ServerPacketFactory.register(UserIdSerializer);

@@ -61,15 +61,10 @@ export class BinaryReader {
 
   readString(length?: number) {
     if (!length) {
-      //  just read to the end of the packet if there is no length
       length = this.buffer.byteLength - this.offset;
     }
 
-    const value = this.buffer.toString(
-      'ascii',
-      this.offset,
-      this.offset + length
-    );
+    const value = this.buffer.toString('ascii', this.offset, this.offset + length);
 
     this.offset += length;
 
@@ -97,7 +92,6 @@ export class BinaryReader {
 
   readBytes(length?: number) {
     if (!length) {
-      //  just read to the end of the packet if there is no length
       length = this.buffer.byteLength - this.offset;
     }
 

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsnd --respawn ./src/index.ts",
+    "dev": "bun --watch ./src/index.ts",
+    "dist": "bun ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,18 +13,21 @@
   "dependencies": {
     "@medenia/encryption": "*",
     "@medenia/network": "*",
+    "@prisma/client": "^5.15.1",
+    "argon2": "^0.40.3",
     "easystarjs": "^0.4.4",
     "eventemitter3": "^5.0.1",
+    "gl-matrix": "^3.4.3",
     "intersects": "^2.7.2",
     "reflect-metadata": "^0.2.2",
-    "typedi": "^0.10.0",
     "uuid": "^9.0.1",
     "ws": "^8.16.0"
   },
   "devDependencies": {
-    "@types/bun": "^1.0.12",
     "@types/intersects": "^2.7.5",
     "@types/uuid": "^9.0.8",
+    "@types/ws": "^8.5.10",
+    "prisma": "^5.15.1",
     "ts-node-dev": "^2.0.0",
     "type-fest": "^4.15.0"
   }

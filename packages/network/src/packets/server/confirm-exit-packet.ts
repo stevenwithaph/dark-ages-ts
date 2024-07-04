@@ -1,24 +1,15 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
-export class ConfirmExitPacket implements Packet {}
-
-class ConfirmExitSerializer extends BasePacketSerializer<ConfirmExitPacket> {
-  constructor() {
-    super(ServerOpCode.ConfirmExit, ConfirmExitPacket);
+export class ConfirmExitPacket implements Packet {
+  get opCode(): number {
+    return ServerOpCode.ConfirmExit;
   }
-
-  serialize(writer: BinaryWriter, packet: ConfirmExitPacket) {
+  serialize(writer: BinaryWriter): void {
     throw new Error('Method not implemented.');
   }
-
-  deserialize(reader: BinaryReader, packet: ConfirmExitPacket) {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ServerPacketFactory.register(ConfirmExitSerializer);

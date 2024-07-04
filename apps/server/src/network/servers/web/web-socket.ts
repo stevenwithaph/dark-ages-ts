@@ -17,4 +17,8 @@ export class WebSocket extends Socket {
   send(data: Uint8Array) {
     this.socket.send(data);
   }
+
+  disconnect(): void {
+    this.socket.close();
+  }
 }

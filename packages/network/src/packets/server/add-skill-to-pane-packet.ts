@@ -1,9 +1,6 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class AddSkillToPanePacket implements Packet {
   constructor(
@@ -11,22 +8,15 @@ export class AddSkillToPanePacket implements Packet {
     public slot: number,
     public iconId: number
   ) {}
-}
-
-class AddSkillToPaneSerializer extends BasePacketSerializer<AddSkillToPanePacket> {
-  constructor() {
-    super(ServerOpCode.AddSkillToPane, AddSkillToPanePacket);
+  get opCode(): number {
+    return ServerOpCode.AddSkillToPane;
   }
-
-  serialize(writer: BinaryWriter, packet: AddSkillToPanePacket) {
-    writer.writeUint8(packet.slot);
-    writer.writeUint16(packet.iconId);
-    writer.writeString8(packet.name);
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint8(this.slot);
+    writer.writeUint16(this.iconId);
+    writer.writeString8(this.name);
   }
-
-  deserialize(reader: BinaryReader, packet: AddSkillToPanePacket) {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ServerPacketFactory.register(AddSkillToPaneSerializer);

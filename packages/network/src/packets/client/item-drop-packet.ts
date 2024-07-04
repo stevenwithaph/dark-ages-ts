@@ -1,22 +1,15 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ClientOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ClientPacketFactory } from '../packet-factory';
 
-export class ItemDropPacket implements Packet {}
-
-class ItemDropSerializer extends BasePacketSerializer<ItemDropPacket> {
-  constructor() {
-    super(ClientOpCode.ItemDrop, ItemDropPacket);
+export class ItemDropPacket implements Packet {
+  get opCode(): number {
+    return ClientOpCode.ItemDrop;
   }
-  serialize(writer: BinaryWriter, packet: ItemDropPacket): void {
+  serialize(writer: BinaryWriter): void {
     throw new Error('Method not implemented.');
   }
-  deserialize(reader: BinaryReader, packet: ItemDropPacket): void {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ClientPacketFactory.register(ItemDropSerializer);

@@ -1,9 +1,4 @@
-import {
-  BinaryReader,
-  BinaryWriter,
-  Serializable,
-  Fields,
-} from '@medenia/serialization';
+import { BinaryReader, BinaryWriter, Serializable, Fields } from '@medenia/serialization';
 
 export class ServerTable implements Serializable {
   public entries: Array<ServerTableEntry>;
@@ -13,9 +8,7 @@ export class ServerTable implements Serializable {
   }
 
   addEntry(ip: string, port: number, name: string, descrption: string) {
-    this.entries.push(
-      new ServerTableEntry(this.entries.length + 1, ip, port, name, descrption)
-    );
+    this.entries.push(new ServerTableEntry(this.entries.length + 1, ip, port, name, descrption));
   }
 
   getEntry(id: number) {

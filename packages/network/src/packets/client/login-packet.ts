@@ -1,29 +1,21 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ClientOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ClientPacketFactory } from '../packet-factory';
 
 export class LoginPacket implements Packet {
   constructor(
     public username: string,
     public password: string
   ) {}
-}
-
-class LoginSerializer extends BasePacketSerializer<LoginPacket> {
-  constructor() {
-    super(ClientOpCode.Login, LoginPacket);
+  get opCode(): number {
+    return ClientOpCode.Login;
   }
-  serialize(writer: BinaryWriter, packet: LoginPacket): void {
-    writer.writeString8(packet.username);
-    writer.writeString8(packet.password);
+  serialize(writer: BinaryWriter): void {
+    writer.writeString8(this.username);
+    writer.writeString8(this.password);
   }
-  deserialize(reader: BinaryReader, packet: LoginPacket): void {
-    packet.username = reader.readString8();
-    packet.password = reader.readString8();
+  deserialize(reader: BinaryReader): void {
+    this.username = reader.readString8();
+    this.password = reader.readString8();
   }
 }
-
-ClientPacketFactory.register(LoginSerializer);

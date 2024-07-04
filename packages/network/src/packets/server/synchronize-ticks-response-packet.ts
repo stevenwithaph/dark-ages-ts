@@ -1,26 +1,16 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class SynchronizeTicksPacket implements Packet {
   constructor(public ticks: number) {}
-}
-
-class SynchronizeTicksSerializer extends BasePacketSerializer<SynchronizeTicksPacket> {
-  constructor() {
-    super(ServerOpCode.SynchronizeTicks, SynchronizeTicksPacket);
+  get opCode(): number {
+    return ServerOpCode.SynchronizeTicks;
   }
-
-  serialize(writer: BinaryWriter, packet: SynchronizeTicksPacket) {
-    writer.writeUint32(packet.ticks);
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint32(this.ticks);
   }
-
-  deserialize(reader: BinaryReader, packet: SynchronizeTicksPacket) {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ServerPacketFactory.register(SynchronizeTicksSerializer);

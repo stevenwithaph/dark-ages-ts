@@ -1,22 +1,15 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ClientOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ClientPacketFactory } from '../packet-factory';
 
-export class ClickPacket implements Packet {}
-
-class ClickSerializer extends BasePacketSerializer<ClickPacket> {
-  constructor() {
-    super(ClientOpCode.Click, ClickPacket);
+export class ClickPacket implements Packet {
+  get opCode(): number {
+    return ClientOpCode.Click;
   }
-  serialize(writer: BinaryWriter, packet: ClickPacket): void {
+  serialize(writer: BinaryWriter): void {
     throw new Error('Method not implemented.');
   }
-  deserialize(reader: BinaryReader, packet: ClickPacket): void {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ClientPacketFactory.register(ClickSerializer);

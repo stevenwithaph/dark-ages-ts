@@ -26,7 +26,7 @@ export * from './meta-data-request-packet';
 export * from './password-change-packet';
 export * from './pickup-packet';
 export * from './profile-packet';
-export * from './public-message-packet';
+export * from './chat-message-packet';
 export * from './pursuit-request-packet';
 export * from './raise-stat-packet';
 export * from './request-map-data-packet';

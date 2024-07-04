@@ -24,4 +24,8 @@ export class TcpSocket extends BaseSocket {
   send(data: Uint8Array) {
     this.socket.write(data);
   }
+
+  disconnect(): void {
+    this.socket.destroy();
+  }
 }

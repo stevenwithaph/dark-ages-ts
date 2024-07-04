@@ -1,9 +1,6 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class AddSpellToPanePacket implements Packet {
   constructor(
@@ -14,26 +11,21 @@ export class AddSpellToPanePacket implements Packet {
     public prompt: string,
     public castLines: number
   ) {}
-}
 
-class AddSpellToPaneSerializer extends BasePacketSerializer<AddSpellToPanePacket> {
-  constructor() {
-    super(ServerOpCode.AddSpellToPane, AddSpellToPanePacket);
+  get opCode(): number {
+    return ServerOpCode.AddSpellToPane;
   }
 
-  serialize(writer: BinaryWriter, packet: AddSpellToPanePacket) {
-    writer.writeUint8(packet.slot);
-    writer.writeUint16(packet.iconId);
-    writer.writeUint8(packet.spellType);
-    writer.writeString8(packet.name);
-    writer.writeString8(packet.prompt);
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint8(this.slot);
+    writer.writeUint16(this.iconId);
+    writer.writeUint8(this.spellType);
+    writer.writeString8(this.name);
+    writer.writeString8(this.prompt);
 
-    writer.writeUint8(packet.castLines);
+    writer.writeUint8(this.castLines);
   }
-
-  deserialize(reader: BinaryReader, packet: AddSpellToPanePacket) {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ServerPacketFactory.register(AddSpellToPaneSerializer);

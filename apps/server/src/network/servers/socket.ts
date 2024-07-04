@@ -19,5 +19,7 @@ export abstract class Socket extends EventEmitter<SocketEvents> {
     this.emit('data', data);
   }
 
+  abstract disconnect(): void;
+
   abstract send(data: Uint8Array): void;
 }

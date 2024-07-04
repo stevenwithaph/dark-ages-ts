@@ -1,32 +1,22 @@
 import { LoginMessageType } from '../../entities';
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class LoginMessagePacket implements Packet {
   constructor(
     public type: LoginMessageType,
     public message: string
   ) {}
-}
-
-class LoginMessageSerializer extends BasePacketSerializer<LoginMessagePacket> {
-  constructor() {
-    super(ServerOpCode.LoginMessage, LoginMessagePacket);
+  get opCode(): number {
+    return ServerOpCode.LoginMessage;
   }
-
-  serialize(writer: BinaryWriter, packet: LoginMessagePacket) {
-    writer.writeUint8(packet.type);
-    writer.writeString8(packet.message);
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint8(this.type);
+    writer.writeString8(this.message);
   }
-
-  deserialize(reader: BinaryReader, packet: LoginMessagePacket) {
-    packet.type = reader.readUint8();
-    packet.message = reader.readString8();
+  deserialize(reader: BinaryReader): void {
+    this.type = reader.readUint8();
+    this.message = reader.readString8();
   }
 }
-
-ServerPacketFactory.register(LoginMessageSerializer);

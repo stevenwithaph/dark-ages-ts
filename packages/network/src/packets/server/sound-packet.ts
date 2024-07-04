@@ -1,34 +1,24 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 
 export class SoundPacket implements Packet {
   constructor(
     public isMusic: boolean,
     public assetId: number
   ) {}
-}
-
-class SoundPacketSerializer extends BasePacketSerializer<SoundPacket> {
-  constructor() {
-    super(ServerOpCode.Sound, SoundPacket);
+  get opCode(): number {
+    return ServerOpCode.Sound;
   }
-
-  serialize(writer: BinaryWriter, packet: SoundPacket) {
-    if (packet.isMusic) {
+  serialize(writer: BinaryWriter): void {
+    if (this.isMusic) {
       writer.writeUint8(255);
     }
 
-    writer.writeUint8(packet.assetId);
+    writer.writeUint8(this.assetId);
   }
-
-  deserialize(reader: BinaryReader, packet: SoundPacket) {
-    packet.isMusic = reader.readUint8() === 255;
-    packet.assetId = reader.readUint8();
+  deserialize(reader: BinaryReader): void {
+    this.isMusic = reader.readUint8() === 255;
+    this.assetId = reader.readUint8();
   }
 }
-
-ServerPacketFactory.register(SoundPacketSerializer);

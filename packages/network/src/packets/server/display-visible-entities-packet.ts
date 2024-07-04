@@ -1,9 +1,6 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ServerOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ServerPacketFactory } from '../packet-factory';
 import { CreatureType } from '../../entities/creature-type';
 
 interface VisibleEntity {
@@ -18,17 +15,13 @@ interface VisibleEntity {
 
 export class DisplayVisibleEntitiesPacket implements Packet {
   constructor(public entities: Array<VisibleEntity>) {}
-}
-
-class DisplayVisibleEntitiesSerializer extends BasePacketSerializer<DisplayVisibleEntitiesPacket> {
-  constructor() {
-    super(ServerOpCode.DisplayVisibleEntities, DisplayVisibleEntitiesPacket);
+  get opCode(): number {
+    return ServerOpCode.DisplayVisibleEntities;
   }
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint16(this.entities.length);
 
-  serialize(writer: BinaryWriter, packet: DisplayVisibleEntitiesPacket) {
-    writer.writeUint16(packet.entities.length);
-
-    for (const entity of packet.entities) {
+    for (const entity of this.entities) {
       writer.writeUint16(entity.x);
       writer.writeUint16(entity.y);
 
@@ -40,15 +33,14 @@ class DisplayVisibleEntitiesSerializer extends BasePacketSerializer<DisplayVisib
 
       writer.offset += 1;
 
-      writer.writeUint8(4);
+      writer.writeUint8(entity.creatureType);
 
       writer.writeString8(entity.name);
     }
   }
-
-  deserialize(reader: BinaryReader, packet: DisplayVisibleEntitiesPacket) {
+  deserialize(reader: BinaryReader): void {
     const length = reader.readUint16();
-    packet.entities = [];
+    this.entities = [];
     for (let i = 0; i < length; i++) {
       const x = reader.readUint16();
       const y = reader.readUint16();
@@ -63,7 +55,7 @@ class DisplayVisibleEntitiesSerializer extends BasePacketSerializer<DisplayVisib
 
       const name = reader.readString8();
 
-      packet.entities.push({
+      this.entities.push({
         x,
         y,
         id,
@@ -75,5 +67,3 @@ class DisplayVisibleEntitiesSerializer extends BasePacketSerializer<DisplayVisib
     }
   }
 }
-
-ServerPacketFactory.register(DisplayVisibleEntitiesSerializer);

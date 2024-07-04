@@ -1,22 +1,15 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ClientOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ClientPacketFactory } from '../packet-factory';
 
-export class UserOptionTogglePacket implements Packet {}
-
-class UserOptionToggleSerializer extends BasePacketSerializer<UserOptionTogglePacket> {
-  constructor() {
-    super(ClientOpCode.UserOptionToggle, UserOptionTogglePacket);
+export class UserOptionTogglePacket implements Packet {
+  get opCode(): number {
+    return ClientOpCode.UserOptionToggle;
   }
-  serialize(writer: BinaryWriter, packet: UserOptionTogglePacket): void {
+  serialize(writer: BinaryWriter): void {
     throw new Error('Method not implemented.');
   }
-  deserialize(reader: BinaryReader, packet: UserOptionTogglePacket): void {
+  deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');
   }
 }
-
-ClientPacketFactory.register(UserOptionToggleSerializer);

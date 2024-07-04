@@ -1,29 +1,21 @@
-import { BinaryReader } from '@medenia/serialization';
-import { BinaryWriter } from '@medenia/serialization';
+import { BinaryReader, BinaryWriter } from '@medenia/serialization';
 import { Packet } from '../packet';
 import { ClientOpCode } from '../op-codes';
-import { BasePacketSerializer } from '../packet-serializer';
-import { ClientPacketFactory } from '../packet-factory';
 
 export class ClientWalkPacket implements Packet {
   constructor(
     public direction: number,
     public steps: number
   ) {}
-}
-
-class ClientWalkSerializer extends BasePacketSerializer<ClientWalkPacket> {
-  constructor() {
-    super(ClientOpCode.ClientWalk, ClientWalkPacket);
+  get opCode(): number {
+    return ClientOpCode.ClientWalk;
   }
-  serialize(writer: BinaryWriter, packet: ClientWalkPacket): void {
-    writer.writeUint8(packet.direction);
-    writer.writeUint8(packet.steps);
+  serialize(writer: BinaryWriter): void {
+    writer.writeUint8(this.direction);
+    writer.writeUint8(this.steps);
   }
-  deserialize(reader: BinaryReader, packet: ClientWalkPacket): void {
-    packet.direction = reader.readUint8();
-    packet.steps = reader.readUint8();
+  deserialize(reader: BinaryReader): void {
+    this.direction = reader.readUint8();
+    this.steps = reader.readUint8();
   }
 }
-
-ClientPacketFactory.register(ClientWalkSerializer);
