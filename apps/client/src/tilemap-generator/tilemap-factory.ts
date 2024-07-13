@@ -32,8 +32,6 @@ export interface Atlas {
 let offscreenCanvas: OffscreenCanvas;
 let context: OffscreenCanvasRenderingContext2D;
 
-let basePath: string = '';
-
 export function init(canvas: OffscreenCanvas) {
   offscreenCanvas = canvas;
   canvas.width = 2048;
@@ -73,10 +71,7 @@ export async function fromMapData(data: Uint16Array) {
     }
   }
 
-  await loader.load([
-    ...Array.from(tileSet.values()),
-    ...Array.from(wallSet.values()),
-  ]);
+  await loader.load([...Array.from(tileSet.values()), ...Array.from(wallSet.values())]);
 
   const walls = createSpriteSheet(wallSet);
   const tiles = createTileSheet(tileSet);

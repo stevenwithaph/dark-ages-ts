@@ -24,15 +24,12 @@ export class PreloadScene extends NetworkedScene {
   create() {
     Astar.Sotp = new Uint8Array(this.cache.binary.get('sotp'));
 
-    clientManager.main.connect('127.0.0.1', 2610);
+    clientManager.main.connect(import.meta.env.VITE_GATEWAY_SERVER, Number(import.meta.env.VITE_GATEWAY_PORT));
   }
 
   @PacketHandler(ServerPackets.AcceptConnectionPacket)
   async onAcceptConnection() {
-    const { seed, key } = await clientManager.main.sendWithAck(
-      new ClientPackets.VersionPacket(913),
-      ServerPackets.ConnectionInfoPacket
-    );
+    const { seed, key } = await clientManager.main.sendWithAck(new ClientPackets.VersionPacket(913), ServerPackets.ConnectionInfoPacket);
 
     clientManager.main.seed = seed;
     clientManager.main.key = key;

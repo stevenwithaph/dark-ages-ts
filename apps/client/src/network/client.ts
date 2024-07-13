@@ -2,15 +2,7 @@ import { Events } from 'phaser';
 import { Constructor } from 'type-fest';
 
 import { ClientCrypto } from '@medenia/encryption';
-import {
-  ClientPacketFactory,
-  ClientPackets,
-  Packet,
-  PacketEncoder,
-  PacketPayload,
-  Redirect,
-  ServerPacketFactory,
-} from '@medenia/network';
+import { ClientPacketFactory, ClientPackets, Packet, PacketEncoder, PacketPayload, Redirect, ServerPacketFactory } from '@medenia/network';
 
 const ACK_TIMEOUT = 10000;
 
@@ -50,7 +42,9 @@ export class Client extends Events.EventEmitter {
 
   connect(address: string, port: number) {
     return new Promise<void>((resolve) => {
-      this.ws = new WebSocket(`ws://${address}:${port + 100}/`);
+      console.log(import.meta.env);
+      console.log(`${import.meta.env.PROTOCOL}://${address}:${port + 100}`);
+      this.ws = new WebSocket(`${import.meta.env.VITE_PROTOCOL}://${address}:${port + 100}`);
       this.ws.onmessage = this.onMessage.bind(this);
       this.ws.onopen = this.onConnected.bind(this);
       this.ws.onclose = this.onDisconnected.bind(this);
@@ -64,14 +58,7 @@ export class Client extends Events.EventEmitter {
       this.disconnect();
       await this.connect(adress, port);
 
-      this.send(
-        new ClientPackets.ClientRedirectedPacket(
-          redirect.seed,
-          redirect.key,
-          redirect.keySalts,
-          0
-        )
-      );
+      this.send(new ClientPackets.ClientRedirectedPacket(redirect));
       this.emit('redirected');
       resolve();
     });
@@ -124,10 +111,7 @@ export class Client extends Events.EventEmitter {
     this.ws?.send(buffer);
   }
 
-  sendWithAck<T extends Packet>(
-    packet: Packet,
-    ackPacket: Constructor<T>
-  ): Promise<T> {
+  sendWithAck<T extends Packet>(packet: Packet, ackPacket: Constructor<T>): Promise<T> {
     this.send(packet);
 
     return this.await(ackPacket);
@@ -137,11 +121,7 @@ export class Client extends Events.EventEmitter {
     const buffer = await ev.data.arrayBuffer();
     const data = new Uint8Array(buffer);
 
-    const packets = PacketEncoder.decode(
-      data,
-      ServerPacketFactory,
-      this.crypto
-    );
+    const packets = PacketEncoder.decode(data, ServerPacketFactory, this.crypto);
 
     for (const packet of packets) {
       this.emitPacket(packet);
