@@ -1,0 +1,444 @@
+wh264.png
+	size: 32, 32
+wh26401_0
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh26401_1
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh26401_2
+	bounds: 17, 19, 15, 13
+	offsets: 19, 46, 57, 85
+wh26401_3
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh26401_4
+	bounds: 17, 19, 15, 13
+	offsets: 19, 46, 57, 85
+wh26402_0
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh26402_1
+	bounds: 17, 19, 15, 13
+	offsets: 27, 46, 57, 85
+wh26403_0
+	bounds: 17, 19, 15, 13
+	offsets: 19, 48, 57, 85
+wh26403_2
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh26403_3
+	bounds: 17, 19, 15, 13
+	offsets: 21, 45, 57, 85
+wh26403_6
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh26403_7
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh264b_0
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh264b_1
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh264b_12
+	bounds: 17, 19, 15, 13
+	offsets: 19, 48, 57, 85
+wh264b_2
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh264b_6
+	bounds: 17, 19, 15, 13
+	offsets: 19, 48, 57, 85
+wh264b_7
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh264b_8
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh264c_1
+	bounds: 17, 19, 15, 13
+	offsets: 27, 46, 57, 85
+wh264c_10
+	bounds: 17, 19, 15, 13
+	offsets: 20, 41, 57, 85
+wh264c_14
+	bounds: 17, 19, 15, 13
+	offsets: 20, 41, 57, 85
+wh264c_15
+	bounds: 17, 19, 15, 13
+	offsets: 25, 36, 57, 85
+wh264c_18
+	bounds: 17, 19, 15, 13
+	offsets: 11, 37, 57, 85
+wh264c_19
+	bounds: 17, 19, 15, 13
+	offsets: 25, 36, 57, 85
+wh264c_2
+	bounds: 17, 19, 15, 13
+	offsets: 27, 46, 57, 85
+wh264c_20
+	bounds: 17, 19, 15, 13
+	offsets: 25, 35, 57, 85
+wh264c_24
+	bounds: 17, 19, 15, 13
+	offsets: 19, 42, 57, 85
+wh264c_25
+	bounds: 17, 19, 15, 13
+	offsets: 18, 62, 57, 85
+wh264c_26
+	bounds: 17, 19, 15, 13
+	offsets: 27, 31, 57, 85
+wh264c_3
+	bounds: 17, 19, 15, 13
+	offsets: 29, 41, 57, 85
+wh264c_8
+	bounds: 17, 19, 15, 13
+	offsets: 19, 42, 57, 85
+wh264c_9
+	bounds: 17, 19, 15, 13
+	offsets: 18, 57, 57, 85
+wh264d_0
+	bounds: 17, 19, 15, 13
+	offsets: 13, 41, 57, 85
+wh264d_1
+	bounds: 17, 19, 15, 13
+	offsets: 14, 47, 57, 85
+wh264d_10
+	bounds: 17, 19, 15, 13
+	offsets: 23, 48, 57, 85
+wh264d_11
+	bounds: 17, 19, 15, 13
+	offsets: 26, 52, 57, 85
+wh264d_12
+	bounds: 17, 19, 15, 13
+	offsets: 15, 48, 57, 85
+wh264d_13
+	bounds: 17, 19, 15, 13
+	offsets: 23, 48, 57, 85
+wh264d_2
+	bounds: 17, 19, 15, 13
+	offsets: 14, 49, 57, 85
+wh264d_6
+	bounds: 17, 19, 15, 13
+	offsets: 27, 46, 57, 85
+wh264d_7
+	bounds: 17, 19, 15, 13
+	offsets: 27, 46, 57, 85
+wh264e_0
+	bounds: 17, 19, 15, 13
+	offsets: 22, 47, 57, 85
+wh264e_1
+	bounds: 17, 19, 15, 13
+	offsets: 28, 40, 57, 85
+wh264e_10
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264e_11
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264e_16
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264e_17
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264e_18
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264e_19
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264e_20
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264e_21
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264e_28
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264e_29
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264e_30
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264e_31
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264e_4
+	bounds: 17, 19, 15, 13
+	offsets: 28, 40, 57, 85
+wh264e_5
+	bounds: 17, 19, 15, 13
+	offsets: 28, 40, 57, 85
+wh264e_8
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264e_9
+	bounds: 17, 19, 15, 13
+	offsets: 16, 49, 57, 85
+wh264f_0
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh264f_1
+	bounds: 17, 19, 15, 13
+	offsets: 19, 48, 57, 85
+wh264f_4
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh264f_5
+	bounds: 17, 19, 15, 13
+	offsets: 19, 47, 57, 85
+wh264f_6
+	bounds: 17, 19, 15, 13
+	offsets: 19, 48, 57, 85
+wh264f_7
+	bounds: 17, 19, 15, 13
+	offsets: 19, 48, 57, 85
+wh26401_5
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh26401_6
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh26401_7
+	bounds: 0, 7, 15, 12
+	offsets: 21, 48, 57, 85
+wh26401_8
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh26401_9
+	bounds: 0, 7, 15, 12
+	offsets: 21, 48, 57, 85
+wh26402_2
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh26402_3
+	bounds: 0, 7, 15, 12
+	offsets: 33, 40, 57, 85
+wh26403_1
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh26403_4
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh26403_5
+	bounds: 0, 7, 15, 12
+	offsets: 24, 48, 57, 85
+wh26403_8
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh26403_9
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh264b_10
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh264b_11
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh264b_13
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264b_3
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh264b_4
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh264b_5
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh264b_9
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264c_11
+	bounds: 0, 7, 15, 12
+	offsets: 22, 44, 57, 85
+wh264c_12
+	bounds: 0, 7, 15, 12
+	offsets: 21, 61, 57, 85
+wh264c_13
+	bounds: 0, 7, 15, 12
+	offsets: 27, 38, 57, 85
+wh264c_16
+	bounds: 0, 7, 15, 12
+	offsets: 28, 40, 57, 85
+wh264c_17
+	bounds: 0, 7, 15, 12
+	offsets: 37, 31, 57, 85
+wh264c_21
+	bounds: 0, 7, 15, 12
+	offsets: 13, 43, 57, 85
+wh264c_22
+	bounds: 0, 7, 15, 12
+	offsets: 34, 35, 57, 85
+wh264c_23
+	bounds: 0, 7, 15, 12
+	offsets: 37, 31, 57, 85
+wh264c_27
+	bounds: 0, 7, 15, 12
+	offsets: 22, 44, 57, 85
+wh264c_28
+	bounds: 0, 7, 15, 12
+	offsets: 21, 66, 57, 85
+wh264c_29
+	bounds: 0, 7, 15, 12
+	offsets: 26, 33, 57, 85
+wh264c_4
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh264c_5
+	bounds: 0, 7, 15, 12
+	offsets: 33, 40, 57, 85
+wh264c_6
+	bounds: 0, 7, 15, 12
+	offsets: 33, 40, 57, 85
+wh264c_7
+	bounds: 0, 7, 15, 12
+	offsets: 33, 40, 57, 85
+wh264d_14
+	bounds: 0, 7, 15, 12
+	offsets: 28, 47, 57, 85
+wh264d_15
+	bounds: 0, 7, 15, 12
+	offsets: 24, 44, 57, 85
+wh264d_16
+	bounds: 0, 7, 15, 12
+	offsets: 18, 46, 57, 85
+wh264d_17
+	bounds: 0, 7, 15, 12
+	offsets: 28, 47, 57, 85
+wh264d_3
+	bounds: 0, 7, 15, 12
+	offsets: 13, 52, 57, 85
+wh264d_4
+	bounds: 0, 7, 15, 12
+	offsets: 21, 48, 57, 85
+wh264d_5
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264d_8
+	bounds: 0, 7, 15, 12
+	offsets: 33, 40, 57, 85
+wh264d_9
+	bounds: 0, 7, 15, 12
+	offsets: 33, 40, 57, 85
+wh264e_12
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_13
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_14
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_15
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_2
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh264e_22
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_23
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_24
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_25
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_26
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_27
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_3
+	bounds: 0, 7, 15, 12
+	offsets: 35, 33, 57, 85
+wh264e_32
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_33
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_34
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_35
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264e_6
+	bounds: 0, 7, 15, 12
+	offsets: 35, 33, 57, 85
+wh264e_7
+	bounds: 0, 7, 15, 12
+	offsets: 35, 33, 57, 85
+wh264f_10
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264f_11
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264f_2
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh264f_3
+	bounds: 0, 7, 15, 12
+	offsets: 21, 50, 57, 85
+wh264f_8
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh264f_9
+	bounds: 0, 7, 15, 12
+	offsets: 21, 49, 57, 85
+wh264b_14
+	bounds: 0, 6, 1, 1
+wh264b_15
+	bounds: 0, 6, 1, 1
+wh264b_16
+	bounds: 0, 6, 1, 1
+wh264b_17
+	bounds: 0, 6, 1, 1
+wh264b_18
+	bounds: 0, 6, 1, 1
+wh264b_19
+	bounds: 0, 6, 1, 1
+wh264d_18
+	bounds: 0, 6, 1, 1
+wh264d_19
+	bounds: 0, 6, 1, 1
+wh264e_36
+	bounds: 0, 6, 1, 1
+wh264e_37
+	bounds: 0, 6, 1, 1
+wh264e_38
+	bounds: 0, 6, 1, 1
+wh264e_39
+	bounds: 0, 6, 1, 1
+wh264f_12
+	bounds: 0, 6, 1, 1
+wh264f_13
+	bounds: 0, 6, 1, 1
+wh264f_14
+	bounds: 0, 6, 1, 1
+wh264f_15
+	bounds: 0, 6, 1, 1
+wh264f_16
+	bounds: 0, 6, 1, 1
+wh264f_17
+	bounds: 0, 6, 1, 1
+wh264f_18
+	bounds: 0, 6, 1, 1
+wh264f_19
+	bounds: 0, 6, 1, 1
+wh264c_0
+	bounds: 0, 19, 17, 13
+	offsets: 17, 47, 57, 85

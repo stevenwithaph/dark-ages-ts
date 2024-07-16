@@ -1,0 +1,44 @@
+mc010.png
+	size: 128, 128
+mc01001_0
+	bounds: 0, 28, 28, 25
+	offsets: 23, 59, 111, 85
+mc01001_4
+	bounds: 0, 28, 28, 25
+	offsets: 23, 58, 111, 85
+mc01002_0
+	bounds: 0, 28, 28, 25
+	offsets: 23, 59, 111, 85
+mc01001_1
+	bounds: 30, 77, 29, 24
+	offsets: 22, 60, 111, 85
+mc01001_3
+	bounds: 30, 77, 29, 24
+	offsets: 22, 60, 111, 85
+mc01002_1
+	bounds: 30, 77, 29, 24
+	offsets: 22, 60, 111, 85
+mc01001_2
+	bounds: 30, 53, 28, 24
+	offsets: 23, 61, 111, 85
+mc01001_5
+	bounds: 0, 0, 25, 28
+	offsets: 22, 55, 111, 85
+mc01001_7
+	bounds: 0, 0, 25, 28
+	offsets: 22, 57, 111, 85
+mc01001_9
+	bounds: 0, 0, 25, 28
+	offsets: 22, 54, 111, 85
+mc01002_2
+	bounds: 0, 0, 25, 28
+	offsets: 22, 55, 111, 85
+mc01001_6
+	bounds: 0, 77, 30, 24
+	offsets: 18, 56, 111, 85
+mc01001_8
+	bounds: 0, 77, 30, 24
+	offsets: 18, 56, 111, 85
+mc01002_3
+	bounds: 0, 53, 30, 24
+	offsets: 18, 56, 111, 85

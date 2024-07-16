@@ -1,0 +1,11 @@
+mns233.png
+	size: 256, 256
+mns233_0
+	bounds: 0, 0, 81, 100
+	offsets: 9, 2, 90, 106
+mns233_1
+	bounds: 87, 100, 80, 102
+	offsets: 7, 2, 90, 106
+mns233_2
+	bounds: 0, 100, 87, 102
+	offsets: 0, 2, 90, 106

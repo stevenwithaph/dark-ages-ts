@@ -1,0 +1,44 @@
+mns912.png
+	size: 256, 256
+mns912_0
+	bounds: 28, 57, 23, 60
+	offsets: 15, 10, 56, 84
+mns912_1
+	bounds: 85, 177, 23, 64
+	offsets: 18, 9, 56, 84
+mns912_10
+	bounds: 131, 181, 23, 60
+	offsets: 15, 10, 56, 84
+mns912_11
+	bounds: 199, 185, 20, 56
+	offsets: 24, 10, 56, 84
+mns912_12
+	bounds: 154, 177, 23, 64
+	offsets: 18, 9, 56, 84
+mns912_13
+	bounds: 59, 184, 26, 57
+	offsets: 21, 3, 56, 84
+mns912_2
+	bounds: 0, 0, 25, 60
+	offsets: 15, 10, 56, 84
+mns912_3
+	bounds: 0, 181, 30, 60
+	offsets: 15, 8, 56, 84
+mns912_4
+	bounds: 108, 183, 23, 58
+	offsets: 15, 12, 56, 84
+mns912_5
+	bounds: 0, 60, 28, 57
+	offsets: 15, 11, 56, 84
+mns912_6
+	bounds: 30, 117, 26, 61
+	offsets: 16, 12, 56, 84
+mns912_7
+	bounds: 0, 117, 30, 64
+	offsets: 15, 7, 56, 84
+mns912_8
+	bounds: 177, 177, 22, 64
+	offsets: 18, 9, 56, 84
+mns912_9
+	bounds: 30, 178, 29, 63
+	offsets: 15, 8, 56, 84

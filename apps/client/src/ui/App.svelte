@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import Login from './routes/login/Login.svelte';
+  import Login from './routes/auth/Login.svelte';
   import { EventBus } from '../event-bus';
   
   let currentRoute = 'auth';

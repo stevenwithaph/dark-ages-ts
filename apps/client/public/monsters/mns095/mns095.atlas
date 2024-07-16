@@ -1,0 +1,11 @@
+mns095.png
+	size: 256, 256
+mns095_0
+	bounds: 0, 0, 47, 66
+	offsets: 4, 11, 56, 84
+mns095_1
+	bounds: 0, 66, 49, 66
+	offsets: 2, 11, 56, 84
+mns095_2
+	bounds: 49, 66, 47, 66
+	offsets: 4, 11, 56, 84

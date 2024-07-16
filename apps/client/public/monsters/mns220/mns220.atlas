@@ -1,0 +1,44 @@
+mns220.png
+	size: 256, 256
+mns220_0
+	bounds: 179, 204, 36, 47
+	offsets: 10, 5, 70, 55
+mns220_1
+	bounds: 215, 204, 36, 47
+	offsets: 10, 5, 70, 55
+mns220_10
+	bounds: 40, 66, 32, 47
+	offsets: 16, 5, 70, 55
+mns220_11
+	bounds: 0, 164, 52, 44
+	offsets: 9, 6, 70, 55
+mns220_12
+	bounds: 40, 18, 30, 48
+	offsets: 16, 5, 70, 55
+mns220_13
+	bounds: 0, 208, 64, 43
+	offsets: 3, 2, 70, 55
+mns220_2
+	bounds: 142, 203, 37, 48
+	offsets: 8, 3, 70, 55
+mns220_3
+	bounds: 52, 159, 36, 46
+	offsets: 10, 6, 70, 55
+mns220_4
+	bounds: 41, 113, 34, 46
+	offsets: 12, 5, 70, 55
+mns220_5
+	bounds: 0, 73, 40, 46
+	offsets: 6, 5, 70, 55
+mns220_6
+	bounds: 0, 27, 40, 46
+	offsets: 6, 5, 70, 55
+mns220_7
+	bounds: 0, 119, 41, 45
+	offsets: 5, 5, 70, 55
+mns220_8
+	bounds: 64, 205, 40, 46
+	offsets: 6, 5, 70, 55
+mns220_9
+	bounds: 104, 207, 38, 44
+	offsets: 6, 6, 70, 55

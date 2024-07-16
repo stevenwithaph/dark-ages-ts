@@ -1,0 +1,126 @@
+mu325.png
+	size: 256, 256
+mu32501_0
+	bounds: 192, 71, 18, 39
+	offsets: 19, 9, 57, 85
+mu32501_1
+	bounds: 207, 177, 21, 39
+	offsets: 19, 9, 57, 85
+mu32501_2
+	bounds: 209, 216, 25, 40
+	offsets: 16, 7, 57, 85
+mu32501_3
+	bounds: 232, 140, 17, 38
+	offsets: 19, 10, 57, 85
+mu32501_4
+	bounds: 34, 7, 25, 37
+	offsets: 16, 10, 57, 85
+mu32501_5
+	bounds: 228, 178, 21, 38
+	offsets: 20, 10, 57, 85
+mu32501_6
+	bounds: 137, 173, 24, 36
+	offsets: 16, 13, 57, 85
+mu32501_7
+	bounds: 49, 47, 26, 42
+	offsets: 16, 6, 57, 85
+mu32501_8
+	bounds: 196, 138, 18, 39
+	offsets: 19, 10, 57, 85
+mu32501_9
+	bounds: 183, 217, 26, 39
+	offsets: 16, 9, 57, 85
+mu32502_0
+	bounds: 104, 33, 17, 45
+	offsets: 20, 9, 57, 85
+mu32502_1
+	bounds: 158, 122, 19, 41
+	offsets: 26, 9, 57, 85
+mu32502_2
+	bounds: 134, 90, 20, 44
+	offsets: 21, 10, 57, 85
+mu32502_3
+	bounds: 214, 136, 18, 41
+	offsets: 24, 4, 57, 85
+mu32503_0
+	bounds: 177, 110, 19, 53
+	offsets: 19, 9, 57, 85
+mu32503_1
+	bounds: 161, 163, 23, 54
+	offsets: 18, 10, 57, 85
+mu32503_2
+	bounds: 154, 82, 19, 40
+	offsets: 19, 9, 57, 85
+mu32503_3
+	bounds: 59, 8, 25, 39
+	offsets: 19, 9, 57, 85
+mu32503_4
+	bounds: 137, 134, 21, 39
+	offsets: 20, 10, 57, 85
+mu32503_5
+	bounds: 75, 50, 23, 39
+	offsets: 20, 10, 57, 85
+mu32503_6
+	bounds: 84, 10, 20, 40
+	offsets: 19, 9, 57, 85
+mu32503_7
+	bounds: 184, 178, 23, 39
+	offsets: 19, 9, 57, 85
+mu32503_8
+	bounds: 173, 70, 19, 40
+	offsets: 22, 10, 57, 85
+mu32503_9
+	bounds: 234, 216, 22, 40
+	offsets: 19, 10, 57, 85
+mu325f_0
+	bounds: 0, 5, 34, 39
+	offsets: 11, 9, 57, 85
+mu325f_1
+	bounds: 98, 142, 39, 67
+	offsets: 10, 9, 57, 85
+mu325f_10
+	bounds: 0, 44, 49, 61
+	offsets: 3, 2, 57, 85
+mu325f_11
+	bounds: 49, 89, 49, 61
+	offsets: 3, 2, 57, 85
+mu325f_12
+	bounds: 207, 216, 1, 1
+mu325f_13
+	bounds: 207, 216, 1, 1
+mu325f_14
+	bounds: 207, 216, 1, 1
+mu325f_15
+	bounds: 207, 216, 1, 1
+mu325f_16
+	bounds: 207, 216, 1, 1
+mu325f_17
+	bounds: 207, 216, 1, 1
+mu325f_18
+	bounds: 207, 216, 1, 1
+mu325f_19
+	bounds: 207, 216, 1, 1
+mu325f_2
+	bounds: 147, 217, 36, 39
+	offsets: 10, 10, 57, 85
+mu325f_3
+	bounds: 98, 78, 36, 64
+	offsets: 10, 10, 57, 85
+mu325f_4
+	bounds: 0, 210, 49, 46
+	offsets: 3, 2, 57, 85
+mu325f_5
+	bounds: 0, 164, 49, 46
+	offsets: 3, 2, 57, 85
+mu325f_6
+	bounds: 49, 197, 49, 59
+	offsets: 3, 2, 57, 85
+mu325f_7
+	bounds: 0, 105, 49, 59
+	offsets: 3, 2, 57, 85
+mu325f_8
+	bounds: 49, 150, 49, 47
+	offsets: 3, 2, 57, 85
+mu325f_9
+	bounds: 98, 209, 49, 47
+	offsets: 3, 2, 57, 85

@@ -1,37 +1,42 @@
-import { ClientPackets, LoginMessageType, Redirect, ServerPackets } from '@medenia/network';
+import { ClientPackets, LoginMessageType, ServerPackets } from '@medenia/network';
+import fs from 'fs';
 
 import { Client } from '../client';
 import { PacketHandler } from '../packet-handler';
 import { Listener } from './listener';
 import { AuthError, authService } from '../../services/auth-service';
 
-class AuthClient extends Client {}
-
 export class AuthListener extends Listener {
+  motd: string;
+
   constructor() {
-    super(2611, AuthClient);
+    super(Number(process.env.AUTH_PORT));
+
+    fs.readFile('./data/motd.txt', (err, data) => {
+      this.motd = data.toString();
+    });
   }
 
   onRedirect(client: Client): void {
-    client.sendPacket(new ServerPackets.LoginNoticePacket(true, 'MOTD2', 12));
+    //  TODO: CRC Should be sent properly
+    client.sendPacket(new ServerPackets.LoginNoticePacket(true, this.motd, 12));
   }
 
   @PacketHandler(ClientPackets.LoginPacket)
-  async onLogin(client: AuthClient, packet: ClientPackets.LoginPacket) {
+  async onLogin(client: Client, packet: ClientPackets.LoginPacket) {
     try {
       await authService.login(packet.username, packet.password);
       client.keySalts = packet.username;
-
       client.sendPacket(new ServerPackets.LoginMessagePacket(LoginMessageType.Confirm, 'Success!'));
 
-      this.redirect(client, '127.0.0.1', 2612);
+      this.redirect(client, process.env.SERVER_ENDPOINT!, Number(process.env.WORLD_PORT));
     } catch (error) {
       this.handleAuthError(client, error);
     }
   }
 
   @PacketHandler(ClientPackets.CharacterCreationRequestPacket)
-  async onCharacterCreationPacket(client: AuthClient, packet: ClientPackets.CharacterCreationRequestPacket) {
+  async onCharacterCreationPacket(client: Client, packet: ClientPackets.CharacterCreationRequestPacket) {
     try {
       const aisling = await authService.create(packet.name, packet.password);
       client.sendPacket(new ServerPackets.LoginMessagePacket(LoginMessageType.Confirm, 'Success!'));
@@ -46,9 +51,8 @@ export class AuthListener extends Listener {
     }
   }
 
-  //  still should be double-checked to make sure auth info is correct
   @PacketHandler(ClientPackets.MetaDataRequestPacket)
-  onMetaDataRequest(client: AuthClient) {
+  onMetaDataRequest(client: Client) {
     //client.sendPacket(new ServerPackets.MetaDataPacket());
   }
 

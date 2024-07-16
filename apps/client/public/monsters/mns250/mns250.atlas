@@ -1,0 +1,23 @@
+mns250.png
+	size: 128, 128
+mns250_0
+	bounds: 0, 61, 42, 61
+	offsets: 7, 6, 56, 84
+mns250_2
+	bounds: 0, 61, 42, 61
+	offsets: 7, 6, 56, 84
+mns250_1
+	bounds: 0, 0, 42, 61
+	offsets: 7, 6, 56, 84
+mns250_3
+	bounds: 0, 0, 42, 61
+	offsets: 7, 6, 56, 84
+mns250_4
+	bounds: 42, 61, 42, 61
+	offsets: 7, 6, 56, 84
+mns250_5
+	bounds: 42, 0, 38, 61
+	offsets: 11, 6, 56, 84
+mns250_6
+	bounds: 84, 61, 38, 61
+	offsets: 11, 6, 56, 84

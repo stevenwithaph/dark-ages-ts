@@ -1,0 +1,354 @@
+wc200.png
+	size: 128, 128
+wc20001_0
+	bounds: 0, 96, 39, 32
+	offsets: 36, 24, 111, 85
+wc20001_1
+	bounds: 0, 96, 39, 32
+	offsets: 36, 24, 111, 85
+wc20001_2
+	bounds: 0, 96, 39, 32
+	offsets: 36, 23, 111, 85
+wc20001_3
+	bounds: 0, 96, 39, 32
+	offsets: 36, 24, 111, 85
+wc20001_4
+	bounds: 0, 96, 39, 32
+	offsets: 36, 23, 111, 85
+wc20002_0
+	bounds: 0, 96, 39, 32
+	offsets: 36, 24, 111, 85
+wc200b_0
+	bounds: 0, 96, 39, 32
+	offsets: 36, 24, 111, 85
+wc200b_1
+	bounds: 0, 96, 39, 32
+	offsets: 36, 24, 111, 85
+wc200b_12
+	bounds: 0, 96, 39, 32
+	offsets: 36, 25, 111, 85
+wc200b_2
+	bounds: 0, 96, 39, 32
+	offsets: 36, 24, 111, 85
+wc200b_6
+	bounds: 0, 96, 39, 32
+	offsets: 36, 25, 111, 85
+wc200b_7
+	bounds: 0, 96, 39, 32
+	offsets: 36, 24, 111, 85
+wc200b_8
+	bounds: 0, 96, 39, 32
+	offsets: 36, 24, 111, 85
+wc200c_0
+	bounds: 0, 96, 39, 32
+	offsets: 36, 24, 111, 85
+wc200c_24
+	bounds: 0, 96, 39, 32
+	offsets: 36, 19, 111, 85
+wc200c_25
+	bounds: 0, 96, 39, 32
+	offsets: 35, 39, 111, 85
+wc200c_8
+	bounds: 0, 96, 39, 32
+	offsets: 36, 19, 111, 85
+wc200c_9
+	bounds: 0, 96, 39, 32
+	offsets: 35, 34, 111, 85
+wc200d_10
+	bounds: 0, 96, 39, 32
+	offsets: 40, 25, 111, 85
+wc200d_13
+	bounds: 0, 96, 39, 32
+	offsets: 40, 25, 111, 85
+wc200f_0
+	bounds: 0, 96, 39, 32
+	offsets: 36, 24, 111, 85
+wc200f_1
+	bounds: 0, 96, 39, 32
+	offsets: 36, 25, 111, 85
+wc200f_4
+	bounds: 0, 96, 39, 32
+	offsets: 36, 24, 111, 85
+wc200f_5
+	bounds: 0, 96, 39, 32
+	offsets: 36, 24, 111, 85
+wc200f_6
+	bounds: 0, 96, 39, 32
+	offsets: 36, 25, 111, 85
+wc200f_7
+	bounds: 0, 96, 39, 32
+	offsets: 36, 25, 111, 85
+wc20001_5
+	bounds: 36, 63, 1, 1
+wc20001_6
+	bounds: 36, 63, 1, 1
+wc20001_7
+	bounds: 36, 63, 1, 1
+wc20001_8
+	bounds: 36, 63, 1, 1
+wc20001_9
+	bounds: 36, 63, 1, 1
+wc20002_2
+	bounds: 36, 63, 1, 1
+wc20002_3
+	bounds: 36, 63, 1, 1
+wc20003_1
+	bounds: 36, 63, 1, 1
+wc20003_4
+	bounds: 36, 63, 1, 1
+wc20003_5
+	bounds: 36, 63, 1, 1
+wc20003_8
+	bounds: 36, 63, 1, 1
+wc20003_9
+	bounds: 36, 63, 1, 1
+wc200b_10
+	bounds: 36, 63, 1, 1
+wc200b_11
+	bounds: 36, 63, 1, 1
+wc200b_13
+	bounds: 36, 63, 1, 1
+wc200b_14
+	bounds: 36, 63, 1, 1
+wc200b_3
+	bounds: 36, 63, 1, 1
+wc200b_4
+	bounds: 36, 63, 1, 1
+wc200b_5
+	bounds: 36, 63, 1, 1
+wc200b_9
+	bounds: 36, 63, 1, 1
+wc200c_11
+	bounds: 36, 63, 1, 1
+wc200c_12
+	bounds: 36, 63, 1, 1
+wc200c_13
+	bounds: 36, 63, 1, 1
+wc200c_15
+	bounds: 36, 63, 1, 1
+wc200c_16
+	bounds: 36, 63, 1, 1
+wc200c_17
+	bounds: 36, 63, 1, 1
+wc200c_20
+	bounds: 36, 63, 1, 1
+wc200c_21
+	bounds: 36, 63, 1, 1
+wc200c_22
+	bounds: 36, 63, 1, 1
+wc200c_23
+	bounds: 36, 63, 1, 1
+wc200c_27
+	bounds: 36, 63, 1, 1
+wc200c_28
+	bounds: 36, 63, 1, 1
+wc200c_29
+	bounds: 36, 63, 1, 1
+wc200c_3
+	bounds: 36, 63, 1, 1
+wc200c_4
+	bounds: 36, 63, 1, 1
+wc200c_5
+	bounds: 36, 63, 1, 1
+wc200c_6
+	bounds: 36, 63, 1, 1
+wc200c_7
+	bounds: 36, 63, 1, 1
+wc200d_14
+	bounds: 36, 63, 1, 1
+wc200d_15
+	bounds: 36, 63, 1, 1
+wc200d_16
+	bounds: 36, 63, 1, 1
+wc200d_17
+	bounds: 36, 63, 1, 1
+wc200d_18
+	bounds: 36, 63, 1, 1
+wc200d_19
+	bounds: 36, 63, 1, 1
+wc200d_3
+	bounds: 36, 63, 1, 1
+wc200d_4
+	bounds: 36, 63, 1, 1
+wc200d_5
+	bounds: 36, 63, 1, 1
+wc200d_8
+	bounds: 36, 63, 1, 1
+wc200d_9
+	bounds: 36, 63, 1, 1
+wc200e_12
+	bounds: 36, 63, 1, 1
+wc200e_13
+	bounds: 36, 63, 1, 1
+wc200e_14
+	bounds: 36, 63, 1, 1
+wc200e_15
+	bounds: 36, 63, 1, 1
+wc200e_2
+	bounds: 36, 63, 1, 1
+wc200e_22
+	bounds: 36, 63, 1, 1
+wc200e_23
+	bounds: 36, 63, 1, 1
+wc200e_24
+	bounds: 36, 63, 1, 1
+wc200e_25
+	bounds: 36, 63, 1, 1
+wc200e_26
+	bounds: 36, 63, 1, 1
+wc200e_27
+	bounds: 36, 63, 1, 1
+wc200e_3
+	bounds: 36, 63, 1, 1
+wc200e_32
+	bounds: 36, 63, 1, 1
+wc200e_33
+	bounds: 36, 63, 1, 1
+wc200e_34
+	bounds: 36, 63, 1, 1
+wc200e_35
+	bounds: 36, 63, 1, 1
+wc200e_36
+	bounds: 36, 63, 1, 1
+wc200e_37
+	bounds: 36, 63, 1, 1
+wc200e_38
+	bounds: 36, 63, 1, 1
+wc200e_39
+	bounds: 36, 63, 1, 1
+wc200e_6
+	bounds: 36, 63, 1, 1
+wc200e_7
+	bounds: 36, 63, 1, 1
+wc200f_10
+	bounds: 36, 63, 1, 1
+wc200f_11
+	bounds: 36, 63, 1, 1
+wc200f_12
+	bounds: 36, 63, 1, 1
+wc200f_13
+	bounds: 36, 63, 1, 1
+wc200f_14
+	bounds: 36, 63, 1, 1
+wc200f_2
+	bounds: 36, 63, 1, 1
+wc200f_3
+	bounds: 36, 63, 1, 1
+wc200f_8
+	bounds: 36, 63, 1, 1
+wc200f_9
+	bounds: 36, 63, 1, 1
+wc20002_1
+	bounds: 0, 64, 39, 32
+	offsets: 44, 23, 111, 85
+wc20003_0
+	bounds: 0, 64, 39, 32
+	offsets: 36, 25, 111, 85
+wc20003_2
+	bounds: 0, 64, 39, 32
+	offsets: 36, 24, 111, 85
+wc20003_3
+	bounds: 0, 64, 39, 32
+	offsets: 38, 22, 111, 85
+wc20003_6
+	bounds: 0, 64, 39, 32
+	offsets: 36, 24, 111, 85
+wc20003_7
+	bounds: 0, 64, 39, 32
+	offsets: 36, 24, 111, 85
+wc200c_1
+	bounds: 0, 64, 39, 32
+	offsets: 44, 23, 111, 85
+wc200c_10
+	bounds: 0, 64, 39, 32
+	offsets: 37, 18, 111, 85
+wc200c_14
+	bounds: 0, 64, 39, 32
+	offsets: 37, 18, 111, 85
+wc200c_18
+	bounds: 0, 64, 39, 32
+	offsets: 28, 14, 111, 85
+wc200c_19
+	bounds: 0, 64, 39, 32
+	offsets: 42, 13, 111, 85
+wc200c_2
+	bounds: 0, 64, 39, 32
+	offsets: 44, 23, 111, 85
+wc200d_6
+	bounds: 0, 64, 39, 32
+	offsets: 44, 23, 111, 85
+wc200e_1
+	bounds: 0, 64, 39, 32
+	offsets: 45, 17, 111, 85
+wc200e_4
+	bounds: 0, 64, 39, 32
+	offsets: 45, 17, 111, 85
+wc200c_26
+	bounds: 0, 32, 36, 32
+	offsets: 43, 12, 111, 85
+wc200d_0
+	bounds: 39, 74, 33, 30
+	offsets: 32, 19, 111, 85
+wc200d_1
+	bounds: 39, 104, 37, 24
+	offsets: 32, 29, 111, 85
+wc200d_11
+	bounds: 39, 104, 37, 24
+	offsets: 44, 34, 111, 85
+wc200d_2
+	bounds: 39, 104, 37, 24
+	offsets: 32, 31, 111, 85
+wc200d_12
+	bounds: 76, 97, 33, 31
+	offsets: 36, 29, 111, 85
+wc200d_7
+	bounds: 0, 0, 36, 32
+	offsets: 44, 25, 111, 85
+wc200e_0
+	bounds: 72, 67, 33, 30
+	offsets: 41, 25, 111, 85
+wc200e_10
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85
+wc200e_11
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85
+wc200e_16
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85
+wc200e_17
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85
+wc200e_18
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85
+wc200e_19
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85
+wc200e_20
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85
+wc200e_21
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85
+wc200e_28
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85
+wc200e_29
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85
+wc200e_30
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85
+wc200e_31
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85
+wc200e_5
+	bounds: 72, 67, 33, 30
+	offsets: 47, 18, 111, 85
+wc200e_8
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85
+wc200e_9
+	bounds: 72, 67, 33, 30
+	offsets: 35, 27, 111, 85

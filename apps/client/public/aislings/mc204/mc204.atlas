@@ -1,0 +1,424 @@
+mc204.png
+	size: 64, 64
+mc20401_0
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc20401_1
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc20401_2
+	bounds: 0, 19, 17, 15
+	offsets: 45, 50, 111, 85
+mc20401_3
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc20401_4
+	bounds: 0, 19, 17, 15
+	offsets: 45, 50, 111, 85
+mc20402_0
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc20402_1
+	bounds: 0, 19, 17, 15
+	offsets: 54, 52, 111, 85
+mc20403_0
+	bounds: 0, 19, 17, 15
+	offsets: 45, 52, 111, 85
+mc20403_2
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc20403_3
+	bounds: 0, 19, 17, 15
+	offsets: 47, 49, 111, 85
+mc20403_6
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc20403_7
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc204b_0
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc204b_1
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc204b_12
+	bounds: 0, 19, 17, 15
+	offsets: 45, 52, 111, 85
+mc204b_2
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc204b_6
+	bounds: 0, 19, 17, 15
+	offsets: 45, 52, 111, 85
+mc204b_7
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc204b_8
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc204c_0
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc204c_1
+	bounds: 0, 19, 17, 15
+	offsets: 54, 52, 111, 85
+mc204c_10
+	bounds: 0, 19, 17, 15
+	offsets: 46, 45, 111, 85
+mc204c_14
+	bounds: 0, 19, 17, 15
+	offsets: 46, 45, 111, 85
+mc204c_15
+	bounds: 0, 19, 17, 15
+	offsets: 49, 42, 111, 85
+mc204c_18
+	bounds: 0, 19, 17, 15
+	offsets: 35, 44, 111, 85
+mc204c_19
+	bounds: 0, 19, 17, 15
+	offsets: 49, 43, 111, 85
+mc204c_2
+	bounds: 0, 19, 17, 15
+	offsets: 54, 52, 111, 85
+mc204c_20
+	bounds: 0, 19, 17, 15
+	offsets: 49, 42, 111, 85
+mc204c_24
+	bounds: 0, 19, 17, 15
+	offsets: 45, 46, 111, 85
+mc204c_25
+	bounds: 0, 19, 17, 15
+	offsets: 44, 66, 111, 85
+mc204c_26
+	bounds: 0, 19, 17, 15
+	offsets: 53, 34, 111, 85
+mc204c_3
+	bounds: 0, 19, 17, 15
+	offsets: 56, 48, 111, 85
+mc204c_8
+	bounds: 0, 19, 17, 15
+	offsets: 45, 46, 111, 85
+mc204c_9
+	bounds: 0, 19, 17, 15
+	offsets: 44, 61, 111, 85
+mc204d_0
+	bounds: 0, 19, 17, 15
+	offsets: 39, 45, 111, 85
+mc204d_1
+	bounds: 0, 19, 17, 15
+	offsets: 40, 51, 111, 85
+mc204d_10
+	bounds: 0, 19, 17, 15
+	offsets: 49, 52, 111, 85
+mc204d_11
+	bounds: 0, 19, 17, 15
+	offsets: 52, 56, 111, 85
+mc204d_12
+	bounds: 0, 19, 17, 15
+	offsets: 41, 52, 111, 85
+mc204d_13
+	bounds: 0, 19, 17, 15
+	offsets: 49, 52, 111, 85
+mc204d_2
+	bounds: 0, 19, 17, 15
+	offsets: 40, 53, 111, 85
+mc204d_6
+	bounds: 0, 19, 17, 15
+	offsets: 54, 52, 111, 85
+mc204d_7
+	bounds: 0, 19, 17, 15
+	offsets: 54, 52, 111, 85
+mc204e_0
+	bounds: 0, 19, 17, 15
+	offsets: 48, 51, 111, 85
+mc204e_1
+	bounds: 0, 19, 17, 15
+	offsets: 54, 44, 111, 85
+mc204e_10
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204e_11
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204e_16
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204e_17
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204e_18
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204e_19
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204e_20
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204e_21
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204e_28
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204e_29
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204e_30
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204e_31
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204e_4
+	bounds: 0, 19, 17, 15
+	offsets: 54, 44, 111, 85
+mc204e_5
+	bounds: 0, 19, 17, 15
+	offsets: 54, 44, 111, 85
+mc204e_8
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204e_9
+	bounds: 0, 19, 17, 15
+	offsets: 42, 53, 111, 85
+mc204f_0
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc204f_1
+	bounds: 0, 19, 17, 15
+	offsets: 45, 52, 111, 85
+mc204f_4
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc204f_5
+	bounds: 0, 19, 17, 15
+	offsets: 45, 51, 111, 85
+mc204f_6
+	bounds: 0, 19, 17, 15
+	offsets: 45, 52, 111, 85
+mc204f_7
+	bounds: 0, 19, 17, 15
+	offsets: 45, 52, 111, 85
+mc20401_5
+	bounds: 0, 2, 17, 17
+	offsets: 47, 51, 111, 85
+mc20401_6
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc20401_7
+	bounds: 17, 17, 17, 17
+	offsets: 47, 50, 111, 85
+mc20401_8
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc20401_9
+	bounds: 17, 17, 17, 17
+	offsets: 47, 50, 111, 85
+mc20402_2
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc20402_3
+	bounds: 17, 17, 17, 17
+	offsets: 58, 43, 111, 85
+mc20403_1
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc20403_4
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc20403_5
+	bounds: 17, 17, 17, 17
+	offsets: 50, 50, 111, 85
+mc20403_8
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc20403_9
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc204b_10
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc204b_11
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc204b_13
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204b_3
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc204b_4
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc204b_5
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc204b_9
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204c_11
+	bounds: 17, 17, 17, 17
+	offsets: 48, 46, 111, 85
+mc204c_12
+	bounds: 17, 17, 17, 17
+	offsets: 47, 63, 111, 85
+mc204c_13
+	bounds: 17, 17, 17, 17
+	offsets: 53, 40, 111, 85
+mc204c_16
+	bounds: 17, 17, 17, 17
+	offsets: 55, 44, 111, 85
+mc204c_17
+	bounds: 17, 17, 17, 17
+	offsets: 65, 33, 111, 85
+mc204c_21
+	bounds: 17, 17, 17, 17
+	offsets: 39, 46, 111, 85
+mc204c_22
+	bounds: 17, 17, 17, 17
+	offsets: 59, 37, 111, 85
+mc204c_23
+	bounds: 17, 17, 17, 17
+	offsets: 65, 33, 111, 85
+mc204c_27
+	bounds: 17, 17, 17, 17
+	offsets: 48, 46, 111, 85
+mc204c_28
+	bounds: 17, 17, 17, 17
+	offsets: 47, 68, 111, 85
+mc204c_29
+	bounds: 17, 17, 17, 17
+	offsets: 52, 35, 111, 85
+mc204c_4
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc204c_5
+	bounds: 17, 17, 17, 17
+	offsets: 58, 43, 111, 85
+mc204c_6
+	bounds: 17, 17, 17, 17
+	offsets: 58, 43, 111, 85
+mc204c_7
+	bounds: 17, 17, 17, 17
+	offsets: 62, 42, 111, 85
+mc204d_14
+	bounds: 17, 17, 17, 17
+	offsets: 54, 49, 111, 85
+mc204d_15
+	bounds: 17, 17, 17, 17
+	offsets: 50, 46, 111, 85
+mc204d_16
+	bounds: 17, 17, 17, 17
+	offsets: 44, 48, 111, 85
+mc204d_17
+	bounds: 17, 17, 17, 17
+	offsets: 54, 49, 111, 85
+mc204d_3
+	bounds: 17, 17, 17, 17
+	offsets: 39, 54, 111, 85
+mc204d_4
+	bounds: 17, 17, 17, 17
+	offsets: 47, 50, 111, 85
+mc204d_5
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204d_8
+	bounds: 17, 17, 17, 17
+	offsets: 58, 43, 111, 85
+mc204d_9
+	bounds: 17, 17, 17, 17
+	offsets: 58, 43, 111, 85
+mc204e_12
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_13
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_14
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_15
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_2
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc204e_22
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_23
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_24
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_25
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_26
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_27
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_3
+	bounds: 17, 17, 17, 17
+	offsets: 61, 35, 111, 85
+mc204e_32
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_33
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_34
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_35
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204e_6
+	bounds: 17, 17, 17, 17
+	offsets: 61, 35, 111, 85
+mc204e_7
+	bounds: 17, 17, 17, 17
+	offsets: 61, 35, 111, 85
+mc204f_10
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204f_11
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204f_2
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc204f_3
+	bounds: 17, 17, 17, 17
+	offsets: 47, 52, 111, 85
+mc204f_8
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc204f_9
+	bounds: 17, 17, 17, 17
+	offsets: 47, 51, 111, 85
+mc204b_14
+	bounds: 0, 1, 1, 1
+mc204d_18
+	bounds: 0, 1, 1, 1
+mc204d_19
+	bounds: 0, 1, 1, 1
+mc204e_36
+	bounds: 0, 1, 1, 1
+mc204e_37
+	bounds: 0, 1, 1, 1
+mc204e_38
+	bounds: 0, 1, 1, 1
+mc204e_39
+	bounds: 0, 1, 1, 1
+mc204f_12
+	bounds: 0, 1, 1, 1
+mc204f_13
+	bounds: 0, 1, 1, 1
+mc204f_14
+	bounds: 0, 1, 1, 1

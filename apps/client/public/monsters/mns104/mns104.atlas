@@ -1,0 +1,26 @@
+mns104.png
+	size: 256, 256
+mns104_0
+	bounds: 0, 65, 31, 65
+	offsets: 14, 11, 56, 84
+mns104_1
+	bounds: 51, 130, 30, 63
+	offsets: 2, 8, 56, 84
+mns104_2
+	bounds: 83, 195, 29, 61
+	offsets: 19, 9, 56, 84
+mns104_3
+	bounds: 51, 193, 32, 63
+	offsets: 6, 12, 56, 84
+mns104_4
+	bounds: 0, 0, 31, 65
+	offsets: 14, 11, 56, 84
+mns104_5
+	bounds: 0, 193, 51, 63
+	offsets: 3, 8, 56, 84
+mns104_6
+	bounds: 31, 69, 29, 61
+	offsets: 19, 9, 56, 84
+mns104_7
+	bounds: 0, 130, 51, 63
+	offsets: 5, 12, 56, 84

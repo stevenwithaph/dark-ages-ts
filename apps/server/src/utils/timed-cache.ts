@@ -1,4 +1,5 @@
 import EventEmitter from 'eventemitter3';
+import { BaseCache } from './base-cache';
 
 interface TimedCacheItem<T> {
   handle: NodeJS.Timeout;
@@ -9,7 +10,7 @@ interface TimedCacheEvents<T> {
   removed: (item: T) => void;
 }
 
-export class TimedCache<K, V> extends EventEmitter<TimedCacheEvents<V>> {
+export class TimedCache<K, V> extends EventEmitter<TimedCacheEvents<V>> implements BaseCache<K, V> {
   #cache: Map<K, TimedCacheItem<V>>;
 
   constructor(private ttl: number) {
@@ -29,9 +30,10 @@ export class TimedCache<K, V> extends EventEmitter<TimedCacheEvents<V>> {
     if (item) {
       this.emit('removed', item.data);
       clearTimeout(item.handle);
+      return true;
     }
 
-    return item?.data;
+    return false;
   }
 
   clear() {
@@ -41,6 +43,6 @@ export class TimedCache<K, V> extends EventEmitter<TimedCacheEvents<V>> {
   }
 
   get(key: K) {
-    return this.#cache.get(key);
+    return this.#cache.get(key)?.data;
   }
 }

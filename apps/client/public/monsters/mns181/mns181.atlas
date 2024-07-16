@@ -1,0 +1,32 @@
+mns181.png
+	size: 256, 256
+mns181_0
+	bounds: 45, 63, 37, 63
+	offsets: 4, 7, 56, 84
+mns181_1
+	bounds: 0, 63, 45, 63
+	offsets: 1, 7, 56, 84
+mns181_2
+	bounds: 0, 185, 49, 60
+	offsets: 1, 7, 56, 84
+mns181_3
+	bounds: 0, 0, 38, 63
+	offsets: 9, 6, 56, 84
+mns181_4
+	bounds: 38, 0, 36, 63
+	offsets: 14, 6, 56, 84
+mns181_5
+	bounds: 97, 185, 38, 60
+	offsets: 11, 7, 56, 84
+mns181_6
+	bounds: 135, 181, 34, 64
+	offsets: 5, 6, 56, 84
+mns181_7
+	bounds: 0, 126, 49, 59
+	offsets: 7, 7, 56, 84
+mns181_8
+	bounds: 49, 184, 48, 61
+	offsets: 3, 8, 56, 84
+mns181_9
+	bounds: 49, 126, 43, 58
+	offsets: 13, 4, 56, 84

@@ -1,0 +1,378 @@
+mc133.png
+	size: 256, 256
+mc13301_0
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc13301_4
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc13302_1
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc13303_0
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc13303_3
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc13303_7
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc13304_3
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133b_12
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133b_2
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133b_8
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133c_10
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133c_15
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133c_20
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133c_26
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133c_3
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133d_13
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133d_2
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133d_7
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133e_1
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133e_11
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133e_17
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133e_21
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133e_31
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133e_5
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133f_1
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133f_7
+	bounds: 0, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc13301_1
+	bounds: 0, 71, 45, 73
+	offsets: 32, 6, 111, 85
+mc13304_0
+	bounds: 0, 71, 45, 73
+	offsets: 32, 6, 111, 85
+mc133c_0
+	bounds: 0, 71, 45, 73
+	offsets: 32, 6, 111, 85
+mc133d_10
+	bounds: 0, 71, 45, 73
+	offsets: 32, 6, 111, 85
+mc133e_18
+	bounds: 0, 71, 45, 73
+	offsets: 32, 6, 111, 85
+mc133e_28
+	bounds: 0, 71, 45, 73
+	offsets: 32, 6, 111, 85
+mc133e_8
+	bounds: 0, 71, 45, 73
+	offsets: 32, 6, 111, 85
+mc133f_4
+	bounds: 0, 71, 45, 73
+	offsets: 32, 6, 111, 85
+mc13301_2
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc13304_1
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133b_0
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133b_6
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133c_1
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133c_18
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133c_24
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133c_8
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133d_0
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133d_11
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133e_19
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133e_29
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133e_9
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc133f_5
+	bounds: 45, 144, 45, 72
+	offsets: 32, 6, 111, 85
+mc13301_3
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc13302_0
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc13303_2
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc13303_6
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc13304_2
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133b_1
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133b_7
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133c_14
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133c_19
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133c_2
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133c_25
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133c_9
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133d_1
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133d_12
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133d_6
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133e_0
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133e_10
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133e_16
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133e_20
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133e_30
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133e_4
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133f_0
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc133f_6
+	bounds: 0, 0, 45, 71
+	offsets: 32, 6, 111, 85
+mc13301_5
+	bounds: 90, 215, 1, 1
+mc13301_6
+	bounds: 90, 215, 1, 1
+mc13301_7
+	bounds: 90, 215, 1, 1
+mc13301_8
+	bounds: 90, 215, 1, 1
+mc13301_9
+	bounds: 90, 215, 1, 1
+mc13302_2
+	bounds: 90, 215, 1, 1
+mc13302_3
+	bounds: 90, 215, 1, 1
+mc13303_1
+	bounds: 90, 215, 1, 1
+mc13303_4
+	bounds: 90, 215, 1, 1
+mc13303_5
+	bounds: 90, 215, 1, 1
+mc13303_8
+	bounds: 90, 215, 1, 1
+mc13303_9
+	bounds: 90, 215, 1, 1
+mc13304_4
+	bounds: 90, 215, 1, 1
+mc13304_5
+	bounds: 90, 215, 1, 1
+mc13304_6
+	bounds: 90, 215, 1, 1
+mc13304_7
+	bounds: 90, 215, 1, 1
+mc133b_10
+	bounds: 90, 215, 1, 1
+mc133b_11
+	bounds: 90, 215, 1, 1
+mc133b_14
+	bounds: 90, 215, 1, 1
+mc133b_3
+	bounds: 90, 215, 1, 1
+mc133b_4
+	bounds: 90, 215, 1, 1
+mc133b_5
+	bounds: 90, 215, 1, 1
+mc133b_9
+	bounds: 90, 215, 1, 1
+mc133c_11
+	bounds: 90, 215, 1, 1
+mc133c_12
+	bounds: 90, 215, 1, 1
+mc133c_13
+	bounds: 90, 215, 1, 1
+mc133c_16
+	bounds: 90, 215, 1, 1
+mc133c_17
+	bounds: 90, 215, 1, 1
+mc133c_21
+	bounds: 90, 215, 1, 1
+mc133c_22
+	bounds: 90, 215, 1, 1
+mc133c_23
+	bounds: 90, 215, 1, 1
+mc133c_27
+	bounds: 90, 215, 1, 1
+mc133c_28
+	bounds: 90, 215, 1, 1
+mc133c_29
+	bounds: 90, 215, 1, 1
+mc133c_4
+	bounds: 90, 215, 1, 1
+mc133c_5
+	bounds: 90, 215, 1, 1
+mc133c_6
+	bounds: 90, 215, 1, 1
+mc133c_7
+	bounds: 90, 215, 1, 1
+mc133d_14
+	bounds: 90, 215, 1, 1
+mc133d_15
+	bounds: 90, 215, 1, 1
+mc133d_16
+	bounds: 90, 215, 1, 1
+mc133d_17
+	bounds: 90, 215, 1, 1
+mc133d_18
+	bounds: 90, 215, 1, 1
+mc133d_19
+	bounds: 90, 215, 1, 1
+mc133d_3
+	bounds: 90, 215, 1, 1
+mc133d_4
+	bounds: 90, 215, 1, 1
+mc133d_5
+	bounds: 90, 215, 1, 1
+mc133d_8
+	bounds: 90, 215, 1, 1
+mc133d_9
+	bounds: 90, 215, 1, 1
+mc133e_12
+	bounds: 90, 215, 1, 1
+mc133e_13
+	bounds: 90, 215, 1, 1
+mc133e_14
+	bounds: 90, 215, 1, 1
+mc133e_15
+	bounds: 90, 215, 1, 1
+mc133e_2
+	bounds: 90, 215, 1, 1
+mc133e_22
+	bounds: 90, 215, 1, 1
+mc133e_23
+	bounds: 90, 215, 1, 1
+mc133e_24
+	bounds: 90, 215, 1, 1
+mc133e_25
+	bounds: 90, 215, 1, 1
+mc133e_26
+	bounds: 90, 215, 1, 1
+mc133e_27
+	bounds: 90, 215, 1, 1
+mc133e_3
+	bounds: 90, 215, 1, 1
+mc133e_32
+	bounds: 90, 215, 1, 1
+mc133e_33
+	bounds: 90, 215, 1, 1
+mc133e_34
+	bounds: 90, 215, 1, 1
+mc133e_35
+	bounds: 90, 215, 1, 1
+mc133e_36
+	bounds: 90, 215, 1, 1
+mc133e_37
+	bounds: 90, 215, 1, 1
+mc133e_38
+	bounds: 90, 215, 1, 1
+mc133e_39
+	bounds: 90, 215, 1, 1
+mc133e_6
+	bounds: 90, 215, 1, 1
+mc133e_7
+	bounds: 90, 215, 1, 1
+mc133f_10
+	bounds: 90, 215, 1, 1
+mc133f_11
+	bounds: 90, 215, 1, 1
+mc133f_12
+	bounds: 90, 215, 1, 1
+mc133f_13
+	bounds: 90, 215, 1, 1
+mc133f_14
+	bounds: 90, 215, 1, 1
+mc133f_2
+	bounds: 90, 215, 1, 1
+mc133f_3
+	bounds: 90, 215, 1, 1
+mc133f_8
+	bounds: 90, 215, 1, 1
+mc133f_9
+	bounds: 90, 215, 1, 1
+mc133b_13
+	bounds: 45, 81, 43, 63
+	offsets: 27, 17, 111, 85

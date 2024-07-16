@@ -1,0 +1,44 @@
+mns050.png
+	size: 256, 256
+mns050_0
+	bounds: 160, 200, 28, 47
+	offsets: 13, 10, 56, 84
+mns050_1
+	bounds: 101, 200, 30, 47
+	offsets: 14, 10, 56, 84
+mns050_10
+	bounds: 214, 200, 25, 47
+	offsets: 13, 10, 56, 84
+mns050_11
+	bounds: 0, 198, 37, 49
+	offsets: 19, 10, 56, 84
+mns050_12
+	bounds: 63, 150, 25, 48
+	offsets: 17, 9, 56, 84
+mns050_13
+	bounds: 0, 0, 31, 52
+	offsets: 25, 4, 56, 84
+mns050_2
+	bounds: 37, 198, 33, 49
+	offsets: 11, 8, 56, 84
+mns050_3
+	bounds: 188, 203, 26, 44
+	offsets: 15, 13, 56, 84
+mns050_4
+	bounds: 34, 153, 29, 45
+	offsets: 13, 12, 56, 84
+mns050_5
+	bounds: 70, 199, 31, 48
+	offsets: 17, 9, 56, 84
+mns050_6
+	bounds: 0, 152, 34, 46
+	offsets: 16, 11, 56, 84
+mns050_7
+	bounds: 0, 100, 33, 52
+	offsets: 12, 5, 56, 84
+mns050_8
+	bounds: 0, 52, 31, 48
+	offsets: 17, 9, 56, 84
+mns050_9
+	bounds: 131, 200, 29, 47
+	offsets: 18, 10, 56, 84

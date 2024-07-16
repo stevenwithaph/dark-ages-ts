@@ -1,0 +1,144 @@
+emotions.png
+	size: 256, 256
+emot01_0
+	bounds: 130, 153, 11, 15
+	offsets: 23, 46, 57, 85
+emot01_1
+	bounds: 78, 77, 14, 15
+	offsets: 23, 46, 57, 85
+emot01_10
+	bounds: 116, 114, 11, 16
+	offsets: 23, 45, 57, 85
+emot01_11
+	bounds: 0, 168, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_12
+	bounds: 28, 206, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_13
+	bounds: 0, 130, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_14
+	bounds: 26, 168, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_15
+	bounds: 54, 206, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_16
+	bounds: 0, 92, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_17
+	bounds: 26, 130, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_18
+	bounds: 130, 138, 11, 15
+	offsets: 23, 46, 57, 85
+emot01_19
+	bounds: 141, 153, 11, 15
+	offsets: 23, 46, 57, 85
+emot01_2
+	bounds: 156, 191, 11, 15
+	offsets: 23, 46, 57, 85
+emot01_20
+	bounds: 52, 168, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_21
+	bounds: 80, 206, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_22
+	bounds: 0, 54, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_23
+	bounds: 26, 92, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_24
+	bounds: 156, 174, 11, 17
+	offsets: 23, 44, 57, 85
+emot01_25
+	bounds: 52, 130, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_26
+	bounds: 78, 168, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_27
+	bounds: 106, 206, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_28
+	bounds: 0, 16, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_29
+	bounds: 26, 54, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_3
+	bounds: 184, 229, 11, 15
+	offsets: 23, 46, 57, 85
+emot01_30
+	bounds: 52, 92, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_31
+	bounds: 78, 130, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_32
+	bounds: 104, 168, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_33
+	bounds: 132, 206, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_34
+	bounds: 26, 16, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_35
+	bounds: 52, 54, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_36
+	bounds: 78, 92, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_37
+	bounds: 0, 206, 28, 38
+	offsets: 23, 46, 57, 85
+emot01_38
+	bounds: 104, 130, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_39
+	bounds: 130, 168, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_4
+	bounds: 16, 1, 11, 15
+	offsets: 23, 46, 57, 85
+emot01_40
+	bounds: 158, 206, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_41
+	bounds: 52, 16, 26, 38
+	offsets: 23, 46, 57, 85
+emot01_42
+	bounds: 0, 0, 1, 1
+emot01_43
+	bounds: 0, 0, 1, 1
+emot01_44
+	bounds: 0, 0, 1, 1
+emot01_45
+	bounds: 0, 0, 1, 1
+emot01_46
+	bounds: 0, 0, 1, 1
+emot01_47
+	bounds: 0, 0, 1, 1
+emot01_48
+	bounds: 0, 0, 1, 1
+emot01_49
+	bounds: 0, 0, 1, 1
+emot01_5
+	bounds: 78, 62, 11, 15
+	offsets: 23, 46, 57, 85
+emot01_6
+	bounds: 92, 77, 11, 15
+	offsets: 23, 46, 57, 85
+emot01_7
+	bounds: 0, 1, 16, 15
+	offsets: 23, 46, 57, 85
+emot01_8
+	bounds: 104, 114, 12, 16
+	offsets: 23, 45, 57, 85
+emot01_9
+	bounds: 104, 99, 11, 15
+	offsets: 23, 46, 57, 85

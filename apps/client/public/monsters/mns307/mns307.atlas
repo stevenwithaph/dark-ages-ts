@@ -1,0 +1,56 @@
+mns307.png
+	size: 256, 256
+mns307_0
+	bounds: 50, 184, 46, 49
+	offsets: 3, 2, 66, 56
+mns307_1
+	bounds: 0, 50, 45, 50
+	offsets: 4, 3, 66, 56
+mns307_10
+	bounds: 187, 184, 45, 49
+	offsets: 16, 4, 66, 56
+mns307_11
+	bounds: 0, 184, 50, 49
+	offsets: 14, 5, 66, 56
+mns307_12
+	bounds: 48, 134, 45, 50
+	offsets: 14, 4, 66, 56
+mns307_13
+	bounds: 45, 55, 44, 34
+	offsets: 15, 4, 66, 56
+mns307_14
+	bounds: 45, 19, 43, 36
+	offsets: 14, 5, 66, 56
+mns307_15
+	bounds: 0, 149, 48, 35
+	offsets: 14, 4, 66, 56
+mns307_17
+	bounds: 0, 149, 48, 35
+	offsets: 14, 4, 66, 56
+mns307_16
+	bounds: 96, 188, 46, 45
+	offsets: 10, 5, 66, 56
+mns307_2
+	bounds: 93, 133, 42, 51
+	offsets: 7, 4, 66, 56
+mns307_3
+	bounds: 0, 0, 45, 50
+	offsets: 4, 3, 66, 56
+mns307_4
+	bounds: 46, 89, 44, 45
+	offsets: 8, 7, 66, 56
+mns307_5
+	bounds: 90, 95, 41, 38
+	offsets: 11, 7, 66, 56
+mns307_7
+	bounds: 90, 95, 41, 38
+	offsets: 11, 7, 66, 56
+mns307_6
+	bounds: 135, 148, 41, 39
+	offsets: 11, 8, 66, 56
+mns307_8
+	bounds: 142, 187, 45, 46
+	offsets: 16, 4, 66, 56
+mns307_9
+	bounds: 0, 100, 46, 49
+	offsets: 17, 5, 66, 56

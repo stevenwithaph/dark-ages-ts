@@ -1,0 +1,164 @@
+mu282.png
+	size: 256, 256
+mu28201_0
+	bounds: 71, 78, 18, 38
+	offsets: 19, 9, 57, 85
+mu28201_1
+	bounds: 48, 19, 21, 38
+	offsets: 19, 9, 57, 85
+mu28201_2
+	bounds: 0, 76, 26, 39
+	offsets: 16, 7, 57, 85
+mu28201_3
+	bounds: 51, 115, 19, 37
+	offsets: 18, 10, 57, 85
+mu28201_4
+	bounds: 0, 1, 25, 37
+	offsets: 16, 10, 57, 85
+mu28201_5
+	bounds: 227, 159, 22, 38
+	offsets: 19, 10, 57, 85
+mu28201_6
+	bounds: 204, 215, 23, 35
+	offsets: 17, 13, 57, 85
+mu28201_7
+	bounds: 106, 209, 25, 41
+	offsets: 16, 6, 57, 85
+mu28201_8
+	bounds: 89, 110, 18, 38
+	offsets: 19, 10, 57, 85
+mu28201_9
+	bounds: 0, 115, 27, 38
+	offsets: 16, 9, 57, 85
+mu28202_0
+	bounds: 125, 83, 17, 45
+	offsets: 20, 9, 57, 85
+mu28202_1
+	bounds: 52, 76, 19, 39
+	offsets: 26, 9, 57, 85
+mu28202_2
+	bounds: 139, 128, 19, 44
+	offsets: 22, 10, 57, 85
+mu28202_3
+	bounds: 142, 86, 17, 42
+	offsets: 24, 4, 57, 85
+mu28203_0
+	bounds: 89, 59, 18, 51
+	offsets: 19, 9, 57, 85
+mu28203_1
+	bounds: 227, 197, 23, 53
+	offsets: 18, 10, 57, 85
+mu28203_2
+	bounds: 158, 132, 19, 40
+	offsets: 19, 9, 57, 85
+mu28203_3
+	bounds: 0, 38, 26, 38
+	offsets: 19, 9, 57, 85
+mu28203_4
+	bounds: 26, 17, 22, 40
+	offsets: 19, 10, 57, 85
+mu28203_5
+	bounds: 27, 115, 24, 38
+	offsets: 19, 10, 57, 85
+mu28203_6
+	bounds: 59, 152, 20, 41
+	offsets: 19, 9, 57, 85
+mu28203_7
+	bounds: 204, 176, 23, 39
+	offsets: 19, 9, 57, 85
+mu28203_8
+	bounds: 153, 172, 21, 40
+	offsets: 20, 10, 57, 85
+mu28203_9
+	bounds: 38, 153, 21, 40
+	offsets: 20, 10, 57, 85
+mu282c_0
+	bounds: 177, 142, 19, 46
+	offsets: 20, 9, 57, 85
+mu282c_1
+	bounds: 125, 44, 16, 39
+	offsets: 26, 9, 57, 85
+mu282c_2
+	bounds: 125, 44, 16, 39
+	offsets: 26, 9, 57, 85
+mu282c_10
+	bounds: 176, 97, 16, 35
+	offsets: 19, 6, 57, 85
+mu282c_14
+	bounds: 176, 97, 16, 35
+	offsets: 19, 6, 57, 85
+mu282c_11
+	bounds: 131, 192, 22, 34
+	offsets: 19, 10, 57, 85
+mu282c_27
+	bounds: 131, 192, 22, 34
+	offsets: 19, 10, 57, 85
+mu282c_12
+	bounds: 119, 134, 20, 58
+	offsets: 18, 12, 57, 85
+mu282c_13
+	bounds: 69, 26, 16, 31
+	offsets: 23, 7, 57, 85
+mu282c_15
+	bounds: 196, 144, 19, 32
+	offsets: 19, 7, 57, 85
+mu282c_20
+	bounds: 196, 144, 19, 32
+	offsets: 19, 7, 57, 85
+mu282c_16
+	bounds: 74, 220, 32, 30
+	offsets: 15, 14, 57, 85
+mu282c_17
+	bounds: 0, 218, 38, 32
+	offsets: 14, 9, 57, 85
+mu282c_23
+	bounds: 0, 218, 38, 32
+	offsets: 14, 9, 57, 85
+mu282c_18
+	bounds: 38, 217, 36, 33
+	offsets: 9, 9, 57, 85
+mu282c_19
+	bounds: 70, 116, 19, 32
+	offsets: 19, 7, 57, 85
+mu282c_21
+	bounds: 0, 153, 36, 37
+	offsets: 6, 10, 57, 85
+mu282c_22
+	bounds: 0, 190, 38, 28
+	offsets: 14, 9, 57, 85
+mu282c_25
+	bounds: 26, 57, 26, 58
+	offsets: 11, 11, 57, 85
+mu282c_26
+	bounds: 131, 226, 25, 24
+	offsets: 15, 8, 57, 85
+mu282c_28
+	bounds: 180, 188, 24, 62
+	offsets: 18, 13, 57, 85
+mu282c_29
+	bounds: 38, 193, 33, 24
+	offsets: 14, 10, 57, 85
+mu282c_3
+	bounds: 107, 97, 18, 37
+	offsets: 26, 9, 57, 85
+mu282c_4
+	bounds: 79, 148, 20, 44
+	offsets: 21, 10, 57, 85
+mu282c_5
+	bounds: 141, 46, 16, 37
+	offsets: 25, 4, 57, 85
+mu282c_6
+	bounds: 156, 212, 24, 38
+	offsets: 25, 4, 57, 85
+mu282c_7
+	bounds: 107, 57, 18, 40
+	offsets: 25, 4, 57, 85
+mu282c_8
+	bounds: 159, 98, 17, 34
+	offsets: 20, 9, 57, 85
+mu282c_24
+	bounds: 159, 98, 17, 34
+	offsets: 20, 9, 57, 85
+mu282c_9
+	bounds: 99, 155, 20, 54
+	offsets: 17, 10, 57, 85

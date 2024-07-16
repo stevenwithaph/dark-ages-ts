@@ -1,0 +1,32 @@
+mns024.png
+	size: 256, 256
+mns024_0
+	bounds: 56, 159, 25, 51
+	offsets: 14, 11, 56, 84
+mns024_1
+	bounds: 0, 52, 26, 52
+	offsets: 14, 11, 56, 84
+mns024_2
+	bounds: 0, 158, 28, 52
+	offsets: 12, 10, 56, 84
+mns024_3
+	bounds: 54, 108, 25, 51
+	offsets: 14, 12, 56, 84
+mns024_4
+	bounds: 0, 104, 28, 54
+	offsets: 14, 8, 56, 84
+mns024_5
+	bounds: 28, 107, 26, 52
+	offsets: 15, 10, 56, 84
+mns024_6
+	bounds: 0, 0, 26, 52
+	offsets: 15, 11, 56, 84
+mns024_7
+	bounds: 81, 157, 25, 53
+	offsets: 15, 9, 56, 84
+mns024_8
+	bounds: 106, 157, 25, 53
+	offsets: 15, 10, 56, 84
+mns024_9
+	bounds: 28, 159, 28, 51
+	offsets: 15, 11, 56, 84

@@ -1,0 +1,74 @@
+mu961.png
+	size: 256, 256
+mu96101_0
+	bounds: 24, 49, 18, 38
+	offsets: 18, 10, 57, 85
+mu96101_1
+	bounds: 0, 13, 23, 38
+	offsets: 17, 10, 57, 85
+mu96101_2
+	bounds: 0, 168, 26, 39
+	offsets: 15, 8, 57, 85
+mu96101_3
+	bounds: 23, 14, 18, 35
+	offsets: 18, 13, 57, 85
+mu96101_4
+	bounds: 27, 209, 26, 36
+	offsets: 15, 11, 57, 85
+mu96101_5
+	bounds: 100, 207, 21, 38
+	offsets: 19, 11, 57, 85
+mu96101_6
+	bounds: 53, 211, 24, 34
+	offsets: 16, 15, 57, 85
+mu96101_7
+	bounds: 0, 127, 25, 41
+	offsets: 16, 7, 57, 85
+mu96101_8
+	bounds: 25, 130, 19, 38
+	offsets: 19, 11, 57, 85
+mu96101_9
+	bounds: 0, 207, 27, 38
+	offsets: 15, 10, 57, 85
+mu96102_0
+	bounds: 44, 76, 16, 43
+	offsets: 20, 10, 57, 85
+mu96102_1
+	bounds: 45, 170, 18, 39
+	offsets: 26, 10, 57, 85
+mu96102_2
+	bounds: 25, 87, 19, 43
+	offsets: 21, 11, 57, 85
+mu96102_3
+	bounds: 121, 206, 21, 39
+	offsets: 23, 5, 57, 85
+mu96103_0
+	bounds: 44, 119, 18, 49
+	offsets: 18, 10, 57, 85
+mu96103_1
+	bounds: 142, 195, 21, 50
+	offsets: 19, 11, 57, 85
+mu96103_2
+	bounds: 205, 206, 20, 39
+	offsets: 18, 10, 57, 85
+mu96103_3
+	bounds: 0, 89, 25, 38
+	offsets: 19, 10, 57, 85
+mu96103_4
+	bounds: 163, 207, 21, 38
+	offsets: 19, 11, 57, 85
+mu96103_5
+	bounds: 77, 207, 23, 38
+	offsets: 19, 11, 57, 85
+mu96103_6
+	bounds: 184, 207, 21, 38
+	offsets: 18, 10, 57, 85
+mu96103_7
+	bounds: 0, 51, 24, 38
+	offsets: 18, 10, 57, 85
+mu96103_8
+	bounds: 26, 168, 19, 38
+	offsets: 21, 11, 57, 85
+mu96103_9
+	bounds: 225, 207, 20, 38
+	offsets: 20, 11, 57, 85

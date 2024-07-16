@@ -1,0 +1,44 @@
+mw111.png
+	size: 128, 128
+mw11101_0
+	bounds: 0, 79, 23, 20
+	offsets: 61, 3, 111, 85
+mw11101_1
+	bounds: 0, 0, 14, 9
+	offsets: 66, 6, 111, 85
+mw11101_3
+	bounds: 0, 0, 14, 9
+	offsets: 66, 6, 111, 85
+mw11101_2
+	bounds: 82, 103, 12, 25
+	offsets: 67, 7, 111, 85
+mw11101_4
+	bounds: 47, 114, 18, 14
+	offsets: 63, 4, 111, 85
+mw11101_5
+	bounds: 24, 108, 23, 20
+	offsets: 67, 17, 111, 85
+mw11101_6
+	bounds: 14, 0, 14, 9
+	offsets: 73, 19, 111, 85
+mw11101_8
+	bounds: 14, 0, 14, 9
+	offsets: 73, 19, 111, 85
+mw11101_7
+	bounds: 94, 103, 12, 25
+	offsets: 76, 20, 111, 85
+mw11101_9
+	bounds: 65, 114, 17, 14
+	offsets: 69, 18, 111, 85
+mw11102_0
+	bounds: 0, 99, 24, 29
+	offsets: 61, 5, 111, 85
+mw11102_1
+	bounds: 0, 59, 22, 20
+	offsets: 64, 5, 111, 85
+mw11102_2
+	bounds: 0, 30, 22, 29
+	offsets: 66, 18, 111, 85
+mw11102_3
+	bounds: 0, 9, 21, 21
+	offsets: 69, 19, 111, 85

@@ -1,0 +1,74 @@
+mu001.png
+	size: 128, 128
+mu00101_0
+	bounds: 12, 60, 10, 17
+	offsets: 22, 32, 57, 85
+mu00101_1
+	bounds: 51, 111, 11, 17
+	offsets: 22, 32, 57, 85
+mu00101_2
+	bounds: 62, 111, 11, 17
+	offsets: 22, 31, 57, 85
+mu00101_3
+	bounds: 12, 44, 10, 16
+	offsets: 22, 33, 57, 85
+mu00101_4
+	bounds: 0, 95, 13, 16
+	offsets: 21, 32, 57, 85
+mu00101_5
+	bounds: 73, 111, 11, 17
+	offsets: 24, 32, 57, 85
+mu00101_6
+	bounds: 0, 62, 12, 17
+	offsets: 23, 32, 57, 85
+mu00101_7
+	bounds: 0, 45, 12, 17
+	offsets: 23, 31, 57, 85
+mu00101_8
+	bounds: 0, 28, 12, 17
+	offsets: 24, 32, 57, 85
+mu00101_9
+	bounds: 0, 111, 14, 17
+	offsets: 22, 31, 57, 85
+mu00102_0
+	bounds: 12, 10, 9, 18
+	offsets: 23, 31, 57, 85
+mu00102_1
+	bounds: 14, 112, 13, 16
+	offsets: 29, 32, 57, 85
+mu00102_2
+	bounds: 12, 28, 10, 16
+	offsets: 24, 33, 57, 85
+mu00102_3
+	bounds: 0, 79, 13, 16
+	offsets: 28, 28, 57, 85
+mu00103_0
+	bounds: 84, 111, 11, 17
+	offsets: 22, 33, 57, 85
+mu00103_1
+	bounds: 0, 11, 12, 17
+	offsets: 23, 33, 57, 85
+mu00103_2
+	bounds: 95, 111, 11, 17
+	offsets: 22, 32, 57, 85
+mu00103_3
+	bounds: 106, 111, 11, 17
+	offsets: 22, 32, 57, 85
+mu00103_4
+	bounds: 117, 111, 11, 17
+	offsets: 24, 32, 57, 85
+mu00103_5
+	bounds: 13, 94, 11, 17
+	offsets: 24, 32, 57, 85
+mu00103_6
+	bounds: 13, 77, 11, 17
+	offsets: 22, 32, 57, 85
+mu00103_7
+	bounds: 13, 77, 11, 17
+	offsets: 22, 32, 57, 85
+mu00103_8
+	bounds: 27, 111, 12, 17
+	offsets: 23, 32, 57, 85
+mu00103_9
+	bounds: 39, 111, 12, 17
+	offsets: 23, 32, 57, 85

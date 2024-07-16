@@ -1,0 +1,240 @@
+wh232.png
+	size: 64, 64
+wh23201_0
+	bounds: 0, 17, 18, 21
+	offsets: 17, 39, 57, 85
+wh23201_1
+	bounds: 0, 17, 18, 21
+	offsets: 17, 39, 57, 85
+wh23201_2
+	bounds: 0, 17, 18, 21
+	offsets: 17, 38, 57, 85
+wh23201_3
+	bounds: 0, 17, 18, 21
+	offsets: 17, 39, 57, 85
+wh23201_4
+	bounds: 0, 17, 18, 21
+	offsets: 17, 38, 57, 85
+wh23202_0
+	bounds: 0, 17, 18, 21
+	offsets: 17, 39, 57, 85
+wh23202_1
+	bounds: 0, 17, 18, 21
+	offsets: 25, 38, 57, 85
+wh23203_0
+	bounds: 0, 17, 18, 21
+	offsets: 17, 40, 57, 85
+wh23203_2
+	bounds: 0, 17, 18, 21
+	offsets: 17, 39, 57, 85
+wh23203_3
+	bounds: 0, 17, 18, 21
+	offsets: 19, 37, 57, 85
+wh23203_6
+	bounds: 0, 17, 18, 21
+	offsets: 17, 39, 57, 85
+wh23203_7
+	bounds: 0, 17, 18, 21
+	offsets: 17, 39, 57, 85
+wh232b_0
+	bounds: 0, 17, 18, 21
+	offsets: 17, 39, 57, 85
+wh232b_1
+	bounds: 0, 17, 18, 21
+	offsets: 17, 39, 57, 85
+wh232b_2
+	bounds: 0, 17, 18, 21
+	offsets: 17, 39, 57, 85
+wh232c_0
+	bounds: 0, 17, 18, 21
+	offsets: 17, 39, 57, 85
+wh232c_1
+	bounds: 0, 17, 18, 21
+	offsets: 25, 38, 57, 85
+wh232c_10
+	bounds: 0, 17, 18, 21
+	offsets: 18, 33, 57, 85
+wh232c_2
+	bounds: 0, 17, 18, 21
+	offsets: 25, 38, 57, 85
+wh232c_3
+	bounds: 0, 17, 18, 21
+	offsets: 27, 33, 57, 85
+wh232c_8
+	bounds: 0, 17, 18, 21
+	offsets: 17, 34, 57, 85
+wh232c_9
+	bounds: 0, 17, 18, 21
+	offsets: 16, 49, 57, 85
+wh232d_0
+	bounds: 0, 17, 18, 21
+	offsets: 11, 33, 57, 85
+wh232d_1
+	bounds: 0, 17, 18, 21
+	offsets: 12, 39, 57, 85
+wh232d_10
+	bounds: 0, 17, 18, 21
+	offsets: 21, 40, 57, 85
+wh232d_11
+	bounds: 0, 17, 18, 21
+	offsets: 24, 44, 57, 85
+wh232d_12
+	bounds: 0, 17, 18, 21
+	offsets: 13, 40, 57, 85
+wh232d_13
+	bounds: 0, 17, 18, 21
+	offsets: 21, 40, 57, 85
+wh232d_2
+	bounds: 0, 17, 18, 21
+	offsets: 12, 41, 57, 85
+wh232d_6
+	bounds: 0, 17, 18, 21
+	offsets: 25, 38, 57, 85
+wh232d_7
+	bounds: 0, 17, 18, 21
+	offsets: 25, 38, 57, 85
+wh232e_0
+	bounds: 0, 17, 18, 21
+	offsets: 20, 39, 57, 85
+wh232e_1
+	bounds: 0, 17, 18, 21
+	offsets: 26, 32, 57, 85
+wh232e_4
+	bounds: 0, 17, 18, 21
+	offsets: 26, 32, 57, 85
+wh232e_5
+	bounds: 0, 17, 18, 21
+	offsets: 26, 32, 57, 85
+wh232f_0
+	bounds: 0, 17, 18, 21
+	offsets: 17, 39, 57, 85
+wh232f_1
+	bounds: 0, 17, 18, 21
+	offsets: 17, 40, 57, 85
+wh23201_5
+	bounds: 0, 0, 16, 17
+	offsets: 20, 44, 57, 85
+wh23201_6
+	bounds: 0, 0, 16, 17
+	offsets: 20, 44, 57, 85
+wh23201_7
+	bounds: 0, 0, 16, 17
+	offsets: 20, 43, 57, 85
+wh23201_8
+	bounds: 0, 0, 16, 17
+	offsets: 20, 44, 57, 85
+wh23201_9
+	bounds: 0, 0, 16, 17
+	offsets: 20, 43, 57, 85
+wh23202_2
+	bounds: 0, 0, 16, 17
+	offsets: 20, 44, 57, 85
+wh23202_3
+	bounds: 0, 0, 16, 17
+	offsets: 32, 35, 57, 85
+wh23203_1
+	bounds: 0, 0, 16, 17
+	offsets: 20, 45, 57, 85
+wh23203_4
+	bounds: 0, 0, 16, 17
+	offsets: 20, 44, 57, 85
+wh23203_5
+	bounds: 0, 0, 16, 17
+	offsets: 23, 43, 57, 85
+wh23203_8
+	bounds: 0, 0, 16, 17
+	offsets: 20, 44, 57, 85
+wh23203_9
+	bounds: 0, 0, 16, 17
+	offsets: 20, 44, 57, 85
+wh232b_3
+	bounds: 0, 0, 16, 17
+	offsets: 20, 44, 57, 85
+wh232b_4
+	bounds: 0, 0, 16, 17
+	offsets: 20, 44, 57, 85
+wh232b_5
+	bounds: 0, 0, 16, 17
+	offsets: 20, 44, 57, 85
+wh232c_11
+	bounds: 0, 0, 16, 17
+	offsets: 21, 39, 57, 85
+wh232c_12
+	bounds: 0, 0, 16, 17
+	offsets: 20, 56, 57, 85
+wh232c_13
+	bounds: 0, 0, 16, 17
+	offsets: 26, 33, 57, 85
+wh232c_4
+	bounds: 0, 0, 16, 17
+	offsets: 20, 44, 57, 85
+wh232c_5
+	bounds: 0, 0, 16, 17
+	offsets: 32, 35, 57, 85
+wh232c_6
+	bounds: 0, 0, 16, 17
+	offsets: 32, 35, 57, 85
+wh232c_7
+	bounds: 0, 0, 16, 17
+	offsets: 32, 35, 57, 85
+wh232d_14
+	bounds: 0, 0, 16, 17
+	offsets: 27, 42, 57, 85
+wh232d_15
+	bounds: 0, 0, 16, 17
+	offsets: 23, 39, 57, 85
+wh232d_16
+	bounds: 0, 0, 16, 17
+	offsets: 17, 41, 57, 85
+wh232d_17
+	bounds: 0, 0, 16, 17
+	offsets: 27, 42, 57, 85
+wh232d_3
+	bounds: 0, 0, 16, 17
+	offsets: 12, 47, 57, 85
+wh232d_4
+	bounds: 0, 0, 16, 17
+	offsets: 20, 43, 57, 85
+wh232d_5
+	bounds: 0, 0, 16, 17
+	offsets: 20, 45, 57, 85
+wh232d_8
+	bounds: 0, 0, 16, 17
+	offsets: 32, 35, 57, 85
+wh232d_9
+	bounds: 0, 0, 16, 17
+	offsets: 32, 35, 57, 85
+wh232e_2
+	bounds: 0, 0, 16, 17
+	offsets: 20, 44, 57, 85
+wh232e_3
+	bounds: 0, 0, 16, 17
+	offsets: 34, 28, 57, 85
+wh232e_6
+	bounds: 0, 0, 16, 17
+	offsets: 34, 28, 57, 85
+wh232e_7
+	bounds: 0, 0, 16, 17
+	offsets: 34, 28, 57, 85
+wh232f_2
+	bounds: 0, 0, 16, 17
+	offsets: 20, 44, 57, 85
+wh232f_3
+	bounds: 0, 0, 16, 17
+	offsets: 20, 45, 57, 85
+wh232c_14
+	bounds: 18, 37, 1, 1
+wh232c_15
+	bounds: 18, 37, 1, 1
+wh232c_16
+	bounds: 18, 37, 1, 1
+wh232c_17
+	bounds: 18, 37, 1, 1
+wh232c_18
+	bounds: 18, 37, 1, 1
+wh232c_19
+	bounds: 18, 37, 1, 1
+wh232d_18
+	bounds: 18, 37, 1, 1
+wh232d_19
+	bounds: 18, 37, 1, 1

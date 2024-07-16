@@ -1,0 +1,162 @@
+mu024.png
+	size: 128, 128
+mu02401_0
+	bounds: 91, 100, 16, 28
+	offsets: 20, 19, 57, 85
+mu02401_1
+	bounds: 24, 44, 21, 27
+	offsets: 19, 20, 57, 85
+mu02401_2
+	bounds: 0, 100, 27, 28
+	offsets: 16, 18, 57, 85
+mu02401_3
+	bounds: 0, 1, 17, 24
+	offsets: 19, 23, 57, 85
+mu02401_4
+	bounds: 54, 103, 20, 25
+	offsets: 18, 21, 57, 85
+mu02401_5
+	bounds: 83, 30, 16, 25
+	offsets: 20, 22, 57, 85
+mu02401_6
+	bounds: 0, 76, 24, 24
+	offsets: 17, 23, 57, 85
+mu02401_7
+	bounds: 27, 99, 27, 29
+	offsets: 16, 17, 57, 85
+mu02401_8
+	bounds: 45, 42, 20, 27
+	offsets: 18, 20, 57, 85
+mu02401_9
+	bounds: 0, 25, 21, 25
+	offsets: 18, 21, 57, 85
+mu02402_0
+	bounds: 114, 93, 13, 35
+	offsets: 21, 19, 57, 85
+mu02402_1
+	bounds: 99, 28, 16, 27
+	offsets: 26, 21, 57, 85
+mu02402_2
+	bounds: 114, 3, 13, 25
+	offsets: 22, 22, 57, 85
+mu02402_3
+	bounds: 58, 2, 15, 26
+	offsets: 24, 18, 57, 85
+mu02403_0
+	bounds: 74, 86, 17, 42
+	offsets: 19, 20, 57, 85
+mu02403_1
+	bounds: 65, 28, 18, 41
+	offsets: 19, 23, 57, 85
+mu02403_2
+	bounds: 83, 55, 17, 31
+	offsets: 21, 19, 57, 85
+mu02403_3
+	bounds: 24, 71, 24, 28
+	offsets: 21, 19, 57, 85
+mu02403_4
+	bounds: 40, 14, 18, 28
+	offsets: 20, 22, 57, 85
+mu02403_5
+	bounds: 0, 50, 24, 26
+	offsets: 20, 22, 57, 85
+mu02403_6
+	bounds: 21, 12, 19, 32
+	offsets: 20, 19, 57, 85
+mu02403_7
+	bounds: 48, 69, 22, 30
+	offsets: 20, 19, 57, 85
+mu02403_8
+	bounds: 100, 70, 14, 30
+	offsets: 22, 22, 57, 85
+mu02403_9
+	bounds: 83, 0, 16, 30
+	offsets: 20, 22, 57, 85
+mu024e_0
+	bounds: 73, 1, 10, 27
+	offsets: 25, 20, 57, 85
+mu024e_1
+	bounds: 99, 4, 15, 24
+	offsets: 27, 16, 57, 85
+mu024e_4
+	bounds: 99, 4, 15, 24
+	offsets: 27, 16, 57, 85
+mu024e_5
+	bounds: 99, 4, 15, 24
+	offsets: 27, 16, 57, 85
+mu024e_2
+	bounds: 115, 44, 12, 24
+	offsets: 23, 23, 57, 85
+mu024e_3
+	bounds: 114, 68, 13, 25
+	offsets: 32, 10, 57, 85
+mu024e_6
+	bounds: 114, 68, 13, 25
+	offsets: 32, 10, 57, 85
+mu024e_7
+	bounds: 114, 68, 13, 25
+	offsets: 32, 10, 57, 85
+mu024e_8
+	bounds: 24, 99, 1, 1
+mu024e_10
+	bounds: 24, 99, 1, 1
+mu024e_11
+	bounds: 24, 99, 1, 1
+mu024e_12
+	bounds: 24, 99, 1, 1
+mu024e_13
+	bounds: 24, 99, 1, 1
+mu024e_14
+	bounds: 24, 99, 1, 1
+mu024e_15
+	bounds: 24, 99, 1, 1
+mu024e_16
+	bounds: 24, 99, 1, 1
+mu024e_17
+	bounds: 24, 99, 1, 1
+mu024e_18
+	bounds: 24, 99, 1, 1
+mu024e_19
+	bounds: 24, 99, 1, 1
+mu024e_20
+	bounds: 24, 99, 1, 1
+mu024e_21
+	bounds: 24, 99, 1, 1
+mu024e_22
+	bounds: 24, 99, 1, 1
+mu024e_23
+	bounds: 24, 99, 1, 1
+mu024e_24
+	bounds: 24, 99, 1, 1
+mu024e_25
+	bounds: 24, 99, 1, 1
+mu024e_26
+	bounds: 24, 99, 1, 1
+mu024e_27
+	bounds: 24, 99, 1, 1
+mu024e_28
+	bounds: 24, 99, 1, 1
+mu024e_29
+	bounds: 24, 99, 1, 1
+mu024e_30
+	bounds: 24, 99, 1, 1
+mu024e_31
+	bounds: 24, 99, 1, 1
+mu024e_32
+	bounds: 24, 99, 1, 1
+mu024e_33
+	bounds: 24, 99, 1, 1
+mu024e_34
+	bounds: 24, 99, 1, 1
+mu024e_35
+	bounds: 24, 99, 1, 1
+mu024e_36
+	bounds: 24, 99, 1, 1
+mu024e_37
+	bounds: 24, 99, 1, 1
+mu024e_38
+	bounds: 24, 99, 1, 1
+mu024e_39
+	bounds: 24, 99, 1, 1
+mu024e_9
+	bounds: 24, 99, 1, 1

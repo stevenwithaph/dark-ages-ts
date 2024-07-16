@@ -1,0 +1,424 @@
+mc264.png
+	size: 128, 128
+mc26401_0
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc26401_1
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc26401_2
+	bounds: 0, 36, 14, 19
+	offsets: 54, 45, 111, 85
+mc26401_3
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc26401_4
+	bounds: 0, 36, 14, 19
+	offsets: 54, 45, 111, 85
+mc26402_1
+	bounds: 0, 36, 14, 19
+	offsets: 63, 47, 111, 85
+mc26403_2
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc26403_3
+	bounds: 0, 36, 14, 19
+	offsets: 56, 44, 111, 85
+mc26403_6
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc26403_7
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc264b_0
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc264b_1
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc264b_12
+	bounds: 0, 36, 14, 19
+	offsets: 54, 47, 111, 85
+mc264b_2
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc264b_6
+	bounds: 0, 36, 14, 19
+	offsets: 54, 47, 111, 85
+mc264b_7
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc264b_8
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc264c_1
+	bounds: 0, 36, 14, 19
+	offsets: 63, 47, 111, 85
+mc264c_10
+	bounds: 0, 36, 14, 19
+	offsets: 55, 40, 111, 85
+mc264c_14
+	bounds: 0, 36, 14, 19
+	offsets: 55, 40, 111, 85
+mc264c_15
+	bounds: 0, 36, 14, 19
+	offsets: 58, 37, 111, 85
+mc264c_18
+	bounds: 0, 36, 14, 19
+	offsets: 44, 39, 111, 85
+mc264c_19
+	bounds: 0, 36, 14, 19
+	offsets: 58, 38, 111, 85
+mc264c_2
+	bounds: 0, 36, 14, 19
+	offsets: 63, 47, 111, 85
+mc264c_20
+	bounds: 0, 36, 14, 19
+	offsets: 58, 37, 111, 85
+mc264c_24
+	bounds: 0, 36, 14, 19
+	offsets: 54, 41, 111, 85
+mc264c_26
+	bounds: 0, 36, 14, 19
+	offsets: 62, 29, 111, 85
+mc264c_3
+	bounds: 0, 36, 14, 19
+	offsets: 65, 43, 111, 85
+mc264c_8
+	bounds: 0, 36, 14, 19
+	offsets: 54, 41, 111, 85
+mc264d_0
+	bounds: 0, 36, 14, 19
+	offsets: 48, 40, 111, 85
+mc264d_1
+	bounds: 0, 36, 14, 19
+	offsets: 49, 46, 111, 85
+mc264d_10
+	bounds: 0, 36, 14, 19
+	offsets: 58, 47, 111, 85
+mc264d_11
+	bounds: 0, 36, 14, 19
+	offsets: 61, 51, 111, 85
+mc264d_12
+	bounds: 0, 36, 14, 19
+	offsets: 50, 47, 111, 85
+mc264d_13
+	bounds: 0, 36, 14, 19
+	offsets: 58, 47, 111, 85
+mc264d_2
+	bounds: 0, 36, 14, 19
+	offsets: 49, 48, 111, 85
+mc264d_6
+	bounds: 0, 36, 14, 19
+	offsets: 63, 47, 111, 85
+mc264d_7
+	bounds: 0, 36, 14, 19
+	offsets: 63, 47, 111, 85
+mc264e_0
+	bounds: 0, 36, 14, 19
+	offsets: 57, 46, 111, 85
+mc264e_1
+	bounds: 0, 36, 14, 19
+	offsets: 63, 39, 111, 85
+mc264e_10
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264e_11
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264e_16
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264e_17
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264e_18
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264e_19
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264e_20
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264e_21
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264e_28
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264e_29
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264e_30
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264e_31
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264e_4
+	bounds: 0, 36, 14, 19
+	offsets: 63, 39, 111, 85
+mc264e_5
+	bounds: 0, 36, 14, 19
+	offsets: 63, 39, 111, 85
+mc264e_8
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264e_9
+	bounds: 0, 36, 14, 19
+	offsets: 51, 48, 111, 85
+mc264f_0
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc264f_4
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc264f_5
+	bounds: 0, 36, 14, 19
+	offsets: 54, 46, 111, 85
+mc26401_5
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc26401_6
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc26401_7
+	bounds: 0, 91, 15, 20
+	offsets: 38, 45, 111, 85
+mc26401_8
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc26401_9
+	bounds: 0, 91, 15, 20
+	offsets: 38, 45, 111, 85
+mc26402_2
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc26402_3
+	bounds: 0, 91, 15, 20
+	offsets: 49, 38, 111, 85
+mc26403_4
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc26403_5
+	bounds: 0, 91, 15, 20
+	offsets: 41, 45, 111, 85
+mc26403_8
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc264b_10
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc264b_11
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc264b_13
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264b_3
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc264b_5
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc264b_9
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264c_11
+	bounds: 0, 91, 15, 20
+	offsets: 39, 41, 111, 85
+mc264c_12
+	bounds: 0, 91, 15, 20
+	offsets: 38, 58, 111, 85
+mc264c_13
+	bounds: 0, 91, 15, 20
+	offsets: 44, 35, 111, 85
+mc264c_16
+	bounds: 0, 91, 15, 20
+	offsets: 46, 39, 111, 85
+mc264c_17
+	bounds: 0, 91, 15, 20
+	offsets: 56, 28, 111, 85
+mc264c_21
+	bounds: 0, 91, 15, 20
+	offsets: 30, 41, 111, 85
+mc264c_22
+	bounds: 0, 91, 15, 20
+	offsets: 50, 32, 111, 85
+mc264c_23
+	bounds: 0, 91, 15, 20
+	offsets: 56, 28, 111, 85
+mc264c_27
+	bounds: 0, 91, 15, 20
+	offsets: 39, 41, 111, 85
+mc264c_28
+	bounds: 0, 91, 15, 20
+	offsets: 38, 63, 111, 85
+mc264c_29
+	bounds: 0, 91, 15, 20
+	offsets: 43, 30, 111, 85
+mc264c_5
+	bounds: 0, 91, 15, 20
+	offsets: 49, 38, 111, 85
+mc264c_6
+	bounds: 0, 91, 15, 20
+	offsets: 49, 38, 111, 85
+mc264c_7
+	bounds: 0, 91, 15, 20
+	offsets: 53, 37, 111, 85
+mc264d_14
+	bounds: 0, 91, 15, 20
+	offsets: 45, 44, 111, 85
+mc264d_15
+	bounds: 0, 91, 15, 20
+	offsets: 41, 41, 111, 85
+mc264d_16
+	bounds: 0, 91, 15, 20
+	offsets: 35, 43, 111, 85
+mc264d_17
+	bounds: 0, 91, 15, 20
+	offsets: 45, 44, 111, 85
+mc264d_3
+	bounds: 0, 91, 15, 20
+	offsets: 30, 49, 111, 85
+mc264d_4
+	bounds: 0, 91, 15, 20
+	offsets: 38, 45, 111, 85
+mc264d_5
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264d_8
+	bounds: 0, 91, 15, 20
+	offsets: 49, 38, 111, 85
+mc264d_9
+	bounds: 0, 91, 15, 20
+	offsets: 49, 38, 111, 85
+mc264e_12
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_13
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_14
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_15
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_2
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc264e_22
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_23
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_24
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_25
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_26
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_27
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_3
+	bounds: 0, 91, 15, 20
+	offsets: 52, 30, 111, 85
+mc264e_32
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_33
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_34
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_35
+	bounds: 0, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264e_6
+	bounds: 0, 91, 15, 20
+	offsets: 52, 30, 111, 85
+mc264e_7
+	bounds: 0, 91, 15, 20
+	offsets: 52, 30, 111, 85
+mc264f_2
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc264f_8
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc264f_9
+	bounds: 0, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc26402_0
+	bounds: 0, 0, 13, 19
+	offsets: 55, 46, 111, 85
+mc26403_0
+	bounds: 30, 74, 14, 17
+	offsets: 54, 49, 111, 85
+mc26403_1
+	bounds: 0, 73, 15, 18
+	offsets: 38, 49, 111, 85
+mc26403_9
+	bounds: 15, 91, 15, 20
+	offsets: 38, 46, 111, 85
+mc264b_14
+	bounds: 15, 70, 1, 1
+mc264d_18
+	bounds: 15, 70, 1, 1
+mc264d_19
+	bounds: 15, 70, 1, 1
+mc264e_36
+	bounds: 15, 70, 1, 1
+mc264e_37
+	bounds: 15, 70, 1, 1
+mc264e_38
+	bounds: 15, 70, 1, 1
+mc264e_39
+	bounds: 15, 70, 1, 1
+mc264f_12
+	bounds: 15, 70, 1, 1
+mc264f_13
+	bounds: 15, 70, 1, 1
+mc264f_14
+	bounds: 15, 70, 1, 1
+mc264b_4
+	bounds: 0, 55, 15, 18
+	offsets: 38, 48, 111, 85
+mc264c_0
+	bounds: 45, 94, 14, 17
+	offsets: 54, 48, 111, 85
+mc264c_4
+	bounds: 15, 71, 15, 20
+	offsets: 38, 46, 111, 85
+mc264c_9
+	bounds: 73, 92, 13, 19
+	offsets: 54, 56, 111, 85
+mc264c_25
+	bounds: 73, 92, 13, 19
+	offsets: 54, 61, 111, 85
+mc264f_1
+	bounds: 0, 19, 14, 17
+	offsets: 54, 49, 111, 85
+mc264f_10
+	bounds: 86, 91, 11, 20
+	offsets: 38, 47, 111, 85
+mc264f_11
+	bounds: 86, 91, 11, 20
+	offsets: 38, 47, 111, 85
+mc264f_3
+	bounds: 30, 91, 15, 20
+	offsets: 38, 47, 111, 85
+mc264f_6
+	bounds: 59, 94, 14, 17
+	offsets: 54, 49, 111, 85
+mc264f_7
+	bounds: 59, 94, 14, 17
+	offsets: 54, 49, 111, 85

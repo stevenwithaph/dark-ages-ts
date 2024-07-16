@@ -1,0 +1,444 @@
+mh320.png
+	size: 64, 64
+mh32001_0
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh32001_1
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh32001_2
+	bounds: 0, 1, 19, 20
+	offsets: 17, 43, 57, 85
+mh32001_3
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh32001_4
+	bounds: 0, 1, 19, 20
+	offsets: 17, 43, 57, 85
+mh32002_0
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh32002_1
+	bounds: 0, 1, 19, 20
+	offsets: 26, 45, 57, 85
+mh32003_0
+	bounds: 0, 1, 19, 20
+	offsets: 17, 45, 57, 85
+mh32003_2
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh32003_3
+	bounds: 0, 1, 19, 20
+	offsets: 19, 42, 57, 85
+mh32003_6
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh32003_7
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh320b_0
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh320b_1
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh320b_12
+	bounds: 0, 1, 19, 20
+	offsets: 17, 45, 57, 85
+mh320b_2
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh320b_6
+	bounds: 0, 1, 19, 20
+	offsets: 17, 45, 57, 85
+mh320b_7
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh320b_8
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh320c_0
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh320c_1
+	bounds: 0, 1, 19, 20
+	offsets: 26, 45, 57, 85
+mh320c_10
+	bounds: 0, 1, 19, 20
+	offsets: 18, 38, 57, 85
+mh320c_14
+	bounds: 0, 1, 19, 20
+	offsets: 18, 38, 57, 85
+mh320c_15
+	bounds: 0, 1, 19, 20
+	offsets: 21, 35, 57, 85
+mh320c_18
+	bounds: 0, 1, 19, 20
+	offsets: 7, 37, 57, 85
+mh320c_19
+	bounds: 0, 1, 19, 20
+	offsets: 21, 36, 57, 85
+mh320c_2
+	bounds: 0, 1, 19, 20
+	offsets: 26, 45, 57, 85
+mh320c_20
+	bounds: 0, 1, 19, 20
+	offsets: 21, 35, 57, 85
+mh320c_24
+	bounds: 0, 1, 19, 20
+	offsets: 17, 39, 57, 85
+mh320c_25
+	bounds: 0, 1, 19, 20
+	offsets: 16, 59, 57, 85
+mh320c_26
+	bounds: 0, 1, 19, 20
+	offsets: 25, 27, 57, 85
+mh320c_3
+	bounds: 0, 1, 19, 20
+	offsets: 28, 41, 57, 85
+mh320c_8
+	bounds: 0, 1, 19, 20
+	offsets: 17, 39, 57, 85
+mh320c_9
+	bounds: 0, 1, 19, 20
+	offsets: 16, 54, 57, 85
+mh320d_0
+	bounds: 0, 1, 19, 20
+	offsets: 11, 38, 57, 85
+mh320d_1
+	bounds: 0, 1, 19, 20
+	offsets: 12, 44, 57, 85
+mh320d_10
+	bounds: 0, 1, 19, 20
+	offsets: 21, 45, 57, 85
+mh320d_11
+	bounds: 0, 1, 19, 20
+	offsets: 24, 49, 57, 85
+mh320d_12
+	bounds: 0, 1, 19, 20
+	offsets: 13, 45, 57, 85
+mh320d_2
+	bounds: 0, 1, 19, 20
+	offsets: 12, 46, 57, 85
+mh320d_6
+	bounds: 0, 1, 19, 20
+	offsets: 26, 45, 57, 85
+mh320d_7
+	bounds: 0, 1, 19, 20
+	offsets: 26, 45, 57, 85
+mh320e_0
+	bounds: 0, 1, 19, 20
+	offsets: 20, 44, 57, 85
+mh320e_1
+	bounds: 0, 1, 19, 20
+	offsets: 26, 37, 57, 85
+mh320e_10
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320e_11
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320e_16
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320e_17
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320e_18
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320e_19
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320e_20
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320e_21
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320e_28
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320e_29
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320e_30
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320e_31
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320e_4
+	bounds: 0, 1, 19, 20
+	offsets: 26, 37, 57, 85
+mh320e_5
+	bounds: 0, 1, 19, 20
+	offsets: 26, 37, 57, 85
+mh320e_8
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320e_9
+	bounds: 0, 1, 19, 20
+	offsets: 14, 46, 57, 85
+mh320f_0
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh320f_1
+	bounds: 0, 1, 19, 20
+	offsets: 17, 45, 57, 85
+mh320f_4
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh320f_5
+	bounds: 0, 1, 19, 20
+	offsets: 17, 44, 57, 85
+mh320f_6
+	bounds: 0, 1, 19, 20
+	offsets: 17, 45, 57, 85
+mh320f_7
+	bounds: 0, 1, 19, 20
+	offsets: 17, 45, 57, 85
+mh32001_5
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh32001_6
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh32001_7
+	bounds: 20, 25, 18, 16
+	offsets: 19, 47, 57, 85
+mh32001_8
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh32001_9
+	bounds: 20, 25, 18, 16
+	offsets: 19, 47, 57, 85
+mh32002_2
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh32002_3
+	bounds: 20, 25, 18, 16
+	offsets: 30, 40, 57, 85
+mh32003_1
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh32003_4
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh32003_5
+	bounds: 20, 25, 18, 16
+	offsets: 22, 47, 57, 85
+mh32003_8
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh32003_9
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh320b_10
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh320b_11
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh320b_13
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320b_3
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh320b_4
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh320b_5
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh320b_9
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320c_11
+	bounds: 20, 25, 18, 16
+	offsets: 20, 43, 57, 85
+mh320c_12
+	bounds: 20, 25, 18, 16
+	offsets: 19, 60, 57, 85
+mh320c_13
+	bounds: 20, 25, 18, 16
+	offsets: 25, 37, 57, 85
+mh320c_16
+	bounds: 20, 25, 18, 16
+	offsets: 27, 41, 57, 85
+mh320c_17
+	bounds: 20, 25, 18, 16
+	offsets: 37, 30, 57, 85
+mh320c_21
+	bounds: 20, 25, 18, 16
+	offsets: 11, 43, 57, 85
+mh320c_22
+	bounds: 20, 25, 18, 16
+	offsets: 31, 34, 57, 85
+mh320c_23
+	bounds: 20, 25, 18, 16
+	offsets: 37, 30, 57, 85
+mh320c_27
+	bounds: 20, 25, 18, 16
+	offsets: 20, 43, 57, 85
+mh320c_28
+	bounds: 20, 25, 18, 16
+	offsets: 19, 65, 57, 85
+mh320c_29
+	bounds: 20, 25, 18, 16
+	offsets: 24, 32, 57, 85
+mh320c_4
+	bounds: 20, 25, 18, 16
+	offsets: 18, 48, 57, 85
+mh320c_5
+	bounds: 20, 25, 18, 16
+	offsets: 30, 40, 57, 85
+mh320c_6
+	bounds: 20, 25, 18, 16
+	offsets: 30, 40, 57, 85
+mh320c_7
+	bounds: 20, 25, 18, 16
+	offsets: 34, 39, 57, 85
+mh320d_14
+	bounds: 20, 25, 18, 16
+	offsets: 26, 46, 57, 85
+mh320d_15
+	bounds: 20, 25, 18, 16
+	offsets: 22, 43, 57, 85
+mh320d_16
+	bounds: 20, 25, 18, 16
+	offsets: 16, 45, 57, 85
+mh320d_17
+	bounds: 20, 25, 18, 16
+	offsets: 26, 46, 57, 85
+mh320d_3
+	bounds: 20, 25, 18, 16
+	offsets: 11, 51, 57, 85
+mh320d_4
+	bounds: 20, 25, 18, 16
+	offsets: 19, 47, 57, 85
+mh320d_5
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320d_8
+	bounds: 20, 25, 18, 16
+	offsets: 30, 40, 57, 85
+mh320d_9
+	bounds: 20, 25, 18, 16
+	offsets: 30, 40, 57, 85
+mh320e_12
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_13
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_14
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_15
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_2
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh320e_22
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_23
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_24
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_25
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_26
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_27
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_3
+	bounds: 20, 25, 18, 16
+	offsets: 33, 32, 57, 85
+mh320e_32
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_33
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_34
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_35
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320e_6
+	bounds: 20, 25, 18, 16
+	offsets: 33, 32, 57, 85
+mh320e_7
+	bounds: 20, 25, 18, 16
+	offsets: 33, 32, 57, 85
+mh320f_10
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320f_11
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320f_2
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh320f_3
+	bounds: 20, 25, 18, 16
+	offsets: 19, 49, 57, 85
+mh320f_8
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh320f_9
+	bounds: 20, 25, 18, 16
+	offsets: 19, 48, 57, 85
+mh320b_14
+	bounds: 0, 0, 1, 1
+mh320b_15
+	bounds: 0, 0, 1, 1
+mh320b_16
+	bounds: 0, 0, 1, 1
+mh320b_17
+	bounds: 0, 0, 1, 1
+mh320b_18
+	bounds: 0, 0, 1, 1
+mh320b_19
+	bounds: 0, 0, 1, 1
+mh320d_18
+	bounds: 0, 0, 1, 1
+mh320d_19
+	bounds: 0, 0, 1, 1
+mh320e_36
+	bounds: 0, 0, 1, 1
+mh320e_37
+	bounds: 0, 0, 1, 1
+mh320e_38
+	bounds: 0, 0, 1, 1
+mh320e_39
+	bounds: 0, 0, 1, 1
+mh320f_12
+	bounds: 0, 0, 1, 1
+mh320f_13
+	bounds: 0, 0, 1, 1
+mh320f_14
+	bounds: 0, 0, 1, 1
+mh320f_15
+	bounds: 0, 0, 1, 1
+mh320f_16
+	bounds: 0, 0, 1, 1
+mh320f_17
+	bounds: 0, 0, 1, 1
+mh320f_18
+	bounds: 0, 0, 1, 1
+mh320f_19
+	bounds: 0, 0, 1, 1
+mh320d_13
+	bounds: 0, 21, 20, 20
+	offsets: 21, 45, 57, 85

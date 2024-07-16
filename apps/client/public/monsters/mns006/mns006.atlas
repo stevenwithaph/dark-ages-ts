@@ -1,0 +1,26 @@
+mns006.png
+	size: 128, 128
+mns006_0
+	bounds: 43, 4, 35, 27
+	offsets: 8, 8, 56, 88
+mns006_1
+	bounds: 43, 31, 36, 29
+	offsets: 7, 7, 56, 88
+mns006_2
+	bounds: 52, 60, 38, 30
+	offsets: 5, 7, 56, 88
+mns006_3
+	bounds: 79, 27, 35, 33
+	offsets: 8, 9, 56, 88
+mns006_4
+	bounds: 91, 94, 37, 34
+	offsets: 7, 9, 56, 88
+mns006_5
+	bounds: 52, 90, 39, 38
+	offsets: 5, 9, 56, 88
+mns006_6
+	bounds: 0, 24, 43, 56
+	offsets: 3, 1, 56, 88
+mns006_7
+	bounds: 0, 80, 52, 48
+	offsets: 1, 9, 56, 88

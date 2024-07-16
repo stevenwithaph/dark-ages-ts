@@ -1,0 +1,126 @@
+mu286.png
+	size: 256, 256
+mu28601_0
+	bounds: 30, 10, 19, 39
+	offsets: 18, 9, 57, 85
+mu28601_1
+	bounds: 132, 132, 26, 39
+	offsets: 13, 9, 57, 85
+mu28601_2
+	bounds: 98, 171, 35, 40
+	offsets: 6, 7, 57, 85
+mu28601_3
+	bounds: 219, 140, 18, 38
+	offsets: 17, 10, 57, 85
+mu28601_4
+	bounds: 83, 59, 27, 37
+	offsets: 14, 10, 57, 85
+mu28601_5
+	bounds: 110, 72, 23, 38
+	offsets: 18, 10, 57, 85
+mu28601_6
+	bounds: 186, 184, 25, 35
+	offsets: 14, 13, 57, 85
+mu28601_7
+	bounds: 0, 8, 30, 41
+	offsets: 10, 6, 57, 85
+mu28601_8
+	bounds: 179, 55, 19, 38
+	offsets: 18, 10, 57, 85
+mu28601_9
+	bounds: 160, 178, 26, 38
+	offsets: 16, 9, 57, 85
+mu28602_0
+	bounds: 181, 134, 19, 44
+	offsets: 18, 9, 57, 85
+mu28602_1
+	bounds: 147, 216, 35, 40
+	offsets: 9, 9, 57, 85
+mu28602_2
+	bounds: 133, 89, 23, 43
+	offsets: 18, 10, 57, 85
+mu28602_3
+	bounds: 133, 171, 27, 40
+	offsets: 15, 4, 57, 85
+mu28603_0
+	bounds: 200, 128, 19, 50
+	offsets: 18, 9, 57, 85
+mu28603_1
+	bounds: 156, 82, 23, 50
+	offsets: 18, 10, 57, 85
+mu28603_2
+	bounds: 179, 93, 20, 39
+	offsets: 18, 9, 57, 85
+mu28603_3
+	bounds: 211, 178, 24, 39
+	offsets: 18, 9, 57, 85
+mu28603_4
+	bounds: 133, 51, 23, 38
+	offsets: 18, 10, 57, 85
+mu28603_5
+	bounds: 83, 21, 24, 38
+	offsets: 18, 10, 57, 85
+mu28603_6
+	bounds: 235, 178, 21, 39
+	offsets: 18, 9, 57, 85
+mu28603_7
+	bounds: 158, 132, 23, 39
+	offsets: 18, 9, 57, 85
+mu28603_8
+	bounds: 110, 34, 23, 38
+	offsets: 18, 10, 57, 85
+mu28603_9
+	bounds: 156, 44, 23, 38
+	offsets: 18, 10, 57, 85
+mu286f_0
+	bounds: 215, 217, 30, 39
+	offsets: 13, 9, 57, 85
+mu286f_1
+	bounds: 98, 110, 34, 61
+	offsets: 11, 9, 57, 85
+mu286f_10
+	bounds: 0, 49, 49, 59
+	offsets: 3, 2, 57, 85
+mu286f_11
+	bounds: 49, 96, 49, 59
+	offsets: 3, 2, 57, 85
+mu286f_12
+	bounds: 132, 131, 1, 1
+mu286f_13
+	bounds: 132, 131, 1, 1
+mu286f_14
+	bounds: 132, 131, 1, 1
+mu286f_15
+	bounds: 132, 131, 1, 1
+mu286f_16
+	bounds: 132, 131, 1, 1
+mu286f_17
+	bounds: 132, 131, 1, 1
+mu286f_18
+	bounds: 132, 131, 1, 1
+mu286f_19
+	bounds: 132, 131, 1, 1
+mu286f_2
+	bounds: 182, 219, 33, 37
+	offsets: 12, 11, 57, 85
+mu286f_3
+	bounds: 49, 33, 34, 63
+	offsets: 12, 11, 57, 85
+mu286f_4
+	bounds: 0, 210, 49, 46
+	offsets: 3, 2, 57, 85
+mu286f_5
+	bounds: 0, 164, 49, 46
+	offsets: 3, 2, 57, 85
+mu286f_6
+	bounds: 49, 200, 49, 56
+	offsets: 3, 2, 57, 85
+mu286f_7
+	bounds: 0, 108, 49, 56
+	offsets: 3, 2, 57, 85
+mu286f_8
+	bounds: 49, 155, 49, 45
+	offsets: 3, 2, 57, 85
+mu286f_9
+	bounds: 98, 211, 49, 45
+	offsets: 3, 2, 57, 85

@@ -1,0 +1,338 @@
+mc218.png
+	size: 256, 256
+mc21801_0
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc21801_1
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc21801_3
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc21802_0
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc21803_2
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc21803_3
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc21803_6
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc21803_7
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc218b_0
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc218b_1
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc218b_2
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc218b_7
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc218b_8
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc218c_0
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc218c_2
+	bounds: 0, 198, 65, 56
+	offsets: 21, 18, 111, 85
+mc218d_10
+	bounds: 0, 198, 65, 56
+	offsets: 18, 18, 111, 85
+mc218d_11
+	bounds: 0, 198, 65, 56
+	offsets: 22, 22, 111, 85
+mc218d_2
+	bounds: 0, 198, 65, 56
+	offsets: 9, 19, 111, 85
+mc218f_0
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc218f_4
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc218f_5
+	bounds: 0, 198, 65, 56
+	offsets: 14, 17, 111, 85
+mc218f_7
+	bounds: 0, 198, 65, 56
+	offsets: 14, 18, 111, 85
+mc21801_2
+	bounds: 126, 205, 53, 49
+	offsets: 20, 14, 111, 85
+mc21801_4
+	bounds: 126, 205, 53, 49
+	offsets: 20, 14, 111, 85
+mc21802_1
+	bounds: 126, 205, 53, 49
+	offsets: 27, 16, 111, 85
+mc218c_1
+	bounds: 126, 205, 53, 49
+	offsets: 27, 16, 111, 85
+mc218c_14
+	bounds: 126, 205, 53, 49
+	offsets: 21, 9, 111, 85
+mc218c_19
+	bounds: 126, 205, 53, 49
+	offsets: 24, 7, 111, 85
+mc218c_24
+	bounds: 126, 205, 53, 49
+	offsets: 20, 10, 111, 85
+mc218c_8
+	bounds: 126, 205, 53, 49
+	offsets: 20, 10, 111, 85
+mc218d_1
+	bounds: 126, 205, 53, 49
+	offsets: 15, 15, 111, 85
+mc218d_6
+	bounds: 126, 205, 53, 49
+	offsets: 27, 16, 111, 85
+mc218e_1
+	bounds: 126, 205, 53, 49
+	offsets: 28, 8, 111, 85
+mc218e_4
+	bounds: 126, 205, 53, 49
+	offsets: 28, 8, 111, 85
+mc21801_5
+	bounds: 65, 198, 1, 1
+mc21801_6
+	bounds: 65, 198, 1, 1
+mc21801_7
+	bounds: 65, 198, 1, 1
+mc21801_8
+	bounds: 65, 198, 1, 1
+mc21801_9
+	bounds: 65, 198, 1, 1
+mc21802_2
+	bounds: 65, 198, 1, 1
+mc21802_3
+	bounds: 65, 198, 1, 1
+mc21803_1
+	bounds: 65, 198, 1, 1
+mc21803_4
+	bounds: 65, 198, 1, 1
+mc21803_5
+	bounds: 65, 198, 1, 1
+mc21803_8
+	bounds: 65, 198, 1, 1
+mc21803_9
+	bounds: 65, 198, 1, 1
+mc218b_10
+	bounds: 65, 198, 1, 1
+mc218b_11
+	bounds: 65, 198, 1, 1
+mc218b_13
+	bounds: 65, 198, 1, 1
+mc218b_14
+	bounds: 65, 198, 1, 1
+mc218b_3
+	bounds: 65, 198, 1, 1
+mc218b_4
+	bounds: 65, 198, 1, 1
+mc218b_5
+	bounds: 65, 198, 1, 1
+mc218b_9
+	bounds: 65, 198, 1, 1
+mc218c_11
+	bounds: 65, 198, 1, 1
+mc218c_12
+	bounds: 65, 198, 1, 1
+mc218c_13
+	bounds: 65, 198, 1, 1
+mc218c_15
+	bounds: 65, 198, 1, 1
+mc218c_16
+	bounds: 65, 198, 1, 1
+mc218c_17
+	bounds: 65, 198, 1, 1
+mc218c_20
+	bounds: 65, 198, 1, 1
+mc218c_21
+	bounds: 65, 198, 1, 1
+mc218c_22
+	bounds: 65, 198, 1, 1
+mc218c_23
+	bounds: 65, 198, 1, 1
+mc218c_27
+	bounds: 65, 198, 1, 1
+mc218c_28
+	bounds: 65, 198, 1, 1
+mc218c_29
+	bounds: 65, 198, 1, 1
+mc218c_3
+	bounds: 65, 198, 1, 1
+mc218c_4
+	bounds: 65, 198, 1, 1
+mc218c_5
+	bounds: 65, 198, 1, 1
+mc218c_6
+	bounds: 65, 198, 1, 1
+mc218c_7
+	bounds: 65, 198, 1, 1
+mc218d_14
+	bounds: 65, 198, 1, 1
+mc218d_15
+	bounds: 65, 198, 1, 1
+mc218d_16
+	bounds: 65, 198, 1, 1
+mc218d_17
+	bounds: 65, 198, 1, 1
+mc218d_18
+	bounds: 65, 198, 1, 1
+mc218d_19
+	bounds: 65, 198, 1, 1
+mc218d_3
+	bounds: 65, 198, 1, 1
+mc218d_4
+	bounds: 65, 198, 1, 1
+mc218d_5
+	bounds: 65, 198, 1, 1
+mc218d_7
+	bounds: 65, 198, 1, 1
+mc218d_8
+	bounds: 65, 198, 1, 1
+mc218d_9
+	bounds: 65, 198, 1, 1
+mc218e_10
+	bounds: 65, 198, 1, 1
+mc218e_11
+	bounds: 65, 198, 1, 1
+mc218e_12
+	bounds: 65, 198, 1, 1
+mc218e_13
+	bounds: 65, 198, 1, 1
+mc218e_14
+	bounds: 65, 198, 1, 1
+mc218e_15
+	bounds: 65, 198, 1, 1
+mc218e_16
+	bounds: 65, 198, 1, 1
+mc218e_17
+	bounds: 65, 198, 1, 1
+mc218e_18
+	bounds: 65, 198, 1, 1
+mc218e_19
+	bounds: 65, 198, 1, 1
+mc218e_2
+	bounds: 65, 198, 1, 1
+mc218e_20
+	bounds: 65, 198, 1, 1
+mc218e_21
+	bounds: 65, 198, 1, 1
+mc218e_22
+	bounds: 65, 198, 1, 1
+mc218e_23
+	bounds: 65, 198, 1, 1
+mc218e_24
+	bounds: 65, 198, 1, 1
+mc218e_25
+	bounds: 65, 198, 1, 1
+mc218e_26
+	bounds: 65, 198, 1, 1
+mc218e_27
+	bounds: 65, 198, 1, 1
+mc218e_28
+	bounds: 65, 198, 1, 1
+mc218e_29
+	bounds: 65, 198, 1, 1
+mc218e_3
+	bounds: 65, 198, 1, 1
+mc218e_30
+	bounds: 65, 198, 1, 1
+mc218e_31
+	bounds: 65, 198, 1, 1
+mc218e_32
+	bounds: 65, 198, 1, 1
+mc218e_33
+	bounds: 65, 198, 1, 1
+mc218e_34
+	bounds: 65, 198, 1, 1
+mc218e_35
+	bounds: 65, 198, 1, 1
+mc218e_36
+	bounds: 65, 198, 1, 1
+mc218e_37
+	bounds: 65, 198, 1, 1
+mc218e_38
+	bounds: 65, 198, 1, 1
+mc218e_39
+	bounds: 65, 198, 1, 1
+mc218e_5
+	bounds: 65, 198, 1, 1
+mc218e_6
+	bounds: 65, 198, 1, 1
+mc218e_7
+	bounds: 65, 198, 1, 1
+mc218e_8
+	bounds: 65, 198, 1, 1
+mc218e_9
+	bounds: 65, 198, 1, 1
+mc218f_10
+	bounds: 65, 198, 1, 1
+mc218f_11
+	bounds: 65, 198, 1, 1
+mc218f_12
+	bounds: 65, 198, 1, 1
+mc218f_13
+	bounds: 65, 198, 1, 1
+mc218f_14
+	bounds: 65, 198, 1, 1
+mc218f_2
+	bounds: 65, 198, 1, 1
+mc218f_3
+	bounds: 65, 198, 1, 1
+mc218f_8
+	bounds: 65, 198, 1, 1
+mc218f_9
+	bounds: 65, 198, 1, 1
+mc21803_0
+	bounds: 0, 76, 61, 60
+	offsets: 24, 19, 111, 85
+mc218b_12
+	bounds: 0, 76, 61, 60
+	offsets: 24, 19, 111, 85
+mc218b_6
+	bounds: 0, 76, 61, 60
+	offsets: 24, 19, 111, 85
+mc218c_18
+	bounds: 0, 76, 61, 60
+	offsets: 14, 13, 111, 85
+mc218f_1
+	bounds: 0, 76, 61, 60
+	offsets: 24, 20, 111, 85
+mc218f_6
+	bounds: 0, 76, 61, 60
+	offsets: 24, 20, 111, 85
+mc218c_10
+	bounds: 179, 199, 47, 55
+	offsets: 37, 23, 111, 85
+mc218c_25
+	bounds: 0, 26, 58, 50
+	offsets: 26, 35, 111, 85
+mc218c_26
+	bounds: 102, 150, 31, 49
+	offsets: 30, 17, 111, 85
+mc218c_9
+	bounds: 65, 199, 61, 55
+	offsets: 23, 30, 111, 85
+mc218d_0
+	bounds: 226, 192, 28, 62
+	offsets: 18, 13, 111, 85
+mc218e_0
+	bounds: 226, 192, 28, 62
+	offsets: 27, 18, 111, 85
+mc218d_12
+	bounds: 0, 136, 62, 62
+	offsets: 18, 17, 111, 85
+mc218d_13
+	bounds: 62, 145, 40, 53
+	offsets: 17, 19, 111, 85

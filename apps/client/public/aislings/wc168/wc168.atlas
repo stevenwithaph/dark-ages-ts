@@ -1,0 +1,358 @@
+wc168.png
+	size: 32, 32
+wc16801_0
+	bounds: 0, 0, 1, 1
+wc16801_1
+	bounds: 0, 0, 1, 1
+wc16801_2
+	bounds: 0, 0, 1, 1
+wc16801_3
+	bounds: 0, 0, 1, 1
+wc16801_4
+	bounds: 0, 0, 1, 1
+wc16802_0
+	bounds: 0, 0, 1, 1
+wc16802_1
+	bounds: 0, 0, 1, 1
+wc16803_0
+	bounds: 0, 0, 1, 1
+wc16803_2
+	bounds: 0, 0, 1, 1
+wc16803_3
+	bounds: 0, 0, 1, 1
+wc16803_6
+	bounds: 0, 0, 1, 1
+wc16803_7
+	bounds: 0, 0, 1, 1
+wc168b_0
+	bounds: 0, 0, 1, 1
+wc168b_1
+	bounds: 0, 0, 1, 1
+wc168b_12
+	bounds: 0, 0, 1, 1
+wc168b_14
+	bounds: 0, 0, 1, 1
+wc168b_2
+	bounds: 0, 0, 1, 1
+wc168b_6
+	bounds: 0, 0, 1, 1
+wc168b_7
+	bounds: 0, 0, 1, 1
+wc168b_8
+	bounds: 0, 0, 1, 1
+wc168c_0
+	bounds: 0, 0, 1, 1
+wc168c_1
+	bounds: 0, 0, 1, 1
+wc168c_10
+	bounds: 0, 0, 1, 1
+wc168c_14
+	bounds: 0, 0, 1, 1
+wc168c_15
+	bounds: 0, 0, 1, 1
+wc168c_18
+	bounds: 0, 0, 1, 1
+wc168c_19
+	bounds: 0, 0, 1, 1
+wc168c_2
+	bounds: 0, 0, 1, 1
+wc168c_20
+	bounds: 0, 0, 1, 1
+wc168c_24
+	bounds: 0, 0, 1, 1
+wc168c_26
+	bounds: 0, 0, 1, 1
+wc168c_3
+	bounds: 0, 0, 1, 1
+wc168c_8
+	bounds: 0, 0, 1, 1
+wc168c_9
+	bounds: 0, 0, 1, 1
+wc168d_0
+	bounds: 0, 0, 1, 1
+wc168d_1
+	bounds: 0, 0, 1, 1
+wc168d_10
+	bounds: 0, 0, 1, 1
+wc168d_11
+	bounds: 0, 0, 1, 1
+wc168d_12
+	bounds: 0, 0, 1, 1
+wc168d_13
+	bounds: 0, 0, 1, 1
+wc168d_18
+	bounds: 0, 0, 1, 1
+wc168d_19
+	bounds: 0, 0, 1, 1
+wc168d_2
+	bounds: 0, 0, 1, 1
+wc168d_6
+	bounds: 0, 0, 1, 1
+wc168d_7
+	bounds: 0, 0, 1, 1
+wc168e_0
+	bounds: 0, 0, 1, 1
+wc168e_1
+	bounds: 0, 0, 1, 1
+wc168e_10
+	bounds: 0, 0, 1, 1
+wc168e_11
+	bounds: 0, 0, 1, 1
+wc168e_16
+	bounds: 0, 0, 1, 1
+wc168e_17
+	bounds: 0, 0, 1, 1
+wc168e_18
+	bounds: 0, 0, 1, 1
+wc168e_19
+	bounds: 0, 0, 1, 1
+wc168e_20
+	bounds: 0, 0, 1, 1
+wc168e_21
+	bounds: 0, 0, 1, 1
+wc168e_28
+	bounds: 0, 0, 1, 1
+wc168e_29
+	bounds: 0, 0, 1, 1
+wc168e_30
+	bounds: 0, 0, 1, 1
+wc168e_31
+	bounds: 0, 0, 1, 1
+wc168e_36
+	bounds: 0, 0, 1, 1
+wc168e_37
+	bounds: 0, 0, 1, 1
+wc168e_38
+	bounds: 0, 0, 1, 1
+wc168e_39
+	bounds: 0, 0, 1, 1
+wc168e_4
+	bounds: 0, 0, 1, 1
+wc168e_5
+	bounds: 0, 0, 1, 1
+wc168e_8
+	bounds: 0, 0, 1, 1
+wc168e_9
+	bounds: 0, 0, 1, 1
+wc168f_0
+	bounds: 0, 0, 1, 1
+wc168f_1
+	bounds: 0, 0, 1, 1
+wc168f_12
+	bounds: 0, 0, 1, 1
+wc168f_13
+	bounds: 0, 0, 1, 1
+wc168f_14
+	bounds: 0, 0, 1, 1
+wc168f_4
+	bounds: 0, 0, 1, 1
+wc168f_5
+	bounds: 0, 0, 1, 1
+wc168f_6
+	bounds: 0, 0, 1, 1
+wc168f_7
+	bounds: 0, 0, 1, 1
+wc16801_5
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc16801_6
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc16801_7
+	bounds: 0, 15, 17, 16
+	offsets: 48, 53, 111, 85
+wc16801_8
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc16801_9
+	bounds: 0, 15, 17, 16
+	offsets: 48, 53, 111, 85
+wc16802_2
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc16802_3
+	bounds: 0, 15, 17, 16
+	offsets: 60, 45, 111, 85
+wc16803_1
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc16803_4
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc16803_5
+	bounds: 0, 15, 17, 16
+	offsets: 51, 53, 111, 85
+wc16803_8
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc16803_9
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc168b_10
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc168b_11
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc168b_13
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168b_3
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc168b_4
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc168b_5
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc168b_9
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168c_11
+	bounds: 0, 15, 17, 16
+	offsets: 49, 49, 111, 85
+wc168c_12
+	bounds: 0, 15, 17, 16
+	offsets: 48, 66, 111, 85
+wc168c_13
+	bounds: 0, 15, 17, 16
+	offsets: 54, 43, 111, 85
+wc168c_16
+	bounds: 0, 15, 17, 16
+	offsets: 55, 45, 111, 85
+wc168c_17
+	bounds: 0, 15, 17, 16
+	offsets: 64, 36, 111, 85
+wc168c_21
+	bounds: 0, 15, 17, 16
+	offsets: 40, 48, 111, 85
+wc168c_22
+	bounds: 0, 15, 17, 16
+	offsets: 61, 40, 111, 85
+wc168c_23
+	bounds: 0, 15, 17, 16
+	offsets: 64, 36, 111, 85
+wc168c_27
+	bounds: 0, 15, 17, 16
+	offsets: 49, 49, 111, 85
+wc168c_29
+	bounds: 0, 15, 17, 16
+	offsets: 53, 38, 111, 85
+wc168c_4
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc168c_5
+	bounds: 0, 15, 17, 16
+	offsets: 60, 45, 111, 85
+wc168c_6
+	bounds: 0, 15, 17, 16
+	offsets: 60, 45, 111, 85
+wc168c_7
+	bounds: 0, 15, 17, 16
+	offsets: 60, 45, 111, 85
+wc168d_14
+	bounds: 0, 15, 17, 16
+	offsets: 55, 52, 111, 85
+wc168d_15
+	bounds: 0, 15, 17, 16
+	offsets: 51, 49, 111, 85
+wc168d_16
+	bounds: 0, 15, 17, 16
+	offsets: 45, 51, 111, 85
+wc168d_17
+	bounds: 0, 15, 17, 16
+	offsets: 55, 52, 111, 85
+wc168d_3
+	bounds: 0, 15, 17, 16
+	offsets: 40, 57, 111, 85
+wc168d_4
+	bounds: 0, 15, 17, 16
+	offsets: 48, 53, 111, 85
+wc168d_5
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168d_8
+	bounds: 0, 15, 17, 16
+	offsets: 60, 45, 111, 85
+wc168d_9
+	bounds: 0, 15, 17, 16
+	offsets: 60, 45, 111, 85
+wc168e_12
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_13
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_14
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_15
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_2
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc168e_22
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_23
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_24
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_25
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_26
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_27
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_3
+	bounds: 0, 15, 17, 16
+	offsets: 62, 38, 111, 85
+wc168e_32
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_33
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_34
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_35
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168e_6
+	bounds: 0, 15, 17, 16
+	offsets: 62, 38, 111, 85
+wc168e_7
+	bounds: 0, 15, 17, 16
+	offsets: 62, 38, 111, 85
+wc168f_10
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168f_11
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168f_2
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc168f_3
+	bounds: 0, 15, 17, 16
+	offsets: 48, 55, 111, 85
+wc168f_8
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc168f_9
+	bounds: 0, 15, 17, 16
+	offsets: 48, 54, 111, 85
+wc168c_25
+	bounds: 17, 30, 10, 1
+	offsets: 49, 84, 111, 85
+wc168c_28
+	bounds: 0, 1, 17, 14
+	offsets: 48, 71, 111, 85

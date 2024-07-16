@@ -1,0 +1,26 @@
+mns180.png
+	size: 128, 128
+mns180_0
+	bounds: 51, 70, 44, 30
+	offsets: 5, 4, 56, 84
+mns180_1
+	bounds: 0, 100, 51, 28
+	offsets: 2, 3, 56, 84
+mns180_2
+	bounds: 0, 17, 45, 31
+	offsets: 4, 2, 56, 84
+mns180_3
+	bounds: 51, 100, 50, 28
+	offsets: 3, 2, 56, 84
+mns180_4
+	bounds: 50, 38, 39, 32
+	offsets: 5, 4, 56, 84
+mns180_5
+	bounds: 0, 48, 50, 26
+	offsets: 5, 4, 56, 84
+mns180_6
+	bounds: 89, 37, 39, 33
+	offsets: 4, 2, 56, 84
+mns180_7
+	bounds: 0, 74, 51, 26
+	offsets: 4, 1, 56, 84

@@ -1,0 +1,20 @@
+mns067.png
+	size: 128, 128
+mns067_0
+	bounds: 0, 20, 22, 24
+	offsets: 17, 9, 56, 84
+mns067_1
+	bounds: 23, 44, 22, 24
+	offsets: 17, 9, 56, 84
+mns067_2
+	bounds: 0, 44, 23, 24
+	offsets: 16, 9, 56, 84
+mns067_3
+	bounds: 0, 0, 22, 20
+	offsets: 16, 11, 56, 84
+mns067_4
+	bounds: 22, 24, 22, 20
+	offsets: 16, 11, 56, 84
+mns067_5
+	bounds: 45, 48, 22, 20
+	offsets: 16, 11, 56, 84

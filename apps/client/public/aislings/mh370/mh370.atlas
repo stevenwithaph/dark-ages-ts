@@ -1,0 +1,444 @@
+mh370.png
+	size: 64, 64
+mh37001_0
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh37001_1
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh37001_2
+	bounds: 0, 26, 16, 25
+	offsets: 19, 35, 57, 85
+mh37001_3
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh37001_4
+	bounds: 0, 26, 16, 25
+	offsets: 19, 35, 57, 85
+mh37002_0
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh37002_1
+	bounds: 0, 26, 16, 25
+	offsets: 28, 37, 57, 85
+mh37003_0
+	bounds: 0, 26, 16, 25
+	offsets: 19, 37, 57, 85
+mh37003_2
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh37003_3
+	bounds: 0, 26, 16, 25
+	offsets: 21, 34, 57, 85
+mh37003_6
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh37003_7
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh370b_0
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh370b_1
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh370b_12
+	bounds: 0, 26, 16, 25
+	offsets: 19, 37, 57, 85
+mh370b_2
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh370b_6
+	bounds: 0, 26, 16, 25
+	offsets: 19, 37, 57, 85
+mh370b_7
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh370b_8
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh370c_0
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh370c_1
+	bounds: 0, 26, 16, 25
+	offsets: 28, 37, 57, 85
+mh370c_10
+	bounds: 0, 26, 16, 25
+	offsets: 20, 30, 57, 85
+mh370c_14
+	bounds: 0, 26, 16, 25
+	offsets: 20, 30, 57, 85
+mh370c_15
+	bounds: 0, 26, 16, 25
+	offsets: 23, 27, 57, 85
+mh370c_18
+	bounds: 0, 26, 16, 25
+	offsets: 9, 29, 57, 85
+mh370c_19
+	bounds: 0, 26, 16, 25
+	offsets: 23, 28, 57, 85
+mh370c_2
+	bounds: 0, 26, 16, 25
+	offsets: 28, 37, 57, 85
+mh370c_20
+	bounds: 0, 26, 16, 25
+	offsets: 23, 27, 57, 85
+mh370c_24
+	bounds: 0, 26, 16, 25
+	offsets: 19, 31, 57, 85
+mh370c_25
+	bounds: 0, 26, 16, 25
+	offsets: 18, 51, 57, 85
+mh370c_26
+	bounds: 0, 26, 16, 25
+	offsets: 27, 19, 57, 85
+mh370c_3
+	bounds: 0, 26, 16, 25
+	offsets: 30, 33, 57, 85
+mh370c_8
+	bounds: 0, 26, 16, 25
+	offsets: 19, 31, 57, 85
+mh370c_9
+	bounds: 0, 26, 16, 25
+	offsets: 18, 46, 57, 85
+mh370d_0
+	bounds: 0, 26, 16, 25
+	offsets: 13, 30, 57, 85
+mh370d_1
+	bounds: 0, 26, 16, 25
+	offsets: 14, 36, 57, 85
+mh370d_10
+	bounds: 0, 26, 16, 25
+	offsets: 23, 37, 57, 85
+mh370d_12
+	bounds: 0, 26, 16, 25
+	offsets: 15, 37, 57, 85
+mh370d_13
+	bounds: 0, 26, 16, 25
+	offsets: 23, 37, 57, 85
+mh370d_2
+	bounds: 0, 26, 16, 25
+	offsets: 14, 38, 57, 85
+mh370d_6
+	bounds: 0, 26, 16, 25
+	offsets: 28, 37, 57, 85
+mh370d_7
+	bounds: 0, 26, 16, 25
+	offsets: 28, 37, 57, 85
+mh370e_0
+	bounds: 0, 26, 16, 25
+	offsets: 22, 36, 57, 85
+mh370e_1
+	bounds: 0, 26, 16, 25
+	offsets: 28, 29, 57, 85
+mh370e_10
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370e_11
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370e_16
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370e_17
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370e_18
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370e_19
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370e_20
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370e_21
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370e_28
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370e_29
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370e_30
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370e_31
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370e_4
+	bounds: 0, 26, 16, 25
+	offsets: 28, 29, 57, 85
+mh370e_5
+	bounds: 0, 26, 16, 25
+	offsets: 28, 29, 57, 85
+mh370e_8
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370e_9
+	bounds: 0, 26, 16, 25
+	offsets: 16, 38, 57, 85
+mh370f_0
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh370f_1
+	bounds: 0, 26, 16, 25
+	offsets: 19, 37, 57, 85
+mh370f_4
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh370f_5
+	bounds: 0, 26, 16, 25
+	offsets: 19, 36, 57, 85
+mh370f_6
+	bounds: 0, 26, 16, 25
+	offsets: 19, 37, 57, 85
+mh370f_7
+	bounds: 0, 26, 16, 25
+	offsets: 19, 37, 57, 85
+mh37001_5
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh37001_6
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh37001_7
+	bounds: 16, 18, 15, 33
+	offsets: 20, 30, 57, 85
+mh37001_8
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh37001_9
+	bounds: 16, 18, 15, 33
+	offsets: 20, 30, 57, 85
+mh37002_2
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh37002_3
+	bounds: 16, 18, 15, 33
+	offsets: 31, 23, 57, 85
+mh37003_1
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh37003_4
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh37003_5
+	bounds: 16, 18, 15, 33
+	offsets: 23, 30, 57, 85
+mh37003_8
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh37003_9
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh370b_10
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh370b_11
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh370b_13
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370b_3
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh370b_4
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh370b_5
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh370b_9
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370c_11
+	bounds: 16, 18, 15, 33
+	offsets: 21, 26, 57, 85
+mh370c_12
+	bounds: 16, 18, 15, 33
+	offsets: 20, 43, 57, 85
+mh370c_13
+	bounds: 16, 18, 15, 33
+	offsets: 26, 20, 57, 85
+mh370c_16
+	bounds: 16, 18, 15, 33
+	offsets: 28, 24, 57, 85
+mh370c_17
+	bounds: 16, 18, 15, 33
+	offsets: 38, 13, 57, 85
+mh370c_21
+	bounds: 16, 18, 15, 33
+	offsets: 12, 26, 57, 85
+mh370c_22
+	bounds: 16, 18, 15, 33
+	offsets: 32, 17, 57, 85
+mh370c_23
+	bounds: 16, 18, 15, 33
+	offsets: 38, 13, 57, 85
+mh370c_27
+	bounds: 16, 18, 15, 33
+	offsets: 21, 26, 57, 85
+mh370c_28
+	bounds: 16, 18, 15, 33
+	offsets: 20, 48, 57, 85
+mh370c_29
+	bounds: 16, 18, 15, 33
+	offsets: 25, 15, 57, 85
+mh370c_4
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh370c_5
+	bounds: 16, 18, 15, 33
+	offsets: 31, 23, 57, 85
+mh370c_6
+	bounds: 16, 18, 15, 33
+	offsets: 31, 23, 57, 85
+mh370c_7
+	bounds: 16, 18, 15, 33
+	offsets: 35, 22, 57, 85
+mh370d_14
+	bounds: 16, 18, 15, 33
+	offsets: 27, 29, 57, 85
+mh370d_15
+	bounds: 16, 18, 15, 33
+	offsets: 23, 26, 57, 85
+mh370d_16
+	bounds: 16, 18, 15, 33
+	offsets: 17, 28, 57, 85
+mh370d_17
+	bounds: 16, 18, 15, 33
+	offsets: 27, 29, 57, 85
+mh370d_3
+	bounds: 16, 18, 15, 33
+	offsets: 12, 34, 57, 85
+mh370d_4
+	bounds: 16, 18, 15, 33
+	offsets: 20, 30, 57, 85
+mh370d_5
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370d_8
+	bounds: 16, 18, 15, 33
+	offsets: 31, 23, 57, 85
+mh370d_9
+	bounds: 16, 18, 15, 33
+	offsets: 31, 23, 57, 85
+mh370e_12
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_13
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_14
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_15
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_2
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh370e_22
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_23
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_24
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_25
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_26
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_27
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_3
+	bounds: 16, 18, 15, 33
+	offsets: 34, 15, 57, 85
+mh370e_32
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_33
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_34
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_35
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370e_6
+	bounds: 16, 18, 15, 33
+	offsets: 34, 15, 57, 85
+mh370e_7
+	bounds: 16, 18, 15, 33
+	offsets: 34, 15, 57, 85
+mh370f_10
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370f_11
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370f_2
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh370f_3
+	bounds: 16, 18, 15, 33
+	offsets: 20, 32, 57, 85
+mh370f_8
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh370f_9
+	bounds: 16, 18, 15, 33
+	offsets: 20, 31, 57, 85
+mh370b_14
+	bounds: 0, 0, 1, 1
+mh370b_15
+	bounds: 0, 0, 1, 1
+mh370b_16
+	bounds: 0, 0, 1, 1
+mh370b_17
+	bounds: 0, 0, 1, 1
+mh370b_18
+	bounds: 0, 0, 1, 1
+mh370b_19
+	bounds: 0, 0, 1, 1
+mh370d_18
+	bounds: 0, 0, 1, 1
+mh370d_19
+	bounds: 0, 0, 1, 1
+mh370e_36
+	bounds: 0, 0, 1, 1
+mh370e_37
+	bounds: 0, 0, 1, 1
+mh370e_38
+	bounds: 0, 0, 1, 1
+mh370e_39
+	bounds: 0, 0, 1, 1
+mh370f_12
+	bounds: 0, 0, 1, 1
+mh370f_13
+	bounds: 0, 0, 1, 1
+mh370f_14
+	bounds: 0, 0, 1, 1
+mh370f_15
+	bounds: 0, 0, 1, 1
+mh370f_16
+	bounds: 0, 0, 1, 1
+mh370f_17
+	bounds: 0, 0, 1, 1
+mh370f_18
+	bounds: 0, 0, 1, 1
+mh370f_19
+	bounds: 0, 0, 1, 1
+mh370d_11
+	bounds: 0, 1, 16, 25
+	offsets: 26, 42, 57, 85

@@ -1,0 +1,32 @@
+mns030.png
+	size: 256, 256
+mns030_0
+	bounds: 0, 115, 30, 56
+	offsets: 17, 9, 56, 84
+mns030_1
+	bounds: 32, 171, 30, 55
+	offsets: 17, 11, 56, 84
+mns030_2
+	bounds: 0, 171, 32, 55
+	offsets: 15, 10, 56, 84
+mns030_3
+	bounds: 0, 56, 30, 59
+	offsets: 17, 8, 56, 84
+mns030_4
+	bounds: 30, 112, 30, 59
+	offsets: 17, 6, 56, 84
+mns030_5
+	bounds: 86, 168, 23, 58
+	offsets: 16, 7, 56, 84
+mns030_6
+	bounds: 109, 169, 22, 57
+	offsets: 16, 9, 56, 84
+mns030_7
+	bounds: 30, 54, 24, 58
+	offsets: 16, 7, 56, 84
+mns030_8
+	bounds: 62, 167, 24, 59
+	offsets: 16, 8, 56, 84
+mns030_9
+	bounds: 0, 0, 29, 56
+	offsets: 16, 9, 56, 84

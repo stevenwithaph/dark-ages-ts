@@ -1,0 +1,444 @@
+mh298.png
+	size: 64, 64
+mh29801_0
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh29801_1
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh29801_2
+	bounds: 0, 21, 16, 16
+	offsets: 19, 46, 57, 85
+mh29801_3
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh29801_4
+	bounds: 0, 21, 16, 16
+	offsets: 19, 46, 57, 85
+mh29802_0
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh29802_1
+	bounds: 0, 21, 16, 16
+	offsets: 28, 48, 57, 85
+mh29803_0
+	bounds: 0, 21, 16, 16
+	offsets: 19, 48, 57, 85
+mh29803_2
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh29803_3
+	bounds: 0, 21, 16, 16
+	offsets: 21, 45, 57, 85
+mh29803_6
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh29803_7
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh298b_0
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh298b_1
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh298b_12
+	bounds: 0, 21, 16, 16
+	offsets: 19, 48, 57, 85
+mh298b_2
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh298b_6
+	bounds: 0, 21, 16, 16
+	offsets: 19, 48, 57, 85
+mh298b_7
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh298b_8
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh298c_1
+	bounds: 0, 21, 16, 16
+	offsets: 28, 48, 57, 85
+mh298c_10
+	bounds: 0, 21, 16, 16
+	offsets: 20, 41, 57, 85
+mh298c_14
+	bounds: 0, 21, 16, 16
+	offsets: 20, 41, 57, 85
+mh298c_18
+	bounds: 0, 21, 16, 16
+	offsets: 9, 40, 57, 85
+mh298c_19
+	bounds: 0, 21, 16, 16
+	offsets: 23, 39, 57, 85
+mh298c_2
+	bounds: 0, 21, 16, 16
+	offsets: 28, 48, 57, 85
+mh298c_20
+	bounds: 0, 21, 16, 16
+	offsets: 23, 38, 57, 85
+mh298c_24
+	bounds: 0, 21, 16, 16
+	offsets: 19, 42, 57, 85
+mh298c_25
+	bounds: 0, 21, 16, 16
+	offsets: 18, 62, 57, 85
+mh298c_26
+	bounds: 0, 21, 16, 16
+	offsets: 27, 30, 57, 85
+mh298c_3
+	bounds: 0, 21, 16, 16
+	offsets: 30, 44, 57, 85
+mh298c_8
+	bounds: 0, 21, 16, 16
+	offsets: 19, 42, 57, 85
+mh298c_9
+	bounds: 0, 21, 16, 16
+	offsets: 18, 57, 57, 85
+mh298d_0
+	bounds: 0, 21, 16, 16
+	offsets: 13, 41, 57, 85
+mh298d_1
+	bounds: 0, 21, 16, 16
+	offsets: 14, 47, 57, 85
+mh298d_10
+	bounds: 0, 21, 16, 16
+	offsets: 23, 48, 57, 85
+mh298d_11
+	bounds: 0, 21, 16, 16
+	offsets: 26, 52, 57, 85
+mh298d_12
+	bounds: 0, 21, 16, 16
+	offsets: 15, 48, 57, 85
+mh298d_13
+	bounds: 0, 21, 16, 16
+	offsets: 23, 48, 57, 85
+mh298d_2
+	bounds: 0, 21, 16, 16
+	offsets: 14, 49, 57, 85
+mh298d_6
+	bounds: 0, 21, 16, 16
+	offsets: 28, 48, 57, 85
+mh298d_7
+	bounds: 0, 21, 16, 16
+	offsets: 28, 48, 57, 85
+mh298e_0
+	bounds: 0, 21, 16, 16
+	offsets: 22, 47, 57, 85
+mh298e_1
+	bounds: 0, 21, 16, 16
+	offsets: 28, 40, 57, 85
+mh298e_10
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298e_11
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298e_16
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298e_17
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298e_18
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298e_19
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298e_20
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298e_21
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298e_28
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298e_29
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298e_30
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298e_31
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298e_4
+	bounds: 0, 21, 16, 16
+	offsets: 28, 40, 57, 85
+mh298e_5
+	bounds: 0, 21, 16, 16
+	offsets: 28, 40, 57, 85
+mh298e_8
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298e_9
+	bounds: 0, 21, 16, 16
+	offsets: 16, 49, 57, 85
+mh298f_0
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh298f_1
+	bounds: 0, 21, 16, 16
+	offsets: 19, 48, 57, 85
+mh298f_4
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh298f_5
+	bounds: 0, 21, 16, 16
+	offsets: 19, 47, 57, 85
+mh298f_6
+	bounds: 0, 21, 16, 16
+	offsets: 19, 48, 57, 85
+mh298f_7
+	bounds: 0, 21, 16, 16
+	offsets: 19, 48, 57, 85
+mh29801_5
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh29801_6
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh29801_7
+	bounds: 0, 0, 14, 21
+	offsets: 22, 47, 57, 85
+mh29801_8
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh29801_9
+	bounds: 0, 0, 14, 21
+	offsets: 22, 47, 57, 85
+mh29802_2
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh29802_3
+	bounds: 0, 0, 14, 21
+	offsets: 33, 40, 57, 85
+mh29803_1
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh29803_4
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh29803_5
+	bounds: 0, 0, 14, 21
+	offsets: 25, 47, 57, 85
+mh29803_8
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh29803_9
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh298b_10
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh298b_11
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh298b_13
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298b_3
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh298b_4
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh298b_5
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh298b_9
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298c_11
+	bounds: 0, 0, 14, 21
+	offsets: 23, 43, 57, 85
+mh298c_12
+	bounds: 0, 0, 14, 21
+	offsets: 22, 60, 57, 85
+mh298c_13
+	bounds: 0, 0, 14, 21
+	offsets: 28, 37, 57, 85
+mh298c_16
+	bounds: 0, 0, 14, 21
+	offsets: 30, 41, 57, 85
+mh298c_17
+	bounds: 0, 0, 14, 21
+	offsets: 40, 30, 57, 85
+mh298c_21
+	bounds: 0, 0, 14, 21
+	offsets: 14, 43, 57, 85
+mh298c_22
+	bounds: 0, 0, 14, 21
+	offsets: 34, 34, 57, 85
+mh298c_23
+	bounds: 0, 0, 14, 21
+	offsets: 40, 30, 57, 85
+mh298c_27
+	bounds: 0, 0, 14, 21
+	offsets: 23, 43, 57, 85
+mh298c_29
+	bounds: 0, 0, 14, 21
+	offsets: 27, 32, 57, 85
+mh298c_4
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh298c_5
+	bounds: 0, 0, 14, 21
+	offsets: 33, 40, 57, 85
+mh298c_6
+	bounds: 0, 0, 14, 21
+	offsets: 33, 40, 57, 85
+mh298c_7
+	bounds: 0, 0, 14, 21
+	offsets: 37, 39, 57, 85
+mh298d_14
+	bounds: 0, 0, 14, 21
+	offsets: 29, 46, 57, 85
+mh298d_15
+	bounds: 0, 0, 14, 21
+	offsets: 25, 43, 57, 85
+mh298d_16
+	bounds: 0, 0, 14, 21
+	offsets: 19, 45, 57, 85
+mh298d_17
+	bounds: 0, 0, 14, 21
+	offsets: 29, 46, 57, 85
+mh298d_3
+	bounds: 0, 0, 14, 21
+	offsets: 14, 51, 57, 85
+mh298d_4
+	bounds: 0, 0, 14, 21
+	offsets: 22, 47, 57, 85
+mh298d_5
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298d_8
+	bounds: 0, 0, 14, 21
+	offsets: 33, 40, 57, 85
+mh298d_9
+	bounds: 0, 0, 14, 21
+	offsets: 33, 40, 57, 85
+mh298e_12
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_13
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_14
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_15
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_2
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh298e_22
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_23
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_24
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_25
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_26
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_27
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_3
+	bounds: 0, 0, 14, 21
+	offsets: 36, 32, 57, 85
+mh298e_32
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_33
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_34
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_35
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298e_6
+	bounds: 0, 0, 14, 21
+	offsets: 36, 32, 57, 85
+mh298e_7
+	bounds: 0, 0, 14, 21
+	offsets: 36, 32, 57, 85
+mh298f_10
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298f_11
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298f_2
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh298f_3
+	bounds: 0, 0, 14, 21
+	offsets: 22, 49, 57, 85
+mh298f_8
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh298f_9
+	bounds: 0, 0, 14, 21
+	offsets: 22, 48, 57, 85
+mh298b_14
+	bounds: 33, 52, 1, 1
+mh298b_15
+	bounds: 33, 52, 1, 1
+mh298b_16
+	bounds: 33, 52, 1, 1
+mh298b_17
+	bounds: 33, 52, 1, 1
+mh298b_18
+	bounds: 33, 52, 1, 1
+mh298b_19
+	bounds: 33, 52, 1, 1
+mh298d_18
+	bounds: 33, 52, 1, 1
+mh298d_19
+	bounds: 33, 52, 1, 1
+mh298e_36
+	bounds: 33, 52, 1, 1
+mh298e_37
+	bounds: 33, 52, 1, 1
+mh298e_38
+	bounds: 33, 52, 1, 1
+mh298e_39
+	bounds: 33, 52, 1, 1
+mh298f_12
+	bounds: 33, 52, 1, 1
+mh298f_13
+	bounds: 33, 52, 1, 1
+mh298f_14
+	bounds: 33, 52, 1, 1
+mh298f_15
+	bounds: 33, 52, 1, 1
+mh298f_16
+	bounds: 33, 52, 1, 1
+mh298f_17
+	bounds: 33, 52, 1, 1
+mh298f_18
+	bounds: 33, 52, 1, 1
+mh298f_19
+	bounds: 33, 52, 1, 1
+mh298c_0
+	bounds: 0, 37, 17, 16
+	offsets: 18, 47, 57, 85
+mh298c_15
+	bounds: 17, 37, 16, 16
+	offsets: 23, 38, 57, 85
+mh298c_28
+	bounds: 16, 18, 14, 19
+	offsets: 22, 65, 57, 85

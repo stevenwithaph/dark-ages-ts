@@ -1,12 +1,11 @@
 import { v4 as uuid } from 'uuid';
+import { ClientPackets, ServerPackets } from '@medenia/network';
 
 import { TcpServer } from '../servers/tcp/tcp-server';
 import { WebServer } from '../servers/web/web-server';
-import { ClientHandler } from '../client-handler';
 import { Socket } from '../servers/socket';
+import { ClientHandler } from '../client-handler';
 import { Client } from '../client';
-import { Constructor } from 'type-fest';
-import { ClientPackets, ServerPackets } from '@medenia/network';
 import { PacketHandler } from '../packet-handler';
 import { redirectManager } from '../../services/redirect-manager';
 
@@ -14,10 +13,7 @@ export abstract class Listener extends ClientHandler {
   private tcpServer: TcpServer;
   private webServer: WebServer;
 
-  constructor(
-    port: number,
-    private ctx: Constructor<Client>
-  ) {
+  constructor(port: number) {
     super();
 
     this.tcpServer = new TcpServer(port);
@@ -33,7 +29,6 @@ export abstract class Listener extends ClientHandler {
 
     if (!redirect || packet.redirect.key !== redirect.key || packet.redirect.seed !== redirect.seed || packet.redirect.keySalts !== redirect.keySalts) {
       client.disconnect();
-
       return;
     }
 
@@ -48,7 +43,7 @@ export abstract class Listener extends ClientHandler {
 
   onConnection(socket: Socket) {
     const id = uuid();
-    const client = new this.ctx(id, socket);
+    const client = new Client(id, socket);
 
     this.addClient(client);
 

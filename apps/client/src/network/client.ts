@@ -42,8 +42,6 @@ export class Client extends Events.EventEmitter {
 
   connect(address: string, port: number) {
     return new Promise<void>((resolve) => {
-      console.log(import.meta.env);
-      console.log(`${import.meta.env.PROTOCOL}://${address}:${port + 100}`);
       this.ws = new WebSocket(`${import.meta.env.VITE_PROTOCOL}://${address}:${port + 100}`);
       this.ws.onmessage = this.onMessage.bind(this);
       this.ws.onopen = this.onConnected.bind(this);
@@ -76,8 +74,8 @@ export class Client extends Events.EventEmitter {
       }, ACK_TIMEOUT);
 
       const listener = (packet: T) => {
-        resolve(packet);
         clearTimeout(timeout);
+        resolve(packet);
       };
 
       this.once(packet.name, listener);
@@ -92,8 +90,8 @@ export class Client extends Events.EventEmitter {
       }, ACK_TIMEOUT);
 
       const listener = () => {
-        resolve();
         clearTimeout(timeout);
+        resolve();
       };
 
       this.once(event, listener);

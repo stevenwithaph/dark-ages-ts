@@ -1,0 +1,444 @@
+wh300.png
+	size: 64, 64
+wh30001_0
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh30001_1
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh30001_2
+	bounds: 0, 24, 15, 20
+	offsets: 20, 45, 57, 85
+wh30001_3
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh30001_4
+	bounds: 0, 24, 15, 20
+	offsets: 20, 45, 57, 85
+wh30002_0
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh30002_1
+	bounds: 0, 24, 15, 20
+	offsets: 28, 45, 57, 85
+wh30003_0
+	bounds: 0, 24, 15, 20
+	offsets: 20, 47, 57, 85
+wh30003_2
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh30003_3
+	bounds: 0, 24, 15, 20
+	offsets: 22, 44, 57, 85
+wh30003_6
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh30003_7
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh300b_0
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh300b_1
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh300b_12
+	bounds: 0, 24, 15, 20
+	offsets: 20, 47, 57, 85
+wh300b_2
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh300b_6
+	bounds: 0, 24, 15, 20
+	offsets: 20, 47, 57, 85
+wh300b_7
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh300b_8
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh300c_1
+	bounds: 0, 24, 15, 20
+	offsets: 28, 45, 57, 85
+wh300c_10
+	bounds: 0, 24, 15, 20
+	offsets: 21, 40, 57, 85
+wh300c_14
+	bounds: 0, 24, 15, 20
+	offsets: 21, 40, 57, 85
+wh300c_15
+	bounds: 0, 24, 15, 20
+	offsets: 26, 35, 57, 85
+wh300c_18
+	bounds: 0, 24, 15, 20
+	offsets: 12, 36, 57, 85
+wh300c_19
+	bounds: 0, 24, 15, 20
+	offsets: 26, 35, 57, 85
+wh300c_2
+	bounds: 0, 24, 15, 20
+	offsets: 28, 45, 57, 85
+wh300c_20
+	bounds: 0, 24, 15, 20
+	offsets: 26, 34, 57, 85
+wh300c_24
+	bounds: 0, 24, 15, 20
+	offsets: 20, 41, 57, 85
+wh300c_25
+	bounds: 0, 24, 15, 20
+	offsets: 19, 61, 57, 85
+wh300c_26
+	bounds: 0, 24, 15, 20
+	offsets: 28, 30, 57, 85
+wh300c_3
+	bounds: 0, 24, 15, 20
+	offsets: 30, 40, 57, 85
+wh300c_8
+	bounds: 0, 24, 15, 20
+	offsets: 20, 41, 57, 85
+wh300c_9
+	bounds: 0, 24, 15, 20
+	offsets: 19, 56, 57, 85
+wh300d_0
+	bounds: 0, 24, 15, 20
+	offsets: 14, 40, 57, 85
+wh300d_1
+	bounds: 0, 24, 15, 20
+	offsets: 15, 46, 57, 85
+wh300d_10
+	bounds: 0, 24, 15, 20
+	offsets: 24, 47, 57, 85
+wh300d_11
+	bounds: 0, 24, 15, 20
+	offsets: 27, 51, 57, 85
+wh300d_12
+	bounds: 0, 24, 15, 20
+	offsets: 16, 47, 57, 85
+wh300d_13
+	bounds: 0, 24, 15, 20
+	offsets: 24, 47, 57, 85
+wh300d_2
+	bounds: 0, 24, 15, 20
+	offsets: 15, 48, 57, 85
+wh300d_6
+	bounds: 0, 24, 15, 20
+	offsets: 28, 45, 57, 85
+wh300d_7
+	bounds: 0, 24, 15, 20
+	offsets: 28, 45, 57, 85
+wh300e_0
+	bounds: 0, 24, 15, 20
+	offsets: 23, 46, 57, 85
+wh300e_1
+	bounds: 0, 24, 15, 20
+	offsets: 29, 39, 57, 85
+wh300e_10
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300e_11
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300e_16
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300e_17
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300e_18
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300e_19
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300e_20
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300e_21
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300e_28
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300e_29
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300e_30
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300e_31
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300e_4
+	bounds: 0, 24, 15, 20
+	offsets: 29, 39, 57, 85
+wh300e_5
+	bounds: 0, 24, 15, 20
+	offsets: 29, 39, 57, 85
+wh300e_8
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300e_9
+	bounds: 0, 24, 15, 20
+	offsets: 17, 48, 57, 85
+wh300f_0
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh300f_1
+	bounds: 0, 24, 15, 20
+	offsets: 20, 47, 57, 85
+wh300f_4
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh300f_5
+	bounds: 0, 24, 15, 20
+	offsets: 20, 46, 57, 85
+wh300f_6
+	bounds: 0, 24, 15, 20
+	offsets: 20, 47, 57, 85
+wh300f_7
+	bounds: 0, 24, 15, 20
+	offsets: 20, 47, 57, 85
+wh30001_5
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh30001_6
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh30001_7
+	bounds: 0, 0, 15, 24
+	offsets: 21, 45, 57, 85
+wh30001_8
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh30001_9
+	bounds: 0, 0, 15, 24
+	offsets: 21, 45, 57, 85
+wh30002_2
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh30002_3
+	bounds: 0, 0, 15, 24
+	offsets: 33, 37, 57, 85
+wh30003_1
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh30003_4
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh30003_5
+	bounds: 0, 0, 15, 24
+	offsets: 24, 45, 57, 85
+wh30003_8
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh30003_9
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh300b_10
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh300b_11
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh300b_13
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300b_3
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh300b_4
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh300b_5
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh300b_9
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300c_11
+	bounds: 0, 0, 15, 24
+	offsets: 22, 41, 57, 85
+wh300c_12
+	bounds: 0, 0, 15, 24
+	offsets: 21, 58, 57, 85
+wh300c_13
+	bounds: 0, 0, 15, 24
+	offsets: 27, 35, 57, 85
+wh300c_16
+	bounds: 0, 0, 15, 24
+	offsets: 28, 37, 57, 85
+wh300c_17
+	bounds: 0, 0, 15, 24
+	offsets: 37, 28, 57, 85
+wh300c_21
+	bounds: 0, 0, 15, 24
+	offsets: 13, 40, 57, 85
+wh300c_22
+	bounds: 0, 0, 15, 24
+	offsets: 34, 32, 57, 85
+wh300c_23
+	bounds: 0, 0, 15, 24
+	offsets: 37, 28, 57, 85
+wh300c_27
+	bounds: 0, 0, 15, 24
+	offsets: 22, 41, 57, 85
+wh300c_29
+	bounds: 0, 0, 15, 24
+	offsets: 26, 30, 57, 85
+wh300c_4
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh300c_5
+	bounds: 0, 0, 15, 24
+	offsets: 33, 37, 57, 85
+wh300c_6
+	bounds: 0, 0, 15, 24
+	offsets: 33, 37, 57, 85
+wh300c_7
+	bounds: 0, 0, 15, 24
+	offsets: 33, 37, 57, 85
+wh300d_14
+	bounds: 0, 0, 15, 24
+	offsets: 28, 44, 57, 85
+wh300d_15
+	bounds: 0, 0, 15, 24
+	offsets: 24, 41, 57, 85
+wh300d_16
+	bounds: 0, 0, 15, 24
+	offsets: 18, 43, 57, 85
+wh300d_17
+	bounds: 0, 0, 15, 24
+	offsets: 28, 44, 57, 85
+wh300d_3
+	bounds: 0, 0, 15, 24
+	offsets: 13, 49, 57, 85
+wh300d_4
+	bounds: 0, 0, 15, 24
+	offsets: 21, 45, 57, 85
+wh300d_5
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300d_8
+	bounds: 0, 0, 15, 24
+	offsets: 33, 37, 57, 85
+wh300d_9
+	bounds: 0, 0, 15, 24
+	offsets: 33, 37, 57, 85
+wh300e_12
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_13
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_14
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_15
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_2
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh300e_22
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_23
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_24
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_25
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_26
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_27
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_3
+	bounds: 0, 0, 15, 24
+	offsets: 35, 30, 57, 85
+wh300e_32
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_33
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_34
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_35
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300e_6
+	bounds: 0, 0, 15, 24
+	offsets: 35, 30, 57, 85
+wh300e_7
+	bounds: 0, 0, 15, 24
+	offsets: 35, 30, 57, 85
+wh300f_10
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300f_11
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300f_2
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh300f_3
+	bounds: 0, 0, 15, 24
+	offsets: 21, 47, 57, 85
+wh300f_8
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh300f_9
+	bounds: 0, 0, 15, 24
+	offsets: 21, 46, 57, 85
+wh300b_14
+	bounds: 33, 63, 1, 1
+wh300b_15
+	bounds: 33, 63, 1, 1
+wh300b_16
+	bounds: 33, 63, 1, 1
+wh300b_17
+	bounds: 33, 63, 1, 1
+wh300b_18
+	bounds: 33, 63, 1, 1
+wh300b_19
+	bounds: 33, 63, 1, 1
+wh300d_18
+	bounds: 33, 63, 1, 1
+wh300d_19
+	bounds: 33, 63, 1, 1
+wh300e_36
+	bounds: 33, 63, 1, 1
+wh300e_37
+	bounds: 33, 63, 1, 1
+wh300e_38
+	bounds: 33, 63, 1, 1
+wh300e_39
+	bounds: 33, 63, 1, 1
+wh300f_12
+	bounds: 33, 63, 1, 1
+wh300f_13
+	bounds: 33, 63, 1, 1
+wh300f_14
+	bounds: 33, 63, 1, 1
+wh300f_15
+	bounds: 33, 63, 1, 1
+wh300f_16
+	bounds: 33, 63, 1, 1
+wh300f_17
+	bounds: 33, 63, 1, 1
+wh300f_18
+	bounds: 33, 63, 1, 1
+wh300f_19
+	bounds: 33, 63, 1, 1
+wh300c_0
+	bounds: 0, 44, 18, 20
+	offsets: 17, 46, 57, 85
+wh300c_28
+	bounds: 18, 43, 15, 21
+	offsets: 21, 63, 57, 85

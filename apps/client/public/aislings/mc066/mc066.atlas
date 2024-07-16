@@ -1,0 +1,86 @@
+mc066.png
+	size: 256, 256
+mc06601_0
+	bounds: 89, 171, 1, 1
+mc06604_8
+	bounds: 89, 171, 1, 1
+mc06604_9
+	bounds: 89, 171, 1, 1
+mc06601_1
+	bounds: 89, 172, 88, 81
+	offsets: 0, 4, 111, 85
+mc06604_0
+	bounds: 89, 172, 88, 81
+	offsets: 0, 4, 111, 85
+mc06604_4
+	bounds: 89, 172, 88, 81
+	offsets: 0, 4, 111, 85
+mc06601_2
+	bounds: 0, 168, 89, 85
+	offsets: 0, 0, 111, 85
+mc06602_0
+	bounds: 0, 168, 89, 85
+	offsets: 0, 0, 111, 85
+mc06602_2
+	bounds: 0, 168, 89, 85
+	offsets: 0, 0, 111, 85
+mc06603_2
+	bounds: 0, 168, 89, 85
+	offsets: 0, 0, 111, 85
+mc06603_4
+	bounds: 0, 168, 89, 85
+	offsets: 0, 0, 111, 85
+mc06603_6
+	bounds: 0, 168, 89, 85
+	offsets: 0, 0, 111, 85
+mc06603_8
+	bounds: 0, 168, 89, 85
+	offsets: 0, 0, 111, 85
+mc06604_1
+	bounds: 0, 168, 89, 85
+	offsets: 0, 0, 111, 85
+mc06604_5
+	bounds: 0, 168, 89, 85
+	offsets: 0, 0, 111, 85
+mc06601_3
+	bounds: 0, 85, 89, 83
+	offsets: 0, 2, 111, 85
+mc06604_2
+	bounds: 0, 85, 89, 83
+	offsets: 0, 2, 111, 85
+mc06604_6
+	bounds: 0, 85, 89, 83
+	offsets: 0, 2, 111, 85
+mc06601_4
+	bounds: 0, 0, 85, 85
+	offsets: 0, 0, 111, 85
+mc06602_1
+	bounds: 0, 0, 85, 85
+	offsets: 0, 0, 111, 85
+mc06602_3
+	bounds: 0, 0, 85, 85
+	offsets: 0, 0, 111, 85
+mc06603_0
+	bounds: 0, 0, 85, 85
+	offsets: 0, 0, 111, 85
+mc06603_1
+	bounds: 0, 0, 85, 85
+	offsets: 0, 0, 111, 85
+mc06603_3
+	bounds: 0, 0, 85, 85
+	offsets: 0, 0, 111, 85
+mc06603_5
+	bounds: 0, 0, 85, 85
+	offsets: 0, 0, 111, 85
+mc06603_7
+	bounds: 0, 0, 85, 85
+	offsets: 0, 0, 111, 85
+mc06603_9
+	bounds: 0, 0, 85, 85
+	offsets: 0, 0, 111, 85
+mc06604_3
+	bounds: 0, 0, 85, 85
+	offsets: 0, 0, 111, 85
+mc06604_7
+	bounds: 0, 0, 85, 85
+	offsets: 0, 0, 111, 85

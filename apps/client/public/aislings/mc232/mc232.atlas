@@ -1,0 +1,424 @@
+mc232.png
+	size: 128, 128
+mc23201_0
+	bounds: 95, 88, 21, 40
+	offsets: 57, 3, 111, 85
+mc23201_1
+	bounds: 48, 44, 21, 41
+	offsets: 57, 3, 111, 85
+mc23201_2
+	bounds: 47, 2, 21, 42
+	offsets: 57, 3, 111, 85
+mc23201_4
+	bounds: 47, 2, 21, 42
+	offsets: 57, 3, 111, 85
+mc23201_3
+	bounds: 69, 43, 21, 42
+	offsets: 57, 4, 111, 85
+mc23201_5
+	bounds: 26, 44, 22, 41
+	offsets: 35, 3, 111, 85
+mc23201_6
+	bounds: 51, 86, 22, 42
+	offsets: 35, 3, 111, 85
+mc23201_7
+	bounds: 25, 1, 22, 43
+	offsets: 35, 3, 111, 85
+mc23201_9
+	bounds: 25, 1, 22, 43
+	offsets: 35, 3, 111, 85
+mc23201_8
+	bounds: 73, 85, 22, 43
+	offsets: 35, 4, 111, 85
+mc23202_0
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc23203_0
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc23203_2
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc23203_6
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232b_0
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232b_12
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232b_2
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232b_6
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232b_8
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232c_0
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232c_1
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232c_14
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232c_18
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232c_24
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232c_8
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232d_0
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232d_10
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232d_13
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232d_6
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_0
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_10
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_11
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_16
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_17
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_18
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_19
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_20
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_21
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_28
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_29
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_30
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_31
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_4
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_8
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232e_9
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232f_0
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232f_4
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc232f_6
+	bounds: 0, 86, 26, 42
+	offsets: 57, 3, 111, 85
+mc23202_1
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc23203_1
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc23203_3
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc23203_7
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232b_1
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232b_7
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232c_10
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232c_15
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232c_19
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232c_2
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232c_20
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232c_25
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232c_26
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232c_3
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232c_9
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232d_1
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232d_11
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232d_12
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232d_2
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232d_7
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232e_1
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232e_5
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232f_1
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232f_5
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc232f_7
+	bounds: 0, 44, 26, 42
+	offsets: 57, 4, 111, 85
+mc23202_2
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc23203_4
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc23203_8
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232b_10
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232b_13
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232b_3
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232b_5
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232c_11
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232c_16
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232c_21
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232c_27
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232c_4
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232c_5
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232d_14
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232d_17
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232d_3
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232d_8
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_12
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_13
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_14
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_15
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_2
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_22
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_23
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_24
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_25
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_26
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_27
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_32
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_33
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_34
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_35
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232e_6
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232f_10
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232f_2
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc232f_8
+	bounds: 26, 85, 25, 43
+	offsets: 35, 3, 111, 85
+mc23202_3
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc23203_5
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc23203_9
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232b_11
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232b_4
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232b_9
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232c_12
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232c_13
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232c_17
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232c_22
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232c_23
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232c_28
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232c_29
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232c_6
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232c_7
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232d_15
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232d_16
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232d_4
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232d_5
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232d_9
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232e_3
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232e_7
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232f_11
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232f_3
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232f_9
+	bounds: 0, 1, 25, 43
+	offsets: 35, 4, 111, 85
+mc232b_14
+	bounds: 0, 0, 1, 1
+mc232d_18
+	bounds: 0, 0, 1, 1
+mc232d_19
+	bounds: 0, 0, 1, 1
+mc232e_36
+	bounds: 0, 0, 1, 1
+mc232e_37
+	bounds: 0, 0, 1, 1
+mc232e_38
+	bounds: 0, 0, 1, 1
+mc232e_39
+	bounds: 0, 0, 1, 1
+mc232f_12
+	bounds: 0, 0, 1, 1
+mc232f_13
+	bounds: 0, 0, 1, 1
+mc232f_14
+	bounds: 0, 0, 1, 1

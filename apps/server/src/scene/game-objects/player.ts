@@ -5,7 +5,7 @@ import { Aisling } from './aisling';
 import { MapEntity } from './map-entity';
 import { EntityTypes } from '../entity-types';
 import { Circle } from '../../collision/geometry/circle';
-import { ObservableOrderedList } from '../../utils/observable-ordered-list';
+import { ObservableList } from '../../utils/observable-list';
 import { ServerPackets } from '@medenia/network';
 
 interface Item {}
@@ -14,10 +14,10 @@ export class Player extends Aisling {
   private _interestArea: CollisionObject;
   private _peer: Peer;
 
-  private _inventory: ObservableOrderedList<Item>;
-  private _spells: ObservableOrderedList<Item>;
-  private _skills: ObservableOrderedList<Item>;
-  private _equipment: ObservableOrderedList<Item>;
+  private _inventory: ObservableList<Item>;
+  private _spells: ObservableList<Item>;
+  private _skills: ObservableList<Item>;
+  private _equipment: ObservableList<Item>;
 
   set networkId(value: number) {
     this.identity.networkId = value;
@@ -58,10 +58,10 @@ export class Player extends Aisling {
     this.layer = EntityTypes.AISLING;
     this.mask = EntityTypes.AREA | EntityTypes.AISLING_AREA;
 
-    this._inventory = new ObservableOrderedList();
-    this._spells = new ObservableOrderedList();
-    this._skills = new ObservableOrderedList();
-    this._equipment = new ObservableOrderedList();
+    this._inventory = new ObservableList();
+    this._spells = new ObservableList();
+    this._skills = new ObservableList();
+    this._equipment = new ObservableList();
 
     this._inventory.addListener('added', this.onInventoryItemAdded, this);
     this._inventory.addListener('removed', this.onInventoryItemRemoved, this);

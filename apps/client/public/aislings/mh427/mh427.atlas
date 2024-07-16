@@ -1,0 +1,444 @@
+mh427.png
+	size: 64, 64
+mh42701_0
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh42701_1
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh42701_2
+	bounds: 13, 33, 12, 24
+	offsets: 21, 44, 57, 85
+mh42701_3
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh42701_4
+	bounds: 13, 33, 12, 24
+	offsets: 21, 44, 57, 85
+mh42702_0
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh42702_1
+	bounds: 13, 33, 12, 24
+	offsets: 30, 46, 57, 85
+mh42703_0
+	bounds: 13, 33, 12, 24
+	offsets: 21, 46, 57, 85
+mh42703_2
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh42703_3
+	bounds: 13, 33, 12, 24
+	offsets: 23, 43, 57, 85
+mh42703_6
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh42703_7
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh427b_0
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh427b_1
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh427b_12
+	bounds: 13, 33, 12, 24
+	offsets: 21, 46, 57, 85
+mh427b_2
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh427b_6
+	bounds: 13, 33, 12, 24
+	offsets: 21, 46, 57, 85
+mh427b_7
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh427b_8
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh427c_0
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh427c_1
+	bounds: 13, 33, 12, 24
+	offsets: 30, 46, 57, 85
+mh427c_10
+	bounds: 13, 33, 12, 24
+	offsets: 22, 39, 57, 85
+mh427c_14
+	bounds: 13, 33, 12, 24
+	offsets: 22, 39, 57, 85
+mh427c_15
+	bounds: 13, 33, 12, 24
+	offsets: 25, 36, 57, 85
+mh427c_18
+	bounds: 13, 33, 12, 24
+	offsets: 11, 38, 57, 85
+mh427c_19
+	bounds: 13, 33, 12, 24
+	offsets: 25, 37, 57, 85
+mh427c_2
+	bounds: 13, 33, 12, 24
+	offsets: 30, 46, 57, 85
+mh427c_20
+	bounds: 13, 33, 12, 24
+	offsets: 25, 36, 57, 85
+mh427c_24
+	bounds: 13, 33, 12, 24
+	offsets: 21, 40, 57, 85
+mh427c_25
+	bounds: 13, 33, 12, 24
+	offsets: 20, 60, 57, 85
+mh427c_26
+	bounds: 13, 33, 12, 24
+	offsets: 29, 28, 57, 85
+mh427c_3
+	bounds: 13, 33, 12, 24
+	offsets: 32, 42, 57, 85
+mh427c_8
+	bounds: 13, 33, 12, 24
+	offsets: 21, 40, 57, 85
+mh427c_9
+	bounds: 13, 33, 12, 24
+	offsets: 20, 55, 57, 85
+mh427d_0
+	bounds: 13, 33, 12, 24
+	offsets: 15, 39, 57, 85
+mh427d_1
+	bounds: 13, 33, 12, 24
+	offsets: 16, 45, 57, 85
+mh427d_10
+	bounds: 13, 33, 12, 24
+	offsets: 25, 46, 57, 85
+mh427d_11
+	bounds: 13, 33, 12, 24
+	offsets: 28, 50, 57, 85
+mh427d_12
+	bounds: 13, 33, 12, 24
+	offsets: 17, 46, 57, 85
+mh427d_13
+	bounds: 13, 33, 12, 24
+	offsets: 25, 46, 57, 85
+mh427d_2
+	bounds: 13, 33, 12, 24
+	offsets: 16, 47, 57, 85
+mh427d_6
+	bounds: 13, 33, 12, 24
+	offsets: 30, 46, 57, 85
+mh427d_7
+	bounds: 13, 33, 12, 24
+	offsets: 30, 46, 57, 85
+mh427e_0
+	bounds: 13, 33, 12, 24
+	offsets: 24, 45, 57, 85
+mh427e_1
+	bounds: 13, 33, 12, 24
+	offsets: 30, 38, 57, 85
+mh427e_10
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427e_11
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427e_16
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427e_17
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427e_18
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427e_19
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427e_20
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427e_21
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427e_28
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427e_29
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427e_30
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427e_31
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427e_4
+	bounds: 13, 33, 12, 24
+	offsets: 30, 38, 57, 85
+mh427e_5
+	bounds: 13, 33, 12, 24
+	offsets: 30, 38, 57, 85
+mh427e_8
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427e_9
+	bounds: 13, 33, 12, 24
+	offsets: 18, 47, 57, 85
+mh427f_0
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh427f_1
+	bounds: 13, 33, 12, 24
+	offsets: 21, 46, 57, 85
+mh427f_4
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh427f_5
+	bounds: 13, 33, 12, 24
+	offsets: 21, 45, 57, 85
+mh427f_6
+	bounds: 13, 33, 12, 24
+	offsets: 21, 46, 57, 85
+mh427f_7
+	bounds: 13, 33, 12, 24
+	offsets: 21, 46, 57, 85
+mh42701_5
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh42701_6
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh42701_7
+	bounds: 0, 28, 13, 29
+	offsets: 22, 40, 57, 85
+mh42701_8
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh42701_9
+	bounds: 0, 28, 13, 29
+	offsets: 22, 40, 57, 85
+mh42702_2
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh42702_3
+	bounds: 0, 28, 13, 29
+	offsets: 33, 33, 57, 85
+mh42703_1
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh42703_4
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh42703_5
+	bounds: 0, 28, 13, 29
+	offsets: 25, 40, 57, 85
+mh42703_8
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh42703_9
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh427b_10
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh427b_11
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh427b_13
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427b_3
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh427b_4
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh427b_5
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh427b_9
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427c_11
+	bounds: 0, 28, 13, 29
+	offsets: 23, 36, 57, 85
+mh427c_12
+	bounds: 0, 28, 13, 29
+	offsets: 22, 53, 57, 85
+mh427c_13
+	bounds: 0, 28, 13, 29
+	offsets: 28, 30, 57, 85
+mh427c_16
+	bounds: 0, 28, 13, 29
+	offsets: 30, 34, 57, 85
+mh427c_17
+	bounds: 0, 28, 13, 29
+	offsets: 40, 23, 57, 85
+mh427c_21
+	bounds: 0, 28, 13, 29
+	offsets: 14, 36, 57, 85
+mh427c_22
+	bounds: 0, 28, 13, 29
+	offsets: 34, 27, 57, 85
+mh427c_23
+	bounds: 0, 28, 13, 29
+	offsets: 40, 23, 57, 85
+mh427c_27
+	bounds: 0, 28, 13, 29
+	offsets: 23, 36, 57, 85
+mh427c_29
+	bounds: 0, 28, 13, 29
+	offsets: 27, 25, 57, 85
+mh427c_4
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh427c_5
+	bounds: 0, 28, 13, 29
+	offsets: 33, 33, 57, 85
+mh427c_6
+	bounds: 0, 28, 13, 29
+	offsets: 33, 33, 57, 85
+mh427c_7
+	bounds: 0, 28, 13, 29
+	offsets: 37, 32, 57, 85
+mh427d_14
+	bounds: 0, 28, 13, 29
+	offsets: 29, 39, 57, 85
+mh427d_15
+	bounds: 0, 28, 13, 29
+	offsets: 25, 36, 57, 85
+mh427d_16
+	bounds: 0, 28, 13, 29
+	offsets: 19, 38, 57, 85
+mh427d_17
+	bounds: 0, 28, 13, 29
+	offsets: 29, 39, 57, 85
+mh427d_3
+	bounds: 0, 28, 13, 29
+	offsets: 14, 44, 57, 85
+mh427d_4
+	bounds: 0, 28, 13, 29
+	offsets: 22, 40, 57, 85
+mh427d_5
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427d_8
+	bounds: 0, 28, 13, 29
+	offsets: 33, 33, 57, 85
+mh427d_9
+	bounds: 0, 28, 13, 29
+	offsets: 33, 33, 57, 85
+mh427e_12
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_13
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_14
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_15
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_2
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh427e_22
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_23
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_24
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_25
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_26
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_27
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_3
+	bounds: 0, 28, 13, 29
+	offsets: 36, 25, 57, 85
+mh427e_32
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_33
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_34
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_35
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427e_6
+	bounds: 0, 28, 13, 29
+	offsets: 36, 25, 57, 85
+mh427e_7
+	bounds: 0, 28, 13, 29
+	offsets: 36, 25, 57, 85
+mh427f_10
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427f_11
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427f_2
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh427f_3
+	bounds: 0, 28, 13, 29
+	offsets: 22, 42, 57, 85
+mh427f_8
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh427f_9
+	bounds: 0, 28, 13, 29
+	offsets: 22, 41, 57, 85
+mh427b_14
+	bounds: 0, 0, 1, 1
+mh427b_15
+	bounds: 0, 0, 1, 1
+mh427b_16
+	bounds: 0, 0, 1, 1
+mh427b_17
+	bounds: 0, 0, 1, 1
+mh427b_18
+	bounds: 0, 0, 1, 1
+mh427b_19
+	bounds: 0, 0, 1, 1
+mh427d_18
+	bounds: 0, 0, 1, 1
+mh427d_19
+	bounds: 0, 0, 1, 1
+mh427e_36
+	bounds: 0, 0, 1, 1
+mh427e_37
+	bounds: 0, 0, 1, 1
+mh427e_38
+	bounds: 0, 0, 1, 1
+mh427e_39
+	bounds: 0, 0, 1, 1
+mh427f_12
+	bounds: 0, 0, 1, 1
+mh427f_13
+	bounds: 0, 0, 1, 1
+mh427f_14
+	bounds: 0, 0, 1, 1
+mh427f_15
+	bounds: 0, 0, 1, 1
+mh427f_16
+	bounds: 0, 0, 1, 1
+mh427f_17
+	bounds: 0, 0, 1, 1
+mh427f_18
+	bounds: 0, 0, 1, 1
+mh427f_19
+	bounds: 0, 0, 1, 1
+mh427c_28
+	bounds: 0, 1, 13, 27
+	offsets: 22, 58, 57, 85

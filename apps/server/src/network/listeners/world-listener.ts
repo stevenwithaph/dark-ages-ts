@@ -6,7 +6,7 @@ import { playerCache } from '../../services/player-cache';
 
 export class WorldServer extends Listener {
   constructor() {
-    super(2612, Client);
+    super(Number(process.env.WORLD_PORT));
   }
 
   async onRedirect(client: Client, packet: ClientPackets.ClientRedirectedPacket) {

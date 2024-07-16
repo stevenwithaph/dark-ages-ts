@@ -1,0 +1,74 @@
+mu033.png
+	size: 256, 256
+mu03301_0
+	bounds: 26, 54, 19, 39
+	offsets: 19, 9, 57, 85
+mu03301_1
+	bounds: 26, 132, 21, 39
+	offsets: 18, 9, 57, 85
+mu03301_2
+	bounds: 0, 131, 26, 40
+	offsets: 15, 7, 57, 85
+mu03301_3
+	bounds: 238, 218, 18, 38
+	offsets: 19, 10, 57, 85
+mu03301_4
+	bounds: 29, 219, 27, 37
+	offsets: 16, 10, 57, 85
+mu03301_5
+	bounds: 0, 4, 24, 38
+	offsets: 19, 10, 57, 85
+mu03301_6
+	bounds: 104, 221, 23, 35
+	offsets: 16, 13, 57, 85
+mu03301_7
+	bounds: 0, 90, 26, 41
+	offsets: 15, 6, 57, 85
+mu03301_8
+	bounds: 28, 171, 19, 38
+	offsets: 19, 10, 57, 85
+mu03301_9
+	bounds: 0, 171, 28, 38
+	offsets: 16, 9, 57, 85
+mu03302_0
+	bounds: 24, 0, 18, 42
+	offsets: 20, 9, 57, 85
+mu03302_1
+	bounds: 66, 167, 18, 39
+	offsets: 26, 9, 57, 85
+mu03302_2
+	bounds: 150, 213, 22, 43
+	offsets: 21, 10, 57, 85
+mu03302_3
+	bounds: 172, 216, 22, 40
+	offsets: 23, 4, 57, 85
+mu03303_0
+	bounds: 47, 159, 19, 47
+	offsets: 19, 9, 57, 85
+mu03303_1
+	bounds: 56, 206, 24, 50
+	offsets: 18, 10, 57, 85
+mu03303_2
+	bounds: 47, 120, 19, 39
+	offsets: 19, 9, 57, 85
+mu03303_3
+	bounds: 0, 42, 26, 48
+	offsets: 19, 9, 57, 85
+mu03303_4
+	bounds: 80, 217, 24, 39
+	offsets: 19, 10, 57, 85
+mu03303_5
+	bounds: 0, 209, 29, 47
+	offsets: 19, 10, 57, 85
+mu03303_6
+	bounds: 26, 93, 21, 39
+	offsets: 19, 9, 57, 85
+mu03303_7
+	bounds: 194, 217, 22, 39
+	offsets: 19, 9, 57, 85
+mu03303_8
+	bounds: 216, 218, 22, 38
+	offsets: 21, 10, 57, 85
+mu03303_9
+	bounds: 127, 215, 23, 41
+	offsets: 20, 10, 57, 85

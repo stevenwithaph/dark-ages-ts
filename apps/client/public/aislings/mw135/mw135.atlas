@@ -1,0 +1,82 @@
+mw135.png
+	size: 32, 32
+mw13501_0
+	bounds: 0, 20, 10, 10
+	offsets: 64, 43, 111, 85
+mw13501_4
+	bounds: 0, 20, 10, 10
+	offsets: 64, 42, 111, 85
+mw13501_5
+	bounds: 0, 20, 10, 10
+	offsets: 65, 43, 111, 85
+mw13501_9
+	bounds: 0, 20, 10, 10
+	offsets: 65, 42, 111, 85
+mw135f_4
+	bounds: 0, 20, 10, 10
+	offsets: 64, 43, 111, 85
+mw135f_8
+	bounds: 0, 20, 10, 10
+	offsets: 65, 43, 111, 85
+mw13501_1
+	bounds: 0, 10, 10, 10
+	offsets: 64, 43, 111, 85
+mw13501_3
+	bounds: 0, 10, 10, 10
+	offsets: 64, 43, 111, 85
+mw13501_6
+	bounds: 0, 10, 10, 10
+	offsets: 65, 43, 111, 85
+mw13501_8
+	bounds: 0, 10, 10, 10
+	offsets: 65, 43, 111, 85
+mw13502_0
+	bounds: 0, 10, 10, 10
+	offsets: 64, 43, 111, 85
+mw13502_2
+	bounds: 0, 10, 10, 10
+	offsets: 65, 43, 111, 85
+mw135f_5
+	bounds: 0, 10, 10, 10
+	offsets: 64, 43, 111, 85
+mw135f_9
+	bounds: 0, 10, 10, 10
+	offsets: 65, 43, 111, 85
+mw13501_2
+	bounds: 10, 20, 10, 10
+	offsets: 64, 42, 111, 85
+mw13501_7
+	bounds: 10, 20, 10, 10
+	offsets: 65, 42, 111, 85
+mw135f_10
+	bounds: 10, 20, 10, 10
+	offsets: 65, 48, 111, 85
+mw135f_6
+	bounds: 10, 20, 10, 10
+	offsets: 64, 49, 111, 85
+mw13502_1
+	bounds: 0, 0, 10, 10
+	offsets: 73, 44, 111, 85
+mw13502_3
+	bounds: 0, 0, 10, 10
+	offsets: 76, 35, 111, 85
+mw135f_0
+	bounds: 20, 29, 1, 1
+mw135f_1
+	bounds: 20, 29, 1, 1
+mw135f_12
+	bounds: 20, 29, 1, 1
+mw135f_13
+	bounds: 20, 29, 1, 1
+mw135f_14
+	bounds: 20, 29, 1, 1
+mw135f_2
+	bounds: 20, 29, 1, 1
+mw135f_3
+	bounds: 20, 29, 1, 1
+mw135f_7
+	bounds: 10, 10, 10, 10
+	offsets: 64, 53, 111, 85
+mw135f_11
+	bounds: 10, 10, 10, 10
+	offsets: 65, 53, 111, 85

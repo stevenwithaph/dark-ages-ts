@@ -1,0 +1,56 @@
+mns300.png
+	size: 64, 64
+mns300_0
+	bounds: 27, 36, 7, 19
+	offsets: 24, 12, 55, 84
+mns300_1
+	bounds: 34, 36, 7, 19
+	offsets: 24, 11, 55, 84
+mns300_10
+	bounds: 0, 0, 9, 18
+	offsets: 23, 12, 55, 84
+mns300_14
+	bounds: 0, 0, 9, 18
+	offsets: 23, 12, 55, 84
+mns300_11
+	bounds: 0, 18, 10, 19
+	offsets: 23, 10, 55, 84
+mns300_15
+	bounds: 0, 18, 10, 19
+	offsets: 23, 10, 55, 84
+mns300_12
+	bounds: 48, 37, 7, 18
+	offsets: 24, 12, 55, 84
+mns300_16
+	bounds: 48, 37, 7, 18
+	offsets: 24, 12, 55, 84
+mns300_13
+	bounds: 10, 19, 9, 18
+	offsets: 23, 11, 55, 84
+mns300_17
+	bounds: 10, 19, 9, 18
+	offsets: 23, 11, 55, 84
+mns300_2
+	bounds: 19, 36, 8, 19
+	offsets: 24, 12, 55, 84
+mns300_6
+	bounds: 19, 36, 8, 19
+	offsets: 24, 12, 55, 84
+mns300_3
+	bounds: 0, 37, 10, 18
+	offsets: 23, 12, 55, 84
+mns300_7
+	bounds: 0, 37, 10, 18
+	offsets: 23, 12, 55, 84
+mns300_4
+	bounds: 41, 36, 7, 19
+	offsets: 24, 12, 55, 84
+mns300_8
+	bounds: 41, 36, 7, 19
+	offsets: 24, 12, 55, 84
+mns300_5
+	bounds: 10, 37, 9, 18
+	offsets: 24, 12, 55, 84
+mns300_9
+	bounds: 10, 37, 9, 18
+	offsets: 24, 12, 55, 84

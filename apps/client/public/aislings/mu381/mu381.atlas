@@ -1,0 +1,444 @@
+mu381.png
+	size: 512, 512
+mu38101_0
+	bounds: 287, 426, 29, 42
+	offsets: 13, 10, 57, 85
+mu38101_1
+	bounds: 218, 136, 27, 42
+	offsets: 15, 10, 57, 85
+mu38101_2
+	bounds: 105, 227, 29, 44
+	offsets: 15, 8, 57, 85
+mu38101_3
+	bounds: 218, 97, 27, 39
+	offsets: 15, 13, 57, 85
+mu38101_4
+	bounds: 316, 430, 28, 38
+	offsets: 13, 11, 57, 85
+mu38101_5
+	bounds: 136, 271, 30, 42
+	offsets: 13, 11, 57, 85
+mu38101_6
+	bounds: 159, 43, 28, 38
+	offsets: 13, 15, 57, 85
+mu38101_7
+	bounds: 166, 269, 30, 46
+	offsets: 13, 7, 57, 85
+mu38101_8
+	bounds: 316, 388, 28, 42
+	offsets: 13, 11, 57, 85
+mu38101_9
+	bounds: 196, 275, 30, 40
+	offsets: 13, 10, 57, 85
+mu38102_0
+	bounds: 134, 226, 29, 45
+	offsets: 13, 10, 57, 85
+mu38102_1
+	bounds: 415, 385, 34, 44
+	offsets: 17, 10, 57, 85
+mu38102_2
+	bounds: 69, 37, 30, 45
+	offsets: 13, 11, 57, 85
+mu38102_3
+	bounds: 308, 468, 36, 44
+	offsets: 13, 5, 57, 85
+mu38103_0
+	bounds: 71, 158, 30, 52
+	offsets: 13, 11, 57, 85
+mu38103_1
+	bounds: 71, 104, 30, 54
+	offsets: 13, 11, 57, 85
+mu38103_2
+	bounds: 163, 227, 29, 42
+	offsets: 13, 10, 57, 85
+mu38103_3
+	bounds: 39, 210, 33, 42
+	offsets: 13, 10, 57, 85
+mu38103_4
+	bounds: 72, 210, 30, 42
+	offsets: 13, 11, 57, 85
+mu38103_5
+	bounds: 38, 42, 31, 40
+	offsets: 13, 11, 57, 85
+mu38103_6
+	bounds: 226, 274, 30, 42
+	offsets: 13, 10, 57, 85
+mu38103_7
+	bounds: 449, 387, 30, 42
+	offsets: 13, 10, 57, 85
+mu38103_8
+	bounds: 101, 168, 30, 42
+	offsets: 13, 11, 57, 85
+mu38103_9
+	bounds: 101, 126, 30, 42
+	offsets: 13, 11, 57, 85
+mu381b_0
+	bounds: 131, 184, 29, 42
+	offsets: 13, 10, 57, 85
+mu381b_1
+	bounds: 131, 131, 29, 53
+	offsets: 13, 10, 57, 85
+mu381b_10
+	bounds: 231, 318, 30, 42
+	offsets: 13, 11, 57, 85
+mu381b_11
+	bounds: 256, 276, 30, 42
+	offsets: 13, 11, 57, 85
+mu381b_12
+	bounds: 160, 173, 29, 53
+	offsets: 13, 11, 57, 85
+mu381b_13
+	bounds: 129, 36, 30, 48
+	offsets: 13, 11, 57, 85
+mu381b_14
+	bounds: 415, 437, 1, 1
+mu381b_15
+	bounds: 415, 437, 1, 1
+mu381b_16
+	bounds: 415, 437, 1, 1
+mu381b_17
+	bounds: 415, 437, 1, 1
+mu381b_18
+	bounds: 415, 437, 1, 1
+mu381b_19
+	bounds: 415, 437, 1, 1
+mu381d_18
+	bounds: 415, 437, 1, 1
+mu381d_19
+	bounds: 415, 437, 1, 1
+mu381e_36
+	bounds: 415, 437, 1, 1
+mu381e_37
+	bounds: 415, 437, 1, 1
+mu381e_38
+	bounds: 415, 437, 1, 1
+mu381e_39
+	bounds: 415, 437, 1, 1
+mu381f_12
+	bounds: 415, 437, 1, 1
+mu381f_13
+	bounds: 415, 437, 1, 1
+mu381f_14
+	bounds: 415, 437, 1, 1
+mu381f_15
+	bounds: 415, 437, 1, 1
+mu381f_16
+	bounds: 415, 437, 1, 1
+mu381f_17
+	bounds: 415, 437, 1, 1
+mu381f_18
+	bounds: 415, 437, 1, 1
+mu381f_19
+	bounds: 415, 437, 1, 1
+mu381b_2
+	bounds: 0, 205, 39, 47
+	offsets: 13, 10, 57, 85
+mu381b_3
+	bounds: 101, 84, 30, 42
+	offsets: 13, 11, 57, 85
+mu381b_4
+	bounds: 99, 35, 30, 49
+	offsets: 13, 11, 57, 85
+mu381b_5
+	bounds: 0, 252, 40, 42
+	offsets: 13, 11, 57, 85
+mu381b_6
+	bounds: 131, 89, 29, 42
+	offsets: 13, 11, 57, 85
+mu381b_7
+	bounds: 192, 227, 29, 42
+	offsets: 13, 10, 57, 85
+mu381b_8
+	bounds: 221, 232, 29, 42
+	offsets: 13, 10, 57, 85
+mu381b_9
+	bounds: 208, 360, 30, 43
+	offsets: 13, 11, 57, 85
+mu381c_0
+	bounds: 160, 126, 29, 47
+	offsets: 13, 10, 57, 85
+mu381c_1
+	bounds: 98, 313, 34, 43
+	offsets: 17, 10, 57, 85
+mu381c_10
+	bounds: 416, 429, 35, 39
+	offsets: 8, 7, 57, 85
+mu381c_14
+	bounds: 416, 429, 35, 39
+	offsets: 8, 7, 57, 85
+mu381c_11
+	bounds: 188, 403, 27, 36
+	offsets: 14, 11, 57, 85
+mu381c_27
+	bounds: 188, 403, 27, 36
+	offsets: 14, 11, 57, 85
+mu381c_12
+	bounds: 257, 419, 30, 54
+	offsets: 13, 19, 57, 85
+mu381c_13
+	bounds: 39, 136, 32, 34
+	offsets: 8, 8, 57, 85
+mu381c_15
+	bounds: 232, 477, 38, 35
+	offsets: 6, 8, 57, 85
+mu381c_20
+	bounds: 232, 477, 38, 35
+	offsets: 6, 8, 57, 85
+mu381c_16
+	bounds: 0, 20, 38, 32
+	offsets: 9, 15, 57, 85
+mu381c_17
+	bounds: 147, 476, 45, 36
+	offsets: 7, 10, 57, 85
+mu381c_23
+	bounds: 147, 476, 45, 36
+	offsets: 7, 10, 57, 85
+mu381c_18
+	bounds: 147, 403, 39, 32
+	offsets: 7, 10, 57, 85
+mu381c_19
+	bounds: 192, 476, 40, 36
+	offsets: 6, 8, 57, 85
+mu381c_2
+	bounds: 132, 313, 34, 43
+	offsets: 17, 10, 57, 85
+mu381c_21
+	bounds: 344, 473, 36, 39
+	offsets: 5, 10, 57, 85
+mu381c_22
+	bounds: 0, 294, 45, 30
+	offsets: 7, 10, 57, 85
+mu381c_25
+	bounds: 189, 140, 29, 49
+	offsets: 11, 22, 57, 85
+mu381c_26
+	bounds: 380, 481, 36, 31
+	offsets: 11, 6, 57, 85
+mu381c_28
+	bounds: 39, 82, 32, 54
+	offsets: 13, 24, 57, 85
+mu381c_29
+	bounds: 0, 484, 49, 28
+	offsets: 5, 11, 57, 85
+mu381c_3
+	bounds: 189, 189, 29, 38
+	offsets: 21, 10, 57, 85
+mu381c_4
+	bounds: 227, 429, 30, 47
+	offsets: 13, 11, 57, 85
+mu381c_5
+	bounds: 39, 170, 32, 40
+	offsets: 13, 5, 57, 85
+mu381c_6
+	bounds: 451, 429, 29, 39
+	offsets: 20, 5, 57, 85
+mu381c_7
+	bounds: 0, 52, 38, 43
+	offsets: 13, 5, 57, 85
+mu381c_8
+	bounds: 38, 7, 31, 35
+	offsets: 12, 10, 57, 85
+mu381c_24
+	bounds: 38, 7, 31, 35
+	offsets: 12, 10, 57, 85
+mu381c_9
+	bounds: 218, 178, 28, 49
+	offsets: 12, 17, 57, 85
+mu381d_0
+	bounds: 189, 62, 27, 42
+	offsets: 5, 3, 57, 85
+mu381e_16
+	bounds: 189, 62, 27, 42
+	offsets: 8, 11, 57, 85
+mu381d_1
+	bounds: 49, 299, 34, 38
+	offsets: 9, 14, 57, 85
+mu381d_10
+	bounds: 159, 0, 27, 43
+	offsets: 19, 10, 57, 85
+mu381d_11
+	bounds: 74, 261, 31, 38
+	offsets: 21, 19, 57, 85
+mu381d_12
+	bounds: 0, 162, 39, 43
+	offsets: 16, 19, 57, 85
+mu381d_13
+	bounds: 304, 234, 21, 42
+	offsets: 22, 10, 57, 85
+mu381d_14
+	bounds: 160, 81, 29, 45
+	offsets: 21, 6, 57, 85
+mu381d_15
+	bounds: 105, 271, 31, 42
+	offsets: 16, 6, 57, 85
+mu381d_16
+	bounds: 147, 435, 41, 41
+	offsets: 14, 8, 57, 85
+mu381d_2
+	bounds: 140, 356, 34, 43
+	offsets: 9, 15, 57, 85
+mu381d_3
+	bounds: 488, 470, 24, 42
+	offsets: 7, 11, 57, 85
+mu381d_17
+	bounds: 488, 470, 24, 42
+	offsets: 22, 6, 57, 85
+mu381e_22
+	bounds: 488, 470, 24, 42
+	offsets: 15, 9, 57, 85
+mu381d_4
+	bounds: 166, 315, 34, 41
+	offsets: 12, 11, 57, 85
+mu381d_5
+	bounds: 174, 360, 34, 43
+	offsets: 12, 11, 57, 85
+mu381d_6
+	bounds: 416, 468, 36, 44
+	offsets: 17, 10, 57, 85
+mu381d_7
+	bounds: 200, 316, 31, 44
+	offsets: 17, 10, 57, 85
+mu381d_8
+	bounds: 98, 356, 42, 43
+	offsets: 13, 5, 57, 85
+mu381d_9
+	bounds: 270, 473, 38, 39
+	offsets: 13, 5, 57, 85
+mu381e_0
+	bounds: 480, 429, 24, 41
+	offsets: 17, 10, 57, 85
+mu381e_1
+	bounds: 452, 474, 36, 38
+	offsets: 17, 8, 57, 85
+mu381e_4
+	bounds: 452, 474, 36, 38
+	offsets: 17, 8, 57, 85
+mu381e_10
+	bounds: 371, 358, 27, 45
+	offsets: 8, 11, 57, 85
+mu381e_11
+	bounds: 371, 358, 27, 45
+	offsets: 8, 11, 57, 85
+mu381e_20
+	bounds: 371, 358, 27, 45
+	offsets: 8, 11, 57, 85
+mu381e_21
+	bounds: 371, 358, 27, 45
+	offsets: 8, 11, 57, 85
+mu381e_12
+	bounds: 286, 276, 26, 42
+	offsets: 15, 9, 57, 85
+mu381e_13
+	bounds: 286, 276, 26, 42
+	offsets: 15, 9, 57, 85
+mu381e_14
+	bounds: 286, 276, 26, 42
+	offsets: 15, 9, 57, 85
+mu381e_15
+	bounds: 286, 276, 26, 42
+	offsets: 15, 9, 57, 85
+mu381e_23
+	bounds: 286, 276, 26, 42
+	offsets: 15, 9, 57, 85
+mu381e_24
+	bounds: 286, 276, 26, 42
+	offsets: 15, 9, 57, 85
+mu381e_25
+	bounds: 286, 276, 26, 42
+	offsets: 15, 9, 57, 85
+mu381e_26
+	bounds: 286, 276, 26, 42
+	offsets: 15, 9, 57, 85
+mu381e_27
+	bounds: 286, 276, 26, 42
+	offsets: 15, 9, 57, 85
+mu381e_17
+	bounds: 250, 232, 27, 42
+	offsets: 8, 11, 57, 85
+mu381e_2
+	bounds: 273, 195, 26, 35
+	offsets: 15, 15, 57, 85
+mu381e_28
+	bounds: 246, 185, 27, 47
+	offsets: 8, 11, 57, 85
+mu381e_29
+	bounds: 261, 318, 27, 47
+	offsets: 8, 11, 57, 85
+mu381e_3
+	bounds: 188, 439, 39, 37
+	offsets: 16, 3, 57, 85
+mu381e_6
+	bounds: 188, 439, 39, 37
+	offsets: 16, 3, 57, 85
+mu381e_30
+	bounds: 277, 230, 27, 46
+	offsets: 8, 11, 57, 85
+mu381e_31
+	bounds: 277, 230, 27, 46
+	offsets: 8, 11, 57, 85
+mu381e_32
+	bounds: 479, 385, 24, 44
+	offsets: 15, 9, 57, 85
+mu381e_33
+	bounds: 479, 385, 24, 44
+	offsets: 15, 9, 57, 85
+mu381e_34
+	bounds: 479, 385, 24, 44
+	offsets: 15, 9, 57, 85
+mu381e_35
+	bounds: 479, 385, 24, 44
+	offsets: 15, 9, 57, 85
+mu381e_5
+	bounds: 189, 104, 29, 36
+	offsets: 17, 8, 57, 85
+mu381e_7
+	bounds: 380, 403, 35, 35
+	offsets: 16, 3, 57, 85
+mu381e_8
+	bounds: 216, 52, 27, 45
+	offsets: 8, 11, 57, 85
+mu381e_9
+	bounds: 344, 365, 27, 45
+	offsets: 8, 11, 57, 85
+mu381e_18
+	bounds: 344, 365, 27, 45
+	offsets: 8, 11, 57, 85
+mu381e_19
+	bounds: 344, 365, 27, 45
+	offsets: 8, 11, 57, 85
+mu381f_0
+	bounds: 40, 252, 34, 42
+	offsets: 11, 10, 57, 85
+mu381f_1
+	bounds: 0, 95, 39, 67
+	offsets: 10, 11, 57, 85
+mu381f_10
+	bounds: 49, 337, 49, 64
+	offsets: 3, 2, 57, 85
+mu381f_11
+	bounds: 98, 399, 49, 64
+	offsets: 3, 2, 57, 85
+mu381f_2
+	bounds: 380, 438, 36, 43
+	offsets: 10, 11, 57, 85
+mu381f_3
+	bounds: 344, 410, 36, 63
+	offsets: 10, 11, 57, 85
+mu381f_4
+	bounds: 0, 435, 49, 49
+	offsets: 3, 2, 57, 85
+mu381f_5
+	bounds: 49, 463, 49, 49
+	offsets: 3, 2, 57, 85
+mu381f_6
+	bounds: 0, 373, 49, 62
+	offsets: 3, 2, 57, 85
+mu381f_7
+	bounds: 49, 401, 49, 62
+	offsets: 3, 2, 57, 85
+mu381f_8
+	bounds: 98, 463, 49, 49
+	offsets: 3, 2, 57, 85
+mu381f_9
+	bounds: 0, 324, 49, 49
+	offsets: 3, 2, 57, 85

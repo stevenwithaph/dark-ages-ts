@@ -1,0 +1,23 @@
+mns035.png
+	size: 256, 256
+mns035_0
+	bounds: 0, 136, 41, 68
+	offsets: 4, 6, 56, 84
+mns035_1
+	bounds: 0, 68, 41, 68
+	offsets: 4, 6, 56, 84
+mns035_2
+	bounds: 41, 136, 41, 68
+	offsets: 4, 6, 56, 84
+mns035_3
+	bounds: 0, 0, 41, 68
+	offsets: 4, 6, 56, 84
+mns035_4
+	bounds: 41, 68, 41, 68
+	offsets: 4, 6, 56, 84
+mns035_5
+	bounds: 82, 136, 41, 68
+	offsets: 4, 6, 56, 84
+mns035_6
+	bounds: 41, 0, 41, 68
+	offsets: 4, 6, 56, 84

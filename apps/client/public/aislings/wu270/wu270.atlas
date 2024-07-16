@@ -1,0 +1,132 @@
+wu270.png
+	size: 256, 256
+wu27001_0
+	bounds: 20, 0, 13, 18
+	offsets: 21, 27, 57, 85
+wu27001_1
+	bounds: 180, 238, 17, 18
+	offsets: 20, 27, 57, 85
+wu27001_2
+	bounds: 0, 111, 22, 18
+	offsets: 17, 26, 57, 85
+wu27001_3
+	bounds: 33, 216, 14, 17
+	offsets: 21, 28, 57, 85
+wu27001_4
+	bounds: 20, 36, 15, 17
+	offsets: 21, 27, 57, 85
+wu27001_5
+	bounds: 33, 0, 13, 18
+	offsets: 22, 27, 57, 85
+wu27001_6
+	bounds: 0, 72, 20, 18
+	offsets: 17, 27, 57, 85
+wu27001_7
+	bounds: 0, 54, 20, 18
+	offsets: 18, 26, 57, 85
+wu27001_8
+	bounds: 20, 18, 15, 18
+	offsets: 22, 27, 57, 85
+wu27001_9
+	bounds: 47, 220, 14, 17
+	offsets: 22, 27, 57, 85
+wu27002_0
+	bounds: 44, 184, 12, 28
+	offsets: 22, 27, 57, 85
+wu27002_1
+	bounds: 75, 222, 13, 16
+	offsets: 27, 29, 57, 85
+wu27002_2
+	bounds: 245, 239, 11, 17
+	offsets: 23, 28, 57, 85
+wu27002_3
+	bounds: 245, 223, 11, 16
+	offsets: 28, 24, 57, 85
+wu27003_0
+	bounds: 35, 19, 14, 34
+	offsets: 20, 28, 57, 85
+wu27003_1
+	bounds: 30, 175, 14, 34
+	offsets: 22, 28, 57, 85
+wu27003_2
+	bounds: 197, 234, 16, 22
+	offsets: 21, 27, 57, 85
+wu27003_3
+	bounds: 0, 34, 20, 20
+	offsets: 21, 27, 57, 85
+wu27003_4
+	bounds: 213, 235, 16, 21
+	offsets: 22, 27, 57, 85
+wu27003_5
+	bounds: 0, 14, 20, 20
+	offsets: 22, 27, 57, 85
+wu27003_6
+	bounds: 0, 90, 21, 21
+	offsets: 21, 27, 57, 85
+wu27003_7
+	bounds: 20, 53, 16, 37
+	offsets: 21, 13, 57, 85
+wu27003_8
+	bounds: 56, 188, 12, 24
+	offsets: 23, 27, 57, 85
+wu27003_9
+	bounds: 61, 212, 14, 25
+	offsets: 21, 27, 57, 85
+wu270d_0
+	bounds: 46, 0, 11, 19
+	offsets: 17, 22, 57, 85
+wu270d_13
+	bounds: 46, 0, 11, 19
+	offsets: 27, 29, 57, 85
+wu270d_1
+	bounds: 0, 129, 24, 18
+	offsets: 10, 29, 57, 85
+wu270d_11
+	bounds: 0, 129, 24, 18
+	offsets: 22, 34, 57, 85
+wu270d_10
+	bounds: 229, 238, 16, 18
+	offsets: 25, 30, 57, 85
+wu270d_12
+	bounds: 0, 209, 33, 24
+	offsets: 22, 33, 57, 85
+wu270d_14
+	bounds: 161, 238, 19, 18
+	offsets: 26, 25, 57, 85
+wu270d_15
+	bounds: 0, 147, 25, 18
+	offsets: 18, 24, 57, 85
+wu270d_16
+	bounds: 0, 233, 36, 23
+	offsets: 19, 21, 57, 85
+wu270d_18
+	bounds: 67, 237, 1, 1
+wu270d_19
+	bounds: 67, 237, 1, 1
+wu270d_2
+	bounds: 0, 187, 30, 22
+	offsets: 10, 31, 57, 85
+wu270d_3
+	bounds: 68, 194, 12, 18
+	offsets: 16, 30, 57, 85
+wu270d_17
+	bounds: 68, 194, 12, 18
+	offsets: 31, 25, 57, 85
+wu270d_4
+	bounds: 67, 238, 28, 18
+	offsets: 13, 28, 57, 85
+wu270d_5
+	bounds: 36, 237, 31, 19
+	offsets: 13, 29, 57, 85
+wu270d_6
+	bounds: 0, 165, 27, 22
+	offsets: 25, 29, 57, 85
+wu270d_7
+	bounds: 141, 234, 20, 22
+	offsets: 27, 29, 57, 85
+wu270d_8
+	bounds: 95, 240, 25, 16
+	offsets: 26, 24, 57, 85
+wu270d_9
+	bounds: 120, 240, 21, 16
+	offsets: 29, 24, 57, 85

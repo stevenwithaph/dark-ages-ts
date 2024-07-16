@@ -1,0 +1,144 @@
+mu240.png
+	size: 256, 256
+mu24001_0
+	bounds: 161, 174, 19, 41
+	offsets: 18, 9, 57, 85
+mu24001_1
+	bounds: 28, 127, 22, 41
+	offsets: 18, 9, 57, 85
+mu24001_2
+	bounds: 0, 126, 28, 42
+	offsets: 15, 7, 57, 85
+mu24001_3
+	bounds: 180, 175, 19, 40
+	offsets: 18, 10, 57, 85
+mu24001_4
+	bounds: 0, 87, 27, 39
+	offsets: 14, 10, 57, 85
+mu24001_5
+	bounds: 213, 216, 23, 40
+	offsets: 18, 10, 57, 85
+mu24001_6
+	bounds: 0, 10, 26, 37
+	offsets: 15, 13, 57, 85
+mu24001_7
+	bounds: 34, 179, 28, 43
+	offsets: 14, 6, 57, 85
+mu24001_8
+	bounds: 50, 132, 22, 40
+	offsets: 17, 10, 57, 85
+mu24001_9
+	bounds: 0, 47, 27, 40
+	offsets: 15, 9, 57, 85
+mu24002_0
+	bounds: 218, 172, 18, 44
+	offsets: 19, 9, 57, 85
+mu24002_1
+	bounds: 72, 50, 21, 42
+	offsets: 24, 9, 57, 85
+mu24002_2
+	bounds: 93, 48, 21, 44
+	offsets: 20, 10, 57, 85
+mu24002_3
+	bounds: 199, 175, 19, 40
+	offsets: 23, 4, 57, 85
+mu24003_0
+	bounds: 236, 207, 20, 49
+	offsets: 17, 9, 57, 85
+mu24003_1
+	bounds: 27, 76, 23, 50
+	offsets: 18, 10, 57, 85
+mu24003_2
+	bounds: 140, 181, 21, 41
+	offsets: 18, 9, 57, 85
+mu24003_3
+	bounds: 165, 215, 24, 41
+	offsets: 18, 9, 57, 85
+mu24003_4
+	bounds: 27, 36, 23, 40
+	offsets: 18, 10, 57, 85
+mu24003_5
+	bounds: 90, 216, 25, 40
+	offsets: 18, 10, 57, 85
+mu24003_6
+	bounds: 50, 91, 22, 41
+	offsets: 18, 9, 57, 85
+mu24003_7
+	bounds: 189, 215, 24, 41
+	offsets: 18, 9, 57, 85
+mu24003_8
+	bounds: 50, 51, 22, 40
+	offsets: 19, 10, 57, 85
+mu24003_9
+	bounds: 72, 132, 22, 40
+	offsets: 19, 10, 57, 85
+mu240b_0
+	bounds: 94, 133, 19, 41
+	offsets: 18, 9, 57, 85
+mu240b_1
+	bounds: 115, 202, 25, 54
+	offsets: 13, 9, 57, 85
+mu240b_2
+	bounds: 0, 208, 34, 48
+	offsets: 18, 9, 57, 85
+mu240b_3
+	bounds: 72, 92, 22, 40
+	offsets: 19, 10, 57, 85
+mu240b_4
+	bounds: 63, 206, 27, 50
+	offsets: 14, 10, 57, 85
+mu240b_5
+	bounds: 0, 168, 34, 40
+	offsets: 19, 10, 57, 85
+mu240b_6
+	bounds: 26, 46, 1, 1
+mu240b_10
+	bounds: 26, 46, 1, 1
+mu240b_11
+	bounds: 26, 46, 1, 1
+mu240b_12
+	bounds: 26, 46, 1, 1
+mu240b_13
+	bounds: 26, 46, 1, 1
+mu240b_14
+	bounds: 26, 46, 1, 1
+mu240b_15
+	bounds: 26, 46, 1, 1
+mu240b_16
+	bounds: 26, 46, 1, 1
+mu240b_17
+	bounds: 26, 46, 1, 1
+mu240b_18
+	bounds: 26, 46, 1, 1
+mu240b_19
+	bounds: 26, 46, 1, 1
+mu240b_7
+	bounds: 26, 46, 1, 1
+mu240b_8
+	bounds: 26, 46, 1, 1
+mu240b_9
+	bounds: 26, 46, 1, 1
+mu240e_0
+	bounds: 113, 133, 15, 39
+	offsets: 22, 9, 57, 85
+mu240e_1
+	bounds: 140, 222, 25, 34
+	offsets: 26, 9, 57, 85
+mu240e_4
+	bounds: 140, 222, 25, 34
+	offsets: 26, 9, 57, 85
+mu240e_2
+	bounds: 236, 172, 16, 35
+	offsets: 22, 13, 57, 85
+mu240e_3
+	bounds: 34, 222, 29, 34
+	offsets: 26, 2, 57, 85
+mu240e_6
+	bounds: 34, 222, 29, 34
+	offsets: 26, 2, 57, 85
+mu240e_5
+	bounds: 94, 101, 19, 32
+	offsets: 26, 9, 57, 85
+mu240e_7
+	bounds: 62, 172, 23, 34
+	offsets: 28, 2, 57, 85

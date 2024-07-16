@@ -1,0 +1,74 @@
+mh235.png
+	size: 256, 256
+mh23501_0
+	bounds: 106, 192, 33, 64
+	offsets: 5, 9, 57, 85
+mh23502_0
+	bounds: 106, 192, 33, 64
+	offsets: 5, 9, 57, 85
+mh23503_2
+	bounds: 106, 192, 33, 64
+	offsets: 5, 9, 57, 85
+mh23501_1
+	bounds: 67, 0, 30, 65
+	offsets: 8, 9, 57, 85
+mh23501_2
+	bounds: 161, 125, 29, 68
+	offsets: 9, 7, 57, 85
+mh23501_3
+	bounds: 104, 130, 32, 62
+	offsets: 6, 10, 57, 85
+mh23501_4
+	bounds: 139, 194, 33, 62
+	offsets: 8, 10, 57, 85
+mh23501_5
+	bounds: 0, 189, 37, 67
+	offsets: 4, 10, 57, 85
+mh23502_2
+	bounds: 0, 189, 37, 67
+	offsets: 4, 10, 57, 85
+mh23503_8
+	bounds: 0, 189, 37, 67
+	offsets: 4, 10, 57, 85
+mh23503_9
+	bounds: 0, 189, 37, 67
+	offsets: 4, 10, 57, 85
+mh23501_6
+	bounds: 172, 193, 33, 63
+	offsets: 5, 13, 57, 85
+mh23501_7
+	bounds: 131, 58, 30, 72
+	offsets: 8, 6, 57, 85
+mh23501_8
+	bounds: 0, 58, 34, 64
+	offsets: 4, 10, 57, 85
+mh23501_9
+	bounds: 37, 191, 35, 65
+	offsets: 7, 9, 57, 85
+mh23502_1
+	bounds: 67, 65, 32, 62
+	offsets: 13, 9, 57, 85
+mh23502_3
+	bounds: 37, 129, 34, 62
+	offsets: 15, 4, 57, 85
+mh23503_0
+	bounds: 161, 58, 29, 67
+	offsets: 9, 9, 57, 85
+mh23503_1
+	bounds: 205, 186, 33, 70
+	offsets: 8, 10, 57, 85
+mh23503_3
+	bounds: 99, 66, 32, 61
+	offsets: 7, 9, 57, 85
+mh23503_4
+	bounds: 0, 122, 37, 67
+	offsets: 4, 10, 57, 85
+mh23503_5
+	bounds: 72, 193, 34, 63
+	offsets: 7, 10, 57, 85
+mh23503_6
+	bounds: 34, 58, 33, 64
+	offsets: 5, 9, 57, 85
+mh23503_7
+	bounds: 71, 127, 33, 64
+	offsets: 5, 9, 57, 85

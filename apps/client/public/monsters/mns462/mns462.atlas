@@ -1,0 +1,56 @@
+mns462.png
+	size: 256, 256
+mns462_0
+	bounds: 0, 8, 50, 39
+	offsets: 3, 7, 56, 84
+mns462_1
+	bounds: 214, 214, 41, 41
+	offsets: 7, 8, 56, 84
+mns462_10
+	bounds: 54, 171, 53, 39
+	offsets: 1, 7, 56, 84
+mns462_11
+	bounds: 0, 47, 52, 41
+	offsets: 3, 7, 56, 84
+mns462_12
+	bounds: 0, 171, 54, 39
+	offsets: 1, 7, 56, 84
+mns462_13
+	bounds: 109, 214, 53, 41
+	offsets: 1, 7, 56, 84
+mns462_14
+	bounds: 55, 210, 54, 45
+	offsets: 1, 6, 56, 84
+mns462_15
+	bounds: 0, 88, 53, 40
+	offsets: 2, 6, 56, 84
+mns462_16
+	bounds: 0, 128, 54, 43
+	offsets: 1, 5, 56, 84
+mns462_17
+	bounds: 0, 210, 55, 45
+	offsets: 1, 6, 56, 84
+mns462_2
+	bounds: 107, 136, 47, 39
+	offsets: 5, 8, 56, 84
+mns462_3
+	bounds: 106, 97, 43, 39
+	offsets: 4, 9, 56, 84
+mns462_4
+	bounds: 109, 175, 50, 39
+	offsets: 2, 7, 56, 84
+mns462_5
+	bounds: 54, 129, 52, 42
+	offsets: 2, 6, 56, 84
+mns462_6
+	bounds: 149, 94, 43, 40
+	offsets: 8, 8, 56, 84
+mns462_7
+	bounds: 159, 174, 48, 40
+	offsets: 3, 7, 56, 84
+mns462_8
+	bounds: 154, 134, 46, 40
+	offsets: 6, 8, 56, 84
+mns462_9
+	bounds: 162, 214, 52, 41
+	offsets: 2, 7, 56, 84

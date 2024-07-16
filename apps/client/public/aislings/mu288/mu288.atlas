@@ -1,0 +1,126 @@
+mu288.png
+	size: 256, 256
+mu28801_0
+	bounds: 176, 140, 19, 39
+	offsets: 18, 9, 57, 85
+mu28801_1
+	bounds: 133, 173, 26, 38
+	offsets: 13, 10, 57, 85
+mu28801_2
+	bounds: 98, 172, 35, 39
+	offsets: 6, 8, 57, 85
+mu28801_3
+	bounds: 174, 62, 18, 35
+	offsets: 17, 13, 57, 85
+mu28801_4
+	bounds: 83, 60, 27, 36
+	offsets: 14, 11, 57, 85
+mu28801_5
+	bounds: 110, 74, 22, 37
+	offsets: 18, 11, 57, 85
+mu28801_6
+	bounds: 30, 0, 25, 33
+	offsets: 14, 15, 57, 85
+mu28801_7
+	bounds: 0, 9, 30, 40
+	offsets: 10, 7, 57, 85
+mu28801_8
+	bounds: 195, 143, 19, 37
+	offsets: 18, 11, 57, 85
+mu28801_9
+	bounds: 159, 179, 26, 37
+	offsets: 16, 10, 57, 85
+mu28802_0
+	bounds: 214, 136, 19, 44
+	offsets: 18, 9, 57, 85
+mu28802_1
+	bounds: 147, 216, 35, 40
+	offsets: 9, 9, 57, 85
+mu28802_2
+	bounds: 110, 32, 22, 42
+	offsets: 18, 11, 57, 85
+mu28802_3
+	bounds: 83, 21, 27, 39
+	offsets: 15, 5, 57, 85
+mu28803_0
+	bounds: 233, 128, 19, 50
+	offsets: 18, 9, 57, 85
+mu28803_1
+	bounds: 132, 123, 22, 49
+	offsets: 18, 11, 57, 85
+mu28803_2
+	bounds: 154, 58, 20, 39
+	offsets: 18, 9, 57, 85
+mu28803_3
+	bounds: 185, 180, 24, 39
+	offsets: 18, 9, 57, 85
+mu28803_4
+	bounds: 132, 86, 22, 37
+	offsets: 18, 11, 57, 85
+mu28803_5
+	bounds: 209, 180, 24, 37
+	offsets: 18, 11, 57, 85
+mu28803_6
+	bounds: 154, 97, 21, 39
+	offsets: 18, 9, 57, 85
+mu28803_7
+	bounds: 233, 178, 23, 39
+	offsets: 18, 9, 57, 85
+mu28803_8
+	bounds: 132, 49, 22, 37
+	offsets: 18, 11, 57, 85
+mu28803_9
+	bounds: 154, 136, 22, 37
+	offsets: 18, 11, 57, 85
+mu288f_0
+	bounds: 215, 217, 30, 39
+	offsets: 13, 9, 57, 85
+mu288f_1
+	bounds: 98, 111, 34, 61
+	offsets: 11, 9, 57, 85
+mu288f_10
+	bounds: 0, 49, 49, 59
+	offsets: 3, 2, 57, 85
+mu288f_11
+	bounds: 49, 96, 49, 59
+	offsets: 3, 2, 57, 85
+mu288f_12
+	bounds: 133, 172, 1, 1
+mu288f_13
+	bounds: 133, 172, 1, 1
+mu288f_14
+	bounds: 133, 172, 1, 1
+mu288f_15
+	bounds: 133, 172, 1, 1
+mu288f_16
+	bounds: 133, 172, 1, 1
+mu288f_17
+	bounds: 133, 172, 1, 1
+mu288f_18
+	bounds: 133, 172, 1, 1
+mu288f_19
+	bounds: 133, 172, 1, 1
+mu288f_2
+	bounds: 182, 219, 33, 37
+	offsets: 12, 11, 57, 85
+mu288f_3
+	bounds: 49, 33, 34, 63
+	offsets: 12, 11, 57, 85
+mu288f_4
+	bounds: 0, 210, 49, 46
+	offsets: 3, 2, 57, 85
+mu288f_5
+	bounds: 0, 164, 49, 46
+	offsets: 3, 2, 57, 85
+mu288f_6
+	bounds: 49, 200, 49, 56
+	offsets: 3, 2, 57, 85
+mu288f_7
+	bounds: 0, 108, 49, 56
+	offsets: 3, 2, 57, 85
+mu288f_8
+	bounds: 49, 155, 49, 45
+	offsets: 3, 2, 57, 85
+mu288f_9
+	bounds: 98, 211, 49, 45
+	offsets: 3, 2, 57, 85

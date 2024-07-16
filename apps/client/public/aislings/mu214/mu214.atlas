@@ -1,0 +1,74 @@
+mu214.png
+	size: 256, 256
+mu21401_0
+	bounds: 26, 131, 18, 39
+	offsets: 18, 10, 57, 85
+mu21401_1
+	bounds: 171, 214, 21, 39
+	offsets: 18, 10, 57, 85
+mu21401_2
+	bounds: 0, 169, 26, 40
+	offsets: 14, 8, 57, 85
+mu21401_3
+	bounds: 46, 176, 18, 36
+	offsets: 18, 13, 57, 85
+mu21401_4
+	bounds: 53, 216, 25, 37
+	offsets: 16, 11, 57, 85
+mu21401_5
+	bounds: 0, 87, 24, 41
+	offsets: 16, 11, 57, 85
+mu21401_6
+	bounds: 78, 216, 24, 37
+	offsets: 15, 15, 57, 85
+mu21401_7
+	bounds: 0, 209, 27, 44
+	offsets: 14, 7, 57, 85
+mu21401_8
+	bounds: 192, 212, 21, 41
+	offsets: 16, 11, 57, 85
+mu21401_9
+	bounds: 27, 212, 26, 41
+	offsets: 16, 10, 57, 85
+mu21402_0
+	bounds: 82, 172, 16, 44
+	offsets: 20, 10, 57, 85
+mu21402_1
+	bounds: 64, 176, 18, 40
+	offsets: 26, 10, 57, 85
+mu21402_2
+	bounds: 213, 211, 20, 42
+	offsets: 20, 11, 57, 85
+mu21402_3
+	bounds: 233, 212, 20, 41
+	offsets: 22, 5, 57, 85
+mu21403_0
+	bounds: 24, 81, 20, 47
+	offsets: 18, 11, 57, 85
+mu21403_1
+	bounds: 102, 204, 23, 49
+	offsets: 17, 11, 57, 85
+mu21403_2
+	bounds: 24, 42, 20, 39
+	offsets: 18, 10, 57, 85
+mu21403_3
+	bounds: 125, 214, 23, 39
+	offsets: 18, 10, 57, 85
+mu21403_4
+	bounds: 0, 46, 24, 41
+	offsets: 16, 11, 57, 85
+mu21403_5
+	bounds: 0, 128, 26, 41
+	offsets: 16, 11, 57, 85
+mu21403_6
+	bounds: 148, 214, 23, 39
+	offsets: 18, 10, 57, 85
+mu21403_7
+	bounds: 0, 7, 24, 39
+	offsets: 18, 10, 57, 85
+mu21403_8
+	bounds: 24, 1, 20, 41
+	offsets: 20, 11, 57, 85
+mu21403_9
+	bounds: 26, 170, 20, 39
+	offsets: 20, 11, 57, 85

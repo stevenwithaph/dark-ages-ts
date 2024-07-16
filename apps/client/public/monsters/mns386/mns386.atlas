@@ -1,0 +1,14 @@
+mns386.png
+	size: 128, 128
+mns386_0
+	bounds: 49, 0, 41, 52
+	offsets: 7, 4, 56, 98
+mns386_1
+	bounds: 0, 0, 49, 52
+	offsets: 5, 4, 56, 98
+mns386_2
+	bounds: 0, 52, 50, 51
+	offsets: 3, 5, 56, 98
+mns386_3
+	bounds: 50, 52, 49, 51
+	offsets: 3, 5, 56, 98

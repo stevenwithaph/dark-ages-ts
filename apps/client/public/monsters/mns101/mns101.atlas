@@ -1,0 +1,44 @@
+mns101.png
+	size: 256, 256
+mns101_0
+	bounds: 183, 198, 44, 44
+	offsets: 5, 6, 56, 84
+mns101_1
+	bounds: 0, 92, 45, 44
+	offsets: 5, 6, 56, 84
+mns101_10
+	bounds: 93, 192, 45, 50
+	offsets: 5, 7, 56, 84
+mns101_11
+	bounds: 0, 189, 47, 53
+	offsets: 5, 5, 56, 84
+mns101_12
+	bounds: 138, 192, 45, 50
+	offsets: 6, 7, 56, 84
+mns101_13
+	bounds: 0, 136, 47, 53
+	offsets: 4, 5, 56, 84
+mns101_2
+	bounds: 47, 198, 46, 44
+	offsets: 5, 6, 56, 84
+mns101_3
+	bounds: 92, 148, 44, 44
+	offsets: 5, 6, 56, 84
+mns101_4
+	bounds: 136, 148, 44, 44
+	offsets: 5, 6, 56, 84
+mns101_5
+	bounds: 47, 153, 45, 45
+	offsets: 3, 6, 56, 84
+mns101_6
+	bounds: 0, 46, 45, 46
+	offsets: 3, 5, 56, 84
+mns101_7
+	bounds: 0, 0, 45, 46
+	offsets: 3, 5, 56, 84
+mns101_8
+	bounds: 47, 108, 43, 45
+	offsets: 5, 6, 56, 84
+mns101_9
+	bounds: 45, 63, 43, 45
+	offsets: 5, 6, 56, 84

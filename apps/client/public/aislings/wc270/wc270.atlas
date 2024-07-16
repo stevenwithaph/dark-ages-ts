@@ -1,0 +1,346 @@
+wc270.png
+	size: 64, 64
+wc27001_0
+	bounds: 16, 14, 10, 24
+	offsets: 44, 14, 111, 85
+wc27002_0
+	bounds: 16, 14, 10, 24
+	offsets: 44, 14, 111, 85
+wc27003_0
+	bounds: 16, 14, 10, 24
+	offsets: 44, 15, 111, 85
+wc270b_0
+	bounds: 16, 14, 10, 24
+	offsets: 44, 14, 111, 85
+wc270b_12
+	bounds: 16, 14, 10, 24
+	offsets: 44, 15, 111, 85
+wc270b_6
+	bounds: 16, 14, 10, 24
+	offsets: 44, 15, 111, 85
+wc270c_0
+	bounds: 16, 14, 10, 24
+	offsets: 44, 14, 111, 85
+wc270c_25
+	bounds: 16, 14, 10, 24
+	offsets: 44, 29, 111, 85
+wc270c_9
+	bounds: 16, 14, 10, 24
+	offsets: 44, 24, 111, 85
+wc270d_0
+	bounds: 16, 14, 10, 24
+	offsets: 36, 9, 111, 85
+wc270d_1
+	bounds: 16, 14, 10, 24
+	offsets: 42, 16, 111, 85
+wc270e_16
+	bounds: 16, 14, 10, 24
+	offsets: 40, 16, 111, 85
+wc270e_17
+	bounds: 16, 14, 10, 24
+	offsets: 40, 16, 111, 85
+wc270e_18
+	bounds: 16, 14, 10, 24
+	offsets: 40, 16, 111, 85
+wc270e_19
+	bounds: 16, 14, 10, 24
+	offsets: 40, 16, 111, 85
+wc270e_28
+	bounds: 16, 14, 10, 24
+	offsets: 40, 16, 111, 85
+wc270e_29
+	bounds: 16, 14, 10, 24
+	offsets: 40, 16, 111, 85
+wc270e_8
+	bounds: 16, 14, 10, 24
+	offsets: 40, 16, 111, 85
+wc270e_9
+	bounds: 16, 14, 10, 24
+	offsets: 40, 16, 111, 85
+wc270f_0
+	bounds: 16, 14, 10, 24
+	offsets: 44, 14, 111, 85
+wc270f_1
+	bounds: 16, 14, 10, 24
+	offsets: 44, 15, 111, 85
+wc270f_4
+	bounds: 16, 14, 10, 24
+	offsets: 44, 14, 111, 85
+wc270f_5
+	bounds: 16, 14, 10, 24
+	offsets: 44, 14, 111, 85
+wc270f_6
+	bounds: 16, 14, 10, 24
+	offsets: 44, 15, 111, 85
+wc270f_7
+	bounds: 16, 14, 10, 24
+	offsets: 44, 15, 111, 85
+wc27001_1
+	bounds: 0, 22, 16, 20
+	offsets: 38, 18, 111, 85
+wc27002_1
+	bounds: 0, 22, 16, 20
+	offsets: 45, 19, 111, 85
+wc270c_1
+	bounds: 0, 22, 16, 20
+	offsets: 44, 19, 111, 85
+wc270c_10
+	bounds: 0, 22, 16, 20
+	offsets: 37, 14, 111, 85
+wc270c_15
+	bounds: 0, 22, 16, 20
+	offsets: 40, 10, 111, 85
+wc270c_20
+	bounds: 0, 22, 16, 20
+	offsets: 40, 10, 111, 85
+wc270d_6
+	bounds: 0, 22, 16, 20
+	offsets: 45, 19, 111, 85
+wc270e_1
+	bounds: 0, 22, 16, 20
+	offsets: 46, 12, 111, 85
+wc270e_10
+	bounds: 0, 22, 16, 20
+	offsets: 34, 20, 111, 85
+wc270e_20
+	bounds: 0, 22, 16, 20
+	offsets: 34, 20, 111, 85
+wc270e_30
+	bounds: 0, 22, 16, 20
+	offsets: 34, 20, 111, 85
+wc270e_4
+	bounds: 0, 22, 16, 20
+	offsets: 46, 12, 111, 85
+wc27001_2
+	bounds: 0, 1, 16, 21
+	offsets: 38, 16, 111, 85
+wc270c_2
+	bounds: 0, 1, 16, 21
+	offsets: 44, 18, 111, 85
+wc270d_10
+	bounds: 0, 1, 16, 21
+	offsets: 42, 18, 111, 85
+wc270d_7
+	bounds: 0, 1, 16, 21
+	offsets: 45, 18, 111, 85
+wc270e_11
+	bounds: 0, 1, 16, 21
+	offsets: 34, 19, 111, 85
+wc270e_21
+	bounds: 0, 1, 16, 21
+	offsets: 34, 19, 111, 85
+wc270e_31
+	bounds: 0, 1, 16, 21
+	offsets: 34, 19, 111, 85
+wc270e_5
+	bounds: 0, 1, 16, 21
+	offsets: 45, 11, 111, 85
+wc27001_3
+	bounds: 26, 16, 10, 22
+	offsets: 44, 16, 111, 85
+wc27003_2
+	bounds: 26, 16, 10, 22
+	offsets: 44, 16, 111, 85
+wc27003_6
+	bounds: 26, 16, 10, 22
+	offsets: 44, 16, 111, 85
+wc270b_1
+	bounds: 26, 16, 10, 22
+	offsets: 44, 16, 111, 85
+wc270b_7
+	bounds: 26, 16, 10, 22
+	offsets: 44, 16, 111, 85
+wc270c_14
+	bounds: 26, 16, 10, 22
+	offsets: 43, 12, 111, 85
+wc270c_19
+	bounds: 26, 16, 10, 22
+	offsets: 47, 8, 111, 85
+wc270c_24
+	bounds: 26, 16, 10, 22
+	offsets: 44, 11, 111, 85
+wc270c_8
+	bounds: 26, 16, 10, 22
+	offsets: 44, 11, 111, 85
+wc270d_11
+	bounds: 26, 16, 10, 22
+	offsets: 53, 23, 111, 85
+wc270d_2
+	bounds: 26, 16, 10, 22
+	offsets: 42, 20, 111, 85
+wc270e_0
+	bounds: 26, 16, 10, 22
+	offsets: 46, 17, 111, 85
+wc27001_4
+	bounds: 36, 13, 9, 25
+	offsets: 45, 12, 111, 85
+wc27003_3
+	bounds: 36, 13, 9, 25
+	offsets: 45, 13, 111, 85
+wc27003_7
+	bounds: 36, 13, 9, 25
+	offsets: 45, 13, 111, 85
+wc270b_2
+	bounds: 36, 13, 9, 25
+	offsets: 45, 13, 111, 85
+wc270b_8
+	bounds: 36, 13, 9, 25
+	offsets: 45, 13, 111, 85
+wc270d_13
+	bounds: 36, 13, 9, 25
+	offsets: 47, 15, 111, 85
+wc27001_5
+	bounds: 0, 0, 1, 1
+wc27001_6
+	bounds: 0, 0, 1, 1
+wc27001_7
+	bounds: 0, 0, 1, 1
+wc27001_8
+	bounds: 0, 0, 1, 1
+wc27001_9
+	bounds: 0, 0, 1, 1
+wc27002_2
+	bounds: 0, 0, 1, 1
+wc27002_3
+	bounds: 0, 0, 1, 1
+wc27003_1
+	bounds: 0, 0, 1, 1
+wc27003_4
+	bounds: 0, 0, 1, 1
+wc27003_5
+	bounds: 0, 0, 1, 1
+wc27003_8
+	bounds: 0, 0, 1, 1
+wc27003_9
+	bounds: 0, 0, 1, 1
+wc270b_10
+	bounds: 0, 0, 1, 1
+wc270b_11
+	bounds: 0, 0, 1, 1
+wc270b_13
+	bounds: 0, 0, 1, 1
+wc270b_14
+	bounds: 0, 0, 1, 1
+wc270b_3
+	bounds: 0, 0, 1, 1
+wc270b_4
+	bounds: 0, 0, 1, 1
+wc270b_5
+	bounds: 0, 0, 1, 1
+wc270b_9
+	bounds: 0, 0, 1, 1
+wc270c_11
+	bounds: 0, 0, 1, 1
+wc270c_12
+	bounds: 0, 0, 1, 1
+wc270c_13
+	bounds: 0, 0, 1, 1
+wc270c_16
+	bounds: 0, 0, 1, 1
+wc270c_17
+	bounds: 0, 0, 1, 1
+wc270c_21
+	bounds: 0, 0, 1, 1
+wc270c_22
+	bounds: 0, 0, 1, 1
+wc270c_23
+	bounds: 0, 0, 1, 1
+wc270c_27
+	bounds: 0, 0, 1, 1
+wc270c_28
+	bounds: 0, 0, 1, 1
+wc270c_29
+	bounds: 0, 0, 1, 1
+wc270c_3
+	bounds: 0, 0, 1, 1
+wc270c_4
+	bounds: 0, 0, 1, 1
+wc270c_5
+	bounds: 0, 0, 1, 1
+wc270c_6
+	bounds: 0, 0, 1, 1
+wc270c_7
+	bounds: 0, 0, 1, 1
+wc270d_14
+	bounds: 0, 0, 1, 1
+wc270d_15
+	bounds: 0, 0, 1, 1
+wc270d_16
+	bounds: 0, 0, 1, 1
+wc270d_17
+	bounds: 0, 0, 1, 1
+wc270d_18
+	bounds: 0, 0, 1, 1
+wc270d_19
+	bounds: 0, 0, 1, 1
+wc270d_3
+	bounds: 0, 0, 1, 1
+wc270d_4
+	bounds: 0, 0, 1, 1
+wc270d_5
+	bounds: 0, 0, 1, 1
+wc270d_8
+	bounds: 0, 0, 1, 1
+wc270d_9
+	bounds: 0, 0, 1, 1
+wc270e_12
+	bounds: 0, 0, 1, 1
+wc270e_13
+	bounds: 0, 0, 1, 1
+wc270e_14
+	bounds: 0, 0, 1, 1
+wc270e_15
+	bounds: 0, 0, 1, 1
+wc270e_2
+	bounds: 0, 0, 1, 1
+wc270e_22
+	bounds: 0, 0, 1, 1
+wc270e_23
+	bounds: 0, 0, 1, 1
+wc270e_24
+	bounds: 0, 0, 1, 1
+wc270e_25
+	bounds: 0, 0, 1, 1
+wc270e_26
+	bounds: 0, 0, 1, 1
+wc270e_27
+	bounds: 0, 0, 1, 1
+wc270e_3
+	bounds: 0, 0, 1, 1
+wc270e_32
+	bounds: 0, 0, 1, 1
+wc270e_33
+	bounds: 0, 0, 1, 1
+wc270e_34
+	bounds: 0, 0, 1, 1
+wc270e_35
+	bounds: 0, 0, 1, 1
+wc270e_36
+	bounds: 0, 0, 1, 1
+wc270e_37
+	bounds: 0, 0, 1, 1
+wc270e_38
+	bounds: 0, 0, 1, 1
+wc270e_39
+	bounds: 0, 0, 1, 1
+wc270e_6
+	bounds: 0, 0, 1, 1
+wc270e_7
+	bounds: 0, 0, 1, 1
+wc270f_2
+	bounds: 0, 0, 1, 1
+wc270f_3
+	bounds: 0, 0, 1, 1
+wc270f_8
+	bounds: 0, 0, 1, 1
+wc270f_9
+	bounds: 0, 0, 1, 1
+wc270c_18
+	bounds: 0, 42, 20, 16
+	offsets: 46, 12, 111, 85
+wc270c_26
+	bounds: 20, 38, 16, 20
+	offsets: 38, 19, 111, 85
+wc270d_12
+	bounds: 36, 38, 16, 20
+	offsets: 59, 28, 111, 85

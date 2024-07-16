@@ -3,6 +3,11 @@ import { Notifications } from './notifications';
 import { SpatialHashGrid } from '../collision/spatial-hash-grid';
 import { CollisionObject } from './physics/collision-object';
 
+/**
+ * Heavily inspired by godot's scene tree.
+ * Any additions or issues should refer to godot's implementations
+ */
+
 export class SceneTree extends Node {
   private _grid: SpatialHashGrid<CollisionObject>;
 

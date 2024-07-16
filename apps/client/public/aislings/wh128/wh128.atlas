@@ -1,0 +1,386 @@
+wh128.png
+	size: 64, 64
+wh12801_0
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh12801_1
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh12801_2
+	bounds: 0, 35, 28, 19
+	offsets: 16, 47, 57, 85
+wh12801_3
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh12801_4
+	bounds: 0, 35, 28, 19
+	offsets: 16, 47, 57, 85
+wh12802_0
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh12802_1
+	bounds: 0, 35, 28, 19
+	offsets: 24, 47, 57, 85
+wh12803_0
+	bounds: 0, 35, 28, 19
+	offsets: 16, 49, 57, 85
+wh12803_2
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh12803_3
+	bounds: 0, 35, 28, 19
+	offsets: 18, 46, 57, 85
+wh12803_6
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh12803_7
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh128b_0
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh128b_1
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh128b_12
+	bounds: 0, 35, 28, 19
+	offsets: 16, 49, 57, 85
+wh128b_2
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh128b_6
+	bounds: 0, 35, 28, 19
+	offsets: 16, 49, 57, 85
+wh128b_7
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh128b_8
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh128c_1
+	bounds: 0, 35, 28, 19
+	offsets: 24, 47, 57, 85
+wh128c_10
+	bounds: 0, 35, 28, 19
+	offsets: 17, 42, 57, 85
+wh128c_14
+	bounds: 0, 35, 28, 19
+	offsets: 17, 42, 57, 85
+wh128c_15
+	bounds: 0, 35, 28, 19
+	offsets: 22, 37, 57, 85
+wh128c_18
+	bounds: 0, 35, 28, 19
+	offsets: 8, 38, 57, 85
+wh128c_19
+	bounds: 0, 35, 28, 19
+	offsets: 22, 37, 57, 85
+wh128c_2
+	bounds: 0, 35, 28, 19
+	offsets: 24, 47, 57, 85
+wh128c_20
+	bounds: 0, 35, 28, 19
+	offsets: 22, 36, 57, 85
+wh128c_24
+	bounds: 0, 35, 28, 19
+	offsets: 16, 43, 57, 85
+wh128c_25
+	bounds: 0, 35, 28, 19
+	offsets: 15, 63, 57, 85
+wh128c_26
+	bounds: 0, 35, 28, 19
+	offsets: 24, 32, 57, 85
+wh128c_3
+	bounds: 0, 35, 28, 19
+	offsets: 26, 42, 57, 85
+wh128c_8
+	bounds: 0, 35, 28, 19
+	offsets: 16, 43, 57, 85
+wh128c_9
+	bounds: 0, 35, 28, 19
+	offsets: 15, 58, 57, 85
+wh128e_0
+	bounds: 0, 35, 28, 19
+	offsets: 19, 48, 57, 85
+wh128e_1
+	bounds: 0, 35, 28, 19
+	offsets: 25, 41, 57, 85
+wh128e_10
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128e_11
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128e_16
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128e_17
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128e_18
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128e_19
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128e_20
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128e_21
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128e_28
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128e_29
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128e_30
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128e_31
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128e_4
+	bounds: 0, 35, 28, 19
+	offsets: 25, 41, 57, 85
+wh128e_5
+	bounds: 0, 35, 28, 19
+	offsets: 25, 41, 57, 85
+wh128e_8
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128e_9
+	bounds: 0, 35, 28, 19
+	offsets: 13, 50, 57, 85
+wh128f_0
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh128f_1
+	bounds: 0, 35, 28, 19
+	offsets: 16, 49, 57, 85
+wh128f_4
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh128f_5
+	bounds: 0, 35, 28, 19
+	offsets: 16, 48, 57, 85
+wh128f_6
+	bounds: 0, 35, 28, 19
+	offsets: 16, 49, 57, 85
+wh128f_7
+	bounds: 0, 35, 28, 19
+	offsets: 16, 49, 57, 85
+wh12801_5
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh12801_6
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh12801_7
+	bounds: 28, 32, 26, 22
+	offsets: 14, 43, 57, 85
+wh12801_8
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh12801_9
+	bounds: 28, 32, 26, 22
+	offsets: 14, 43, 57, 85
+wh12802_2
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh12802_3
+	bounds: 28, 32, 26, 22
+	offsets: 26, 35, 57, 85
+wh12803_1
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh12803_4
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh12803_5
+	bounds: 28, 32, 26, 22
+	offsets: 17, 43, 57, 85
+wh12803_8
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh12803_9
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh128b_10
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh128b_11
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh128b_13
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128b_3
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh128b_4
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh128b_5
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh128b_9
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128c_11
+	bounds: 28, 32, 26, 22
+	offsets: 15, 39, 57, 85
+wh128c_12
+	bounds: 28, 32, 26, 22
+	offsets: 14, 56, 57, 85
+wh128c_13
+	bounds: 28, 32, 26, 22
+	offsets: 20, 33, 57, 85
+wh128c_16
+	bounds: 28, 32, 26, 22
+	offsets: 21, 35, 57, 85
+wh128c_17
+	bounds: 28, 32, 26, 22
+	offsets: 30, 26, 57, 85
+wh128c_21
+	bounds: 28, 32, 26, 22
+	offsets: 6, 38, 57, 85
+wh128c_22
+	bounds: 28, 32, 26, 22
+	offsets: 27, 30, 57, 85
+wh128c_23
+	bounds: 28, 32, 26, 22
+	offsets: 30, 26, 57, 85
+wh128c_27
+	bounds: 28, 32, 26, 22
+	offsets: 15, 39, 57, 85
+wh128c_28
+	bounds: 28, 32, 26, 22
+	offsets: 14, 61, 57, 85
+wh128c_29
+	bounds: 28, 32, 26, 22
+	offsets: 19, 28, 57, 85
+wh128c_4
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh128c_5
+	bounds: 28, 32, 26, 22
+	offsets: 26, 35, 57, 85
+wh128c_6
+	bounds: 28, 32, 26, 22
+	offsets: 26, 35, 57, 85
+wh128c_7
+	bounds: 28, 32, 26, 22
+	offsets: 26, 35, 57, 85
+wh128e_12
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_13
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_14
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_15
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_2
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh128e_22
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_23
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_24
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_25
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_26
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_27
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_3
+	bounds: 28, 32, 26, 22
+	offsets: 28, 28, 57, 85
+wh128e_32
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_33
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_34
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_35
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128e_6
+	bounds: 28, 32, 26, 22
+	offsets: 28, 28, 57, 85
+wh128e_7
+	bounds: 28, 32, 26, 22
+	offsets: 28, 28, 57, 85
+wh128f_10
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128f_11
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128f_2
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh128f_3
+	bounds: 28, 32, 26, 22
+	offsets: 14, 45, 57, 85
+wh128f_8
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh128f_9
+	bounds: 28, 32, 26, 22
+	offsets: 14, 44, 57, 85
+wh128b_14
+	bounds: 0, 15, 1, 1
+wh128b_15
+	bounds: 0, 15, 1, 1
+wh128b_16
+	bounds: 0, 15, 1, 1
+wh128b_17
+	bounds: 0, 15, 1, 1
+wh128b_18
+	bounds: 0, 15, 1, 1
+wh128b_19
+	bounds: 0, 15, 1, 1
+wh128e_36
+	bounds: 0, 15, 1, 1
+wh128e_37
+	bounds: 0, 15, 1, 1
+wh128e_38
+	bounds: 0, 15, 1, 1
+wh128e_39
+	bounds: 0, 15, 1, 1
+wh128f_12
+	bounds: 0, 15, 1, 1
+wh128f_13
+	bounds: 0, 15, 1, 1
+wh128f_14
+	bounds: 0, 15, 1, 1
+wh128f_15
+	bounds: 0, 15, 1, 1
+wh128f_16
+	bounds: 0, 15, 1, 1
+wh128f_17
+	bounds: 0, 15, 1, 1
+wh128f_18
+	bounds: 0, 15, 1, 1
+wh128f_19
+	bounds: 0, 15, 1, 1
+wh128c_0
+	bounds: 0, 16, 28, 19
+	offsets: 16, 48, 57, 85

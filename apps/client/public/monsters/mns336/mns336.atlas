@@ -1,0 +1,38 @@
+mns336.png
+	size: 256, 256
+mns336_0
+	bounds: 53, 128, 30, 64
+	offsets: 12, 10, 77, 74
+mns336_1
+	bounds: 65, 0, 30, 64
+	offsets: 12, 9, 77, 74
+mns336_3
+	bounds: 65, 0, 30, 64
+	offsets: 12, 9, 77, 74
+mns336_10
+	bounds: 62, 192, 41, 64
+	offsets: 15, 9, 77, 74
+mns336_11
+	bounds: 0, 192, 62, 64
+	offsets: 14, 8, 77, 74
+mns336_2
+	bounds: 67, 64, 30, 64
+	offsets: 12, 8, 77, 74
+mns336_4
+	bounds: 36, 64, 31, 64
+	offsets: 16, 10, 77, 74
+mns336_5
+	bounds: 33, 0, 32, 64
+	offsets: 15, 9, 77, 74
+mns336_7
+	bounds: 33, 0, 32, 64
+	offsets: 15, 9, 77, 74
+mns336_6
+	bounds: 0, 0, 33, 64
+	offsets: 14, 8, 77, 74
+mns336_8
+	bounds: 0, 64, 36, 64
+	offsets: 13, 9, 77, 74
+mns336_9
+	bounds: 0, 128, 53, 64
+	offsets: 7, 8, 77, 74

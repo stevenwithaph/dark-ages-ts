@@ -8,10 +8,10 @@ export class GatewayListener extends Listener {
   protected serverTable: ServerTable;
 
   constructor() {
-    super(2610, Client);
+    super(Number(process.env.GATEWAY_PORT));
 
     this.serverTable = new ServerTable();
-    this.serverTable.addEntry('127.0.0.1', 2611, 'A new name', 'Goes Here');
+    this.serverTable.addEntry(process.env.SERVER_ENDPOINT!, Number(process.env.AUTH_PORT), 'A new name', 'Goes Here');
   }
 
   addClient(client: Client) {
@@ -31,7 +31,6 @@ export class GatewayListener extends Listener {
       client.sendPacket(new ServerPackets.ServerTablePacket(this.serverTable));
     } else {
       const entry = this.serverTable.getEntry(packet.id);
-
       this.redirect(client, entry.ip, entry.port);
     }
   }

@@ -1,0 +1,361 @@
+mc119.png
+	size: 64, 64
+mc11901_0
+	bounds: 31, 56, 9, 8
+	offsets: 48, 50, 111, 85
+mc11902_1
+	bounds: 31, 56, 9, 8
+	offsets: 57, 51, 111, 85
+mc11903_2
+	bounds: 31, 56, 9, 8
+	offsets: 48, 50, 111, 85
+mc11903_3
+	bounds: 31, 56, 9, 8
+	offsets: 50, 48, 111, 85
+mc11903_6
+	bounds: 31, 56, 9, 8
+	offsets: 48, 50, 111, 85
+mc11903_7
+	bounds: 31, 56, 9, 8
+	offsets: 48, 50, 111, 85
+mc119b_0
+	bounds: 31, 56, 9, 8
+	offsets: 48, 50, 111, 85
+mc119b_1
+	bounds: 31, 56, 9, 8
+	offsets: 48, 50, 111, 85
+mc119b_12
+	bounds: 31, 56, 9, 8
+	offsets: 48, 51, 111, 85
+mc119b_2
+	bounds: 31, 56, 9, 8
+	offsets: 48, 50, 111, 85
+mc119b_6
+	bounds: 31, 56, 9, 8
+	offsets: 48, 51, 111, 85
+mc119b_7
+	bounds: 31, 56, 9, 8
+	offsets: 48, 50, 111, 85
+mc119b_8
+	bounds: 31, 56, 9, 8
+	offsets: 48, 50, 111, 85
+mc119c_0
+	bounds: 31, 56, 9, 8
+	offsets: 48, 50, 111, 85
+mc119c_1
+	bounds: 31, 56, 9, 8
+	offsets: 57, 51, 111, 85
+mc119c_10
+	bounds: 31, 56, 9, 8
+	offsets: 49, 44, 111, 85
+mc119c_14
+	bounds: 31, 56, 9, 8
+	offsets: 49, 44, 111, 85
+mc119c_15
+	bounds: 31, 56, 9, 8
+	offsets: 52, 41, 111, 85
+mc119c_18
+	bounds: 31, 56, 9, 8
+	offsets: 38, 43, 111, 85
+mc119c_19
+	bounds: 31, 56, 9, 8
+	offsets: 52, 42, 111, 85
+mc119c_2
+	bounds: 31, 56, 9, 8
+	offsets: 57, 51, 111, 85
+mc119c_20
+	bounds: 31, 56, 9, 8
+	offsets: 52, 41, 111, 85
+mc119c_24
+	bounds: 31, 56, 9, 8
+	offsets: 48, 45, 111, 85
+mc119c_26
+	bounds: 31, 56, 9, 8
+	offsets: 56, 33, 111, 85
+mc119c_3
+	bounds: 31, 56, 9, 8
+	offsets: 59, 47, 111, 85
+mc119c_8
+	bounds: 31, 56, 9, 8
+	offsets: 48, 45, 111, 85
+mc119d_0
+	bounds: 31, 56, 9, 8
+	offsets: 42, 44, 111, 85
+mc119d_1
+	bounds: 31, 56, 9, 8
+	offsets: 43, 50, 111, 85
+mc119d_10
+	bounds: 31, 56, 9, 8
+	offsets: 52, 51, 111, 85
+mc119d_11
+	bounds: 31, 56, 9, 8
+	offsets: 55, 55, 111, 85
+mc119d_12
+	bounds: 31, 56, 9, 8
+	offsets: 44, 51, 111, 85
+mc119d_13
+	bounds: 31, 56, 9, 8
+	offsets: 52, 51, 111, 85
+mc119d_2
+	bounds: 31, 56, 9, 8
+	offsets: 43, 52, 111, 85
+mc119d_6
+	bounds: 31, 56, 9, 8
+	offsets: 57, 51, 111, 85
+mc119d_7
+	bounds: 31, 56, 9, 8
+	offsets: 57, 51, 111, 85
+mc119e_0
+	bounds: 31, 56, 9, 8
+	offsets: 51, 50, 111, 85
+mc119e_1
+	bounds: 31, 56, 9, 8
+	offsets: 57, 43, 111, 85
+mc119e_10
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119e_11
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119e_16
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119e_17
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119e_18
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119e_19
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119e_20
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119e_21
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119e_28
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119e_29
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119e_30
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119e_31
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119e_4
+	bounds: 31, 56, 9, 8
+	offsets: 57, 43, 111, 85
+mc119e_5
+	bounds: 31, 56, 9, 8
+	offsets: 57, 43, 111, 85
+mc119e_8
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119e_9
+	bounds: 31, 56, 9, 8
+	offsets: 45, 52, 111, 85
+mc119f_0
+	bounds: 31, 56, 9, 8
+	offsets: 48, 50, 111, 85
+mc119f_1
+	bounds: 31, 56, 9, 8
+	offsets: 48, 51, 111, 85
+mc119f_4
+	bounds: 31, 56, 9, 8
+	offsets: 48, 50, 111, 85
+mc119f_5
+	bounds: 31, 56, 9, 8
+	offsets: 48, 50, 111, 85
+mc119f_6
+	bounds: 31, 56, 9, 8
+	offsets: 48, 51, 111, 85
+mc119f_7
+	bounds: 31, 56, 9, 8
+	offsets: 48, 51, 111, 85
+mc11901_1
+	bounds: 0, 16, 13, 14
+	offsets: 44, 50, 111, 85
+mc11901_2
+	bounds: 0, 30, 16, 17
+	offsets: 41, 49, 111, 85
+mc11901_3
+	bounds: 0, 47, 17, 17
+	offsets: 40, 50, 111, 85
+mc11901_4
+	bounds: 17, 47, 14, 17
+	offsets: 43, 49, 111, 85
+mc11901_5
+	bounds: 40, 63, 1, 1
+mc11902_2
+	bounds: 40, 63, 1, 1
+mc11902_3
+	bounds: 40, 63, 1, 1
+mc11903_1
+	bounds: 40, 63, 1, 1
+mc11903_4
+	bounds: 40, 63, 1, 1
+mc11903_5
+	bounds: 40, 63, 1, 1
+mc11903_8
+	bounds: 40, 63, 1, 1
+mc11903_9
+	bounds: 40, 63, 1, 1
+mc119b_10
+	bounds: 40, 63, 1, 1
+mc119b_11
+	bounds: 40, 63, 1, 1
+mc119b_13
+	bounds: 40, 63, 1, 1
+mc119b_14
+	bounds: 40, 63, 1, 1
+mc119b_3
+	bounds: 40, 63, 1, 1
+mc119b_4
+	bounds: 40, 63, 1, 1
+mc119b_5
+	bounds: 40, 63, 1, 1
+mc119b_9
+	bounds: 40, 63, 1, 1
+mc119c_11
+	bounds: 40, 63, 1, 1
+mc119c_12
+	bounds: 40, 63, 1, 1
+mc119c_13
+	bounds: 40, 63, 1, 1
+mc119c_16
+	bounds: 40, 63, 1, 1
+mc119c_17
+	bounds: 40, 63, 1, 1
+mc119c_21
+	bounds: 40, 63, 1, 1
+mc119c_22
+	bounds: 40, 63, 1, 1
+mc119c_23
+	bounds: 40, 63, 1, 1
+mc119c_27
+	bounds: 40, 63, 1, 1
+mc119c_28
+	bounds: 40, 63, 1, 1
+mc119c_29
+	bounds: 40, 63, 1, 1
+mc119c_4
+	bounds: 40, 63, 1, 1
+mc119c_5
+	bounds: 40, 63, 1, 1
+mc119c_6
+	bounds: 40, 63, 1, 1
+mc119c_7
+	bounds: 40, 63, 1, 1
+mc119d_14
+	bounds: 40, 63, 1, 1
+mc119d_15
+	bounds: 40, 63, 1, 1
+mc119d_16
+	bounds: 40, 63, 1, 1
+mc119d_17
+	bounds: 40, 63, 1, 1
+mc119d_18
+	bounds: 40, 63, 1, 1
+mc119d_19
+	bounds: 40, 63, 1, 1
+mc119d_3
+	bounds: 40, 63, 1, 1
+mc119d_4
+	bounds: 40, 63, 1, 1
+mc119d_5
+	bounds: 40, 63, 1, 1
+mc119d_8
+	bounds: 40, 63, 1, 1
+mc119d_9
+	bounds: 40, 63, 1, 1
+mc119e_12
+	bounds: 40, 63, 1, 1
+mc119e_13
+	bounds: 40, 63, 1, 1
+mc119e_14
+	bounds: 40, 63, 1, 1
+mc119e_15
+	bounds: 40, 63, 1, 1
+mc119e_2
+	bounds: 40, 63, 1, 1
+mc119e_22
+	bounds: 40, 63, 1, 1
+mc119e_23
+	bounds: 40, 63, 1, 1
+mc119e_24
+	bounds: 40, 63, 1, 1
+mc119e_25
+	bounds: 40, 63, 1, 1
+mc119e_26
+	bounds: 40, 63, 1, 1
+mc119e_27
+	bounds: 40, 63, 1, 1
+mc119e_3
+	bounds: 40, 63, 1, 1
+mc119e_32
+	bounds: 40, 63, 1, 1
+mc119e_33
+	bounds: 40, 63, 1, 1
+mc119e_34
+	bounds: 40, 63, 1, 1
+mc119e_35
+	bounds: 40, 63, 1, 1
+mc119e_36
+	bounds: 40, 63, 1, 1
+mc119e_37
+	bounds: 40, 63, 1, 1
+mc119e_38
+	bounds: 40, 63, 1, 1
+mc119e_39
+	bounds: 40, 63, 1, 1
+mc119e_6
+	bounds: 40, 63, 1, 1
+mc119e_7
+	bounds: 40, 63, 1, 1
+mc119f_10
+	bounds: 40, 63, 1, 1
+mc119f_11
+	bounds: 40, 63, 1, 1
+mc119f_12
+	bounds: 40, 63, 1, 1
+mc119f_13
+	bounds: 40, 63, 1, 1
+mc119f_14
+	bounds: 40, 63, 1, 1
+mc119f_2
+	bounds: 40, 63, 1, 1
+mc119f_3
+	bounds: 40, 63, 1, 1
+mc119f_8
+	bounds: 40, 63, 1, 1
+mc119f_9
+	bounds: 40, 63, 1, 1
+mc11901_6
+	bounds: 13, 23, 7, 7
+	offsets: 46, 58, 111, 85
+mc11901_7
+	bounds: 16, 35, 12, 12
+	offsets: 43, 55, 111, 85
+mc11901_8
+	bounds: 0, 8, 9, 8
+	offsets: 42, 60, 111, 85
+mc11901_9
+	bounds: 28, 44, 3, 3
+	offsets: 45, 64, 111, 85
+mc11902_0
+	bounds: 16, 30, 8, 5
+	offsets: 49, 53, 111, 85
+mc11903_0
+	bounds: 0, 0, 9, 8
+	offsets: 48, 51, 111, 85
+mc119c_9
+	bounds: 31, 51, 6, 5
+	offsets: 50, 63, 111, 85
+mc119c_25
+	bounds: 31, 51, 6, 5
+	offsets: 50, 68, 111, 85

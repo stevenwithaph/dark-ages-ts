@@ -1,0 +1,444 @@
+mh290.png
+	size: 64, 64
+mh29001_0
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh29001_1
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh29001_2
+	bounds: 0, 24, 20, 22
+	offsets: 16, 46, 57, 85
+mh29001_3
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh29001_4
+	bounds: 0, 24, 20, 22
+	offsets: 16, 46, 57, 85
+mh29002_0
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh29002_1
+	bounds: 0, 24, 20, 22
+	offsets: 25, 48, 57, 85
+mh29003_0
+	bounds: 0, 24, 20, 22
+	offsets: 16, 48, 57, 85
+mh29003_2
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh29003_3
+	bounds: 0, 24, 20, 22
+	offsets: 18, 45, 57, 85
+mh29003_6
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh29003_7
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh290b_0
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh290b_1
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh290b_12
+	bounds: 0, 24, 20, 22
+	offsets: 16, 48, 57, 85
+mh290b_2
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh290b_6
+	bounds: 0, 24, 20, 22
+	offsets: 16, 48, 57, 85
+mh290b_7
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh290b_8
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh290c_0
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh290c_1
+	bounds: 0, 24, 20, 22
+	offsets: 25, 48, 57, 85
+mh290c_10
+	bounds: 0, 24, 20, 22
+	offsets: 17, 41, 57, 85
+mh290c_14
+	bounds: 0, 24, 20, 22
+	offsets: 17, 41, 57, 85
+mh290c_15
+	bounds: 0, 24, 20, 22
+	offsets: 20, 38, 57, 85
+mh290c_18
+	bounds: 0, 24, 20, 22
+	offsets: 6, 40, 57, 85
+mh290c_19
+	bounds: 0, 24, 20, 22
+	offsets: 20, 39, 57, 85
+mh290c_2
+	bounds: 0, 24, 20, 22
+	offsets: 25, 48, 57, 85
+mh290c_20
+	bounds: 0, 24, 20, 22
+	offsets: 20, 34, 57, 85
+mh290c_24
+	bounds: 0, 24, 20, 22
+	offsets: 16, 38, 57, 85
+mh290c_25
+	bounds: 0, 24, 20, 22
+	offsets: 15, 58, 57, 85
+mh290c_26
+	bounds: 0, 24, 20, 22
+	offsets: 24, 26, 57, 85
+mh290c_3
+	bounds: 0, 24, 20, 22
+	offsets: 27, 44, 57, 85
+mh290c_8
+	bounds: 0, 24, 20, 22
+	offsets: 16, 42, 57, 85
+mh290c_9
+	bounds: 0, 24, 20, 22
+	offsets: 15, 57, 57, 85
+mh290d_0
+	bounds: 0, 24, 20, 22
+	offsets: 10, 41, 57, 85
+mh290d_1
+	bounds: 0, 24, 20, 22
+	offsets: 11, 47, 57, 85
+mh290d_10
+	bounds: 0, 24, 20, 22
+	offsets: 20, 48, 57, 85
+mh290d_11
+	bounds: 0, 24, 20, 22
+	offsets: 23, 52, 57, 85
+mh290d_12
+	bounds: 0, 24, 20, 22
+	offsets: 12, 48, 57, 85
+mh290d_13
+	bounds: 0, 24, 20, 22
+	offsets: 20, 48, 57, 85
+mh290d_2
+	bounds: 0, 24, 20, 22
+	offsets: 11, 49, 57, 85
+mh290d_6
+	bounds: 0, 24, 20, 22
+	offsets: 25, 48, 57, 85
+mh290d_7
+	bounds: 0, 24, 20, 22
+	offsets: 25, 48, 57, 85
+mh290e_0
+	bounds: 0, 24, 20, 22
+	offsets: 19, 47, 57, 85
+mh290e_1
+	bounds: 0, 24, 20, 22
+	offsets: 25, 40, 57, 85
+mh290e_10
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290e_11
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290e_16
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290e_17
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290e_18
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290e_19
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290e_20
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290e_21
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290e_28
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290e_29
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290e_30
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290e_31
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290e_4
+	bounds: 0, 24, 20, 22
+	offsets: 25, 40, 57, 85
+mh290e_5
+	bounds: 0, 24, 20, 22
+	offsets: 25, 40, 57, 85
+mh290e_8
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290e_9
+	bounds: 0, 24, 20, 22
+	offsets: 13, 49, 57, 85
+mh290f_0
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh290f_1
+	bounds: 0, 24, 20, 22
+	offsets: 16, 48, 57, 85
+mh290f_4
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh290f_5
+	bounds: 0, 24, 20, 22
+	offsets: 16, 47, 57, 85
+mh290f_6
+	bounds: 0, 24, 20, 22
+	offsets: 16, 48, 57, 85
+mh290f_7
+	bounds: 0, 24, 20, 22
+	offsets: 16, 48, 57, 85
+mh29001_5
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh29001_6
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh29001_7
+	bounds: 0, 0, 18, 24
+	offsets: 20, 47, 57, 85
+mh29001_8
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh29001_9
+	bounds: 0, 0, 18, 24
+	offsets: 20, 47, 57, 85
+mh29002_2
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh29002_3
+	bounds: 0, 0, 18, 24
+	offsets: 31, 40, 57, 85
+mh29003_1
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh29003_4
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh29003_5
+	bounds: 0, 0, 18, 24
+	offsets: 23, 47, 57, 85
+mh29003_8
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh29003_9
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh290b_10
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh290b_11
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh290b_13
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290b_3
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh290b_4
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh290b_5
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh290b_9
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290c_11
+	bounds: 0, 0, 18, 24
+	offsets: 21, 43, 57, 85
+mh290c_12
+	bounds: 0, 0, 18, 24
+	offsets: 20, 60, 57, 85
+mh290c_13
+	bounds: 0, 0, 18, 24
+	offsets: 26, 37, 57, 85
+mh290c_16
+	bounds: 0, 0, 18, 24
+	offsets: 28, 41, 57, 85
+mh290c_17
+	bounds: 0, 0, 18, 24
+	offsets: 38, 30, 57, 85
+mh290c_21
+	bounds: 0, 0, 18, 24
+	offsets: 12, 39, 57, 85
+mh290c_22
+	bounds: 0, 0, 18, 24
+	offsets: 32, 30, 57, 85
+mh290c_23
+	bounds: 0, 0, 18, 24
+	offsets: 38, 26, 57, 85
+mh290c_27
+	bounds: 0, 0, 18, 24
+	offsets: 21, 39, 57, 85
+mh290c_28
+	bounds: 0, 0, 18, 24
+	offsets: 20, 61, 57, 85
+mh290c_29
+	bounds: 0, 0, 18, 24
+	offsets: 25, 28, 57, 85
+mh290c_4
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh290c_5
+	bounds: 0, 0, 18, 24
+	offsets: 31, 40, 57, 85
+mh290c_6
+	bounds: 0, 0, 18, 24
+	offsets: 31, 40, 57, 85
+mh290c_7
+	bounds: 0, 0, 18, 24
+	offsets: 35, 39, 57, 85
+mh290d_14
+	bounds: 0, 0, 18, 24
+	offsets: 27, 46, 57, 85
+mh290d_15
+	bounds: 0, 0, 18, 24
+	offsets: 23, 43, 57, 85
+mh290d_16
+	bounds: 0, 0, 18, 24
+	offsets: 17, 45, 57, 85
+mh290d_17
+	bounds: 0, 0, 18, 24
+	offsets: 27, 46, 57, 85
+mh290d_3
+	bounds: 0, 0, 18, 24
+	offsets: 12, 51, 57, 85
+mh290d_4
+	bounds: 0, 0, 18, 24
+	offsets: 20, 47, 57, 85
+mh290d_5
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290d_8
+	bounds: 0, 0, 18, 24
+	offsets: 31, 40, 57, 85
+mh290d_9
+	bounds: 0, 0, 18, 24
+	offsets: 31, 40, 57, 85
+mh290e_12
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_13
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_14
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_15
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_2
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh290e_22
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_23
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_24
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_25
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_26
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_27
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_3
+	bounds: 0, 0, 18, 24
+	offsets: 34, 32, 57, 85
+mh290e_32
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_33
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_34
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_35
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290e_6
+	bounds: 0, 0, 18, 24
+	offsets: 34, 32, 57, 85
+mh290e_7
+	bounds: 0, 0, 18, 24
+	offsets: 34, 32, 57, 85
+mh290f_10
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290f_11
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290f_2
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh290f_3
+	bounds: 0, 0, 18, 24
+	offsets: 20, 49, 57, 85
+mh290f_8
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh290f_9
+	bounds: 0, 0, 18, 24
+	offsets: 20, 48, 57, 85
+mh290b_14
+	bounds: 20, 45, 1, 1
+mh290b_15
+	bounds: 20, 45, 1, 1
+mh290b_16
+	bounds: 20, 45, 1, 1
+mh290b_17
+	bounds: 20, 45, 1, 1
+mh290b_18
+	bounds: 20, 45, 1, 1
+mh290b_19
+	bounds: 20, 45, 1, 1
+mh290d_18
+	bounds: 20, 45, 1, 1
+mh290d_19
+	bounds: 20, 45, 1, 1
+mh290e_36
+	bounds: 20, 45, 1, 1
+mh290e_37
+	bounds: 20, 45, 1, 1
+mh290e_38
+	bounds: 20, 45, 1, 1
+mh290e_39
+	bounds: 20, 45, 1, 1
+mh290f_12
+	bounds: 20, 45, 1, 1
+mh290f_13
+	bounds: 20, 45, 1, 1
+mh290f_14
+	bounds: 20, 45, 1, 1
+mh290f_15
+	bounds: 20, 45, 1, 1
+mh290f_16
+	bounds: 20, 45, 1, 1
+mh290f_17
+	bounds: 20, 45, 1, 1
+mh290f_18
+	bounds: 20, 45, 1, 1
+mh290f_19
+	bounds: 20, 45, 1, 1

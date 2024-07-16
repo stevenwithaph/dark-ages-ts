@@ -8,6 +8,7 @@ html {
 }
 
 button,
-input {
+input,
+select {
   pointer-events: auto;
 }

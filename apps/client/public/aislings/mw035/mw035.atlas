@@ -1,0 +1,44 @@
+mw035.png
+	size: 64, 64
+mw03501_0
+	bounds: 0, 23, 21, 10
+	offsets: 63, 24, 111, 85
+mw03501_5
+	bounds: 0, 23, 21, 10
+	offsets: 64, 28, 111, 85
+mw03501_1
+	bounds: 0, 11, 18, 12
+	offsets: 66, 31, 111, 85
+mw03501_2
+	bounds: 51, 21, 13, 12
+	offsets: 69, 35, 111, 85
+mw03501_3
+	bounds: 0, 0, 18, 11
+	offsets: 63, 26, 111, 85
+mw03501_4
+	bounds: 37, 23, 14, 10
+	offsets: 53, 25, 111, 85
+mw03501_6
+	bounds: 21, 20, 16, 13
+	offsets: 66, 34, 111, 85
+mw03501_7
+	bounds: 45, 7, 12, 14
+	offsets: 69, 38, 111, 85
+mw03501_8
+	bounds: 35, 54, 20, 10
+	offsets: 64, 31, 111, 85
+mw03501_9
+	bounds: 18, 9, 14, 11
+	offsets: 61, 27, 111, 85
+mw03502_0
+	bounds: 32, 8, 13, 12
+	offsets: 36, 38, 111, 85
+mw03502_1
+	bounds: 35, 33, 18, 21
+	offsets: 64, 39, 111, 85
+mw03502_2
+	bounds: 53, 44, 10, 10
+	offsets: 40, 49, 111, 85
+mw03502_3
+	bounds: 0, 33, 35, 31
+	offsets: 46, 12, 111, 85

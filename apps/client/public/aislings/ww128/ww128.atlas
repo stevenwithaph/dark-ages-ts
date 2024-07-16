@@ -1,0 +1,44 @@
+ww128.png
+	size: 128, 128
+ww12801_0
+	bounds: 47, 96, 22, 22
+	offsets: 59, 5, 111, 85
+ww12801_1
+	bounds: 0, 0, 22, 22
+	offsets: 59, 5, 111, 85
+ww12801_2
+	bounds: 0, 70, 23, 22
+	offsets: 58, 5, 111, 85
+ww12801_3
+	bounds: 46, 74, 21, 22
+	offsets: 59, 5, 111, 85
+ww12801_4
+	bounds: 69, 96, 22, 22
+	offsets: 59, 5, 111, 85
+ww12801_5
+	bounds: 24, 96, 23, 22
+	offsets: 61, 22, 111, 85
+ww12801_6
+	bounds: 91, 95, 22, 23
+	offsets: 62, 21, 111, 85
+ww12801_7
+	bounds: 0, 47, 23, 23
+	offsets: 61, 21, 111, 85
+ww12801_8
+	bounds: 23, 27, 21, 22
+	offsets: 63, 22, 111, 85
+ww12801_9
+	bounds: 24, 74, 22, 22
+	offsets: 62, 22, 111, 85
+ww12802_0
+	bounds: 23, 49, 22, 25
+	offsets: 56, 6, 111, 85
+ww12802_1
+	bounds: 0, 92, 24, 26
+	offsets: 59, 6, 111, 85
+ww12802_2
+	bounds: 0, 22, 23, 25
+	offsets: 61, 18, 111, 85
+ww12802_3
+	bounds: 45, 48, 21, 26
+	offsets: 65, 17, 111, 85

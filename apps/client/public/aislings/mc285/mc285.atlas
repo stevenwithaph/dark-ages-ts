@@ -1,0 +1,416 @@
+mc285.png
+	size: 128, 128
+mc28501_0
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc28501_4
+	bounds: 47, 55, 46, 54
+	offsets: 22, 6, 111, 85
+mc28502_0
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc28503_0
+	bounds: 47, 55, 46, 54
+	offsets: 22, 8, 111, 85
+mc28503_2
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc28503_6
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc28504_0
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc28504_1
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc28504_11
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc28504_2
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc28504_3
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc28504_4
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc28504_5
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc28504_6
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc28504_7
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc285b_0
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc285b_1
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc285b_12
+	bounds: 47, 55, 46, 54
+	offsets: 22, 8, 111, 85
+mc285b_2
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc285b_6
+	bounds: 47, 55, 46, 54
+	offsets: 22, 8, 111, 85
+mc285c_0
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc285c_14
+	bounds: 47, 55, 46, 54
+	offsets: 23, 5, 111, 85
+mc285c_15
+	bounds: 47, 55, 46, 54
+	offsets: 24, 6, 111, 85
+mc285c_18
+	bounds: 47, 55, 46, 54
+	offsets: 16, 3, 111, 85
+mc285c_19
+	bounds: 47, 55, 46, 54
+	offsets: 25, 4, 111, 85
+mc285c_20
+	bounds: 47, 55, 46, 54
+	offsets: 25, 5, 111, 85
+mc285c_24
+	bounds: 47, 55, 46, 54
+	offsets: 24, 4, 111, 85
+mc285c_25
+	bounds: 47, 55, 46, 54
+	offsets: 21, 25, 111, 85
+mc285c_26
+	bounds: 47, 55, 46, 54
+	offsets: 24, 0, 111, 85
+mc285c_8
+	bounds: 47, 55, 46, 54
+	offsets: 25, 5, 111, 85
+mc285c_9
+	bounds: 47, 55, 46, 54
+	offsets: 22, 18, 111, 85
+mc285d_0
+	bounds: 47, 55, 46, 54
+	offsets: 16, 3, 111, 85
+mc285d_1
+	bounds: 47, 55, 46, 54
+	offsets: 21, 11, 111, 85
+mc285d_10
+	bounds: 47, 55, 46, 54
+	offsets: 27, 8, 111, 85
+mc285d_13
+	bounds: 47, 55, 46, 54
+	offsets: 26, 8, 111, 85
+mc285d_2
+	bounds: 47, 55, 46, 54
+	offsets: 21, 12, 111, 85
+mc285d_6
+	bounds: 47, 55, 46, 54
+	offsets: 29, 9, 111, 85
+mc285e_0
+	bounds: 47, 55, 46, 54
+	offsets: 25, 6, 111, 85
+mc285e_1
+	bounds: 47, 55, 46, 54
+	offsets: 31, 3, 111, 85
+mc285e_10
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285e_11
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285e_16
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285e_17
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285e_18
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285e_19
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285e_20
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285e_21
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285e_28
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285e_29
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285e_30
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285e_31
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285e_4
+	bounds: 47, 55, 46, 54
+	offsets: 31, 3, 111, 85
+mc285e_8
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285e_9
+	bounds: 47, 55, 46, 54
+	offsets: 19, 9, 111, 85
+mc285f_0
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc285f_1
+	bounds: 47, 55, 46, 54
+	offsets: 22, 8, 111, 85
+mc285f_4
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc285f_5
+	bounds: 47, 55, 46, 54
+	offsets: 22, 7, 111, 85
+mc285f_6
+	bounds: 47, 55, 46, 54
+	offsets: 22, 8, 111, 85
+mc285f_7
+	bounds: 47, 55, 46, 54
+	offsets: 22, 8, 111, 85
+mc28501_1
+	bounds: 0, 55, 47, 54
+	offsets: 22, 7, 111, 85
+mc28504_8
+	bounds: 0, 55, 47, 54
+	offsets: 22, 7, 111, 85
+mc285b_7
+	bounds: 0, 55, 47, 54
+	offsets: 22, 7, 111, 85
+mc285c_1
+	bounds: 0, 55, 47, 54
+	offsets: 29, 11, 111, 85
+mc285c_10
+	bounds: 0, 55, 47, 54
+	offsets: 23, 6, 111, 85
+mc285c_2
+	bounds: 0, 55, 47, 54
+	offsets: 29, 11, 111, 85
+mc285d_11
+	bounds: 0, 55, 47, 54
+	offsets: 30, 15, 111, 85
+mc285d_7
+	bounds: 0, 55, 47, 54
+	offsets: 29, 10, 111, 85
+mc28501_2
+	bounds: 0, 1, 47, 54
+	offsets: 22, 6, 111, 85
+mc28503_3
+	bounds: 0, 1, 47, 54
+	offsets: 22, 7, 111, 85
+mc28503_7
+	bounds: 0, 1, 47, 54
+	offsets: 22, 7, 111, 85
+mc28504_9
+	bounds: 0, 1, 47, 54
+	offsets: 22, 7, 111, 85
+mc285b_8
+	bounds: 0, 1, 47, 54
+	offsets: 22, 7, 111, 85
+mc285d_12
+	bounds: 0, 1, 47, 54
+	offsets: 28, 14, 111, 85
+mc28501_3
+	bounds: 47, 1, 46, 54
+	offsets: 22, 7, 111, 85
+mc28502_1
+	bounds: 47, 1, 46, 54
+	offsets: 28, 10, 111, 85
+mc28504_10
+	bounds: 47, 1, 46, 54
+	offsets: 22, 7, 111, 85
+mc285e_5
+	bounds: 47, 1, 46, 54
+	offsets: 30, 4, 111, 85
+mc28501_5
+	bounds: 0, 0, 1, 1
+mc28501_6
+	bounds: 0, 0, 1, 1
+mc28501_7
+	bounds: 0, 0, 1, 1
+mc28501_8
+	bounds: 0, 0, 1, 1
+mc28501_9
+	bounds: 0, 0, 1, 1
+mc28502_2
+	bounds: 0, 0, 1, 1
+mc28502_3
+	bounds: 0, 0, 1, 1
+mc28503_1
+	bounds: 0, 0, 1, 1
+mc28503_4
+	bounds: 0, 0, 1, 1
+mc28503_5
+	bounds: 0, 0, 1, 1
+mc28503_8
+	bounds: 0, 0, 1, 1
+mc28503_9
+	bounds: 0, 0, 1, 1
+mc28504_12
+	bounds: 0, 0, 1, 1
+mc28504_13
+	bounds: 0, 0, 1, 1
+mc28504_14
+	bounds: 0, 0, 1, 1
+mc28504_15
+	bounds: 0, 0, 1, 1
+mc28504_16
+	bounds: 0, 0, 1, 1
+mc28504_17
+	bounds: 0, 0, 1, 1
+mc28504_18
+	bounds: 0, 0, 1, 1
+mc28504_19
+	bounds: 0, 0, 1, 1
+mc28504_20
+	bounds: 0, 0, 1, 1
+mc28504_21
+	bounds: 0, 0, 1, 1
+mc28504_22
+	bounds: 0, 0, 1, 1
+mc28504_23
+	bounds: 0, 0, 1, 1
+mc285b_10
+	bounds: 0, 0, 1, 1
+mc285b_11
+	bounds: 0, 0, 1, 1
+mc285b_13
+	bounds: 0, 0, 1, 1
+mc285b_14
+	bounds: 0, 0, 1, 1
+mc285b_3
+	bounds: 0, 0, 1, 1
+mc285b_4
+	bounds: 0, 0, 1, 1
+mc285b_5
+	bounds: 0, 0, 1, 1
+mc285b_9
+	bounds: 0, 0, 1, 1
+mc285c_11
+	bounds: 0, 0, 1, 1
+mc285c_12
+	bounds: 0, 0, 1, 1
+mc285c_13
+	bounds: 0, 0, 1, 1
+mc285c_16
+	bounds: 0, 0, 1, 1
+mc285c_17
+	bounds: 0, 0, 1, 1
+mc285c_21
+	bounds: 0, 0, 1, 1
+mc285c_22
+	bounds: 0, 0, 1, 1
+mc285c_23
+	bounds: 0, 0, 1, 1
+mc285c_27
+	bounds: 0, 0, 1, 1
+mc285c_28
+	bounds: 0, 0, 1, 1
+mc285c_29
+	bounds: 0, 0, 1, 1
+mc285c_3
+	bounds: 0, 0, 1, 1
+mc285c_4
+	bounds: 0, 0, 1, 1
+mc285c_5
+	bounds: 0, 0, 1, 1
+mc285c_6
+	bounds: 0, 0, 1, 1
+mc285c_7
+	bounds: 0, 0, 1, 1
+mc285d_14
+	bounds: 0, 0, 1, 1
+mc285d_15
+	bounds: 0, 0, 1, 1
+mc285d_16
+	bounds: 0, 0, 1, 1
+mc285d_17
+	bounds: 0, 0, 1, 1
+mc285d_18
+	bounds: 0, 0, 1, 1
+mc285d_19
+	bounds: 0, 0, 1, 1
+mc285d_3
+	bounds: 0, 0, 1, 1
+mc285d_4
+	bounds: 0, 0, 1, 1
+mc285d_5
+	bounds: 0, 0, 1, 1
+mc285d_8
+	bounds: 0, 0, 1, 1
+mc285d_9
+	bounds: 0, 0, 1, 1
+mc285e_12
+	bounds: 0, 0, 1, 1
+mc285e_13
+	bounds: 0, 0, 1, 1
+mc285e_14
+	bounds: 0, 0, 1, 1
+mc285e_15
+	bounds: 0, 0, 1, 1
+mc285e_2
+	bounds: 0, 0, 1, 1
+mc285e_22
+	bounds: 0, 0, 1, 1
+mc285e_23
+	bounds: 0, 0, 1, 1
+mc285e_24
+	bounds: 0, 0, 1, 1
+mc285e_25
+	bounds: 0, 0, 1, 1
+mc285e_26
+	bounds: 0, 0, 1, 1
+mc285e_27
+	bounds: 0, 0, 1, 1
+mc285e_3
+	bounds: 0, 0, 1, 1
+mc285e_32
+	bounds: 0, 0, 1, 1
+mc285e_33
+	bounds: 0, 0, 1, 1
+mc285e_34
+	bounds: 0, 0, 1, 1
+mc285e_35
+	bounds: 0, 0, 1, 1
+mc285e_36
+	bounds: 0, 0, 1, 1
+mc285e_37
+	bounds: 0, 0, 1, 1
+mc285e_38
+	bounds: 0, 0, 1, 1
+mc285e_39
+	bounds: 0, 0, 1, 1
+mc285e_6
+	bounds: 0, 0, 1, 1
+mc285e_7
+	bounds: 0, 0, 1, 1
+mc285f_10
+	bounds: 0, 0, 1, 1
+mc285f_11
+	bounds: 0, 0, 1, 1
+mc285f_12
+	bounds: 0, 0, 1, 1
+mc285f_13
+	bounds: 0, 0, 1, 1
+mc285f_14
+	bounds: 0, 0, 1, 1
+mc285f_2
+	bounds: 0, 0, 1, 1
+mc285f_3
+	bounds: 0, 0, 1, 1
+mc285f_8
+	bounds: 0, 0, 1, 1
+mc285f_9
+	bounds: 0, 0, 1, 1

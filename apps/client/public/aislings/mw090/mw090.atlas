@@ -1,0 +1,52 @@
+mw090.png
+	size: 128, 128
+mw09001_0
+	bounds: 0, 85, 24, 9
+	offsets: 63, 24, 111, 85
+mw09001_1
+	bounds: 0, 64, 20, 12
+	offsets: 66, 33, 111, 85
+mw09001_2
+	bounds: 0, 0, 15, 15
+	offsets: 68, 35, 111, 85
+mw09001_3
+	bounds: 36, 114, 23, 9
+	offsets: 63, 25, 111, 85
+mw09001_4
+	bounds: 36, 101, 21, 13
+	offsets: 53, 22, 111, 85
+mw09001_5
+	bounds: 0, 51, 19, 13
+	offsets: 64, 22, 111, 85
+mw09001_6
+	bounds: 0, 76, 22, 9
+	offsets: 67, 29, 111, 85
+mw09001_7
+	bounds: 0, 15, 16, 15
+	offsets: 68, 38, 111, 85
+mw09001_8
+	bounds: 59, 114, 19, 9
+	offsets: 63, 30, 111, 85
+mw09001_9
+	bounds: 24, 85, 12, 9
+	offsets: 62, 25, 111, 85
+mw09002_0
+	bounds: 57, 100, 14, 14
+	offsets: 36, 37, 111, 85
+mw09002_1
+	bounds: 0, 30, 18, 21
+	offsets: 64, 39, 111, 85
+mw09002_2
+	bounds: 22, 77, 11, 8
+	offsets: 40, 44, 111, 85
+mw09002_3
+	bounds: 0, 94, 36, 29
+	offsets: 45, 13, 111, 85
+mw090f_0
+	bounds: 20, 75, 1, 1
+mw090f_1
+	bounds: 20, 75, 1, 1
+mw090f_2
+	bounds: 20, 75, 1, 1
+mw090f_3
+	bounds: 20, 75, 1, 1

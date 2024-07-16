@@ -1,0 +1,44 @@
+ws020.png
+	size: 128, 128
+ws02001_0
+	bounds: 24, 50, 23, 33
+	offsets: 10, 19, 57, 85
+ws02001_1
+	bounds: 48, 84, 23, 33
+	offsets: 9, 19, 57, 85
+ws02001_2
+	bounds: 24, 16, 23, 34
+	offsets: 8, 21, 57, 85
+ws02001_3
+	bounds: 0, 84, 24, 33
+	offsets: 9, 20, 57, 85
+ws02001_4
+	bounds: 71, 83, 23, 34
+	offsets: 13, 20, 57, 85
+ws02001_5
+	bounds: 94, 84, 23, 33
+	offsets: 9, 16, 57, 85
+ws02001_6
+	bounds: 47, 49, 23, 34
+	offsets: 8, 16, 57, 85
+ws02002_3
+	bounds: 47, 49, 23, 34
+	offsets: 14, 18, 57, 85
+ws02001_7
+	bounds: 47, 14, 23, 35
+	offsets: 7, 18, 57, 85
+ws02001_8
+	bounds: 0, 50, 24, 34
+	offsets: 8, 17, 57, 85
+ws02001_9
+	bounds: 70, 48, 23, 35
+	offsets: 17, 13, 57, 85
+ws02002_0
+	bounds: 24, 83, 24, 34
+	offsets: 18, 21, 57, 85
+ws02002_1
+	bounds: 70, 14, 23, 34
+	offsets: 17, 22, 57, 85
+ws02002_2
+	bounds: 0, 16, 24, 34
+	offsets: 19, 16, 57, 85

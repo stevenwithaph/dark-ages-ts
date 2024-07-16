@@ -1,0 +1,44 @@
+mw040.png
+	size: 128, 128
+mw04001_0
+	bounds: 0, 55, 25, 15
+	offsets: 63, 16, 111, 85
+mw04001_3
+	bounds: 0, 55, 25, 15
+	offsets: 63, 16, 111, 85
+mw04001_5
+	bounds: 0, 55, 25, 15
+	offsets: 64, 21, 111, 85
+mw04001_8
+	bounds: 0, 55, 25, 15
+	offsets: 63, 22, 111, 85
+mw04001_1
+	bounds: 0, 70, 27, 16
+	offsets: 66, 29, 111, 85
+mw04001_2
+	bounds: 44, 88, 25, 17
+	offsets: 68, 35, 111, 85
+mw04001_4
+	bounds: 0, 0, 20, 21
+	offsets: 53, 14, 111, 85
+mw04001_6
+	bounds: 44, 105, 27, 16
+	offsets: 67, 30, 111, 85
+mw04001_7
+	bounds: 0, 38, 25, 17
+	offsets: 68, 38, 111, 85
+mw04001_9
+	bounds: 91, 105, 11, 16
+	offsets: 61, 20, 111, 85
+mw04002_0
+	bounds: 0, 21, 25, 17
+	offsets: 25, 33, 111, 85
+mw04002_1
+	bounds: 27, 65, 18, 21
+	offsets: 64, 39, 111, 85
+mw04002_2
+	bounds: 71, 106, 20, 15
+	offsets: 30, 54, 111, 85
+mw04002_3
+	bounds: 0, 86, 44, 35
+	offsets: 37, 8, 111, 85

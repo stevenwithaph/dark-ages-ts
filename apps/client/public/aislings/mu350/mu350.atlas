@@ -1,0 +1,444 @@
+mu350.png
+	size: 512, 512
+mu35001_0
+	bounds: 197, 371, 14, 36
+	offsets: 21, 10, 57, 85
+mu35001_1
+	bounds: 83, 303, 18, 36
+	offsets: 21, 10, 57, 85
+mu35001_2
+	bounds: 34, 0, 20, 38
+	offsets: 21, 8, 57, 85
+mu35001_3
+	bounds: 136, 191, 16, 32
+	offsets: 20, 13, 57, 85
+mu35001_4
+	bounds: 408, 477, 25, 35
+	offsets: 16, 11, 57, 85
+mu35001_5
+	bounds: 101, 303, 18, 34
+	offsets: 19, 13, 57, 85
+mu35001_6
+	bounds: 100, 272, 18, 31
+	offsets: 17, 17, 57, 85
+mu35001_7
+	bounds: 77, 46, 19, 39
+	offsets: 16, 8, 57, 85
+mu35001_8
+	bounds: 100, 236, 18, 36
+	offsets: 19, 11, 57, 85
+mu35001_9
+	bounds: 433, 476, 25, 36
+	offsets: 16, 11, 57, 85
+mu35002_0
+	bounds: 211, 370, 14, 44
+	offsets: 21, 10, 57, 85
+mu35002_1
+	bounds: 54, 0, 20, 38
+	offsets: 26, 10, 57, 85
+mu35002_2
+	bounds: 172, 432, 15, 34
+	offsets: 22, 13, 57, 85
+mu35002_3
+	bounds: 136, 152, 16, 39
+	offsets: 24, 5, 57, 85
+mu35003_0
+	bounds: 187, 438, 15, 47
+	offsets: 21, 11, 57, 85
+mu35003_1
+	bounds: 100, 191, 18, 45
+	offsets: 19, 14, 57, 85
+mu35003_2
+	bounds: 136, 259, 17, 39
+	offsets: 21, 10, 57, 85
+mu35003_3
+	bounds: 36, 38, 21, 36
+	offsets: 21, 10, 57, 85
+mu35003_4
+	bounds: 100, 157, 18, 34
+	offsets: 19, 13, 57, 85
+mu35003_5
+	bounds: 100, 157, 18, 34
+	offsets: 19, 13, 57, 85
+mu35003_6
+	bounds: 119, 298, 18, 39
+	offsets: 21, 10, 57, 85
+mu35003_7
+	bounds: 57, 38, 20, 36
+	offsets: 21, 10, 57, 85
+mu35003_8
+	bounds: 152, 188, 16, 35
+	offsets: 21, 13, 57, 85
+mu35003_9
+	bounds: 136, 223, 17, 36
+	offsets: 20, 13, 57, 85
+mu350b_0
+	bounds: 152, 149, 16, 39
+	offsets: 21, 10, 57, 85
+mu350b_1
+	bounds: 85, 376, 24, 53
+	offsets: 14, 10, 57, 85
+mu350b_10
+	bounds: 118, 228, 18, 35
+	offsets: 19, 13, 57, 85
+mu350b_11
+	bounds: 118, 193, 18, 35
+	offsets: 19, 13, 57, 85
+mu350b_12
+	bounds: 202, 446, 15, 39
+	offsets: 21, 11, 57, 85
+mu350b_13
+	bounds: 104, 85, 16, 36
+	offsets: 21, 14, 57, 85
+mu350b_14
+	bounds: 49, 149, 1, 1
+mu350b_15
+	bounds: 49, 149, 1, 1
+mu350b_16
+	bounds: 49, 149, 1, 1
+mu350b_17
+	bounds: 49, 149, 1, 1
+mu350b_18
+	bounds: 49, 149, 1, 1
+mu350b_19
+	bounds: 49, 149, 1, 1
+mu350d_18
+	bounds: 49, 149, 1, 1
+mu350d_19
+	bounds: 49, 149, 1, 1
+mu350e_36
+	bounds: 49, 149, 1, 1
+mu350e_37
+	bounds: 49, 149, 1, 1
+mu350e_38
+	bounds: 49, 149, 1, 1
+mu350e_39
+	bounds: 49, 149, 1, 1
+mu350f_12
+	bounds: 49, 149, 1, 1
+mu350f_13
+	bounds: 49, 149, 1, 1
+mu350f_14
+	bounds: 49, 149, 1, 1
+mu350f_15
+	bounds: 49, 149, 1, 1
+mu350f_16
+	bounds: 49, 149, 1, 1
+mu350f_17
+	bounds: 49, 149, 1, 1
+mu350f_18
+	bounds: 49, 149, 1, 1
+mu350f_19
+	bounds: 49, 149, 1, 1
+mu350b_2
+	bounds: 49, 222, 31, 47
+	offsets: 21, 10, 57, 85
+mu350b_3
+	bounds: 156, 431, 16, 35
+	offsets: 21, 13, 57, 85
+mu350b_4
+	bounds: 109, 381, 23, 47
+	offsets: 14, 13, 57, 85
+mu350b_5
+	bounds: 49, 188, 31, 34
+	offsets: 22, 13, 57, 85
+mu350b_6
+	bounds: 150, 349, 16, 37
+	offsets: 21, 11, 57, 85
+mu350b_7
+	bounds: 166, 352, 16, 37
+	offsets: 21, 10, 57, 85
+mu350b_8
+	bounds: 166, 352, 16, 37
+	offsets: 21, 10, 57, 85
+mu350b_9
+	bounds: 118, 263, 18, 35
+	offsets: 19, 14, 57, 85
+mu350c_0
+	bounds: 115, 41, 16, 44
+	offsets: 21, 10, 57, 85
+mu350c_1
+	bounds: 154, 389, 20, 39
+	offsets: 26, 10, 57, 85
+mu350c_10
+	bounds: 96, 13, 19, 35
+	offsets: 19, 7, 57, 85
+mu350c_14
+	bounds: 96, 13, 19, 35
+	offsets: 19, 7, 57, 85
+mu350c_11
+	bounds: 80, 199, 20, 31
+	offsets: 19, 13, 57, 85
+mu350c_12
+	bounds: 80, 152, 20, 47
+	offsets: 17, 23, 57, 85
+mu350c_13
+	bounds: 189, 407, 15, 31
+	offsets: 23, 8, 57, 85
+mu350c_15
+	bounds: 89, 121, 20, 31
+	offsets: 17, 9, 57, 85
+mu350c_16
+	bounds: 186, 485, 30, 27
+	offsets: 15, 16, 57, 85
+mu350c_17
+	bounds: 49, 399, 36, 30
+	offsets: 14, 11, 57, 85
+mu350c_18
+	bounds: 0, 20, 34, 32
+	offsets: 10, 10, 57, 85
+mu350c_19
+	bounds: 85, 345, 24, 31
+	offsets: 17, 9, 57, 85
+mu350c_2
+	bounds: 80, 230, 20, 39
+	offsets: 26, 10, 57, 85
+mu350c_20
+	bounds: 64, 85, 20, 31
+	offsets: 17, 9, 57, 85
+mu350c_21
+	bounds: 49, 269, 32, 34
+	offsets: 7, 12, 57, 85
+mu350c_22
+	bounds: 150, 487, 36, 25
+	offsets: 14, 11, 57, 85
+mu350c_23
+	bounds: 0, 52, 36, 30
+	offsets: 14, 11, 57, 85
+mu350c_24
+	bounds: 204, 414, 15, 32
+	offsets: 21, 10, 57, 85
+mu350c_25
+	bounds: 458, 466, 25, 46
+	offsets: 11, 22, 57, 85
+mu350c_26
+	bounds: 483, 489, 25, 23
+	offsets: 16, 9, 57, 85
+mu350c_27
+	bounds: 84, 85, 20, 31
+	offsets: 19, 13, 57, 85
+mu350c_28
+	bounds: 39, 102, 25, 47
+	offsets: 17, 28, 57, 85
+mu350c_29
+	bounds: 216, 489, 29, 23
+	offsets: 17, 12, 57, 85
+mu350c_3
+	bounds: 217, 455, 15, 34
+	offsets: 26, 10, 57, 85
+mu350c_4
+	bounds: 115, 1, 16, 40
+	offsets: 21, 13, 57, 85
+mu350c_5
+	bounds: 155, 312, 16, 37
+	offsets: 26, 5, 57, 85
+mu350c_6
+	bounds: 96, 48, 19, 37
+	offsets: 26, 5, 57, 85
+mu350c_7
+	bounds: 171, 312, 16, 40
+	offsets: 26, 5, 57, 85
+mu350c_8
+	bounds: 174, 400, 15, 32
+	offsets: 21, 10, 57, 85
+mu350c_9
+	bounds: 77, 0, 19, 46
+	offsets: 17, 17, 57, 85
+mu350d_0
+	bounds: 225, 380, 14, 38
+	offsets: 14, 3, 57, 85
+mu350d_1
+	bounds: 483, 457, 25, 32
+	offsets: 18, 14, 57, 85
+mu350d_10
+	bounds: 120, 88, 16, 38
+	offsets: 26, 10, 57, 85
+mu350d_11
+	bounds: 81, 270, 19, 33
+	offsets: 29, 19, 57, 85
+mu350d_12
+	bounds: 273, 475, 28, 37
+	offsets: 27, 19, 57, 85
+mu350d_13
+	bounds: 219, 418, 15, 37
+	offsets: 25, 10, 57, 85
+mu350d_14
+	bounds: 131, 341, 19, 40
+	offsets: 23, 7, 57, 85
+mu350d_15
+	bounds: 382, 476, 26, 36
+	offsets: 17, 7, 57, 85
+mu350d_16
+	bounds: 52, 429, 38, 37
+	offsets: 17, 8, 57, 85
+mu350d_17
+	bounds: 429, 437, 13, 39
+	offsets: 29, 7, 57, 85
+mu350d_2
+	bounds: 132, 386, 22, 42
+	offsets: 18, 15, 57, 85
+mu350d_3
+	bounds: 416, 438, 13, 39
+	offsets: 14, 12, 57, 85
+mu350d_4
+	bounds: 245, 476, 28, 36
+	offsets: 13, 12, 57, 85
+mu350d_5
+	bounds: 126, 428, 30, 38
+	offsets: 13, 12, 57, 85
+mu350d_6
+	bounds: 301, 469, 27, 43
+	offsets: 26, 10, 57, 85
+mu350d_7
+	bounds: 109, 337, 22, 44
+	offsets: 26, 10, 57, 85
+mu350d_8
+	bounds: 49, 150, 31, 38
+	offsets: 24, 5, 57, 85
+mu350d_9
+	bounds: 64, 116, 25, 34
+	offsets: 26, 5, 57, 85
+mu350e_0
+	bounds: 234, 418, 14, 39
+	offsets: 23, 9, 57, 85
+mu350e_1
+	bounds: 328, 476, 27, 36
+	offsets: 26, 9, 57, 85
+mu350e_10
+	bounds: 262, 434, 14, 41
+	offsets: 17, 11, 57, 85
+mu350e_11
+	bounds: 262, 434, 14, 41
+	offsets: 17, 11, 57, 85
+mu350e_12
+	bounds: 131, 48, 16, 40
+	offsets: 22, 10, 57, 85
+mu350e_13
+	bounds: 131, 48, 16, 40
+	offsets: 22, 10, 57, 85
+mu350e_14
+	bounds: 131, 8, 16, 40
+	offsets: 22, 10, 57, 85
+mu350e_15
+	bounds: 131, 8, 16, 40
+	offsets: 22, 10, 57, 85
+mu350e_23
+	bounds: 131, 8, 16, 40
+	offsets: 22, 10, 57, 85
+mu350e_24
+	bounds: 131, 8, 16, 40
+	offsets: 22, 10, 57, 85
+mu350e_25
+	bounds: 131, 8, 16, 40
+	offsets: 22, 10, 57, 85
+mu350e_26
+	bounds: 131, 8, 16, 40
+	offsets: 22, 10, 57, 85
+mu350e_27
+	bounds: 131, 8, 16, 40
+	offsets: 22, 10, 57, 85
+mu350e_16
+	bounds: 276, 435, 14, 40
+	offsets: 17, 11, 57, 85
+mu350e_17
+	bounds: 290, 428, 14, 41
+	offsets: 17, 11, 57, 85
+mu350e_18
+	bounds: 304, 427, 14, 42
+	offsets: 17, 11, 57, 85
+mu350e_19
+	bounds: 318, 427, 14, 42
+	offsets: 17, 11, 57, 85
+mu350e_2
+	bounds: 442, 442, 13, 34
+	offsets: 22, 13, 57, 85
+mu350e_20
+	bounds: 332, 435, 14, 41
+	offsets: 17, 11, 57, 85
+mu350e_21
+	bounds: 346, 435, 14, 41
+	offsets: 17, 11, 57, 85
+mu350e_22
+	bounds: 455, 428, 13, 38
+	offsets: 22, 10, 57, 85
+mu350e_28
+	bounds: 360, 435, 14, 42
+	offsets: 17, 11, 57, 85
+mu350e_29
+	bounds: 182, 358, 15, 42
+	offsets: 16, 11, 57, 85
+mu350e_3
+	bounds: 118, 162, 18, 31
+	offsets: 26, 4, 57, 85
+mu350e_30
+	bounds: 187, 316, 15, 42
+	offsets: 17, 11, 57, 85
+mu350e_31
+	bounds: 374, 436, 14, 40
+	offsets: 17, 11, 57, 85
+mu350e_32
+	bounds: 388, 434, 14, 42
+	offsets: 22, 10, 57, 85
+mu350e_33
+	bounds: 388, 434, 14, 42
+	offsets: 22, 10, 57, 85
+mu350e_35
+	bounds: 388, 434, 14, 42
+	offsets: 22, 10, 57, 85
+mu350e_34
+	bounds: 402, 434, 14, 42
+	offsets: 22, 10, 57, 85
+mu350e_4
+	bounds: 355, 477, 27, 35
+	offsets: 26, 10, 57, 85
+mu350e_5
+	bounds: 137, 311, 18, 30
+	offsets: 26, 10, 57, 85
+mu350e_6
+	bounds: 109, 126, 18, 31
+	offsets: 26, 4, 57, 85
+mu350e_7
+	bounds: 39, 74, 22, 28
+	offsets: 29, 4, 57, 85
+mu350e_8
+	bounds: 239, 378, 14, 40
+	offsets: 17, 11, 57, 85
+mu350e_9
+	bounds: 248, 435, 14, 41
+	offsets: 17, 11, 57, 85
+mu350f_0
+	bounds: 49, 303, 34, 36
+	offsets: 11, 10, 57, 85
+mu350f_1
+	bounds: 0, 82, 39, 67
+	offsets: 10, 11, 57, 85
+mu350f_10
+	bounds: 0, 207, 49, 58
+	offsets: 3, 2, 57, 85
+mu350f_11
+	bounds: 0, 149, 49, 58
+	offsets: 3, 2, 57, 85
+mu350f_2
+	bounds: 90, 430, 36, 36
+	offsets: 10, 13, 57, 85
+mu350f_3
+	bounds: 49, 339, 36, 60
+	offsets: 10, 14, 57, 85
+mu350f_4
+	bounds: 0, 383, 49, 46
+	offsets: 3, 2, 57, 85
+mu350f_5
+	bounds: 52, 466, 49, 46
+	offsets: 3, 2, 57, 85
+mu350f_6
+	bounds: 0, 327, 49, 56
+	offsets: 3, 2, 57, 85
+mu350f_7
+	bounds: 0, 265, 49, 62
+	offsets: 3, 2, 57, 85
+mu350f_8
+	bounds: 101, 466, 49, 46
+	offsets: 3, 2, 57, 85
+mu350f_9
+	bounds: 0, 429, 52, 83
+	offsets: 0, 2, 57, 85

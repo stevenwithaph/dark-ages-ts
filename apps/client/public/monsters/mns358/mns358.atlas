@@ -1,0 +1,23 @@
+mns358.png
+	size: 128, 128
+mns358_0
+	bounds: 0, 63, 31, 63
+	offsets: 11, 7, 56, 84
+mns358_1
+	bounds: 0, 0, 31, 63
+	offsets: 11, 7, 56, 84
+mns358_2
+	bounds: 31, 63, 31, 63
+	offsets: 11, 7, 56, 84
+mns358_3
+	bounds: 31, 0, 31, 63
+	offsets: 11, 7, 56, 84
+mns358_4
+	bounds: 62, 63, 31, 63
+	offsets: 11, 7, 56, 84
+mns358_5
+	bounds: 62, 0, 31, 63
+	offsets: 11, 7, 56, 84
+mns358_6
+	bounds: 93, 63, 31, 63
+	offsets: 11, 7, 56, 84

@@ -1,0 +1,162 @@
+mu019.png
+	size: 256, 256
+mu01901_0
+	bounds: 16, 0, 15, 37
+	offsets: 21, 10, 57, 85
+mu01901_1
+	bounds: 236, 219, 13, 37
+	offsets: 21, 10, 57, 85
+mu01901_2
+	bounds: 43, 181, 16, 38
+	offsets: 21, 8, 57, 85
+mu01901_3
+	bounds: 116, 222, 15, 34
+	offsets: 20, 13, 57, 85
+mu01901_4
+	bounds: 0, 184, 25, 35
+	offsets: 16, 11, 57, 85
+mu01901_5
+	bounds: 26, 219, 18, 37
+	offsets: 22, 11, 57, 85
+mu01901_6
+	bounds: 18, 151, 13, 33
+	offsets: 22, 15, 57, 85
+mu01901_7
+	bounds: 131, 216, 15, 40
+	offsets: 21, 7, 57, 85
+mu01901_8
+	bounds: 0, 147, 18, 37
+	offsets: 19, 11, 57, 85
+mu01901_9
+	bounds: 0, 219, 26, 37
+	offsets: 16, 10, 57, 85
+mu01902_0
+	bounds: 146, 219, 15, 37
+	offsets: 21, 10, 57, 85
+mu01902_1
+	bounds: 59, 181, 16, 38
+	offsets: 26, 10, 57, 85
+mu01902_2
+	bounds: 44, 219, 18, 37
+	offsets: 22, 11, 57, 85
+mu01902_3
+	bounds: 161, 217, 15, 39
+	offsets: 26, 5, 57, 85
+mu01903_0
+	bounds: 176, 219, 15, 37
+	offsets: 21, 11, 57, 85
+mu01903_1
+	bounds: 0, 110, 18, 37
+	offsets: 22, 11, 57, 85
+mu01903_2
+	bounds: 191, 219, 15, 37
+	offsets: 21, 10, 57, 85
+mu01903_3
+	bounds: 206, 219, 15, 37
+	offsets: 21, 10, 57, 85
+mu01903_4
+	bounds: 62, 219, 18, 37
+	offsets: 22, 11, 57, 85
+mu01903_5
+	bounds: 0, 73, 18, 37
+	offsets: 22, 11, 57, 85
+mu01903_6
+	bounds: 221, 219, 15, 37
+	offsets: 21, 10, 57, 85
+mu01903_7
+	bounds: 221, 219, 15, 37
+	offsets: 21, 10, 57, 85
+mu01903_8
+	bounds: 80, 219, 18, 37
+	offsets: 22, 11, 57, 85
+mu01903_9
+	bounds: 0, 37, 18, 36
+	offsets: 22, 11, 57, 85
+mu019e_0
+	bounds: 31, 152, 12, 37
+	offsets: 24, 10, 57, 85
+mu019e_1
+	bounds: 25, 189, 18, 30
+	offsets: 26, 10, 57, 85
+mu019e_4
+	bounds: 25, 189, 18, 30
+	offsets: 26, 10, 57, 85
+mu019e_2
+	bounds: 18, 118, 12, 33
+	offsets: 22, 15, 57, 85
+mu019e_3
+	bounds: 0, 4, 16, 33
+	offsets: 29, 3, 57, 85
+mu019e_6
+	bounds: 0, 4, 16, 33
+	offsets: 29, 3, 57, 85
+mu019e_5
+	bounds: 98, 226, 18, 30
+	offsets: 26, 10, 57, 85
+mu019e_7
+	bounds: 75, 186, 16, 33
+	offsets: 29, 3, 57, 85
+mu019e_8
+	bounds: 75, 185, 1, 1
+mu019e_10
+	bounds: 75, 185, 1, 1
+mu019e_11
+	bounds: 75, 185, 1, 1
+mu019e_12
+	bounds: 75, 185, 1, 1
+mu019e_13
+	bounds: 75, 185, 1, 1
+mu019e_14
+	bounds: 75, 185, 1, 1
+mu019e_15
+	bounds: 75, 185, 1, 1
+mu019e_16
+	bounds: 75, 185, 1, 1
+mu019e_17
+	bounds: 75, 185, 1, 1
+mu019e_18
+	bounds: 75, 185, 1, 1
+mu019e_19
+	bounds: 75, 185, 1, 1
+mu019e_20
+	bounds: 75, 185, 1, 1
+mu019e_21
+	bounds: 75, 185, 1, 1
+mu019e_22
+	bounds: 75, 185, 1, 1
+mu019e_23
+	bounds: 75, 185, 1, 1
+mu019e_24
+	bounds: 75, 185, 1, 1
+mu019e_25
+	bounds: 75, 185, 1, 1
+mu019e_26
+	bounds: 75, 185, 1, 1
+mu019e_27
+	bounds: 75, 185, 1, 1
+mu019e_28
+	bounds: 75, 185, 1, 1
+mu019e_29
+	bounds: 75, 185, 1, 1
+mu019e_30
+	bounds: 75, 185, 1, 1
+mu019e_31
+	bounds: 75, 185, 1, 1
+mu019e_32
+	bounds: 75, 185, 1, 1
+mu019e_33
+	bounds: 75, 185, 1, 1
+mu019e_34
+	bounds: 75, 185, 1, 1
+mu019e_35
+	bounds: 75, 185, 1, 1
+mu019e_36
+	bounds: 75, 185, 1, 1
+mu019e_37
+	bounds: 75, 185, 1, 1
+mu019e_38
+	bounds: 75, 185, 1, 1
+mu019e_39
+	bounds: 75, 185, 1, 1
+mu019e_9
+	bounds: 75, 185, 1, 1

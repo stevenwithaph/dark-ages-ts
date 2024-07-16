@@ -1,0 +1,160 @@
+mu248.png
+	size: 256, 256
+mu24801_0
+	bounds: 78, 136, 17, 40
+	offsets: 20, 9, 57, 85
+mu24801_1
+	bounds: 58, 136, 20, 40
+	offsets: 19, 9, 57, 85
+mu24801_2
+	bounds: 34, 135, 24, 41
+	offsets: 16, 7, 57, 85
+mu24801_3
+	bounds: 123, 27, 15, 39
+	offsets: 20, 10, 57, 85
+mu24801_4
+	bounds: 67, 218, 25, 38
+	offsets: 16, 10, 57, 85
+mu24801_5
+	bounds: 180, 217, 21, 39
+	offsets: 20, 10, 57, 85
+mu24801_6
+	bounds: 92, 220, 22, 36
+	offsets: 17, 13, 57, 85
+mu24801_7
+	bounds: 0, 48, 25, 42
+	offsets: 16, 6, 57, 85
+mu24801_8
+	bounds: 87, 97, 17, 39
+	offsets: 19, 10, 57, 85
+mu24801_9
+	bounds: 34, 176, 26, 39
+	offsets: 16, 9, 57, 85
+mu24802_0
+	bounds: 23, 0, 17, 44
+	offsets: 20, 9, 57, 85
+mu24802_1
+	bounds: 91, 3, 16, 41
+	offsets: 26, 9, 57, 85
+mu24802_2
+	bounds: 25, 51, 19, 39
+	offsets: 22, 10, 57, 85
+mu24802_3
+	bounds: 100, 57, 16, 40
+	offsets: 25, 4, 57, 85
+mu24803_0
+	bounds: 82, 44, 18, 49
+	offsets: 19, 9, 57, 85
+mu24803_1
+	bounds: 114, 206, 22, 50
+	offsets: 19, 10, 57, 85
+mu24803_2
+	bounds: 40, 11, 17, 40
+	offsets: 20, 9, 57, 85
+mu24803_3
+	bounds: 136, 216, 22, 40
+	offsets: 20, 9, 57, 85
+mu24803_4
+	bounds: 201, 217, 21, 39
+	offsets: 20, 10, 57, 85
+mu24803_5
+	bounds: 158, 217, 22, 39
+	offsets: 20, 10, 57, 85
+mu24803_6
+	bounds: 30, 90, 19, 40
+	offsets: 20, 9, 57, 85
+mu24803_7
+	bounds: 222, 216, 21, 40
+	offsets: 20, 9, 57, 85
+mu24803_8
+	bounds: 44, 51, 19, 39
+	offsets: 22, 10, 57, 85
+mu24803_9
+	bounds: 60, 176, 21, 39
+	offsets: 20, 10, 57, 85
+mu248c_0
+	bounds: 49, 92, 19, 43
+	offsets: 20, 9, 57, 85
+mu248c_1
+	bounds: 95, 143, 16, 41
+	offsets: 26, 9, 57, 85
+mu248c_2
+	bounds: 95, 143, 16, 41
+	offsets: 26, 9, 57, 85
+mu248c_10
+	bounds: 116, 66, 16, 37
+	offsets: 19, 6, 57, 85
+mu248c_11
+	bounds: 81, 184, 20, 34
+	offsets: 21, 10, 57, 85
+mu248c_12
+	bounds: 126, 159, 15, 47
+	offsets: 20, 12, 57, 85
+mu248c_13
+	bounds: 107, 23, 16, 34
+	offsets: 23, 7, 57, 85
+mu248c_14
+	bounds: 58, 135, 1, 1
+mu248c_15
+	bounds: 58, 135, 1, 1
+mu248c_16
+	bounds: 58, 135, 1, 1
+mu248c_17
+	bounds: 58, 135, 1, 1
+mu248c_18
+	bounds: 58, 135, 1, 1
+mu248c_19
+	bounds: 58, 135, 1, 1
+mu248c_20
+	bounds: 58, 135, 1, 1
+mu248c_21
+	bounds: 58, 135, 1, 1
+mu248c_22
+	bounds: 58, 135, 1, 1
+mu248c_23
+	bounds: 58, 135, 1, 1
+mu248c_24
+	bounds: 58, 135, 1, 1
+mu248c_25
+	bounds: 58, 135, 1, 1
+mu248c_26
+	bounds: 58, 135, 1, 1
+mu248c_27
+	bounds: 58, 135, 1, 1
+mu248c_28
+	bounds: 58, 135, 1, 1
+mu248c_29
+	bounds: 58, 135, 1, 1
+mu248c_3
+	bounds: 57, 15, 17, 36
+	offsets: 26, 9, 57, 85
+mu248c_4
+	bounds: 68, 93, 19, 43
+	offsets: 22, 10, 57, 85
+mu248c_5
+	bounds: 104, 103, 16, 40
+	offsets: 25, 4, 57, 85
+mu248c_6
+	bounds: 0, 8, 23, 40
+	offsets: 25, 4, 57, 85
+mu248c_7
+	bounds: 63, 54, 19, 38
+	offsets: 25, 4, 57, 85
+mu248c_8
+	bounds: 74, 9, 17, 35
+	offsets: 20, 9, 57, 85
+mu248c_9
+	bounds: 111, 152, 15, 54
+	offsets: 19, 10, 57, 85
+mu248f_0
+	bounds: 0, 90, 30, 40
+	offsets: 13, 9, 57, 85
+mu248f_1
+	bounds: 0, 195, 34, 61
+	offsets: 11, 9, 57, 85
+mu248f_2
+	bounds: 34, 215, 33, 41
+	offsets: 12, 10, 57, 85
+mu248f_3
+	bounds: 0, 130, 34, 65
+	offsets: 12, 9, 57, 85

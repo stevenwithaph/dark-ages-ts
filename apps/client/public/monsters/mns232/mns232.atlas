@@ -1,0 +1,11 @@
+mns232.png
+	size: 128, 128
+mns232_0
+	bounds: 0, 25, 31, 65
+	offsets: 13, 5, 56, 84
+mns232_1
+	bounds: 31, 19, 31, 71
+	offsets: 12, 5, 56, 84
+mns232_2
+	bounds: 62, 19, 28, 71
+	offsets: 11, 5, 56, 84

@@ -1,0 +1,26 @@
+mns151.png
+	size: 512, 512
+mns151_0
+	bounds: 0, 0, 136, 136
+	offsets: 18, 4, 168, 141
+mns151_1
+	bounds: 0, 136, 143, 123
+	offsets: 18, 15, 168, 141
+mns151_2
+	bounds: 312, 373, 128, 124
+	offsets: 21, 9, 168, 141
+mns151_3
+	bounds: 165, 379, 147, 118
+	offsets: 2, 21, 168, 141
+mns151_4
+	bounds: 150, 243, 136, 136
+	offsets: 18, 4, 168, 141
+mns151_5
+	bounds: 0, 259, 150, 120
+	offsets: 18, 15, 168, 141
+mns151_6
+	bounds: 143, 119, 128, 124
+	offsets: 21, 9, 168, 141
+mns151_7
+	bounds: 0, 379, 165, 118
+	offsets: 2, 21, 168, 141

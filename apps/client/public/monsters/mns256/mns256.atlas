@@ -1,0 +1,44 @@
+mns256.png
+	size: 256, 256
+mns256_0
+	bounds: 56, 38, 48, 57
+	offsets: 15, 7, 92, 68
+mns256_1
+	bounds: 0, 98, 57, 54
+	offsets: 14, 10, 92, 68
+mns256_10
+	bounds: 107, 85, 38, 56
+	offsets: 14, 7, 92, 68
+mns256_11
+	bounds: 0, 0, 47, 42
+	offsets: 14, 9, 92, 68
+mns256_12
+	bounds: 0, 200, 72, 56
+	offsets: 4, 6, 92, 68
+mns256_13
+	bounds: 0, 152, 65, 48
+	offsets: 26, 6, 92, 68
+mns256_2
+	bounds: 72, 209, 63, 47
+	offsets: 12, 12, 92, 68
+mns256_3
+	bounds: 191, 199, 55, 57
+	offsets: 15, 7, 92, 68
+mns256_4
+	bounds: 57, 95, 50, 57
+	offsets: 18, 4, 92, 68
+mns256_5
+	bounds: 124, 141, 51, 58
+	offsets: 21, 3, 92, 68
+mns256_6
+	bounds: 0, 42, 56, 56
+	offsets: 17, 6, 92, 68
+mns256_7
+	bounds: 72, 158, 52, 51
+	offsets: 12, 2, 92, 68
+mns256_8
+	bounds: 135, 199, 56, 57
+	offsets: 16, 4, 92, 68
+mns256_9
+	bounds: 175, 149, 51, 50
+	offsets: 21, 9, 92, 68

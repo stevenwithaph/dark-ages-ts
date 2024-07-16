@@ -1,0 +1,68 @@
+mw190.png
+	size: 128, 128
+mw19001_0
+	bounds: 36, 110, 33, 16
+	offsets: 52, 23, 111, 85
+mw19001_1
+	bounds: 0, 0, 28, 24
+	offsets: 58, 25, 111, 85
+mw19001_2
+	bounds: 53, 17, 21, 29
+	offsets: 62, 26, 111, 85
+mw19001_3
+	bounds: 0, 87, 34, 10
+	offsets: 53, 22, 111, 85
+mw19001_4
+	bounds: 0, 66, 29, 21
+	offsets: 43, 18, 111, 85
+mw19001_5
+	bounds: 29, 17, 19, 15
+	offsets: 64, 19, 111, 85
+mw19001_6
+	bounds: 69, 111, 29, 15
+	offsets: 61, 30, 111, 85
+mw19001_7
+	bounds: 98, 102, 28, 24
+	offsets: 60, 29, 111, 85
+mw19001_8
+	bounds: 29, 76, 24, 10
+	offsets: 64, 30, 111, 85
+mw19001_9
+	bounds: 29, 86, 1, 1
+mw19002_2
+	bounds: 29, 86, 1, 1
+mw190e_2
+	bounds: 29, 86, 1, 1
+mw190e_7
+	bounds: 29, 86, 1, 1
+mw190e_8
+	bounds: 29, 86, 1, 1
+mw190e_9
+	bounds: 29, 86, 1, 1
+mw19002_0
+	bounds: 36, 86, 28, 24
+	offsets: 30, 35, 111, 85
+mw19002_1
+	bounds: 64, 89, 18, 21
+	offsets: 64, 39, 111, 85
+mw19002_3
+	bounds: 0, 97, 36, 29
+	offsets: 44, 15, 111, 85
+mw190e_0
+	bounds: 0, 45, 29, 21
+	offsets: 44, 20, 111, 85
+mw190e_1
+	bounds: 29, 54, 24, 22
+	offsets: 76, 32, 111, 85
+mw190e_3
+	bounds: 53, 66, 22, 20
+	offsets: 77, 9, 111, 85
+mw190e_4
+	bounds: 29, 32, 24, 22
+	offsets: 76, 32, 111, 85
+mw190e_5
+	bounds: 0, 24, 29, 21
+	offsets: 49, 12, 111, 85
+mw190e_6
+	bounds: 53, 46, 22, 20
+	offsets: 77, 9, 111, 85

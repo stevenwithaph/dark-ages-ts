@@ -1,0 +1,32 @@
+mns625.png
+	size: 128, 128
+mns625_0
+	bounds: 0, 70, 26, 14
+	offsets: 13, 12, 56, 84
+mns625_1
+	bounds: 27, 89, 26, 14
+	offsets: 14, 12, 56, 84
+mns625_2
+	bounds: 53, 91, 25, 12
+	offsets: 13, 14, 56, 84
+mns625_3
+	bounds: 0, 58, 26, 12
+	offsets: 11, 12, 56, 84
+mns625_4
+	bounds: 0, 43, 25, 15
+	offsets: 13, 11, 56, 84
+mns625_5
+	bounds: 0, 11, 24, 14
+	offsets: 13, 12, 56, 84
+mns625_6
+	bounds: 78, 91, 24, 12
+	offsets: 12, 13, 56, 84
+mns625_7
+	bounds: 0, 84, 27, 19
+	offsets: 14, 14, 56, 84
+mns625_8
+	bounds: 0, 0, 23, 11
+	offsets: 12, 13, 56, 84
+mns625_9
+	bounds: 0, 25, 25, 18
+	offsets: 14, 12, 56, 84

@@ -1,0 +1,444 @@
+mh264.png
+	size: 32, 32
+mh26401_0
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh26401_1
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh26401_2
+	bounds: 13, 3, 8, 26
+	offsets: 21, 32, 57, 85
+mh26401_3
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh26401_4
+	bounds: 13, 3, 8, 26
+	offsets: 21, 32, 57, 85
+mh26402_0
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh26403_0
+	bounds: 13, 3, 8, 26
+	offsets: 21, 34, 57, 85
+mh26403_2
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh26403_3
+	bounds: 13, 3, 8, 26
+	offsets: 23, 31, 57, 85
+mh26403_6
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh26403_7
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh264b_0
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh264b_1
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh264b_12
+	bounds: 13, 3, 8, 26
+	offsets: 21, 34, 57, 85
+mh264b_2
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh264b_6
+	bounds: 13, 3, 8, 26
+	offsets: 21, 34, 57, 85
+mh264b_7
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh264b_8
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh264c_0
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh264c_14
+	bounds: 13, 3, 8, 26
+	offsets: 22, 27, 57, 85
+mh264c_18
+	bounds: 13, 3, 8, 26
+	offsets: 11, 26, 57, 85
+mh264c_19
+	bounds: 13, 3, 8, 26
+	offsets: 25, 25, 57, 85
+mh264c_25
+	bounds: 13, 3, 8, 26
+	offsets: 20, 48, 57, 85
+mh264c_9
+	bounds: 13, 3, 8, 26
+	offsets: 20, 43, 57, 85
+mh264d_0
+	bounds: 13, 3, 8, 26
+	offsets: 15, 27, 57, 85
+mh264d_1
+	bounds: 13, 3, 8, 26
+	offsets: 16, 33, 57, 85
+mh264d_10
+	bounds: 13, 3, 8, 26
+	offsets: 25, 34, 57, 85
+mh264d_11
+	bounds: 13, 3, 8, 26
+	offsets: 28, 38, 57, 85
+mh264d_13
+	bounds: 13, 3, 8, 26
+	offsets: 25, 34, 57, 85
+mh264e_0
+	bounds: 13, 3, 8, 26
+	offsets: 24, 33, 57, 85
+mh264e_10
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264e_11
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264e_16
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264e_17
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264e_18
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264e_19
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264e_20
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264e_21
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264e_28
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264e_29
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264e_30
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264e_31
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264e_8
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264e_9
+	bounds: 13, 3, 8, 26
+	offsets: 18, 35, 57, 85
+mh264f_0
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh264f_1
+	bounds: 13, 3, 8, 26
+	offsets: 21, 34, 57, 85
+mh264f_4
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh264f_5
+	bounds: 13, 3, 8, 26
+	offsets: 21, 33, 57, 85
+mh264f_6
+	bounds: 13, 3, 8, 26
+	offsets: 21, 34, 57, 85
+mh264f_7
+	bounds: 13, 3, 8, 26
+	offsets: 21, 34, 57, 85
+mh26401_5
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh26401_6
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh26401_7
+	bounds: 0, 1, 11, 7
+	offsets: 23, 53, 57, 85
+mh26401_8
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh26401_9
+	bounds: 0, 1, 11, 7
+	offsets: 23, 53, 57, 85
+mh26402_2
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh26402_3
+	bounds: 0, 1, 11, 7
+	offsets: 34, 46, 57, 85
+mh26403_1
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh26403_4
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh26403_5
+	bounds: 0, 1, 11, 7
+	offsets: 26, 53, 57, 85
+mh26403_8
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh26403_9
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh264b_10
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh264b_11
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh264b_13
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264b_3
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh264b_4
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh264b_5
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh264b_9
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264c_11
+	bounds: 0, 1, 11, 7
+	offsets: 24, 49, 57, 85
+mh264c_12
+	bounds: 0, 1, 11, 7
+	offsets: 23, 66, 57, 85
+mh264c_13
+	bounds: 0, 1, 11, 7
+	offsets: 29, 43, 57, 85
+mh264c_16
+	bounds: 0, 1, 11, 7
+	offsets: 31, 47, 57, 85
+mh264c_17
+	bounds: 0, 1, 11, 7
+	offsets: 41, 36, 57, 85
+mh264c_21
+	bounds: 0, 1, 11, 7
+	offsets: 15, 49, 57, 85
+mh264c_22
+	bounds: 0, 1, 11, 7
+	offsets: 35, 40, 57, 85
+mh264c_23
+	bounds: 0, 1, 11, 7
+	offsets: 41, 36, 57, 85
+mh264c_27
+	bounds: 0, 1, 11, 7
+	offsets: 24, 49, 57, 85
+mh264c_28
+	bounds: 0, 1, 11, 7
+	offsets: 23, 71, 57, 85
+mh264c_29
+	bounds: 0, 1, 11, 7
+	offsets: 28, 38, 57, 85
+mh264c_4
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh264c_5
+	bounds: 0, 1, 11, 7
+	offsets: 34, 46, 57, 85
+mh264c_6
+	bounds: 0, 1, 11, 7
+	offsets: 34, 46, 57, 85
+mh264c_7
+	bounds: 0, 1, 11, 7
+	offsets: 38, 45, 57, 85
+mh264d_14
+	bounds: 0, 1, 11, 7
+	offsets: 30, 52, 57, 85
+mh264d_15
+	bounds: 0, 1, 11, 7
+	offsets: 26, 49, 57, 85
+mh264d_16
+	bounds: 0, 1, 11, 7
+	offsets: 20, 51, 57, 85
+mh264d_17
+	bounds: 0, 1, 11, 7
+	offsets: 30, 52, 57, 85
+mh264d_3
+	bounds: 0, 1, 11, 7
+	offsets: 15, 57, 57, 85
+mh264d_4
+	bounds: 0, 1, 11, 7
+	offsets: 23, 53, 57, 85
+mh264d_5
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264d_8
+	bounds: 0, 1, 11, 7
+	offsets: 34, 46, 57, 85
+mh264d_9
+	bounds: 0, 1, 11, 7
+	offsets: 34, 46, 57, 85
+mh264e_12
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_13
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_14
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_15
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_2
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh264e_22
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_23
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_24
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_25
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_26
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_27
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_3
+	bounds: 0, 1, 11, 7
+	offsets: 37, 38, 57, 85
+mh264e_32
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_33
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_34
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_35
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264e_6
+	bounds: 0, 1, 11, 7
+	offsets: 37, 38, 57, 85
+mh264e_7
+	bounds: 0, 1, 11, 7
+	offsets: 37, 38, 57, 85
+mh264f_10
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264f_11
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264f_2
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh264f_3
+	bounds: 0, 1, 11, 7
+	offsets: 23, 55, 57, 85
+mh264f_8
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh264f_9
+	bounds: 0, 1, 11, 7
+	offsets: 23, 54, 57, 85
+mh26402_1
+	bounds: 0, 8, 13, 21
+	offsets: 25, 39, 57, 85
+mh264c_1
+	bounds: 0, 8, 13, 21
+	offsets: 25, 39, 57, 85
+mh264c_10
+	bounds: 0, 8, 13, 21
+	offsets: 17, 32, 57, 85
+mh264c_15
+	bounds: 0, 8, 13, 21
+	offsets: 20, 29, 57, 85
+mh264c_2
+	bounds: 0, 8, 13, 21
+	offsets: 25, 39, 57, 85
+mh264c_20
+	bounds: 0, 8, 13, 21
+	offsets: 20, 29, 57, 85
+mh264c_24
+	bounds: 0, 8, 13, 21
+	offsets: 16, 33, 57, 85
+mh264c_26
+	bounds: 0, 8, 13, 21
+	offsets: 24, 21, 57, 85
+mh264c_3
+	bounds: 0, 8, 13, 21
+	offsets: 27, 35, 57, 85
+mh264c_8
+	bounds: 0, 8, 13, 21
+	offsets: 16, 33, 57, 85
+mh264d_12
+	bounds: 0, 8, 13, 21
+	offsets: 12, 39, 57, 85
+mh264d_2
+	bounds: 0, 8, 13, 21
+	offsets: 11, 40, 57, 85
+mh264d_6
+	bounds: 0, 8, 13, 21
+	offsets: 25, 39, 57, 85
+mh264d_7
+	bounds: 0, 8, 13, 21
+	offsets: 25, 39, 57, 85
+mh264e_1
+	bounds: 0, 8, 13, 21
+	offsets: 25, 31, 57, 85
+mh264e_4
+	bounds: 0, 8, 13, 21
+	offsets: 25, 31, 57, 85
+mh264e_5
+	bounds: 0, 8, 13, 21
+	offsets: 25, 31, 57, 85
+mh264b_14
+	bounds: 0, 0, 1, 1
+mh264b_15
+	bounds: 0, 0, 1, 1
+mh264b_16
+	bounds: 0, 0, 1, 1
+mh264b_17
+	bounds: 0, 0, 1, 1
+mh264b_18
+	bounds: 0, 0, 1, 1
+mh264b_19
+	bounds: 0, 0, 1, 1
+mh264d_18
+	bounds: 0, 0, 1, 1
+mh264d_19
+	bounds: 0, 0, 1, 1
+mh264e_36
+	bounds: 0, 0, 1, 1
+mh264e_37
+	bounds: 0, 0, 1, 1
+mh264e_38
+	bounds: 0, 0, 1, 1
+mh264e_39
+	bounds: 0, 0, 1, 1
+mh264f_12
+	bounds: 0, 0, 1, 1
+mh264f_13
+	bounds: 0, 0, 1, 1
+mh264f_14
+	bounds: 0, 0, 1, 1
+mh264f_15
+	bounds: 0, 0, 1, 1
+mh264f_16
+	bounds: 0, 0, 1, 1
+mh264f_17
+	bounds: 0, 0, 1, 1
+mh264f_18
+	bounds: 0, 0, 1, 1
+mh264f_19
+	bounds: 0, 0, 1, 1

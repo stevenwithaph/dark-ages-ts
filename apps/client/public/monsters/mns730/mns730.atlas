@@ -1,0 +1,26 @@
+mns730.png
+	size: 128, 128
+mns730_0
+	bounds: 31, 4, 25, 58
+	offsets: 16, 14, 56, 84
+mns730_1
+	bounds: 0, 63, 31, 57
+	offsets: 17, 13, 56, 84
+mns730_2
+	bounds: 0, 6, 31, 57
+	offsets: 9, 14, 56, 84
+mns730_3
+	bounds: 56, 6, 24, 56
+	offsets: 19, 13, 56, 84
+mns730_4
+	bounds: 80, 3, 23, 58
+	offsets: 17, 14, 56, 84
+mns730_5
+	bounds: 31, 62, 31, 58
+	offsets: 17, 13, 56, 84
+mns730_6
+	bounds: 62, 63, 31, 57
+	offsets: 9, 14, 56, 84
+mns730_7
+	bounds: 93, 61, 27, 59
+	offsets: 19, 13, 56, 84

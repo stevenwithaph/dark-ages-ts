@@ -1,0 +1,44 @@
+mns711.png
+	size: 512, 512
+mns711_0
+	bounds: 0, 237, 59, 77
+	offsets: 8, 12, 84, 98
+mns711_1
+	bounds: 64, 318, 59, 76
+	offsets: 7, 12, 84, 98
+mns711_10
+	bounds: 65, 394, 61, 77
+	offsets: 8, 12, 84, 98
+mns711_11
+	bounds: 0, 394, 65, 77
+	offsets: 8, 12, 84, 98
+mns711_12
+	bounds: 0, 83, 59, 80
+	offsets: 15, 11, 84, 98
+mns711_13
+	bounds: 0, 314, 64, 80
+	offsets: 15, 11, 84, 98
+mns711_2
+	bounds: 0, 6, 58, 77
+	offsets: 9, 11, 84, 98
+mns711_3
+	bounds: 126, 398, 59, 73
+	offsets: 8, 14, 84, 98
+mns711_4
+	bounds: 0, 163, 59, 74
+	offsets: 8, 14, 84, 98
+mns711_5
+	bounds: 301, 391, 57, 80
+	offsets: 15, 11, 84, 98
+mns711_6
+	bounds: 358, 391, 57, 80
+	offsets: 14, 10, 84, 98
+mns711_7
+	bounds: 185, 392, 58, 79
+	offsets: 14, 11, 84, 98
+mns711_8
+	bounds: 415, 395, 56, 76
+	offsets: 15, 15, 84, 98
+mns711_9
+	bounds: 243, 397, 58, 74
+	offsets: 14, 17, 84, 98

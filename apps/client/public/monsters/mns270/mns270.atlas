@@ -1,0 +1,32 @@
+mns270.png
+	size: 128, 128
+mns270_0
+	bounds: 0, 15, 21, 17
+	offsets: 17, 12, 56, 84
+mns270_1
+	bounds: 0, 99, 27, 16
+	offsets: 12, 10, 56, 84
+mns270_2
+	bounds: 29, 110, 21, 18
+	offsets: 17, 9, 56, 84
+mns270_3
+	bounds: 0, 66, 24, 15
+	offsets: 13, 12, 56, 84
+mns270_4
+	bounds: 0, 81, 26, 18
+	offsets: 15, 9, 56, 84
+mns270_5
+	bounds: 50, 110, 20, 18
+	offsets: 19, 9, 56, 84
+mns270_6
+	bounds: 0, 0, 19, 15
+	offsets: 18, 12, 56, 84
+mns270_7
+	bounds: 0, 46, 23, 20
+	offsets: 19, 12, 56, 84
+mns270_8
+	bounds: 0, 32, 22, 14
+	offsets: 12, 12, 56, 84
+mns270_9
+	bounds: 0, 115, 29, 13
+	offsets: 14, 13, 56, 84

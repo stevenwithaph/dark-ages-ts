@@ -1,0 +1,444 @@
+mh171.png
+	size: 64, 64
+mh17101_0
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh17101_1
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh17101_2
+	bounds: 0, 20, 19, 16
+	offsets: 17, 48, 57, 85
+mh17101_3
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh17101_4
+	bounds: 0, 20, 19, 16
+	offsets: 17, 48, 57, 85
+mh17102_0
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh17102_1
+	bounds: 0, 20, 19, 16
+	offsets: 26, 50, 57, 85
+mh17103_2
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh17103_3
+	bounds: 0, 20, 19, 16
+	offsets: 19, 47, 57, 85
+mh17103_6
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh17103_7
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh171b_0
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh171b_1
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh171b_12
+	bounds: 0, 20, 19, 16
+	offsets: 17, 50, 57, 85
+mh171b_2
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh171b_6
+	bounds: 0, 20, 19, 16
+	offsets: 17, 50, 57, 85
+mh171b_7
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh171b_8
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh171c_0
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh171c_1
+	bounds: 0, 20, 19, 16
+	offsets: 26, 50, 57, 85
+mh171c_10
+	bounds: 0, 20, 19, 16
+	offsets: 18, 43, 57, 85
+mh171c_14
+	bounds: 0, 20, 19, 16
+	offsets: 18, 43, 57, 85
+mh171c_15
+	bounds: 0, 20, 19, 16
+	offsets: 21, 40, 57, 85
+mh171c_18
+	bounds: 0, 20, 19, 16
+	offsets: 7, 42, 57, 85
+mh171c_19
+	bounds: 0, 20, 19, 16
+	offsets: 21, 41, 57, 85
+mh171c_2
+	bounds: 0, 20, 19, 16
+	offsets: 26, 50, 57, 85
+mh171c_20
+	bounds: 0, 20, 19, 16
+	offsets: 21, 40, 57, 85
+mh171c_24
+	bounds: 0, 20, 19, 16
+	offsets: 17, 44, 57, 85
+mh171c_25
+	bounds: 0, 20, 19, 16
+	offsets: 16, 64, 57, 85
+mh171c_26
+	bounds: 0, 20, 19, 16
+	offsets: 25, 32, 57, 85
+mh171c_3
+	bounds: 0, 20, 19, 16
+	offsets: 28, 46, 57, 85
+mh171c_8
+	bounds: 0, 20, 19, 16
+	offsets: 17, 44, 57, 85
+mh171c_9
+	bounds: 0, 20, 19, 16
+	offsets: 16, 59, 57, 85
+mh171d_0
+	bounds: 0, 20, 19, 16
+	offsets: 11, 43, 57, 85
+mh171d_1
+	bounds: 0, 20, 19, 16
+	offsets: 12, 49, 57, 85
+mh171d_10
+	bounds: 0, 20, 19, 16
+	offsets: 21, 50, 57, 85
+mh171d_11
+	bounds: 0, 20, 19, 16
+	offsets: 24, 54, 57, 85
+mh171d_12
+	bounds: 0, 20, 19, 16
+	offsets: 13, 50, 57, 85
+mh171d_13
+	bounds: 0, 20, 19, 16
+	offsets: 21, 50, 57, 85
+mh171d_2
+	bounds: 0, 20, 19, 16
+	offsets: 12, 51, 57, 85
+mh171d_6
+	bounds: 0, 20, 19, 16
+	offsets: 26, 50, 57, 85
+mh171d_7
+	bounds: 0, 20, 19, 16
+	offsets: 26, 50, 57, 85
+mh171e_0
+	bounds: 0, 20, 19, 16
+	offsets: 20, 49, 57, 85
+mh171e_1
+	bounds: 0, 20, 19, 16
+	offsets: 26, 42, 57, 85
+mh171e_10
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171e_11
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171e_16
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171e_17
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171e_18
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171e_19
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171e_20
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171e_21
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171e_28
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171e_29
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171e_30
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171e_31
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171e_4
+	bounds: 0, 20, 19, 16
+	offsets: 26, 42, 57, 85
+mh171e_5
+	bounds: 0, 20, 19, 16
+	offsets: 26, 42, 57, 85
+mh171e_8
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171e_9
+	bounds: 0, 20, 19, 16
+	offsets: 14, 51, 57, 85
+mh171f_0
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh171f_1
+	bounds: 0, 20, 19, 16
+	offsets: 17, 50, 57, 85
+mh171f_4
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh171f_5
+	bounds: 0, 20, 19, 16
+	offsets: 17, 49, 57, 85
+mh171f_6
+	bounds: 0, 20, 19, 16
+	offsets: 17, 50, 57, 85
+mh171f_7
+	bounds: 0, 20, 19, 16
+	offsets: 17, 50, 57, 85
+mh17101_5
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh17101_6
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh17101_7
+	bounds: 19, 26, 17, 10
+	offsets: 20, 53, 57, 85
+mh17101_8
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh17101_9
+	bounds: 19, 26, 17, 10
+	offsets: 20, 53, 57, 85
+mh17102_2
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh17102_3
+	bounds: 19, 26, 17, 10
+	offsets: 31, 46, 57, 85
+mh17103_1
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh17103_4
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh17103_5
+	bounds: 19, 26, 17, 10
+	offsets: 23, 53, 57, 85
+mh17103_8
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh17103_9
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh171b_10
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh171b_11
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh171b_13
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171b_3
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh171b_4
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh171b_5
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh171b_9
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171c_11
+	bounds: 19, 26, 17, 10
+	offsets: 21, 49, 57, 85
+mh171c_12
+	bounds: 19, 26, 17, 10
+	offsets: 20, 66, 57, 85
+mh171c_13
+	bounds: 19, 26, 17, 10
+	offsets: 26, 43, 57, 85
+mh171c_16
+	bounds: 19, 26, 17, 10
+	offsets: 28, 47, 57, 85
+mh171c_17
+	bounds: 19, 26, 17, 10
+	offsets: 38, 36, 57, 85
+mh171c_21
+	bounds: 19, 26, 17, 10
+	offsets: 12, 49, 57, 85
+mh171c_22
+	bounds: 19, 26, 17, 10
+	offsets: 32, 40, 57, 85
+mh171c_23
+	bounds: 19, 26, 17, 10
+	offsets: 38, 36, 57, 85
+mh171c_27
+	bounds: 19, 26, 17, 10
+	offsets: 21, 49, 57, 85
+mh171c_28
+	bounds: 19, 26, 17, 10
+	offsets: 20, 71, 57, 85
+mh171c_29
+	bounds: 19, 26, 17, 10
+	offsets: 25, 38, 57, 85
+mh171c_4
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh171c_5
+	bounds: 19, 26, 17, 10
+	offsets: 31, 46, 57, 85
+mh171c_6
+	bounds: 19, 26, 17, 10
+	offsets: 31, 46, 57, 85
+mh171c_7
+	bounds: 19, 26, 17, 10
+	offsets: 35, 45, 57, 85
+mh171d_14
+	bounds: 19, 26, 17, 10
+	offsets: 27, 52, 57, 85
+mh171d_15
+	bounds: 19, 26, 17, 10
+	offsets: 23, 49, 57, 85
+mh171d_16
+	bounds: 19, 26, 17, 10
+	offsets: 17, 51, 57, 85
+mh171d_17
+	bounds: 19, 26, 17, 10
+	offsets: 27, 52, 57, 85
+mh171d_3
+	bounds: 19, 26, 17, 10
+	offsets: 12, 57, 57, 85
+mh171d_4
+	bounds: 19, 26, 17, 10
+	offsets: 20, 53, 57, 85
+mh171d_5
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171d_8
+	bounds: 19, 26, 17, 10
+	offsets: 31, 46, 57, 85
+mh171d_9
+	bounds: 19, 26, 17, 10
+	offsets: 31, 46, 57, 85
+mh171e_12
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_13
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_14
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_15
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_2
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh171e_22
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_23
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_24
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_25
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_26
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_27
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_3
+	bounds: 19, 26, 17, 10
+	offsets: 34, 38, 57, 85
+mh171e_32
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_33
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_34
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_35
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171e_6
+	bounds: 19, 26, 17, 10
+	offsets: 34, 38, 57, 85
+mh171e_7
+	bounds: 19, 26, 17, 10
+	offsets: 34, 38, 57, 85
+mh171f_10
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171f_11
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171f_2
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh171f_3
+	bounds: 19, 26, 17, 10
+	offsets: 20, 55, 57, 85
+mh171f_8
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh171f_9
+	bounds: 19, 26, 17, 10
+	offsets: 20, 54, 57, 85
+mh17103_0
+	bounds: 0, 4, 19, 16
+	offsets: 17, 50, 57, 85
+mh171b_14
+	bounds: 0, 3, 1, 1
+mh171b_15
+	bounds: 0, 3, 1, 1
+mh171b_16
+	bounds: 0, 3, 1, 1
+mh171b_17
+	bounds: 0, 3, 1, 1
+mh171b_18
+	bounds: 0, 3, 1, 1
+mh171b_19
+	bounds: 0, 3, 1, 1
+mh171d_18
+	bounds: 0, 3, 1, 1
+mh171d_19
+	bounds: 0, 3, 1, 1
+mh171e_36
+	bounds: 0, 3, 1, 1
+mh171e_37
+	bounds: 0, 3, 1, 1
+mh171e_38
+	bounds: 0, 3, 1, 1
+mh171e_39
+	bounds: 0, 3, 1, 1
+mh171f_12
+	bounds: 0, 3, 1, 1
+mh171f_13
+	bounds: 0, 3, 1, 1
+mh171f_14
+	bounds: 0, 3, 1, 1
+mh171f_15
+	bounds: 0, 3, 1, 1
+mh171f_16
+	bounds: 0, 3, 1, 1
+mh171f_17
+	bounds: 0, 3, 1, 1
+mh171f_18
+	bounds: 0, 3, 1, 1
+mh171f_19
+	bounds: 0, 3, 1, 1

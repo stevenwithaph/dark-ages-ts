@@ -1,0 +1,32 @@
+mns105.png
+	size: 256, 256
+mns105_0
+	bounds: 0, 57, 48, 57
+	offsets: 3, 7, 56, 84
+mns105_1
+	bounds: 0, 163, 50, 54
+	offsets: 2, 7, 56, 84
+mns105_2
+	bounds: 48, 55, 46, 58
+	offsets: 3, 6, 56, 84
+mns105_3
+	bounds: 99, 161, 44, 56
+	offsets: 5, 4, 56, 84
+mns105_4
+	bounds: 48, 2, 45, 53
+	offsets: 5, 7, 56, 84
+mns105_5
+	bounds: 50, 113, 47, 55
+	offsets: 7, 3, 56, 84
+mns105_6
+	bounds: 0, 0, 48, 57
+	offsets: 3, 7, 56, 84
+mns105_7
+	bounds: 0, 114, 50, 49
+	offsets: 6, 7, 56, 84
+mns105_8
+	bounds: 143, 161, 43, 56
+	offsets: 5, 4, 56, 84
+mns105_9
+	bounds: 50, 168, 49, 49
+	offsets: 7, 4, 56, 84

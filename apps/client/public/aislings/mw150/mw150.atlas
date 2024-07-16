@@ -1,0 +1,44 @@
+mw150.png
+	size: 64, 64
+mw15001_0
+	bounds: 0, 29, 24, 6
+	offsets: 63, 26, 111, 85
+mw15001_1
+	bounds: 0, 17, 19, 12
+	offsets: 66, 32, 111, 85
+mw15001_2
+	bounds: 19, 13, 15, 16
+	offsets: 67, 34, 111, 85
+mw15001_7
+	bounds: 19, 13, 15, 16
+	offsets: 68, 37, 111, 85
+mw15001_3
+	bounds: 36, 58, 23, 6
+	offsets: 63, 26, 111, 85
+mw15001_6
+	bounds: 36, 58, 23, 6
+	offsets: 66, 31, 111, 85
+mw15001_4
+	bounds: 36, 46, 19, 12
+	offsets: 53, 24, 111, 85
+mw15001_5
+	bounds: 36, 46, 19, 12
+	offsets: 64, 22, 111, 85
+mw15001_8
+	bounds: 0, 11, 19, 6
+	offsets: 63, 31, 111, 85
+mw15001_9
+	bounds: 0, 2, 12, 9
+	offsets: 62, 26, 111, 85
+mw15002_0
+	bounds: 34, 10, 14, 15
+	offsets: 36, 37, 111, 85
+mw15002_1
+	bounds: 36, 25, 18, 21
+	offsets: 64, 39, 111, 85
+mw15002_2
+	bounds: 54, 38, 10, 8
+	offsets: 41, 44, 111, 85
+mw15002_3
+	bounds: 0, 35, 36, 29
+	offsets: 45, 13, 111, 85

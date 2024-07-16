@@ -1,0 +1,44 @@
+mns305.png
+	size: 512, 512
+mns305_0
+	bounds: 0, 9, 57, 67
+	offsets: 10, 6, 79, 85
+mns305_1
+	bounds: 416, 405, 54, 65
+	offsets: 9, 8, 79, 85
+mns305_10
+	bounds: 192, 403, 57, 67
+	offsets: 9, 6, 79, 85
+mns305_11
+	bounds: 0, 210, 63, 67
+	offsets: 11, 6, 79, 85
+mns305_12
+	bounds: 0, 76, 58, 66
+	offsets: 6, 5, 79, 85
+mns305_13
+	bounds: 361, 408, 55, 62
+	offsets: 15, 5, 79, 85
+mns305_2
+	bounds: 75, 409, 60, 61
+	offsets: 11, 10, 79, 85
+mns305_3
+	bounds: 0, 142, 62, 68
+	offsets: 5, 5, 79, 85
+mns305_4
+	bounds: 0, 405, 75, 65
+	offsets: 2, 6, 79, 85
+mns305_5
+	bounds: 249, 405, 56, 65
+	offsets: 10, 5, 79, 85
+mns305_6
+	bounds: 0, 344, 69, 61
+	offsets: 1, 9, 79, 85
+mns305_7
+	bounds: 0, 277, 68, 67
+	offsets: 10, 1, 79, 85
+mns305_8
+	bounds: 305, 405, 56, 65
+	offsets: 8, 5, 79, 85
+mns305_9
+	bounds: 135, 408, 57, 62
+	offsets: 10, 6, 79, 85

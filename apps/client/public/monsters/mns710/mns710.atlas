@@ -1,0 +1,44 @@
+mns710.png
+	size: 512, 512
+mns710_0
+	bounds: 0, 245, 59, 74
+	offsets: 8, 12, 84, 98
+mns710_1
+	bounds: 64, 324, 59, 73
+	offsets: 7, 12, 84, 98
+mns710_10
+	bounds: 65, 397, 61, 74
+	offsets: 8, 12, 84, 98
+mns710_11
+	bounds: 0, 397, 65, 74
+	offsets: 8, 12, 84, 98
+mns710_12
+	bounds: 0, 96, 59, 78
+	offsets: 15, 11, 84, 98
+mns710_13
+	bounds: 0, 319, 64, 78
+	offsets: 15, 11, 84, 98
+mns710_2
+	bounds: 0, 22, 58, 74
+	offsets: 9, 11, 84, 98
+mns710_3
+	bounds: 126, 401, 59, 70
+	offsets: 8, 14, 84, 98
+mns710_4
+	bounds: 0, 174, 59, 71
+	offsets: 8, 14, 84, 98
+mns710_5
+	bounds: 301, 393, 57, 78
+	offsets: 15, 11, 84, 98
+mns710_6
+	bounds: 358, 393, 57, 78
+	offsets: 14, 10, 84, 98
+mns710_7
+	bounds: 185, 394, 58, 77
+	offsets: 14, 11, 84, 98
+mns710_8
+	bounds: 415, 397, 56, 74
+	offsets: 15, 15, 84, 98
+mns710_9
+	bounds: 243, 399, 58, 72
+	offsets: 14, 17, 84, 98

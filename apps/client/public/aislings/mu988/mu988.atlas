@@ -1,0 +1,102 @@
+mu988.png
+	size: 512, 512
+mu98801_0
+	bounds: 0, 170, 53, 85
+	offsets: 0, 0, 57, 85
+mu98801_1
+	bounds: 57, 340, 54, 85
+	offsets: 0, 0, 57, 85
+mu98801_2
+	bounds: 57, 425, 55, 85
+	offsets: 0, 0, 57, 85
+mu98801_3
+	bounds: 55, 255, 53, 85
+	offsets: 0, 0, 57, 85
+mu98801_4
+	bounds: 111, 340, 53, 85
+	offsets: 0, 0, 57, 85
+mu98801_5
+	bounds: 106, 209, 45, 46
+	offsets: 5, 4, 57, 85
+mu98801_6
+	bounds: 161, 293, 45, 47
+	offsets: 5, 3, 57, 85
+mu98801_7
+	bounds: 216, 379, 45, 46
+	offsets: 5, 3, 57, 85
+mu98801_8
+	bounds: 151, 186, 43, 46
+	offsets: 6, 4, 57, 85
+mu98801_9
+	bounds: 271, 414, 43, 46
+	offsets: 6, 3, 57, 85
+mu98802_0
+	bounds: 166, 425, 53, 85
+	offsets: 0, 0, 57, 85
+mu98802_1
+	bounds: 0, 425, 57, 85
+mu98802_2
+	bounds: 271, 460, 45, 50
+	offsets: 5, 4, 57, 85
+mu98802_3
+	bounds: 0, 340, 57, 85
+mu98803_0
+	bounds: 161, 232, 44, 61
+	offsets: 8, 1, 57, 85
+mu98803_1
+	bounds: 52, 24, 45, 61
+	offsets: 4, 1, 57, 85
+mu98803_2
+	bounds: 164, 340, 52, 85
+	offsets: 0, 0, 57, 85
+mu98803_3
+	bounds: 219, 425, 52, 85
+	offsets: 0, 0, 57, 85
+mu98803_4
+	bounds: 316, 461, 45, 49
+	offsets: 4, 1, 57, 85
+mu98803_5
+	bounds: 361, 461, 45, 49
+	offsets: 4, 1, 57, 85
+mu98803_6
+	bounds: 0, 0, 52, 85
+	offsets: 0, 0, 57, 85
+mu98803_7
+	bounds: 53, 85, 52, 85
+	offsets: 0, 0, 57, 85
+mu98803_8
+	bounds: 406, 459, 45, 51
+	offsets: 4, 1, 57, 85
+mu98803_9
+	bounds: 451, 459, 45, 51
+	offsets: 4, 1, 57, 85
+mu98805_0
+	bounds: 0, 85, 53, 85
+	offsets: 0, 0, 57, 85
+mu98805_1
+	bounds: 112, 425, 54, 85
+	offsets: 0, 0, 57, 85
+mu98805_2
+	bounds: 0, 255, 55, 85
+	offsets: 0, 0, 57, 85
+mu98805_3
+	bounds: 53, 170, 53, 85
+	offsets: 0, 0, 57, 85
+mu98805_4
+	bounds: 108, 255, 53, 85
+	offsets: 0, 0, 57, 85
+mu98805_5
+	bounds: 106, 163, 45, 46
+	offsets: 5, 4, 57, 85
+mu98805_6
+	bounds: 105, 116, 45, 47
+	offsets: 5, 3, 57, 85
+mu98805_7
+	bounds: 216, 333, 45, 46
+	offsets: 4, 3, 57, 85
+mu98805_8
+	bounds: 261, 368, 43, 46
+	offsets: 9, 4, 57, 85
+mu98805_9
+	bounds: 261, 322, 43, 46
+	offsets: 6, 3, 57, 85

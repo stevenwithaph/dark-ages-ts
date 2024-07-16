@@ -1,0 +1,444 @@
+mh428.png
+	size: 128, 128
+mh42801_0
+	bounds: 19, 51, 16, 24
+	offsets: 18, 47, 57, 85
+mh42802_0
+	bounds: 19, 51, 16, 24
+	offsets: 18, 47, 57, 85
+mh42803_0
+	bounds: 19, 51, 16, 24
+	offsets: 18, 48, 57, 85
+mh42803_6
+	bounds: 19, 51, 16, 24
+	offsets: 18, 47, 57, 85
+mh428b_0
+	bounds: 19, 51, 16, 24
+	offsets: 18, 47, 57, 85
+mh428b_6
+	bounds: 19, 51, 16, 24
+	offsets: 18, 48, 57, 85
+mh428c_0
+	bounds: 19, 51, 16, 24
+	offsets: 18, 47, 57, 85
+mh428c_8
+	bounds: 19, 51, 16, 24
+	offsets: 18, 42, 57, 85
+mh428d_0
+	bounds: 19, 51, 16, 24
+	offsets: 12, 41, 57, 85
+mh428e_16
+	bounds: 19, 51, 16, 24
+	offsets: 15, 49, 57, 85
+mh428e_19
+	bounds: 19, 51, 16, 24
+	offsets: 15, 49, 57, 85
+mh428f_0
+	bounds: 19, 51, 16, 24
+	offsets: 18, 47, 57, 85
+mh428f_4
+	bounds: 19, 51, 16, 24
+	offsets: 18, 47, 57, 85
+mh428f_6
+	bounds: 19, 51, 16, 24
+	offsets: 18, 48, 57, 85
+mh42801_1
+	bounds: 19, 75, 18, 26
+	offsets: 16, 47, 57, 85
+mh42801_3
+	bounds: 19, 75, 18, 26
+	offsets: 16, 47, 57, 85
+mh42803_2
+	bounds: 19, 75, 18, 26
+	offsets: 16, 47, 57, 85
+mh42803_7
+	bounds: 19, 75, 18, 26
+	offsets: 16, 47, 57, 85
+mh428b_1
+	bounds: 19, 75, 18, 26
+	offsets: 16, 47, 57, 85
+mh428b_12
+	bounds: 19, 75, 18, 26
+	offsets: 16, 48, 57, 85
+mh428b_8
+	bounds: 19, 75, 18, 26
+	offsets: 16, 47, 57, 85
+mh428c_1
+	bounds: 19, 75, 18, 26
+	offsets: 25, 48, 57, 85
+mh428c_14
+	bounds: 19, 75, 18, 26
+	offsets: 17, 41, 57, 85
+mh428c_18
+	bounds: 19, 75, 18, 26
+	offsets: 6, 40, 57, 85
+mh428c_20
+	bounds: 19, 75, 18, 26
+	offsets: 20, 38, 57, 85
+mh428c_24
+	bounds: 19, 75, 18, 26
+	offsets: 16, 42, 57, 85
+mh428c_26
+	bounds: 19, 75, 18, 26
+	offsets: 24, 30, 57, 85
+mh428c_3
+	bounds: 19, 75, 18, 26
+	offsets: 27, 44, 57, 85
+mh428c_9
+	bounds: 19, 75, 18, 26
+	offsets: 15, 57, 57, 85
+mh428d_1
+	bounds: 19, 75, 18, 26
+	offsets: 11, 47, 57, 85
+mh428d_10
+	bounds: 19, 75, 18, 26
+	offsets: 20, 48, 57, 85
+mh428d_12
+	bounds: 19, 75, 18, 26
+	offsets: 12, 48, 57, 85
+mh428d_13
+	bounds: 19, 75, 18, 26
+	offsets: 20, 48, 57, 85
+mh428d_6
+	bounds: 19, 75, 18, 26
+	offsets: 25, 48, 57, 85
+mh428e_0
+	bounds: 19, 75, 18, 26
+	offsets: 19, 47, 57, 85
+mh428e_10
+	bounds: 19, 75, 18, 26
+	offsets: 13, 49, 57, 85
+mh428e_17
+	bounds: 19, 75, 18, 26
+	offsets: 13, 49, 57, 85
+mh428e_20
+	bounds: 19, 75, 18, 26
+	offsets: 13, 49, 57, 85
+mh428e_28
+	bounds: 19, 75, 18, 26
+	offsets: 13, 49, 57, 85
+mh428e_30
+	bounds: 19, 75, 18, 26
+	offsets: 13, 49, 57, 85
+mh428e_4
+	bounds: 19, 75, 18, 26
+	offsets: 25, 40, 57, 85
+mh428e_8
+	bounds: 19, 75, 18, 26
+	offsets: 13, 49, 57, 85
+mh42801_2
+	bounds: 0, 97, 19, 27
+	offsets: 15, 46, 57, 85
+mh42801_4
+	bounds: 0, 97, 19, 27
+	offsets: 15, 45, 57, 85
+mh42802_1
+	bounds: 0, 97, 19, 27
+	offsets: 24, 48, 57, 85
+mh42803_3
+	bounds: 0, 97, 19, 27
+	offsets: 17, 45, 57, 85
+mh428b_2
+	bounds: 0, 97, 19, 27
+	offsets: 15, 47, 57, 85
+mh428b_7
+	bounds: 0, 97, 19, 27
+	offsets: 15, 47, 57, 85
+mh428c_10
+	bounds: 0, 97, 19, 27
+	offsets: 16, 41, 57, 85
+mh428c_15
+	bounds: 0, 97, 19, 27
+	offsets: 19, 38, 57, 85
+mh428c_19
+	bounds: 0, 97, 19, 27
+	offsets: 19, 39, 57, 85
+mh428c_2
+	bounds: 0, 97, 19, 27
+	offsets: 24, 48, 57, 85
+mh428d_11
+	bounds: 0, 97, 19, 27
+	offsets: 22, 52, 57, 85
+mh428d_2
+	bounds: 0, 97, 19, 27
+	offsets: 10, 49, 57, 85
+mh428d_7
+	bounds: 0, 97, 19, 27
+	offsets: 24, 48, 57, 85
+mh428e_1
+	bounds: 0, 97, 19, 27
+	offsets: 24, 40, 57, 85
+mh428e_11
+	bounds: 0, 97, 19, 27
+	offsets: 12, 49, 57, 85
+mh428e_18
+	bounds: 0, 97, 19, 27
+	offsets: 12, 49, 57, 85
+mh428e_21
+	bounds: 0, 97, 19, 27
+	offsets: 12, 49, 57, 85
+mh428e_29
+	bounds: 0, 97, 19, 27
+	offsets: 12, 49, 57, 85
+mh428e_31
+	bounds: 0, 97, 19, 27
+	offsets: 12, 49, 57, 85
+mh428e_5
+	bounds: 0, 97, 19, 27
+	offsets: 24, 40, 57, 85
+mh428e_9
+	bounds: 0, 97, 19, 27
+	offsets: 12, 49, 57, 85
+mh428f_1
+	bounds: 0, 97, 19, 27
+	offsets: 15, 48, 57, 85
+mh428f_5
+	bounds: 0, 97, 19, 27
+	offsets: 15, 47, 57, 85
+mh428f_7
+	bounds: 0, 97, 19, 27
+	offsets: 15, 48, 57, 85
+mh42801_5
+	bounds: 0, 0, 16, 24
+	offsets: 19, 48, 57, 85
+mh42802_2
+	bounds: 0, 0, 16, 24
+	offsets: 19, 48, 57, 85
+mh42803_1
+	bounds: 0, 0, 16, 24
+	offsets: 19, 49, 57, 85
+mh42803_8
+	bounds: 0, 0, 16, 24
+	offsets: 19, 48, 57, 85
+mh428b_3
+	bounds: 0, 0, 16, 24
+	offsets: 19, 48, 57, 85
+mh428b_9
+	bounds: 0, 0, 16, 24
+	offsets: 19, 49, 57, 85
+mh428c_11
+	bounds: 0, 0, 16, 24
+	offsets: 20, 43, 57, 85
+mh428c_4
+	bounds: 0, 0, 16, 24
+	offsets: 19, 48, 57, 85
+mh428d_3
+	bounds: 0, 0, 16, 24
+	offsets: 11, 51, 57, 85
+mh428e_22
+	bounds: 0, 0, 16, 24
+	offsets: 19, 49, 57, 85
+mh428e_25
+	bounds: 0, 0, 16, 24
+	offsets: 19, 49, 57, 85
+mh428f_10
+	bounds: 0, 0, 16, 24
+	offsets: 19, 49, 57, 85
+mh428f_2
+	bounds: 0, 0, 16, 24
+	offsets: 19, 48, 57, 85
+mh428f_8
+	bounds: 0, 0, 16, 24
+	offsets: 19, 48, 57, 85
+mh42801_6
+	bounds: 0, 24, 18, 26
+	offsets: 17, 48, 57, 85
+mh42801_8
+	bounds: 0, 24, 18, 26
+	offsets: 17, 48, 57, 85
+mh42803_4
+	bounds: 0, 24, 18, 26
+	offsets: 17, 48, 57, 85
+mh428b_10
+	bounds: 0, 24, 18, 26
+	offsets: 17, 48, 57, 85
+mh428b_13
+	bounds: 0, 24, 18, 26
+	offsets: 17, 49, 57, 85
+mh428b_4
+	bounds: 0, 24, 18, 26
+	offsets: 17, 48, 57, 85
+mh428c_16
+	bounds: 0, 24, 18, 26
+	offsets: 25, 41, 57, 85
+mh428c_21
+	bounds: 0, 24, 18, 26
+	offsets: 9, 43, 57, 85
+mh428c_23
+	bounds: 0, 24, 18, 26
+	offsets: 35, 30, 57, 85
+mh428c_27
+	bounds: 0, 24, 18, 26
+	offsets: 18, 43, 57, 85
+mh428c_29
+	bounds: 0, 24, 18, 26
+	offsets: 22, 32, 57, 85
+mh428c_5
+	bounds: 0, 24, 18, 26
+	offsets: 28, 40, 57, 85
+mh428c_7
+	bounds: 0, 24, 18, 26
+	offsets: 32, 39, 57, 85
+mh428d_14
+	bounds: 0, 24, 18, 26
+	offsets: 24, 46, 57, 85
+mh428d_16
+	bounds: 0, 24, 18, 26
+	offsets: 14, 45, 57, 85
+mh428d_4
+	bounds: 0, 24, 18, 26
+	offsets: 17, 47, 57, 85
+mh428d_8
+	bounds: 0, 24, 18, 26
+	offsets: 28, 40, 57, 85
+mh428e_12
+	bounds: 0, 24, 18, 26
+	offsets: 17, 49, 57, 85
+mh428e_14
+	bounds: 0, 24, 18, 26
+	offsets: 17, 49, 57, 85
+mh428e_2
+	bounds: 0, 24, 18, 26
+	offsets: 17, 48, 57, 85
+mh428e_23
+	bounds: 0, 24, 18, 26
+	offsets: 17, 49, 57, 85
+mh428e_26
+	bounds: 0, 24, 18, 26
+	offsets: 17, 49, 57, 85
+mh428e_32
+	bounds: 0, 24, 18, 26
+	offsets: 17, 49, 57, 85
+mh428e_34
+	bounds: 0, 24, 18, 26
+	offsets: 17, 49, 57, 85
+mh428e_6
+	bounds: 0, 24, 18, 26
+	offsets: 31, 32, 57, 85
+mh428f_3
+	bounds: 0, 24, 18, 26
+	offsets: 17, 49, 57, 85
+mh42801_7
+	bounds: 0, 70, 19, 27
+	offsets: 16, 47, 57, 85
+mh42801_9
+	bounds: 0, 70, 19, 27
+	offsets: 16, 47, 57, 85
+mh42802_3
+	bounds: 0, 70, 19, 27
+	offsets: 27, 40, 57, 85
+mh42803_5
+	bounds: 0, 70, 19, 27
+	offsets: 19, 47, 57, 85
+mh42803_9
+	bounds: 0, 70, 19, 27
+	offsets: 16, 48, 57, 85
+mh428b_11
+	bounds: 0, 70, 19, 27
+	offsets: 16, 48, 57, 85
+mh428b_5
+	bounds: 0, 70, 19, 27
+	offsets: 16, 48, 57, 85
+mh428c_13
+	bounds: 0, 70, 19, 27
+	offsets: 22, 37, 57, 85
+mh428c_17
+	bounds: 0, 70, 19, 27
+	offsets: 34, 30, 57, 85
+mh428c_22
+	bounds: 0, 70, 19, 27
+	offsets: 28, 34, 57, 85
+mh428c_6
+	bounds: 0, 70, 19, 27
+	offsets: 27, 40, 57, 85
+mh428d_15
+	bounds: 0, 70, 19, 27
+	offsets: 19, 43, 57, 85
+mh428d_17
+	bounds: 0, 70, 19, 27
+	offsets: 23, 46, 57, 85
+mh428d_5
+	bounds: 0, 70, 19, 27
+	offsets: 16, 49, 57, 85
+mh428d_9
+	bounds: 0, 70, 19, 27
+	offsets: 27, 40, 57, 85
+mh428e_13
+	bounds: 0, 70, 19, 27
+	offsets: 16, 49, 57, 85
+mh428e_15
+	bounds: 0, 70, 19, 27
+	offsets: 16, 49, 57, 85
+mh428e_24
+	bounds: 0, 70, 19, 27
+	offsets: 16, 49, 57, 85
+mh428e_27
+	bounds: 0, 70, 19, 27
+	offsets: 16, 49, 57, 85
+mh428e_3
+	bounds: 0, 70, 19, 27
+	offsets: 30, 32, 57, 85
+mh428e_33
+	bounds: 0, 70, 19, 27
+	offsets: 16, 49, 57, 85
+mh428e_35
+	bounds: 0, 70, 19, 27
+	offsets: 16, 49, 57, 85
+mh428e_7
+	bounds: 0, 70, 19, 27
+	offsets: 30, 32, 57, 85
+mh428f_11
+	bounds: 0, 70, 19, 27
+	offsets: 16, 49, 57, 85
+mh428f_9
+	bounds: 0, 70, 19, 27
+	offsets: 16, 48, 57, 85
+mh428b_14
+	bounds: 37, 100, 1, 1
+mh428b_15
+	bounds: 37, 100, 1, 1
+mh428b_16
+	bounds: 37, 100, 1, 1
+mh428b_17
+	bounds: 37, 100, 1, 1
+mh428b_18
+	bounds: 37, 100, 1, 1
+mh428b_19
+	bounds: 37, 100, 1, 1
+mh428d_18
+	bounds: 37, 100, 1, 1
+mh428d_19
+	bounds: 37, 100, 1, 1
+mh428e_36
+	bounds: 37, 100, 1, 1
+mh428e_37
+	bounds: 37, 100, 1, 1
+mh428e_38
+	bounds: 37, 100, 1, 1
+mh428e_39
+	bounds: 37, 100, 1, 1
+mh428f_12
+	bounds: 37, 100, 1, 1
+mh428f_13
+	bounds: 37, 100, 1, 1
+mh428f_14
+	bounds: 37, 100, 1, 1
+mh428f_15
+	bounds: 37, 100, 1, 1
+mh428f_16
+	bounds: 37, 100, 1, 1
+mh428f_17
+	bounds: 37, 100, 1, 1
+mh428f_18
+	bounds: 37, 100, 1, 1
+mh428f_19
+	bounds: 37, 100, 1, 1
+mh428c_12
+	bounds: 38, 102, 18, 22
+	offsets: 17, 60, 57, 85
+mh428c_25
+	bounds: 19, 101, 19, 23
+	offsets: 14, 62, 57, 85
+mh428c_28
+	bounds: 0, 50, 19, 20
+	offsets: 16, 65, 57, 85

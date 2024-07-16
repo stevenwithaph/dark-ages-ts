@@ -1,0 +1,162 @@
+mu107.png
+	size: 256, 256
+mu10701_0
+	bounds: 45, 0, 19, 42
+	offsets: 18, 9, 57, 85
+mu10701_1
+	bounds: 0, 44, 25, 42
+	offsets: 16, 9, 57, 85
+mu10701_2
+	bounds: 0, 213, 29, 43
+	offsets: 14, 7, 57, 85
+mu10701_3
+	bounds: 25, 1, 20, 41
+	offsets: 16, 10, 57, 85
+mu10701_4
+	bounds: 0, 128, 27, 40
+	offsets: 14, 10, 57, 85
+mu10701_5
+	bounds: 108, 214, 24, 42
+	offsets: 17, 10, 57, 85
+mu10701_6
+	bounds: 57, 217, 26, 39
+	offsets: 15, 13, 57, 85
+mu10701_7
+	bounds: 0, 168, 29, 45
+	offsets: 14, 6, 57, 85
+mu10701_8
+	bounds: 26, 85, 22, 42
+	offsets: 15, 10, 57, 85
+mu10701_9
+	bounds: 29, 214, 28, 42
+	offsets: 14, 9, 57, 85
+mu10702_0
+	bounds: 48, 80, 19, 47
+	offsets: 18, 8, 57, 85
+mu10702_1
+	bounds: 0, 1, 25, 43
+	offsets: 19, 9, 57, 85
+mu10702_2
+	bounds: 132, 211, 24, 45
+	offsets: 17, 9, 57, 85
+mu10702_3
+	bounds: 83, 212, 25, 44
+	offsets: 17, 4, 57, 85
+mu10703_0
+	bounds: 67, 77, 19, 51
+	offsets: 18, 9, 57, 85
+mu10703_1
+	bounds: 156, 204, 24, 52
+	offsets: 17, 10, 57, 85
+mu10703_2
+	bounds: 51, 128, 20, 43
+	offsets: 18, 8, 57, 85
+mu10703_3
+	bounds: 29, 171, 27, 43
+	offsets: 18, 8, 57, 85
+mu10703_4
+	bounds: 180, 214, 24, 42
+	offsets: 17, 10, 57, 85
+mu10703_5
+	bounds: 0, 86, 26, 42
+	offsets: 17, 10, 57, 85
+mu10703_6
+	bounds: 25, 42, 22, 43
+	offsets: 18, 8, 57, 85
+mu10703_7
+	bounds: 204, 213, 24, 43
+	offsets: 18, 8, 57, 85
+mu10703_8
+	bounds: 228, 215, 24, 41
+	offsets: 17, 10, 57, 85
+mu10703_9
+	bounds: 27, 127, 24, 41
+	offsets: 17, 10, 57, 85
+mu107e_0
+	bounds: 47, 43, 19, 37
+	offsets: 24, 10, 57, 85
+mu107e_1
+	bounds: 66, 47, 18, 30
+	offsets: 26, 10, 57, 85
+mu107e_2
+	bounds: 106, 179, 12, 33
+	offsets: 22, 15, 57, 85
+mu107e_3
+	bounds: 74, 179, 16, 33
+	offsets: 29, 3, 57, 85
+mu107e_6
+	bounds: 74, 179, 16, 33
+	offsets: 29, 3, 57, 85
+mu107e_4
+	bounds: 84, 47, 18, 30
+	offsets: 26, 10, 57, 85
+mu107e_5
+	bounds: 56, 184, 18, 30
+	offsets: 26, 10, 57, 85
+mu107e_7
+	bounds: 90, 179, 16, 33
+	offsets: 29, 3, 57, 85
+mu107e_8
+	bounds: 26, 127, 1, 1
+mu107e_10
+	bounds: 26, 127, 1, 1
+mu107e_11
+	bounds: 26, 127, 1, 1
+mu107e_12
+	bounds: 26, 127, 1, 1
+mu107e_13
+	bounds: 26, 127, 1, 1
+mu107e_14
+	bounds: 26, 127, 1, 1
+mu107e_15
+	bounds: 26, 127, 1, 1
+mu107e_16
+	bounds: 26, 127, 1, 1
+mu107e_17
+	bounds: 26, 127, 1, 1
+mu107e_18
+	bounds: 26, 127, 1, 1
+mu107e_19
+	bounds: 26, 127, 1, 1
+mu107e_20
+	bounds: 26, 127, 1, 1
+mu107e_21
+	bounds: 26, 127, 1, 1
+mu107e_22
+	bounds: 26, 127, 1, 1
+mu107e_23
+	bounds: 26, 127, 1, 1
+mu107e_24
+	bounds: 26, 127, 1, 1
+mu107e_25
+	bounds: 26, 127, 1, 1
+mu107e_26
+	bounds: 26, 127, 1, 1
+mu107e_27
+	bounds: 26, 127, 1, 1
+mu107e_28
+	bounds: 26, 127, 1, 1
+mu107e_29
+	bounds: 26, 127, 1, 1
+mu107e_30
+	bounds: 26, 127, 1, 1
+mu107e_31
+	bounds: 26, 127, 1, 1
+mu107e_32
+	bounds: 26, 127, 1, 1
+mu107e_33
+	bounds: 26, 127, 1, 1
+mu107e_34
+	bounds: 26, 127, 1, 1
+mu107e_35
+	bounds: 26, 127, 1, 1
+mu107e_36
+	bounds: 26, 127, 1, 1
+mu107e_37
+	bounds: 26, 127, 1, 1
+mu107e_38
+	bounds: 26, 127, 1, 1
+mu107e_39
+	bounds: 26, 127, 1, 1
+mu107e_9
+	bounds: 26, 127, 1, 1

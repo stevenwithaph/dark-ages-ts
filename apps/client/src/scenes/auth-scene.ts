@@ -1,8 +1,4 @@
-import {
-  ClientPackets,
-  LoginMessageType,
-  ServerPackets,
-} from '@medenia/network';
+import { ClientPackets, LoginMessageType, ServerPackets } from '@medenia/network';
 import { clientManager } from '../network/client-manager';
 import { EventBus } from '../event-bus';
 import { NetworkedScene } from './networked-scene';
@@ -21,9 +17,7 @@ export class AuthScene extends NetworkedScene {
     this.bgm.play(1);
 
     //  TODO: check if we have server tables
-    clientManager.main.send(
-      new ClientPackets.ServerTableRequestPacket(true, 0)
-    );
+    clientManager.main.send(new ClientPackets.ServerTableRequestPacket(true, 0));
   }
 
   @PacketHandler(ServerPackets.LoginMessagePacket)
@@ -32,16 +26,13 @@ export class AuthScene extends NetworkedScene {
       case LoginMessageType.ClearName:
       case LoginMessageType.ClearPassword:
       case LoginMessageType.InvalidUsername:
-      case LoginMessageType.IncorrectPassowrd:
+      case LoginMessageType.IncorrectPassword:
     }
   }
 
   @PacketHandler(ServerPackets.ServerTablePacket)
   async onServerTable() {
-    const { ip, port, redirect } = await clientManager.main.sendWithAck(
-      new ClientPackets.ServerTableRequestPacket(false, 1),
-      ServerPackets.RedirectPacket
-    );
+    const { ip, port, redirect } = await clientManager.main.sendWithAck(new ClientPackets.ServerTableRequestPacket(false, 1), ServerPackets.RedirectPacket);
 
     clientManager.main.redirect(ip, port, redirect);
   }
@@ -53,18 +44,21 @@ export class AuthScene extends NetworkedScene {
 
   @EventHandler('login-character')
   async login(username: string, password: string) {
-    const { type } = await clientManager.main.sendWithAck(
-      new ClientPackets.LoginPacket(username, password),
-      ServerPackets.LoginMessagePacket
-    );
+    const { type } = await clientManager.main.sendWithAck(new ClientPackets.LoginPacket(username, password), ServerPackets.LoginMessagePacket);
 
     if (type === LoginMessageType.Confirm) {
       clientManager.main.keySalts = username;
-      const redirect = await clientManager.main.await(
-        ServerPackets.RedirectPacket
-      );
+      const redirect = await clientManager.main.await(ServerPackets.RedirectPacket);
 
       this.scene.start('map', redirect);
     }
   }
+
+  @EventHandler('character-creation')
+  async characterCreation() {
+    EventBus.emit('route');
+  }
+
+  @EventHandler('create-character')
+  async createCharacter() {}
 }

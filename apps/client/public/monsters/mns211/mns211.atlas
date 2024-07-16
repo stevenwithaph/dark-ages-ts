@@ -1,0 +1,44 @@
+mns211.png
+	size: 256, 256
+mns211_0
+	bounds: 185, 121, 35, 65
+	offsets: 15, 8, 56, 84
+mns211_1
+	bounds: 84, 37, 30, 64
+	offsets: 15, 9, 56, 84
+mns211_10
+	bounds: 144, 112, 41, 71
+	offsets: 1, 7, 56, 84
+mns211_11
+	bounds: 0, 102, 52, 76
+	offsets: 3, 7, 56, 84
+mns211_12
+	bounds: 98, 101, 46, 79
+	offsets: 10, 5, 56, 84
+mns211_13
+	bounds: 55, 180, 51, 75
+	offsets: 4, 5, 56, 84
+mns211_2
+	bounds: 155, 196, 46, 59
+	offsets: 6, 12, 56, 84
+mns211_3
+	bounds: 220, 121, 35, 65
+	offsets: 15, 8, 56, 84
+mns211_4
+	bounds: 49, 32, 35, 70
+	offsets: 15, 1, 56, 84
+mns211_5
+	bounds: 201, 186, 46, 69
+	offsets: 8, 5, 56, 84
+mns211_6
+	bounds: 0, 35, 49, 67
+	offsets: 0, 7, 56, 84
+mns211_7
+	bounds: 106, 183, 49, 72
+	offsets: 0, 0, 56, 84
+mns211_8
+	bounds: 52, 108, 46, 70
+	offsets: 8, 4, 56, 84
+mns211_9
+	bounds: 0, 178, 55, 77
+	offsets: 1, 7, 56, 84

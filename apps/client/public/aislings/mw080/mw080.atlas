@@ -1,0 +1,44 @@
+mw080.png
+	size: 128, 128
+mw08001_0
+	bounds: 0, 85, 31, 5
+	offsets: 63, 27, 111, 85
+mw08001_1
+	bounds: 0, 71, 29, 14
+	offsets: 66, 33, 111, 85
+mw08001_2
+	bounds: 0, 33, 23, 22
+	offsets: 68, 34, 111, 85
+mw08001_7
+	bounds: 0, 33, 23, 22
+	offsets: 67, 37, 111, 85
+mw08001_3
+	bounds: 43, 122, 30, 5
+	offsets: 63, 27, 111, 85
+mw08001_5
+	bounds: 43, 122, 30, 5
+	offsets: 64, 32, 111, 85
+mw08001_8
+	bounds: 43, 122, 30, 5
+	offsets: 63, 32, 111, 85
+mw08001_4
+	bounds: 0, 55, 26, 16
+	offsets: 53, 19, 111, 85
+mw08001_6
+	bounds: 43, 108, 29, 14
+	offsets: 66, 34, 111, 85
+mw08001_9
+	bounds: 0, 0, 17, 12
+	offsets: 62, 24, 111, 85
+mw08002_0
+	bounds: 0, 12, 22, 21
+	offsets: 28, 30, 111, 85
+mw08002_1
+	bounds: 43, 87, 18, 21
+	offsets: 64, 39, 111, 85
+mw08002_2
+	bounds: 61, 91, 16, 17
+	offsets: 35, 34, 111, 85
+mw08002_3
+	bounds: 0, 90, 43, 37
+	offsets: 38, 6, 111, 85

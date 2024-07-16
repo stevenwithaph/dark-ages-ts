@@ -1,0 +1,32 @@
+mns082.png
+	size: 256, 256
+mns082_0
+	bounds: 0, 106, 69, 68
+	offsets: 8, 12, 84, 98
+mns082_1
+	bounds: 0, 37, 68, 69
+	offsets: 10, 10, 84, 98
+mns082_2
+	bounds: 0, 174, 72, 69
+	offsets: 9, 10, 84, 98
+mns082_3
+	bounds: 72, 182, 69, 61
+	offsets: 8, 17, 84, 98
+mns082_4
+	bounds: 141, 180, 68, 63
+	offsets: 9, 16, 84, 98
+mns082_5
+	bounds: 69, 61, 66, 61
+	offsets: 15, 11, 84, 98
+mns082_6
+	bounds: 68, 0, 66, 61
+	offsets: 14, 10, 84, 98
+mns082_7
+	bounds: 72, 122, 67, 60
+	offsets: 14, 11, 84, 98
+mns082_8
+	bounds: 139, 68, 65, 57
+	offsets: 15, 15, 84, 98
+mns082_9
+	bounds: 139, 125, 67, 55
+	offsets: 14, 17, 84, 98

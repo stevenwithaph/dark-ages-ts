@@ -1,0 +1,74 @@
+mu154.png
+	size: 256, 256
+mu15401_0
+	bounds: 111, 175, 25, 39
+	offsets: 12, 9, 57, 85
+mu15401_1
+	bounds: 31, 174, 27, 39
+	offsets: 12, 9, 57, 85
+mu15401_2
+	bounds: 0, 93, 30, 40
+	offsets: 11, 7, 57, 85
+mu15401_3
+	bounds: 58, 85, 24, 38
+	offsets: 12, 10, 57, 85
+mu15401_4
+	bounds: 0, 176, 31, 37
+	offsets: 10, 10, 57, 85
+mu15401_5
+	bounds: 151, 214, 28, 39
+	offsets: 12, 11, 57, 85
+mu15401_6
+	bounds: 31, 137, 27, 37
+	offsets: 12, 13, 57, 85
+mu15401_7
+	bounds: 0, 133, 31, 43
+	offsets: 10, 6, 57, 85
+mu15401_8
+	bounds: 85, 174, 26, 40
+	offsets: 12, 10, 57, 85
+mu15401_9
+	bounds: 0, 213, 32, 40
+	offsets: 10, 9, 57, 85
+mu15402_0
+	bounds: 136, 175, 25, 39
+	offsets: 12, 9, 57, 85
+mu15402_1
+	bounds: 179, 213, 28, 40
+	offsets: 17, 9, 57, 85
+mu15402_2
+	bounds: 207, 210, 28, 43
+	offsets: 12, 11, 57, 85
+mu15402_3
+	bounds: 0, 51, 30, 42
+	offsets: 14, 4, 57, 85
+mu15403_0
+	bounds: 58, 123, 25, 50
+	offsets: 12, 9, 57, 85
+mu15403_1
+	bounds: 0, 0, 29, 51
+	offsets: 12, 10, 57, 85
+mu15403_2
+	bounds: 58, 173, 27, 41
+	offsets: 12, 9, 57, 85
+mu15403_3
+	bounds: 32, 214, 31, 39
+	offsets: 12, 9, 57, 85
+mu15403_4
+	bounds: 30, 94, 28, 39
+	offsets: 12, 11, 57, 85
+mu15403_5
+	bounds: 63, 214, 30, 39
+	offsets: 12, 11, 57, 85
+mu15403_6
+	bounds: 93, 214, 29, 39
+	offsets: 12, 9, 57, 85
+mu15403_7
+	bounds: 122, 214, 29, 39
+	offsets: 12, 9, 57, 85
+mu15403_8
+	bounds: 30, 55, 28, 39
+	offsets: 12, 11, 57, 85
+mu15403_9
+	bounds: 29, 13, 28, 38
+	offsets: 12, 11, 57, 85

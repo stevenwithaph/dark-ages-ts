@@ -1,0 +1,472 @@
+wc106.png
+	size: 512, 512
+wc10601_0
+	bounds: 80, 356, 32, 74
+	offsets: 52, 1, 111, 85
+wc10601_1
+	bounds: 80, 356, 32, 74
+	offsets: 52, 1, 111, 85
+wc10601_2
+	bounds: 39, 144, 34, 76
+	offsets: 56, 1, 111, 85
+wc10601_3
+	bounds: 0, 286, 39, 75
+	offsets: 53, 1, 111, 85
+wc10601_4
+	bounds: 0, 213, 39, 73
+	offsets: 51, 1, 111, 85
+wc10601_5
+	bounds: 0, 0, 37, 71
+	offsets: 8, 10, 111, 85
+wc10601_6
+	bounds: 0, 0, 37, 71
+	offsets: 8, 10, 111, 85
+wc10601_7
+	bounds: 0, 142, 39, 71
+	offsets: 6, 10, 111, 85
+wc10601_8
+	bounds: 0, 431, 41, 69
+	offsets: 4, 10, 111, 85
+wc10601_9
+	bounds: 82, 430, 39, 70
+	offsets: 6, 10, 111, 85
+wc10602_0
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc10603_2
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc10603_6
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc10604_4
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106b_1
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106b_7
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106c_14
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106c_19
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106c_2
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106c_25
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106c_9
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106d_1
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106d_12
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106d_6
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106e_0
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106e_10
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106e_20
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106e_30
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106e_4
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106f_0
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc106f_6
+	bounds: 249, 429, 29, 71
+	offsets: 54, 2, 111, 85
+wc10602_1
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc10603_0
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc10603_3
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc10603_7
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc10604_5
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106b_12
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106b_2
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106b_8
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106c_10
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106c_15
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106c_20
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106c_26
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106c_3
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106d_13
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106d_2
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106d_7
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106e_1
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106e_11
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106e_21
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106e_31
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106e_5
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106f_1
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106f_7
+	bounds: 155, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc10602_2
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc10603_4
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc10603_8
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc10604_12
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106b_10
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106b_4
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106c_12
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106c_16
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106c_22
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106c_28
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106c_6
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106d_16
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106d_4
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106d_8
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106e_14
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106e_2
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106e_26
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106e_34
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106e_6
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106f_10
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc106f_2
+	bounds: 41, 361, 39, 69
+	offsets: 14, 10, 111, 85
+wc10602_3
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc10603_1
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc10603_5
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc10603_9
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc10604_13
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106b_11
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106b_13
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106b_5
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106c_13
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106c_17
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106c_23
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106c_29
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106c_7
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106d_17
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106d_5
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106d_9
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106e_15
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106e_27
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106e_3
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106e_35
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106e_7
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106f_11
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc106f_3
+	bounds: 0, 361, 41, 70
+	offsets: 14, 10, 111, 85
+wc10604_0
+	bounds: 278, 427, 29, 73
+	offsets: 54, 2, 111, 85
+wc10604_6
+	bounds: 278, 427, 29, 73
+	offsets: 54, 2, 111, 85
+wc106e_16
+	bounds: 278, 427, 29, 73
+	offsets: 54, 2, 111, 85
+wc10604_1
+	bounds: 187, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc106e_17
+	bounds: 187, 428, 32, 72
+	offsets: 51, 2, 111, 85
+wc10604_10
+	bounds: 39, 292, 39, 69
+	offsets: 14, 10, 111, 85
+wc106c_4
+	bounds: 39, 292, 39, 69
+	offsets: 14, 10, 111, 85
+wc106d_14
+	bounds: 39, 292, 39, 69
+	offsets: 14, 10, 111, 85
+wc106e_12
+	bounds: 39, 292, 39, 69
+	offsets: 14, 10, 111, 85
+wc106e_24
+	bounds: 39, 292, 39, 69
+	offsets: 14, 10, 111, 85
+wc106e_32
+	bounds: 39, 292, 39, 69
+	offsets: 14, 10, 111, 85
+wc106f_8
+	bounds: 39, 292, 39, 69
+	offsets: 14, 10, 111, 85
+wc10604_11
+	bounds: 121, 432, 34, 68
+	offsets: 14, 10, 111, 85
+wc106b_3
+	bounds: 121, 432, 34, 68
+	offsets: 14, 10, 111, 85
+wc106b_9
+	bounds: 121, 432, 34, 68
+	offsets: 14, 10, 111, 85
+wc106c_11
+	bounds: 121, 432, 34, 68
+	offsets: 14, 10, 111, 85
+wc106c_21
+	bounds: 121, 432, 34, 68
+	offsets: 14, 10, 111, 85
+wc106c_27
+	bounds: 121, 432, 34, 68
+	offsets: 14, 10, 111, 85
+wc106c_5
+	bounds: 121, 432, 34, 68
+	offsets: 14, 10, 111, 85
+wc106d_15
+	bounds: 121, 432, 34, 68
+	offsets: 14, 10, 111, 85
+wc106d_3
+	bounds: 121, 432, 34, 68
+	offsets: 14, 10, 111, 85
+wc106e_13
+	bounds: 121, 432, 34, 68
+	offsets: 14, 10, 111, 85
+wc106e_25
+	bounds: 121, 432, 34, 68
+	offsets: 14, 10, 111, 85
+wc106e_33
+	bounds: 121, 432, 34, 68
+	offsets: 14, 10, 111, 85
+wc106f_9
+	bounds: 121, 432, 34, 68
+	offsets: 14, 10, 111, 85
+wc10604_15
+	bounds: 39, 220, 38, 72
+	offsets: 14, 10, 111, 85
+wc10604_2
+	bounds: 219, 429, 30, 71
+	offsets: 53, 2, 111, 85
+wc106c_0
+	bounds: 219, 429, 30, 71
+	offsets: 53, 2, 111, 85
+wc106d_10
+	bounds: 219, 429, 30, 71
+	offsets: 53, 2, 111, 85
+wc106e_18
+	bounds: 219, 429, 30, 71
+	offsets: 53, 2, 111, 85
+wc106e_28
+	bounds: 219, 429, 30, 71
+	offsets: 53, 2, 111, 85
+wc106e_8
+	bounds: 219, 429, 30, 71
+	offsets: 53, 2, 111, 85
+wc106f_4
+	bounds: 219, 429, 30, 71
+	offsets: 53, 2, 111, 85
+wc10604_3
+	bounds: 336, 430, 27, 70
+	offsets: 56, 2, 111, 85
+wc106b_0
+	bounds: 336, 430, 27, 70
+	offsets: 56, 2, 111, 85
+wc106b_6
+	bounds: 336, 430, 27, 70
+	offsets: 56, 2, 111, 85
+wc106c_1
+	bounds: 336, 430, 27, 70
+	offsets: 56, 2, 111, 85
+wc106c_18
+	bounds: 336, 430, 27, 70
+	offsets: 56, 2, 111, 85
+wc106c_24
+	bounds: 336, 430, 27, 70
+	offsets: 56, 2, 111, 85
+wc106c_8
+	bounds: 336, 430, 27, 70
+	offsets: 56, 2, 111, 85
+wc106d_0
+	bounds: 336, 430, 27, 70
+	offsets: 56, 2, 111, 85
+wc106d_11
+	bounds: 336, 430, 27, 70
+	offsets: 56, 2, 111, 85
+wc106e_19
+	bounds: 336, 430, 27, 70
+	offsets: 56, 2, 111, 85
+wc106e_29
+	bounds: 336, 430, 27, 70
+	offsets: 56, 2, 111, 85
+wc106e_9
+	bounds: 336, 430, 27, 70
+	offsets: 56, 2, 111, 85
+wc106f_5
+	bounds: 336, 430, 27, 70
+	offsets: 56, 2, 111, 85
+wc10604_7
+	bounds: 307, 426, 29, 74
+	offsets: 54, 2, 111, 85
+wc10604_8
+	bounds: 0, 71, 38, 71
+	offsets: 14, 10, 111, 85
+wc10604_14
+	bounds: 0, 71, 38, 71
+	offsets: 14, 10, 111, 85
+wc106e_22
+	bounds: 0, 71, 38, 71
+	offsets: 14, 10, 111, 85
+wc10604_9
+	bounds: 41, 430, 41, 70
+	offsets: 14, 10, 111, 85
+wc106e_23
+	bounds: 41, 430, 41, 70
+	offsets: 14, 10, 111, 85
+wc106b_14
+	bounds: 38, 141, 1, 1
+wc106d_18
+	bounds: 38, 141, 1, 1
+wc106d_19
+	bounds: 38, 141, 1, 1
+wc106e_36
+	bounds: 38, 141, 1, 1
+wc106e_37
+	bounds: 38, 141, 1, 1
+wc106e_38
+	bounds: 38, 141, 1, 1
+wc106e_39
+	bounds: 38, 141, 1, 1
+wc106f_12
+	bounds: 38, 141, 1, 1
+wc106f_13
+	bounds: 38, 141, 1, 1
+wc106f_14
+	bounds: 38, 141, 1, 1

@@ -1,0 +1,44 @@
+mns010.png
+	size: 256, 256
+mns010_0
+	bounds: 50, 158, 37, 46
+	offsets: 10, 8, 58, 86
+mns010_1
+	bounds: 0, 52, 36, 50
+	offsets: 11, 5, 58, 86
+mns010_10
+	bounds: 0, 102, 38, 51
+	offsets: 6, 6, 58, 86
+mns010_11
+	bounds: 0, 203, 50, 49
+	offsets: 7, 8, 58, 86
+mns010_12
+	bounds: 0, 0, 33, 52
+	offsets: 12, 11, 58, 86
+mns010_13
+	bounds: 0, 153, 50, 50
+	offsets: 7, 9, 58, 86
+mns010_2
+	bounds: 50, 204, 38, 48
+	offsets: 10, 6, 58, 86
+mns010_3
+	bounds: 88, 205, 37, 47
+	offsets: 10, 8, 58, 86
+mns010_4
+	bounds: 125, 206, 34, 46
+	offsets: 10, 8, 58, 86
+mns010_5
+	bounds: 159, 202, 30, 50
+	offsets: 14, 8, 58, 86
+mns010_6
+	bounds: 38, 104, 29, 49
+	offsets: 14, 10, 58, 86
+mns010_7
+	bounds: 189, 200, 30, 52
+	offsets: 13, 7, 58, 86
+mns010_8
+	bounds: 67, 107, 29, 51
+	offsets: 14, 8, 58, 86
+mns010_9
+	bounds: 219, 202, 30, 50
+	offsets: 14, 9, 58, 86

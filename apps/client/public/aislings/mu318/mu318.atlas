@@ -1,0 +1,74 @@
+mu318.png
+	size: 128, 128
+mu31801_0
+	bounds: 0, 107, 28, 15
+	offsets: 14, 28, 57, 85
+mu31801_1
+	bounds: 0, 92, 28, 15
+	offsets: 14, 28, 57, 85
+mu31801_2
+	bounds: 28, 107, 28, 15
+	offsets: 14, 28, 57, 85
+mu31801_3
+	bounds: 0, 76, 28, 16
+	offsets: 14, 27, 57, 85
+mu31801_4
+	bounds: 28, 92, 28, 15
+	offsets: 14, 28, 57, 85
+mu31801_5
+	bounds: 56, 110, 28, 12
+	offsets: 15, 28, 57, 85
+mu31801_6
+	bounds: 0, 62, 28, 14
+	offsets: 15, 27, 57, 85
+mu31801_7
+	bounds: 28, 79, 28, 13
+	offsets: 15, 28, 57, 85
+mu31801_8
+	bounds: 56, 96, 28, 14
+	offsets: 15, 27, 57, 85
+mu31801_9
+	bounds: 84, 109, 28, 13
+	offsets: 15, 28, 57, 85
+mu31802_0
+	bounds: 0, 45, 28, 17
+	offsets: 13, 30, 57, 85
+mu31802_1
+	bounds: 0, 0, 26, 19
+	offsets: 21, 28, 57, 85
+mu31802_2
+	bounds: 28, 66, 28, 13
+	offsets: 15, 30, 57, 85
+mu31802_3
+	bounds: 28, 17, 23, 23
+	offsets: 21, 22, 57, 85
+mu31803_0
+	bounds: 56, 68, 28, 28
+	offsets: 13, 13, 57, 85
+mu31803_1
+	bounds: 84, 82, 28, 27
+	offsets: 15, 13, 57, 85
+mu31803_2
+	bounds: 0, 32, 28, 13
+	offsets: 14, 29, 57, 85
+mu31803_3
+	bounds: 28, 53, 28, 13
+	offsets: 14, 29, 57, 85
+mu31803_4
+	bounds: 56, 56, 28, 12
+	offsets: 15, 29, 57, 85
+mu31803_5
+	bounds: 84, 70, 28, 12
+	offsets: 16, 29, 57, 85
+mu31803_6
+	bounds: 0, 19, 28, 13
+	offsets: 14, 29, 57, 85
+mu31803_7
+	bounds: 28, 40, 28, 13
+	offsets: 14, 29, 57, 85
+mu31803_8
+	bounds: 56, 43, 28, 13
+	offsets: 15, 29, 57, 85
+mu31803_9
+	bounds: 84, 57, 28, 13
+	offsets: 15, 29, 57, 85

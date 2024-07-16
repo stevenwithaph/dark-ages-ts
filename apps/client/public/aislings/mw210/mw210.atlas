@@ -1,0 +1,44 @@
+mw210.png
+	size: 128, 128
+mw21001_0
+	bounds: 0, 87, 44, 8
+	offsets: 63, 26, 111, 85
+mw21001_3
+	bounds: 0, 87, 44, 8
+	offsets: 63, 26, 111, 85
+mw21001_1
+	bounds: 87, 103, 37, 21
+	offsets: 66, 33, 111, 85
+mw21001_2
+	bounds: 0, 14, 35, 33
+	offsets: 65, 31, 111, 85
+mw21001_4
+	bounds: 0, 67, 38, 20
+	offsets: 54, 17, 111, 85
+mw21001_5
+	bounds: 0, 47, 37, 20
+	offsets: 64, 16, 111, 85
+mw21001_6
+	bounds: 48, 101, 39, 23
+	offsets: 62, 32, 111, 85
+mw21001_7
+	bounds: 48, 68, 35, 33
+	offsets: 64, 34, 111, 85
+mw21001_8
+	bounds: 0, 6, 26, 8
+	offsets: 63, 29, 111, 85
+mw21001_9
+	bounds: 35, 13, 17, 13
+	offsets: 62, 22, 111, 85
+mw21002_0
+	bounds: 83, 69, 30, 32
+	offsets: 20, 18, 111, 85
+mw21002_1
+	bounds: 35, 26, 18, 21
+	offsets: 64, 39, 111, 85
+mw21002_2
+	bounds: 53, 35, 17, 33
+	offsets: 34, 19, 111, 85
+mw21002_3
+	bounds: 0, 95, 48, 29
+	offsets: 26, 9, 111, 85

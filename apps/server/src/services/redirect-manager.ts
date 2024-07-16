@@ -20,7 +20,13 @@ class RedirectManager {
   }
 
   get(id: number) {
-    return this.#cache.remove(id);
+    const redirect = this.#cache.get(id);
+
+    if (redirect) {
+      this.#cache.remove(id);
+    }
+
+    return redirect;
   }
 
   private onCacheRemoved(redirect: Redirect) {
