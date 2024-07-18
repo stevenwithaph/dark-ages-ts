@@ -9,6 +9,10 @@ export const TILE_HEIGHT = 27;
 
 export const TILES_PER_ATLAS = 2700;
 
+export enum MapEvents {
+  Loaded = 'map-loaded',
+}
+
 const TILE_HALF_WIDTH = TILE_WIDTH / 2;
 const TILE_HALF_HEIGHT = TILE_HEIGHT / 2;
 
@@ -56,26 +60,16 @@ export class IsoMap extends GameObjects.GameObject {
     for (let i = 0; i < atlases.tiles.sheets.length; i++) {
       const tileSheet = atlases.tiles.sheets[i];
 
-      this.scene.textures.addUint8Array(
-        `map/${this.mapId}/tiles/${i}`,
-        new Uint8Array(tileSheet.data.buffer),
-        tileSheet.width,
-        tileSheet.height
-      );
+      this.scene.textures.addUint8Array(`map/${this.mapId}/tiles/${i}`, new Uint8Array(tileSheet.data.buffer), tileSheet.width, tileSheet.height);
 
-      const tileSet = this.tileMap.addTilesetImage(
-        `map/${this.mapId}/tiles/${i}`
-      );
+      const tileSet = this.tileMap.addTilesetImage(`map/${this.mapId}/tiles/${i}`);
       if (!tileSet) {
         throw new Error('Invalid Tileset');
       }
       this.tileSets.push(tileSet);
     }
 
-    const layer = this.tileMap.createBlankLayer(
-      `map/${this.mapId}`,
-      this.tileSets
-    );
+    const layer = this.tileMap.createBlankLayer(`map/${this.mapId}`, this.tileSets);
 
     if (!layer) {
       throw new Error('Invalid layer');
@@ -96,18 +90,13 @@ export class IsoMap extends GameObjects.GameObject {
         atlas.sheet.height
       );
       for (const rect of atlas.rects) {
-        sheet?.add(
-          `map/${this.mapId}/walls/${rect.id}`,
-          0,
-          rect.x,
-          rect.y,
-          rect.width,
-          rect.height
-        );
+        sheet?.add(`map/${this.mapId}/walls/${rect.id}`, 0, rect.x, rect.y, rect.width, rect.height);
       }
     }
 
     this.drawMapData(data);
+
+    this.emit(MapEvents.Loaded);
   }
 
   private drawMapData(data: Uint16Array) {
@@ -140,13 +129,7 @@ export class IsoMap extends GameObjects.GameObject {
   drawWall(wallId: number, tileX: number, tileY: number, right: boolean) {
     const position = this.tileToWorldXY(tileX, tileY);
 
-    const wall = new GameObjects.Sprite(
-      this.scene,
-      position.x,
-      position.y,
-      `map/${this.mapId}/walls`,
-      `map/${this.mapId}/walls/${wallId}`
-    );
+    const wall = new GameObjects.Sprite(this.scene, position.x, position.y, `map/${this.mapId}/walls`, `map/${this.mapId}/walls/${wallId}`);
 
     wall.setOrigin(right ? 1 : 0, 1);
     wall.setDepth(position.y);
@@ -167,10 +150,7 @@ export class IsoMap extends GameObjects.GameObject {
   }
 
   tileToWorldXY(tileX: number, tileY: number) {
-    const world = new Phaser.Math.Vector2(
-      (tileX - tileY) * TILE_HALF_WIDTH,
-      (tileX + tileY) * TILE_HALF_HEIGHT
-    );
+    const world = new Phaser.Math.Vector2((tileX - tileY) * TILE_HALF_WIDTH, (tileX + tileY) * TILE_HALF_HEIGHT);
 
     world.x += 27;
     world.y += 27;
@@ -182,10 +162,7 @@ export class IsoMap extends GameObjects.GameObject {
     worldX -= 27;
     worldY -= 27;
 
-    const tile = new Phaser.Math.Vector2(
-      Math.ceil(worldX / TILE_WIDTH + worldY / TILE_HEIGHT),
-      Math.ceil(worldY / TILE_HEIGHT - worldX / TILE_WIDTH)
-    );
+    const tile = new Phaser.Math.Vector2(Math.ceil(worldX / TILE_WIDTH + worldY / TILE_HEIGHT), Math.ceil(worldY / TILE_HEIGHT - worldX / TILE_WIDTH));
 
     return tile;
   }

@@ -16,9 +16,11 @@ export class PreloadScene extends NetworkedScene {
     this.bgm.create();
 
     this.load.image('cursor');
-    this.load.image('palettes', 'assets/palettes.png');
+    this.load.image('palettes', 'palettes.png');
 
-    this.load.binary('sotp', 'assets/sotp.dat');
+    this.load.binary('sotp', 'sotp.dat');
+
+    this.load.binary('login-map', 'maps/login-map.map');
   }
 
   create() {

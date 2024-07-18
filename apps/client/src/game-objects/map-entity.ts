@@ -1,7 +1,7 @@
 import { GameObjects } from 'phaser';
 import { IsoMap } from './iso-map';
 import { DisplayEntity } from './display-entity';
-import { directionToVector, xyToDirection } from '../direction';
+import { directionToVector } from '../direction';
 
 const DEFAULT_MOVE_DURATION = 415;
 
@@ -76,10 +76,7 @@ export class MapEntity extends GameObjects.GameObject {
 
     const vector = directionToVector(direction);
 
-    const newPosition = this._map.tileToWorldXY(
-      this.tileX + vector.x,
-      this.tileY + vector.y
-    );
+    const newPosition = this._map.tileToWorldXY(this.tileX + vector.x, this.tileY + vector.y);
 
     this.tween = this.scene.tweens.add({
       targets: this,

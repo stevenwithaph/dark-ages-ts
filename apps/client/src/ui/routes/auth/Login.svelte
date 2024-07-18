@@ -3,6 +3,7 @@
   import { EventBus } from '../../../event-bus';
   import LoginNotice from './LoginNotice.svelte';
   import LoginForm from './LoginForm.svelte';
+  import CreateForm from './CreateForm.svelte';
 
   enum State {
     Connecting,
@@ -16,13 +17,20 @@
   let notice: string;
 
   function showNotice(message: string) {
-    console.log('notice');
     notice = message;
-    state = State.Create;
+    state = State.Notice;
   }
 
   function onOkay() {
     state = State.Login;
+  }
+
+  function onLogin(username: string, password: string) {
+    EventBus.emit('login-character', username, password);
+  }
+
+  function onCreate() {
+    state = State.Create;
   }
 
   onMount(() => {
@@ -40,6 +48,8 @@
   {:else if state === State.Notice}
     <LoginNotice {onOkay} {notice} />
   {:else if state === State.Login}
-    <LoginForm />
+    <LoginForm {onLogin} {onCreate} />
+  {:else if state === State.Create}
+    <CreateForm />
   {/if}
 </div>

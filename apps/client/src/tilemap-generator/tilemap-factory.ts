@@ -51,21 +51,21 @@ export async function fromMapData(data: Uint16Array) {
 
     if (tileId > 0) {
       tileSet.set(tileId, {
-        src: `${import.meta.env.VITE_ASSET_PATH}/assets/tiles/mpt/${tileId}.png`,
+        src: `${import.meta.env.VITE_ASSET_PATH}/tiles/mpt/${tileId}.png`,
         id: tileId,
       });
     }
 
     if (leftWallId > 13) {
       wallSet.set(leftWallId, {
-        src: `${import.meta.env.VITE_ASSET_PATH}/assets/walls/stc/${leftWallId}.png`,
+        src: `${import.meta.env.VITE_ASSET_PATH}/walls/stc/${leftWallId}.png`,
         id: leftWallId,
       });
     }
 
     if (rightWallId > 13) {
       wallSet.set(rightWallId, {
-        src: `${import.meta.env.VITE_ASSET_PATH}/assets/walls/stc/${rightWallId}.png`,
+        src: `${import.meta.env.VITE_ASSET_PATH}/walls/stc/${rightWallId}.png`,
         id: rightWallId,
       });
     }

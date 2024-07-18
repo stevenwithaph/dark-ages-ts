@@ -1,18 +1,16 @@
 import { Direction } from '../../direction';
 import { DisplayEntity } from '../display-entity';
 import { Idle, Walk } from './paper-doll-animations';
-import {
-  AnimationEvents,
-  SpriteAtlasAnimator,
-} from '../sprite-atlas/sprite-atlas-animator';
-import {
-  PaperDollPiece,
-  PaperDollPrefix,
-  PaperDollPieceNames,
-} from './paper-doll-piece';
+import { AnimationEvents, SpriteAtlasAnimator } from '../sprite-atlas/sprite-atlas-animator';
+import { PaperDollPiece, PaperDollPrefix, PaperDollPieceNames } from './paper-doll-piece';
+import { AtlasSpriteEvents } from '../sprite-atlas/atlas-sprite';
 
 export const ANIM_COMPLETE = 'animation-complete';
 export const MOVE_COMPLETE = 'move-complete';
+
+export enum PaperDollContainerEvents {
+  PieceLoaded = 'piece_loaded',
+}
 
 export enum PaperDollGender {
   Male = 'm',
@@ -23,10 +21,7 @@ type PaperDollPieces = {
   [key in PaperDollPieceNames]: PaperDollPiece;
 };
 
-export class PaperDollContainer
-  extends Phaser.GameObjects.Container
-  implements DisplayEntity
-{
+export class PaperDollContainer extends Phaser.GameObjects.Container implements DisplayEntity {
   pieces: PaperDollPieces;
   animator: SpriteAtlasAnimator;
   private paperDollKeys: string[];
@@ -41,57 +36,16 @@ export class PaperDollContainer
     this.animator = new SpriteAtlasAnimator(Idle);
 
     this.pieces = {
-      [PaperDollPieceNames.Shield]: new PaperDollPiece(
-        this.scene,
-        this,
-        PaperDollPrefix.Shield
-      ),
-      [PaperDollPieceNames.Body]: new PaperDollPiece(
-        this.scene,
-        this,
-        PaperDollPrefix.Body,
-        1
-      ),
-      [PaperDollPieceNames.Pants]: new PaperDollPiece(
-        this.scene,
-        this,
-        PaperDollPrefix.Pants
-      ),
-      [PaperDollPieceNames.Boots]: new PaperDollPiece(
-        this.scene,
-        this,
-        PaperDollPrefix.Boots
-      ),
-      [PaperDollPieceNames.Armor]: new PaperDollPiece(
-        this.scene,
-        this,
-        PaperDollPrefix.Armor
-      ),
-      [PaperDollPieceNames.Weapon]: new PaperDollPiece(
-        this.scene,
-        this,
-        PaperDollPrefix.Weapon
-      ),
-      [PaperDollPieceNames.Helmet]: new PaperDollPiece(
-        this.scene,
-        this,
-        PaperDollPrefix.Helmet
-      ),
-      [PaperDollPieceNames.Accessory1]: new PaperDollPiece(
-        this.scene,
-        this,
-        PaperDollPrefix.Accessory
-      ),
-      [PaperDollPieceNames.Accessory2]: new PaperDollPiece(
-        this.scene,
-        this,
-        PaperDollPrefix.Accessory
-      ),
-      [PaperDollPieceNames.Accessory3]: new PaperDollPiece(
-        this.scene,
-        this,
-        PaperDollPrefix.Accessory
-      ),
+      [PaperDollPieceNames.Shield]: new PaperDollPiece(this.scene, this, PaperDollPrefix.Shield),
+      [PaperDollPieceNames.Body]: new PaperDollPiece(this.scene, this, PaperDollPrefix.Body, 1),
+      [PaperDollPieceNames.Pants]: new PaperDollPiece(this.scene, this, PaperDollPrefix.Pants),
+      [PaperDollPieceNames.Boots]: new PaperDollPiece(this.scene, this, PaperDollPrefix.Boots),
+      [PaperDollPieceNames.Armor]: new PaperDollPiece(this.scene, this, PaperDollPrefix.Armor),
+      [PaperDollPieceNames.Weapon]: new PaperDollPiece(this.scene, this, PaperDollPrefix.Weapon),
+      [PaperDollPieceNames.Helmet]: new PaperDollPiece(this.scene, this, PaperDollPrefix.Helmet),
+      [PaperDollPieceNames.Accessory1]: new PaperDollPiece(this.scene, this, PaperDollPrefix.Accessory),
+      [PaperDollPieceNames.Accessory2]: new PaperDollPiece(this.scene, this, PaperDollPrefix.Accessory),
+      [PaperDollPieceNames.Accessory3]: new PaperDollPiece(this.scene, this, PaperDollPrefix.Accessory),
     };
 
     this.paperDollKeys = Object.keys(this.pieces);
@@ -108,6 +62,7 @@ export class PaperDollContainer
 
     for (let i = 0; i < this.paperDollKeys.length; i++) {
       this.add(this.pieces[this.paperDollKeys[i] as PaperDollPieceNames]);
+      this.pieces[this.paperDollKeys[i] as PaperDollPieceNames].on(AtlasSpriteEvents.Loaded, this.onLoaded, this);
     }
 
     this.setDirection(this.direction);
@@ -115,25 +70,18 @@ export class PaperDollContainer
     this.animator.play(Idle, 0);
     this.animator.on(AnimationEvents.FRAME, () => this.refreshFrames());
 
-    this.setInteractive(
-      new Phaser.Geom.Rectangle(-9, -51 - 14, 18, 51),
-      (shape: Phaser.Geom.Rectangle, x: number, y: number) => {
-        return shape.contains(x, y);
-      }
-    );
-    this.on(
-      Phaser.Input.Events.GAMEOBJECT_POINTER_UP,
-      (
-        _pointer: Phaser.Input.Pointer,
-        _x: number,
-        _y: number,
-        event: Phaser.Types.Input.EventData
-      ) => {
-        event.stopPropagation();
-      }
-    );
+    this.setInteractive(new Phaser.Geom.Rectangle(-9, -51 - 14, 18, 51), (shape: Phaser.Geom.Rectangle, x: number, y: number) => {
+      return shape.contains(x, y);
+    });
+    this.on(Phaser.Input.Events.GAMEOBJECT_POINTER_UP, (_pointer: Phaser.Input.Pointer, _x: number, _y: number, event: Phaser.Types.Input.EventData) => {
+      event.stopPropagation();
+    });
 
     this.addToUpdateList();
+  }
+
+  onLoaded() {
+    this.emit(PaperDollContainerEvents.PieceLoaded);
   }
 
   playAnimation(animation: number, duration: number): void {}

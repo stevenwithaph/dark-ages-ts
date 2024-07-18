@@ -33,15 +33,11 @@ export class PaperDollPiece extends AltasSprite {
     itemId: number = 0
   ) {
     super(scene);
-
     this.setItemId(itemId);
   }
 
   protected load() {
-    this.scene.load.spriteAtlas(
-      this.textureName,
-      `./assets/aislings/${this.textureName}`
-    );
+    this.scene.load.spriteAtlas(this.textureName, `./aislings/${this.textureName}`);
   }
 
   protected getTextureName() {
@@ -49,9 +45,7 @@ export class PaperDollPiece extends AltasSprite {
   }
 
   protected getFrameName() {
-    return `${this.textureName}${
-      this.paperDollContainer.animator.prefix
-    }_${this.paperDollContainer.directionFrame()}`;
+    return `${this.textureName}${this.paperDollContainer.animator.prefix}_${this.paperDollContainer.directionFrame()}`;
   }
 
   setDye(dye: number) {

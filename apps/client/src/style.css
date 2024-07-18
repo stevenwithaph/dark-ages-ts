@@ -12,3 +12,9 @@ input,
 select {
   pointer-events: auto;
 }
+
+@layer components {
+  .pixelated {
+    image-rendering: pixelated;
+  }
+}

@@ -1,10 +1,6 @@
 import { DisplayEntity } from './display-entity';
 import { AltasSprite } from './sprite-atlas/atlas-sprite';
-import {
-  AnimationEvents,
-  SpriteAtlasAnimation,
-  SpriteAtlasAnimator,
-} from './sprite-atlas/sprite-atlas-animator';
+import { AnimationEvents, SpriteAtlasAnimation, SpriteAtlasAnimator } from './sprite-atlas/sprite-atlas-animator';
 
 const idle: SpriteAtlasAnimation = {
   startUp: 0,
@@ -40,10 +36,7 @@ export class Actor extends AltasSprite implements DisplayEntity {
   playIdleAnimation(): void {}
 
   protected load(): void {
-    this.scene.load.spriteAtlas(
-      this.textureName,
-      `./assets/monsters/${this.textureName}`
-    );
+    this.scene.load.spriteAtlas(this.textureName, `./monsters/${this.textureName}`);
   }
   protected getTextureName(): string {
     return `mns${this.itemId}`;

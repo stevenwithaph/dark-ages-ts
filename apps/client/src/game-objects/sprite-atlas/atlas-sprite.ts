@@ -1,3 +1,7 @@
+export enum AtlasSpriteEvents {
+  Loaded = 'loaded',
+}
+
 export abstract class AltasSprite extends Phaser.GameObjects.Sprite {
   protected itemId: string = '000';
   protected hasTexture: boolean = false;
@@ -25,11 +29,15 @@ export abstract class AltasSprite extends Phaser.GameObjects.Sprite {
     this.setTexture(this.textureName);
     this.refreshFrame();
     this.setVisible(true);
+
+    this.emit(AtlasSpriteEvents.Loaded);
   }
 
   refreshAtlas() {
     this.hasTexture = false;
     this.setVisible(false);
+
+    this.scene.load.off(`filecomplete-spriteAtlas-${this.textureName}`, this.setLoadedTexture, this);
 
     this.textureName = this.getTextureName();
     if (this.scene.textures.exists(this.textureName)) {
@@ -38,9 +46,7 @@ export abstract class AltasSprite extends Phaser.GameObjects.Sprite {
       this.setVisible(false);
 
       this.load();
-      this.scene.load.once(`filecomplete-spriteAtlas-${this.textureName}`, () =>
-        this.setLoadedTexture()
-      );
+      this.scene.load.once(`filecomplete-spriteAtlas-${this.textureName}`, this.setLoadedTexture, this);
       this.scene.load.start();
     }
   }

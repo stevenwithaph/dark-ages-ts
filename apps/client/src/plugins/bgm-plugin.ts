@@ -22,7 +22,7 @@ export class BgmPlugin extends Phaser.Plugins.BasePlugin {
 
   async load(id: number) {
     return new Promise<void>((resolve) => {
-      const path = `assets/music/${id}.mp3`;
+      const path = `music/${id}.mp3`;
       const key = `music/${id}`;
       this.audioScene.load.audio(key, path);
 

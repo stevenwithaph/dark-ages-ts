@@ -1,27 +1,15 @@
-function tilesetFileCallback(
-  this: Phaser.Loader.LoaderPlugin,
-  id: number,
-  tilesets: Set<number>
-) {
+function tilesetFileCallback(this: Phaser.Loader.LoaderPlugin, id: number, tilesets: Set<number>) {
   const tileset = new TilesetFile(this, id, tilesets);
 
   this.addFile(tileset.files);
 }
 
 class TilesetFile extends Phaser.Loader.MultiFile {
-  constructor(
-    loader: Phaser.Loader.LoaderPlugin,
-    id: number,
-    tilesets: Set<number>
-  ) {
+  constructor(loader: Phaser.Loader.LoaderPlugin, id: number, tilesets: Set<number>) {
     const images: Phaser.Loader.FileTypes.ImageFile[] = [];
 
     for (const tileset of tilesets) {
-      const image = new Phaser.Loader.FileTypes.ImageFile(
-        loader,
-        `mpt-tileset-${tileset}`,
-        `assets/tiles/mpt/${tileset}.png`
-      );
+      const image = new Phaser.Loader.FileTypes.ImageFile(loader, `mpt-tileset-${tileset}`, `tiles/mpt/${tileset}.png`);
 
       images.push(image);
     }

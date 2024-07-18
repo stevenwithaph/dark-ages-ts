@@ -1,18 +1,11 @@
 <script lang="ts">
-  import { EventBus } from '../../../event-bus';
+  export let onLogin: Function;
+  export let onCreate: Function; 
 
   let username:string = '';
   let password:string = '';
 
   $: disabled = username === '' || password === '';
-
-  function onLogin() {
-    EventBus.emit('login-character', username, password);
-  }
-
-  function onCreate() {
-    EventBus.emit('create-character');
-  }
 </script>
   
 <form class='bg-primary-700/50 p-4 backdrop-blur rounded'>
@@ -25,7 +18,7 @@
     <input bind:value={password} id='password' class='bg-transparent' type='password' />
   </div>
   <div class='flex flex-row justify-between'>
-    <button on:click|preventDefault={onLogin} type='submit' disabled={disabled}>Login</button>
-    <button on:click|preventDefault={onCreate} type='button'>Create</button>
+    <button on:click|preventDefault={() => onLogin(username, password)} type='submit' disabled={disabled}>Login</button>
+    <button on:click|preventDefault={() => onCreate()} type='button'>Create</button>
   </div>
 </form>
