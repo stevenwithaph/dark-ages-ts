@@ -1,6 +1,7 @@
 import { hash, verify } from 'argon2';
-import { prisma } from '../db';
 import { LoginMessageType } from '@medenia/network';
+import { em } from '../db';
+import { AislingEntity } from '../db/entities/aisling.entity';
 
 export class AuthError extends Error {
   constructor(
@@ -16,18 +17,14 @@ const alphaRegex = /^[a-zA-Z]+$/;
 
 class AuthService {
   async create(username: string, password: string) {
-    const unique = await prisma.aisling.findFirst({
-      where: {
-        username: username.toLowerCase(),
-      },
-    });
-
     if (username.length < 3 || username.length > 12 || !alphaRegex.test(username)) {
       throw new AuthError(
         'That name is invalid. A valid name can only be between 3 to 12 letters long, with no spaces, numbers or special characters.',
         LoginMessageType.ClearName
       );
     }
+
+    const unique = await em.findOne(AislingEntity, { username });
 
     if (unique !== null) {
       throw new AuthError(
@@ -40,12 +37,12 @@ class AuthService {
       throw new AuthError('The password must be between 4 and 8 characters.', LoginMessageType.ClearPassword);
     }
 
-    const aisling = await prisma.aisling.create({
-      data: {
-        username: username.toLowerCase(),
-        password: await hash(password),
-      },
-    });
+    const aisling = new AislingEntity();
+
+    aisling.username = username;
+    aisling.password = await hash(password);
+
+    await em.persist(aisling).flush();
 
     return aisling;
   }
@@ -56,24 +53,17 @@ class AuthService {
       throw new AuthError('Invalid Appearance.', LoginMessageType.IncorrectPassword);
     }
 
-    await prisma.aisling.update({
-      where: {
-        id,
-      },
-      data: {
-        hairColour,
-        hairStyle,
-        bodyType,
-      },
-    });
+    const aisling = await em.findOneOrFail(AislingEntity, { id });
+
+    aisling.hairColour = hairColour;
+    aisling.hairStyle = hairStyle;
+    aisling.bodyType = bodyType;
+
+    await em.persist(aisling).flush();
   }
 
   async login(username: string, password: string) {
-    const aisling = await prisma.aisling.findFirst({
-      where: {
-        username: username.toLowerCase(),
-      },
-    });
+    const aisling = await em.findOneOrFail(AislingEntity, { username });
 
     if (!aisling) {
       throw new AuthError('That name does not exist.', LoginMessageType.InvalidUsername);

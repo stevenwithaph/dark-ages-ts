@@ -1,5 +1,9 @@
-import { PrismaClient } from '@prisma/client';
+import { MikroORM } from '@mikro-orm/sqlite'; // or any other driver package
+import config from '../mikro-orm.config';
 
-const prisma = new PrismaClient();
+// initialize the ORM, loading the config file dynamically
+const orm = await MikroORM.init(config);
 
-export { prisma };
+const em = orm.em.fork();
+
+export { em };

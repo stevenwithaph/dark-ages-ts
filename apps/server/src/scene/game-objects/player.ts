@@ -1,6 +1,6 @@
 import { ServerPackets } from '@medenia/network';
 
-import { Aisling as AislingModel } from '@prisma/client';
+import { AislingEntity } from '../../db/entities/aisling.entity';
 import { Client } from '../../network/client';
 import { Peer } from '../network/peer';
 import { CollisionObject, CollisionObjectEvents } from '../physics/collision-object';
@@ -54,7 +54,7 @@ export class Player extends Aisling {
     return this._equipment;
   }
 
-  constructor(client: Client, aisling: AislingModel) {
+  constructor(client: Client, aisling: AislingEntity) {
     super(aisling);
 
     this.layer = EntityTypes.AISLING;

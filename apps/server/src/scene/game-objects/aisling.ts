@@ -1,7 +1,7 @@
 import { AislingDisplay, NameDisplay, ServerPackets } from '@medenia/network';
 import { Peer } from '../network/peer';
 import { MapEntity } from './map-entity';
-import { Aisling as AislingModel } from '@prisma/client';
+import { AislingEntity } from '../../db/entities/aisling.entity';
 
 /**
  * 0- 15 no body - still pants
@@ -12,19 +12,19 @@ import { Aisling as AislingModel } from '@prisma/client';
 export class Aisling extends MapEntity {
   protected display: AislingDisplay;
 
-  constructor(model: AislingModel) {
-    super(model.username);
+  constructor(entity: AislingEntity) {
+    super(entity.username);
 
     this.display = {
-      helmet: model.hairStyle,
-      helmetColour: model.hairColour,
+      helmet: entity.hairStyle,
+      helmetColour: entity.hairColour,
       armor: 0,
       armor2: 1,
       boots: 1,
       shield: 0,
       weapon: 0,
       bootsColour: 6,
-      bodyShape: model.bodyType === 1 ? 17 : 32,
+      bodyShape: entity.bodyType === 1 ? 17 : 32,
       accessory1Colour: 0,
       accessory1: 0,
       accessory2Colour: 0,
