@@ -1,34 +1,34 @@
-import { Entity, PrimaryKey, Property } from '@mikro-orm/core';
+import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
-export class AislingEntity {
-  @PrimaryKey()
+export class AislingEntity extends BaseEntity {
+  @PrimaryGeneratedColumn()
   id!: number;
 
-  @Property()
+  @Column()
   username!: string;
 
-  @Property()
+  @Column()
   password!: string;
 
-  @Property()
+  @Column()
   bodyType: number = 1;
 
-  @Property()
+  @Column()
   hairStyle: number = 1;
 
-  @Property()
+  @Column()
   hairColour: number = 1;
 
-  @Property()
+  @Column()
   mapId: number = 0;
 
-  @Property()
+  @Column()
   x: number = 0;
 
-  @Property()
+  @Column()
   y: number = 0;
 
-  @Property()
+  @Column()
   direction: number = 0;
 }

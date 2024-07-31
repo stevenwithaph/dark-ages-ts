@@ -1,14 +1,13 @@
 import { Client } from '../network/client';
 import { mapManager } from '../maps/map-manager';
 import { Player } from '../scene/game-objects/player';
-import { em } from '../db';
 import { AislingEntity } from '../db/entities/aisling.entity';
 
 class PlayerCache {
   #players: Map<string, Player> = new Map();
 
   async connect(client: Client, username: string) {
-    const aisling = await em.findOne(AislingEntity, { username });
+    const aisling = await AislingEntity.findOneBy({ username });
 
     if (!aisling) {
       client.disconnect();

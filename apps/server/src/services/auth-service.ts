@@ -1,6 +1,5 @@
 import { hash, verify } from 'argon2';
 import { LoginMessageType } from '@medenia/network';
-import { em } from '../db';
 import { AislingEntity } from '../db/entities/aisling.entity';
 
 export class AuthError extends Error {
@@ -24,7 +23,9 @@ class AuthService {
       );
     }
 
-    const unique = await em.findOne(AislingEntity, { username });
+    const unique = await AislingEntity.findOneBy({
+      username,
+    });
 
     if (unique !== null) {
       throw new AuthError(
@@ -42,7 +43,7 @@ class AuthService {
     aisling.username = username;
     aisling.password = await hash(password);
 
-    await em.persist(aisling).flush();
+    aisling.save();
 
     return aisling;
   }
@@ -53,17 +54,20 @@ class AuthService {
       throw new AuthError('Invalid Appearance.', LoginMessageType.IncorrectPassword);
     }
 
-    const aisling = await em.findOneOrFail(AislingEntity, { id });
-
-    aisling.hairColour = hairColour;
-    aisling.hairStyle = hairStyle;
-    aisling.bodyType = bodyType;
-
-    await em.persist(aisling).flush();
+    AislingEntity.update(
+      {
+        id,
+      },
+      {
+        hairColour,
+        hairStyle,
+        bodyType,
+      }
+    );
   }
 
   async login(username: string, password: string) {
-    const aisling = await em.findOneOrFail(AislingEntity, { username });
+    const aisling = await AislingEntity.findOneBy({ username });
 
     if (!aisling) {
       throw new AuthError('That name does not exist.', LoginMessageType.InvalidUsername);

@@ -13,16 +13,14 @@
   "dependencies": {
     "@medenia/encryption": "*",
     "@medenia/network": "*",
-    "@mikro-orm/cli": "^6.3.1",
-    "@mikro-orm/core": "^6.3.1",
-    "@mikro-orm/reflection": "^6.3.1",
-    "@mikro-orm/sqlite": "^6.3.1",
     "argon2": "^0.40.3",
     "easystarjs": "^0.4.4",
     "eventemitter3": "^5.0.1",
     "gl-matrix": "^3.4.3",
     "intersects": "^2.7.2",
     "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.20",
     "uuid": "^9.0.1",
     "ws": "^8.16.0"
   },
@@ -30,7 +28,6 @@
     "@types/intersects": "^2.7.5",
     "@types/uuid": "^9.0.8",
     "@types/ws": "^8.5.10",
-    "ts-node-dev": "^2.0.0",
     "type-fest": "^4.15.0"
   },
   "configPaths": [

@@ -1,9 +1,12 @@
-import { MikroORM } from '@mikro-orm/sqlite'; // or any other driver package
-import config from '../mikro-orm.config';
+import { DataSource } from 'typeorm';
+import { AislingEntity } from './entities/aisling.entity';
 
-// initialize the ORM, loading the config file dynamically
-let orm = await MikroORM.init(config);
+const AppDataSource = new DataSource({
+  type: 'sqlite',
+  database: 'db.sqlite',
+  entities: [AislingEntity],
+  synchronize: true,
+  logging: false,
+});
 
-const em = orm.em.fork();
-
-export { em };
+export { AppDataSource };

@@ -47,7 +47,6 @@ export class AuthListener extends Listener {
 
       client.sendPacket(new ServerPackets.LoginMessagePacket(LoginMessageType.Confirm, 'Success!'));
     } catch (error) {
-      console.log(error);
       this.handleAuthError(client, error);
     }
   }
