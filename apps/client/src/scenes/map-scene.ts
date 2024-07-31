@@ -1,16 +1,14 @@
 import { ClientPackets, ServerPackets } from '@medenia/network';
 import { IsoMap } from '../game-objects/iso-map';
-import { PacketHandler } from '../packet-handler';
+import { PacketHandler } from '../network/packet-handler';
 import { NetworkedScene } from './networked-scene';
 import { clientManager } from '../network/client-manager';
 import { PlayerController } from '../controllers/player-controller';
 import { MapEntity } from '../game-objects/map-entity';
-import {
-  PaperDollContainer,
-  PaperDollGender,
-} from '../game-objects/paper-doll/paper-doll-container';
-import { EventBus } from '../event-bus';
+import { PaperDollContainer, PaperDollGender } from '../game-objects/paper-doll/paper-doll-container';
+import { EventBus } from '../ui/event-bus';
 import { Actor } from '../game-objects/actor';
+import { RouterStore } from '../ui/stores/router.svelte';
 
 export class MapScene extends NetworkedScene {
   map: IsoMap;
@@ -34,7 +32,7 @@ export class MapScene extends NetworkedScene {
   }
 
   create(data: any) {
-    EventBus.emit('app:route', 'game');
+    RouterStore.push('game');
 
     this.cameras.main.setZoom(2);
 
@@ -54,6 +52,7 @@ export class MapScene extends NetworkedScene {
 
   @PacketHandler(ServerPackets.MapInfoPacket)
   onMapInfo(packet: ServerPackets.MapInfoPacket) {
+    console.log(packet);
     this.width = packet.width;
     this.height = packet.height;
 
@@ -100,13 +99,7 @@ export class MapScene extends NetworkedScene {
 
   @PacketHandler(ServerPackets.DisplayAislingPacket)
   onDisplayAisling(packet: ServerPackets.DisplayAislingPacket) {
-    const aisling = new PaperDollContainer(
-      this,
-      packet.info.bodyShape & 16
-        ? PaperDollGender.Male
-        : PaperDollGender.Female,
-      packet.direction
-    );
+    const aisling = new PaperDollContainer(this, packet.info.bodyShape & 16 ? PaperDollGender.Male : PaperDollGender.Female, packet.direction);
 
     //  TODO: move this to the aisling class
     aisling.pieces.helmet.setItemId(packet.info.helmet);
@@ -122,12 +115,8 @@ export class MapScene extends NetworkedScene {
 
     // Women don't wear pants
     const pantsDye = 16 ^ packet.info.bodyShape;
-    if (aisling.gender === PaperDollGender.Male && pantsDye) {
-      aisling.pieces.pants.setItemId(1);
-      aisling.pieces.pants.setDye(79 + pantsDye);
-    } else {
-      aisling.pieces.pants.setItemId(0);
-    }
+    aisling.pieces.pants.setItemId(1);
+    aisling.pieces.pants.setDye(79 + pantsDye);
 
     const entity = new MapEntity(this, aisling, this.map, packet.x, packet.y);
 
@@ -145,13 +134,7 @@ export class MapScene extends NetworkedScene {
     for (const entity of packet.entities) {
       const actor = new Actor(this, entity.spriteId);
 
-      const mapEntity = new MapEntity(
-        this,
-        actor,
-        this.map,
-        entity.x,
-        entity.y
-      );
+      const mapEntity = new MapEntity(this, actor, this.map, entity.x, entity.y);
 
       this.add.existing(mapEntity);
       this.actors.set(entity.id, mapEntity);
@@ -182,10 +165,7 @@ export class MapScene extends NetworkedScene {
     }
 
     if (this.map) {
-      const tile = this.map.worldToTileXY(
-        this.input.mousePointer.worldX,
-        this.input.mousePointer.worldY
-      );
+      const tile = this.map.worldToTileXY(this.input.mousePointer.worldX, this.input.mousePointer.worldY);
       const world = this.map.tileToWorldXY(tile.x, tile.y);
 
       this.cursor.setPosition(world.x, world.y);

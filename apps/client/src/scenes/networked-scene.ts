@@ -1,4 +1,4 @@
-import { EventBus } from '../event-bus';
+import { EventBus } from '../ui/event-bus';
 import { clientManager } from '../network/client-manager';
 
 export class NetworkedScene extends Phaser.Scene {

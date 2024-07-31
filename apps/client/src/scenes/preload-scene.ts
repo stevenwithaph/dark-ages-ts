@@ -1,6 +1,6 @@
 import { NetworkedScene } from './networked-scene';
 import { clientManager } from '../network/client-manager';
-import { PacketHandler } from '../packet-handler';
+import { PacketHandler } from '../network/packet-handler';
 import { ClientPackets, ServerPackets } from '@medenia/network';
 import { Astar } from '../astar';
 

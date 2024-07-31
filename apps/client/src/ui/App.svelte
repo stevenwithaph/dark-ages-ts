@@ -1,23 +1,11 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
+  import Error from './components/Error.svelte';
+  import Route from './components/router/Route.svelte';
   import Login from './routes/auth/Login.svelte';
-  import { EventBus } from '../event-bus';
-  
-  let currentRoute = 'auth';
-
-  function changeRoute(route:string) {
-    currentRoute = route;
-  }
-
-  onMount(() => {
-    EventBus.on('app:route', changeRoute)
-
-    return () => {
-      EventBus.off('app:route', changeRoute);
-    }
-  })
 </script>
 
-{#if currentRoute === 'auth'}
+<Route path='auth'>
   <Login />
-{/if}
+</Route>
+
+<Error />

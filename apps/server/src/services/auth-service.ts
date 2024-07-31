@@ -37,7 +37,7 @@ class AuthService {
     }
 
     if (password.length < 4 || password.length > 8) {
-      throw new AuthError('The password must be between 4 and 8 characters.', LoginMessageType.ClearName);
+      throw new AuthError('The password must be between 4 and 8 characters.', LoginMessageType.ClearPassword);
     }
 
     const aisling = await prisma.aisling.create({

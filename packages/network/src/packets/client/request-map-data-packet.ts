@@ -7,9 +7,9 @@ export class RequestMapDataPacket implements Packet {
     return ClientOpCode.RequestMapData;
   }
   serialize(writer: BinaryWriter): void {
-    throw new Error('Method not implemented.');
+    // Intentionally left blank
   }
   deserialize(reader: BinaryReader): void {
-    throw new Error('Method not implemented.');
+    // Intentionally left blank
   }
 }

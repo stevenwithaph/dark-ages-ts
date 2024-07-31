@@ -14,12 +14,12 @@ export abstract class AltasSprite extends Phaser.GameObjects.Sprite {
   }
 
   setItemId(itemId: number) {
-    if (itemId === 0) {
+    this.itemId = itemId.toString().padStart(3, '0');
+
+    if (this.itemId === '000') {
       this.setVisible(false);
       return;
     }
-
-    this.itemId = itemId.toString().padStart(3, '0');
 
     this.refreshAtlas();
   }
@@ -36,6 +36,10 @@ export abstract class AltasSprite extends Phaser.GameObjects.Sprite {
   refreshAtlas() {
     this.hasTexture = false;
     this.setVisible(false);
+
+    if (this.itemId === '000') {
+      return;
+    }
 
     this.scene.load.off(`filecomplete-spriteAtlas-${this.textureName}`, this.setLoadedTexture, this);
 

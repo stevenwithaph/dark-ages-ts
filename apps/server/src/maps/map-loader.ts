@@ -12,8 +12,6 @@ class MapLoader {
   }
 
   async delete() {}
-
-  private load(id: string) {}
 }
 
 export const mapLoader = new MapLoader();

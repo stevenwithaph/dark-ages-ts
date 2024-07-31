@@ -1,33 +1,58 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import { EventBus } from '../../../event-bus';
-
-  let character: HTMLImageElement;
+  import { ClientPackets, LoginMessageType, ServerPackets } from '@medenia/network';
+  import { clientManager } from '../../../network/client-manager';
+  import Aisling from '../../components/Aisling.svelte';
+  import { PaperDollGender } from '../../../game-objects/paper-doll/paper-doll-container';
+  import { RouterStore } from '../../stores/router.svelte';
+  import { ErrorStore } from '../../stores/error.svelte';
 
   let username:string = '';
   let password:string = '';
   let confirm:string = '';
 
-  let hairStyle: string = '1';
-  let hairColour: string = '1';
-  let gender: string = '1';
+  let hairStyle: number = 1;
+  let hairColour: number = 1;
+  let gender: PaperDollGender = PaperDollGender.Male;
 
-  $: disabled = username === '' || password === '' || confirm === '' || password !== confirm;
+  let submitting: boolean = false;
 
-  $: EventBus.emit('character-gender', Number(gender));
-  $: EventBus.emit('character-hair-style', Number(hairStyle));
-  $: EventBus.emit('character-hair-colour', Number(hairColour));
+  $: disabled = username === '' || password === '' || confirm === '' || password !== confirm || submitting;
 
-  onMount(() => {
-    EventBus.emit('character-canvas', character);
-  })
-
-  function onCreate() {
-
+  async function handleCreate() {
+    submitting = true;
+    const message = await clientManager.main.sendWithAck(new ClientPackets.CharacterCreationRequestPacket(username, password), ServerPackets.LoginMessagePacket);
+    
+    switch(message.type) {
+      case LoginMessageType.Confirm:
+        confirmCharacter();
+        break;
+      case LoginMessageType.ClearName:
+        username = '';
+        ErrorStore.show(message.message);
+        submitting = false;
+        break;
+      case LoginMessageType.ClearPassword:
+        password = '';
+        confirm = '';
+        ErrorStore.show(message.message);
+        submitting = false;
+        break;
+    }
   }
 
-  function onCancel() {
+  async function confirmCharacter() {
+    const message = await clientManager.main.sendWithAck(new ClientPackets.CharacterCreationFinalizePacket(hairStyle, hairColour, gender === 'm' ? 1 : 2), ServerPackets.LoginMessagePacket);
+    
+    switch(message.type) {
+      case LoginMessageType.Confirm:
+        ErrorStore.show('Character has been created!')
+        RouterStore.push('auth/login');
+        break;
+    }
+  }
 
+  function handleBack() {
+    RouterStore.push('auth/login');
   }
 </script>
 
@@ -40,39 +65,41 @@
       </div>
       <div>
         <label for='password' class='block'>Password</label>
-        <input bind:value={password} id='password' class='bg-transparent' autocomplete='off'  />
+        <input bind:value={password} id='password' type='password' class='bg-transparent' autocomplete='off'  />
       </div>
       <div>
         <label for='confirm' class='block'>Confirm</label>
-        <input bind:value={confirm} id='confirm' class='bg-transparent' autocomplete='off'  />
+        <input bind:value={confirm} id='confirm' type='password' class='bg-transparent' autocomplete='off'  />
       </div>
     </div>
 
     <div>
       <div class='flex flex-row'>
         <select class='bg-transparent' bind:value={gender}>
-          <option class='bg-primary-700' value='1'>Male</option>
-          <option class='bg-primary-700' value='2'>Female</option>
+          <option class='bg-primary-700' value={PaperDollGender.Male}>Male</option>
+          <option class='bg-primary-700' value={PaperDollGender.Female}>Female</option>
         </select>
 
         <select class='bg-transparent' bind:value={hairStyle}>
           {#each Array(17) as _, index (index)}
-            <option class='bg-primary-700' value={`${index+1}`}>Hair Style {index+1}</option>
+            <option class='bg-primary-700' value={index+1}>Hair Style {index+1}</option>
           {/each}
         </select>
 
         <select class='bg-transparent' bind:value={hairColour}>
           {#each Array(14) as _, index (index)}
-            <option class='bg-primary-700' value={`${index+1}`}>Hair Colour {index+1}</option>
+            <option class='bg-primary-700' value={index+1}>Hair Colour {index+1}</option>
           {/each}
         </select>
       </div>
 
-      <img class='pixelated m-auto' bind:this={character} alt='character' width="114" height="170" />
+      <div class='w-fit m-auto'>
+        <Aisling helmetId={hairStyle} helmetDye={hairColour} gender={gender} />
+      </div>
 
       <div class='flex justify-end gap-x-4 flex-row'>
-        <button on:click|preventDefault={onCreate} type='submit' disabled={disabled}>Create</button>
-        <button on:click|preventDefault={onCancel} type='button'>Cancel</button>
+        <button on:click|preventDefault={handleCreate} type='submit' disabled={disabled}>Create</button>
+        <button on:click|preventDefault={handleBack} type='button' disabled={submitting}>Back</button>
       </div>
     </div>
   </div>
