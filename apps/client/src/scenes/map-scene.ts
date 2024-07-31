@@ -6,9 +6,13 @@ import { clientManager } from '../network/client-manager';
 import { PlayerController } from '../controllers/player-controller';
 import { MapEntity } from '../game-objects/map-entity';
 import { PaperDollContainer, PaperDollGender } from '../game-objects/paper-doll/paper-doll-container';
-import { EventBus } from '../ui/event-bus';
 import { Actor } from '../game-objects/actor';
 import { RouterStore } from '../ui/stores/router.svelte';
+
+enum BodyFlags {
+  MaleBody = 16,
+  FemaleBody = 32,
+}
 
 export class MapScene extends NetworkedScene {
   map: IsoMap;
@@ -113,10 +117,19 @@ export class MapScene extends NetworkedScene {
     aisling.pieces.boots.setItemId(packet.info.boots);
     aisling.pieces.boots.setDye(79 + packet.info.bootsColour);
 
-    // Women don't wear pants
-    const pantsDye = 16 ^ packet.info.bodyShape;
-    aisling.pieces.pants.setItemId(1);
-    aisling.pieces.pants.setDye(79 + pantsDye);
+    //  TODO: there has to be a better way
+    if ((packet.info.bodyShape & BodyFlags.FemaleBody) === BodyFlags.FemaleBody) {
+      if (packet.info.bodyShape === BodyFlags.FemaleBody) {
+        aisling.pieces.pants.setItemId(0);
+      }
+    } else if ((packet.info.bodyShape & BodyFlags.MaleBody) === BodyFlags.MaleBody) {
+      if (packet.info.bodyShape === BodyFlags.FemaleBody) {
+        aisling.pieces.pants.setItemId(0);
+      } else {
+        aisling.pieces.pants.setItemId(1);
+        aisling.pieces.pants.setDye(79 + (packet.info.bodyShape & 0x0f));
+      }
+    }
 
     const entity = new MapEntity(this, aisling, this.map, packet.x, packet.y);
 

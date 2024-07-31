@@ -59,11 +59,6 @@ export class AuthScene extends NetworkedScene {
   }
 
   update() {
-    console.log('still running');
     this.cameras.main.centerOn(this.center.x, this.center.y);
-  }
-
-  destroy() {
-    console.log('destroying');
   }
 }

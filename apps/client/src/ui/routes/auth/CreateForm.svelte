@@ -5,6 +5,7 @@
   import { PaperDollGender } from '../../../game-objects/paper-doll/paper-doll-container';
   import { RouterStore } from '../../stores/router.svelte';
   import { ErrorStore } from '../../stores/error.svelte';
+  import { EventBus } from '../../event-bus';
 
   let username:string = '';
   let password:string = '';
@@ -45,9 +46,20 @@
     
     switch(message.type) {
       case LoginMessageType.Confirm:
-        ErrorStore.show('Character has been created!')
-        RouterStore.push('auth/login');
+        loginCharacter();
         break;
+    }
+  }
+
+  async function loginCharacter() {
+    //TODO: create comomn api for these
+    const { type } = await clientManager.main.sendWithAck(new ClientPackets.LoginPacket(username, password), ServerPackets.LoginMessagePacket);
+
+    if (type === LoginMessageType.Confirm) {
+      clientManager.main.keySalts = username;
+      const redirect = await clientManager.main.await(ServerPackets.RedirectPacket);
+
+      EventBus.emit('logged-in', redirect);
     }
   }
 
@@ -56,45 +68,45 @@
   }
 </script>
 
-<form class='bg-primary-700/50 p-4 backdrop-blur rounded'>
-  <div class='flex'>
+<form class='bg-primary-700/50 p-4 backdrop-blur rounded' autocomplete='off'>
+  <div class='flex space-x-2'>
     <div>
       <div>
         <label for='username' class='block'>Username</label>
-        <input bind:value={username} id='username' class='bg-transparent' autocomplete='off'  />
+        <input bind:value={username} id='username' class='bg-primary-900 p-1 rounded' autocomplete='off'  />
       </div>
       <div>
         <label for='password' class='block'>Password</label>
-        <input bind:value={password} id='password' type='password' class='bg-transparent' autocomplete='off'  />
+        <input bind:value={password} id='password' type='password' class='bg-primary-900 p-1 rounded' autocomplete='off'  />
       </div>
       <div>
         <label for='confirm' class='block'>Confirm</label>
-        <input bind:value={confirm} id='confirm' type='password' class='bg-transparent' autocomplete='off'  />
+        <input bind:value={confirm} id='confirm' type='password' class='bg-primary-900 p-1 rounded' autocomplete='off'  />
       </div>
     </div>
 
     <div>
-      <div class='flex flex-row'>
-        <select class='bg-transparent' bind:value={gender}>
+      <div class='flex flex-row space-x-2'>
+        <select class='bg-primary-900 p-1 rounded' bind:value={gender}>
           <option class='bg-primary-700' value={PaperDollGender.Male}>Male</option>
           <option class='bg-primary-700' value={PaperDollGender.Female}>Female</option>
         </select>
 
-        <select class='bg-transparent' bind:value={hairStyle}>
+        <select class='bg-primary-900 p-1 rounded' bind:value={hairStyle}>
           {#each Array(17) as _, index (index)}
             <option class='bg-primary-700' value={index+1}>Hair Style {index+1}</option>
           {/each}
         </select>
 
-        <select class='bg-transparent' bind:value={hairColour}>
+        <select class='bg-primary-900 p-1 rounded' bind:value={hairColour}>
           {#each Array(14) as _, index (index)}
-            <option class='bg-primary-700' value={index+1}>Hair Colour {index+1}</option>
+            <option class='bg-primary-700' value={index}>Hair Colour {index+1}</option>
           {/each}
         </select>
       </div>
 
       <div class='w-fit m-auto'>
-        <Aisling helmetId={hairStyle} helmetDye={hairColour} gender={gender} />
+        <Aisling helmetId={hairStyle} helmetDye={hairColour+1} gender={gender} />
       </div>
 
       <div class='flex justify-end gap-x-4 flex-row'>

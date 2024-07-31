@@ -1,14 +1,20 @@
 import * as fs from 'fs/promises';
 
 class MapLoader {
-  #maps: Map<string, Uint16Array>;
+  #maps: Map<number, Uint16Array>;
 
-  async get(id: string) {
-    let data = this.#maps.get('asdf');
+  constructor() {
+    this.#maps = new Map();
+  }
+
+  async get(id: number) {
+    let data = this.#maps.get(id);
 
     if (!data) {
       data = new Uint16Array((await fs.readFile(`./data/map-data/lod${id}.map`)).buffer);
     }
+
+    return data;
   }
 
   async delete() {}

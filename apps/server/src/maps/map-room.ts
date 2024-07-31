@@ -9,6 +9,7 @@ import { SceneTree } from '../scene/scene-tree';
 
 import { UniqueId } from '../utils/unique-id';
 import { playerCache } from '../services/player-cache';
+import { mapLoader } from './map-loader';
 
 export class MapRoom extends Room {
   protected mapData: Uint16Array = new Uint16Array();
@@ -29,7 +30,11 @@ export class MapRoom extends Room {
     this.id = new UniqueId();
   }
 
-  async loadMap(id: number) {}
+  async loadMap(id: number) {
+    this.width = 100;
+    this.height = 100;
+    this.mapData = await mapLoader.get(id);
+  }
 
   addClient(client: Client): void {
     super.addClient(client);

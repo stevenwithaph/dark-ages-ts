@@ -19,7 +19,7 @@ class PlayerCache {
     }
 
     //  TODO: create player with aisling display info?
-    this.add(client.id, new Player(client));
+    this.add(client.id, new Player(client, aisling));
     mapManager.transfer(500, client, 27, 45, 0);
 
     return aisling;

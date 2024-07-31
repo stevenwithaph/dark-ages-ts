@@ -5,6 +5,9 @@
 html {
   @apply text-white;
   background-color: black;
+
+  scrollbar-color: white #18181b;
+  scrollbar-width: thin;
 }
 
 button,

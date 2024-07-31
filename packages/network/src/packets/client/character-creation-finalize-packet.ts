@@ -5,8 +5,8 @@ import { ClientOpCode } from '../op-codes';
 export class CharacterCreationFinalizePacket implements Packet {
   constructor(
     public hairStyle: number,
-    public bodyType: number,
-    public hairColour: number
+    public hairColour: number,
+    public bodyType: number
   ) {}
 
   get opCode(): number {

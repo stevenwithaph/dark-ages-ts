@@ -1,3 +1,6 @@
+import { ServerPackets } from '@medenia/network';
+
+import { Aisling as AislingModel } from '@prisma/client';
 import { Client } from '../../network/client';
 import { Peer } from '../network/peer';
 import { CollisionObject, CollisionObjectEvents } from '../physics/collision-object';
@@ -6,7 +9,6 @@ import { MapEntity } from './map-entity';
 import { EntityTypes } from '../entity-types';
 import { Circle } from '../../collision/geometry/circle';
 import { ObservableList } from '../../utils/observable-list';
-import { ServerPackets } from '@medenia/network';
 
 interface Item {}
 
@@ -52,8 +54,8 @@ export class Player extends Aisling {
     return this._equipment;
   }
 
-  constructor(client: Client) {
-    super(client.keySalts);
+  constructor(client: Client, aisling: AislingModel) {
+    super(aisling);
 
     this.layer = EntityTypes.AISLING;
     this.mask = EntityTypes.AREA | EntityTypes.AISLING_AREA;
@@ -80,7 +82,7 @@ export class Player extends Aisling {
   }
 
   createInterestArea() {
-    this._interestArea = new CollisionObject(new Circle(0, 0, 5));
+    this._interestArea = new CollisionObject(new Circle(0, 0, 12));
     this._interestArea.nodeName = 'Interest Area';
 
     this._interestArea.on(CollisionObjectEvents.CollisionEnter, this.onInterestEnter, this);
