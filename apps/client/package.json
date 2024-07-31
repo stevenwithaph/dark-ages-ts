@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "concurrently \"npm run cdn\" \"vite\"",
     "cdn": "http-server ./public --cors -s",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {

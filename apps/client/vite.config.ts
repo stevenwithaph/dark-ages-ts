@@ -15,4 +15,7 @@ export default defineConfig({
     plugins: () => [comlink()],
   },
   cacheDir: '../../node_modules',
+  build: {
+    target: 'ES2022',
+  },
 });
