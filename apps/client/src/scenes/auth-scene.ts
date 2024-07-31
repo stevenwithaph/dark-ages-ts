@@ -6,6 +6,7 @@ import { IsoMap, MapEvents } from '../game-objects/iso-map';
 import { PaperDollContainer } from '../game-objects/paper-doll/paper-doll-container';
 import { RouterStore } from '../ui/stores/router.svelte';
 import { EventHandler } from '../ui/event-handler';
+import { NoticeStore } from '../ui/stores/notice.svelte';
 
 export class AuthScene extends NetworkedScene {
   map: IsoMap;
@@ -46,6 +47,7 @@ export class AuthScene extends NetworkedScene {
 
   @PacketHandler(ServerPackets.LoginNoticePacket)
   async onLoginNoticePacket(packet: ServerPackets.LoginNoticePacket) {
+    NoticeStore.message = packet.message;
     RouterStore.push('auth/notice');
   }
 
