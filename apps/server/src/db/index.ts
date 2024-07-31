@@ -2,7 +2,7 @@ import { MikroORM } from '@mikro-orm/sqlite'; // or any other driver package
 import config from '../mikro-orm.config';
 
 // initialize the ORM, loading the config file dynamically
-const orm = await MikroORM.init(config);
+let orm = await MikroORM.init(config);
 
 const em = orm.em.fork();
 
