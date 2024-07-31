@@ -43,6 +43,11 @@ jobs:
         run: bun install
       - name: Build
         run: bun run build
+        env:
+          VITE_ASSET_PATH: ${{ secrets.VITE_ASSET_PATH }}
+          VITE_GATEWAY_SERVER: ${{ secrets.VITE_GATEWAY_SERVER }}
+          VITE_GATEWAY_PORT: ${{ secrets.VITE_GATEWAY_PORT }}
+          VITE_PROTOCOL: ${{ secrets.VITE_PROTOCOL }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
