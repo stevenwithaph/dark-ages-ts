@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "dev": "bun --watch ./src/index.ts",
     "dist": "bun ./src/index.ts",
