@@ -56,8 +56,6 @@ class AuthService {
       throw new AuthError('Invalid Appearance.', LoginMessageType.IncorrectPassword);
     }
 
-    console.log(bodyType);
-
     await prisma.aisling.update({
       where: {
         id,

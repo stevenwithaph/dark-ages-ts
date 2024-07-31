@@ -56,7 +56,6 @@ export class MapScene extends NetworkedScene {
 
   @PacketHandler(ServerPackets.MapInfoPacket)
   onMapInfo(packet: ServerPackets.MapInfoPacket) {
-    console.log(packet);
     this.width = packet.width;
     this.height = packet.height;
 

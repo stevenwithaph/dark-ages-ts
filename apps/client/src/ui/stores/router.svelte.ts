@@ -7,7 +7,6 @@ function createRouterStore() {
     },
     push: (path: string) => {
       route = path.split('/');
-      console.log(route);
     },
   };
 }

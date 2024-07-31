@@ -55,9 +55,7 @@ export class Client extends EventEmitter {
     }
   }
 
-  protected onError(error: Error) {
-    console.log(error);
-  }
+  protected onError(error: Error) {}
 
   protected onDisconnect() {
     this.emit('disconnect', this);
