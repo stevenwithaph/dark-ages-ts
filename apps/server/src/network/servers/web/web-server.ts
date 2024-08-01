@@ -19,7 +19,7 @@ export class WebServer extends Server {
       };
     }
 
-    const httpServer = https.createServer().listen(process.env.ENV === 'prod' ? 443 : 80);
+    const httpServer = https.createServer(config).listen(process.env.ENV === 'prod' ? 443 : 80);
 
     this.server = new WebSocketServer({ server: httpServer });
 
