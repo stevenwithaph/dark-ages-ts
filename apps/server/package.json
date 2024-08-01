@@ -29,8 +29,5 @@
     "@types/uuid": "^9.0.8",
     "@types/ws": "^8.5.10",
     "type-fest": "^4.15.0"
-  },
-  "configPaths": [
-    "./src/mikro-orm.config.ts"
-  ]
+  }
 }
