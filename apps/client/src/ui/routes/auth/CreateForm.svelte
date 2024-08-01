@@ -12,7 +12,7 @@
   let confirm:string = '';
 
   let hairStyle: number = 1;
-  let hairColour: number = 1;
+  let hairColour: number = 0;
   let gender: PaperDollGender = PaperDollGender.Male;
 
   let submitting: boolean = false;
@@ -52,7 +52,7 @@
   }
 
   async function loginCharacter() {
-    //TODO: create comomn api for these
+    //TODO: create common api for these
     const { type } = await clientManager.main.sendWithAck(new ClientPackets.LoginPacket(username, password), ServerPackets.LoginMessagePacket);
 
     if (type === LoginMessageType.Confirm) {
