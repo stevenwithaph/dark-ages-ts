@@ -40,9 +40,9 @@ export class Client extends Events.EventEmitter {
     this.crypto = new ClientCrypto(0);
   }
 
-  connect(address: string, port: number) {
+  connect(_address: string, _port: number) {
     return new Promise<void>((resolve) => {
-      this.ws = new WebSocket(`${import.meta.env.VITE_PROTOCOL}://${address}:${port + 100}`);
+      this.ws = new WebSocket(`${import.meta.env.VITE_PROTOCOL}://${import.meta.env.VITE_GAME_SERVER}`);
       this.ws.onmessage = this.onMessage.bind(this);
       this.ws.onopen = this.onConnected.bind(this);
       this.ws.onclose = this.onDisconnected.bind(this);

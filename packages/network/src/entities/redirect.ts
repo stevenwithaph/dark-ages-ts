@@ -5,7 +5,8 @@ export class Redirect implements Serializable {
     public seed: number,
     public key: string,
     public keySalts: string,
-    public id: number
+    public id: number,
+    public subject: string
   ) {}
 
   serialize(writer: BinaryWriter): void {

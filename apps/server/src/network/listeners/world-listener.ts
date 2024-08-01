@@ -4,12 +4,13 @@ import { PacketHandler } from '../packet-handler';
 import { Listener } from './listener';
 import { playerCache } from '../../services/player-cache';
 
-export class WorldServer extends Listener {
+export class WordListener extends Listener {
   constructor() {
-    super(Number(process.env.WORLD_PORT));
+    super();
   }
 
-  async onRedirect(client: Client, packet: ClientPackets.ClientRedirectedPacket) {
+  async clientRedirected(client: Client, packet: ClientPackets.ClientRedirectedPacket) {
+    super.clientRedirected(client, packet);
     playerCache.connect(client, packet.redirect.keySalts);
   }
 

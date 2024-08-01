@@ -11,8 +11,8 @@ class RedirectManager {
     this.#cache.on('removed', this.onCacheRemoved, this);
   }
 
-  add(seed: number, key: string, keySalts: string) {
-    const redirect = new Redirect(seed, key, keySalts, this.#uniqueId.next());
+  add(seed: number, key: string, keySalts: string, subject: string) {
+    const redirect = new Redirect(seed, key, keySalts, this.#uniqueId.next(), subject);
 
     this.#cache.add(redirect.id, redirect);
 

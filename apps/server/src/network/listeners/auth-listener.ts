@@ -7,17 +7,19 @@ import { Listener } from './listener';
 import { AuthError, authService } from '../../services/auth-service';
 
 export class AuthListener extends Listener {
-  motd: string;
+  motd: string = '';
 
   constructor() {
-    super(Number(process.env.AUTH_PORT));
+    super();
 
     fs.readFile('./data/motd.txt', (err, data) => {
       this.motd = data.toString();
     });
   }
 
-  onRedirect(client: Client): void {
+  clientRedirected(client: Client, packet: ClientPackets.ClientRedirectedPacket): void {
+    super.clientRedirected(client, packet);
+
     //  TODO: CRC Should be sent properly
     client.sendPacket(new ServerPackets.LoginNoticePacket(true, this.motd, 12));
   }
@@ -29,7 +31,7 @@ export class AuthListener extends Listener {
       client.keySalts = packet.username;
       client.sendPacket(new ServerPackets.LoginMessagePacket(LoginMessageType.Confirm, 'Success!'));
 
-      this.redirect(client, process.env.SERVER_ENDPOINT!, Number(process.env.WORLD_PORT));
+      this.redirect(client, process.env.SERVER_ENDPOINT!, Number(process.env.WORLD_PORT), 'game');
     } catch (error) {
       this.handleAuthError(client, error);
     }
