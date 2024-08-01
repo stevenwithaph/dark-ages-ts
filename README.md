@@ -1,5 +1,7 @@
 # Medenia
 
+[Play Here](https://stevenwithaph.github.io/medenia/)
+
 A [Dark Ages](https://www.darkages.com/index.html) private client / server written with [Phaser](https://github.com/phaserjs/phaser) and [Svelte](https://github.com/sveltejs/svelte)
 
 ![screenshot](apps/client/public/preview.png)
@@ -12,13 +14,7 @@ Clone this repo and install dependancies using npm:
 npm install
 ```
 
-Download the [Asset Pack](https://drive.google.com/file/d/1ue5v4nGq8I4JKFbq-Ns3dRXlnDWQkp8Y) and extract under:
-
-```sh
-apps/client/public
-```
-
-Copy .env.example to .env
+Clone both /apps/client/.env.example and /apps/server/.env.example to .env
 
 Run from root:
 
