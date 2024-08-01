@@ -170,6 +170,17 @@ export class MapScene extends NetworkedScene {
     }
   }
 
+  @PacketHandler(ServerPackets.ChatMessagePacket)
+  onChatMessage(packet: ServerPackets.ChatMessagePacket) {
+    const actor = this.actors.get(packet.entityId);
+
+    if (!actor) {
+      return;
+    }
+
+    actor.say(packet.message);
+  }
+
   update(): void {
     const player = this.actors.get(this.playerController.actorId);
     if (player) {

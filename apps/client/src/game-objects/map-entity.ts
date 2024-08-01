@@ -2,6 +2,7 @@ import { GameObjects } from 'phaser';
 import { IsoMap } from './iso-map';
 import { DisplayEntity } from './display-entity';
 import { directionToVector } from '../direction';
+import { ChatBubble } from './chat-bubble';
 
 const DEFAULT_MOVE_DURATION = 415;
 
@@ -41,6 +42,7 @@ export class MapEntity extends GameObjects.GameObject {
   protected _map: IsoMap;
 
   protected tween: Phaser.Tweens.Tween;
+  protected bubble?: ChatBubble;
 
   constructor(
     scene: Phaser.Scene,
@@ -92,6 +94,18 @@ export class MapEntity extends GameObjects.GameObject {
     this.container.setDepth(newPosition.y);
 
     this.updateTilePosition(this.tileX + vector.x, this.tileY + vector.y);
+  }
+
+  say(message: string) {
+    if (!this.bubble) {
+      this.bubble = new ChatBubble(this.scene, () => {
+        this.bubble?.destroy();
+        this.bubble = undefined;
+      });
+      this.container.add(this.bubble);
+    }
+
+    this.bubble.setText(message);
   }
 
   setToTilePosition(tileX: number, tileY: number) {

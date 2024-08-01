@@ -6,10 +6,14 @@ import { ClientPackets } from '@medenia/network';
 
 //
 export class PlayerController extends GameObjects.GameObject {
+  get entity() {
+    return this.#entity;
+  }
+
   private currentPath: { x: number; y: number }[] = [];
   private currentPathIndex: number = -1;
 
-  private entity?: MapEntity;
+  #entity?: MapEntity;
 
   public actorId: number = 0;
 
@@ -23,15 +27,10 @@ export class PlayerController extends GameObjects.GameObject {
   }
 
   async onMapClick(pointer: Input.Pointer) {
-    if (!this.entity) return;
+    if (!this.#entity) return;
 
-    const tile = this.entity.map.worldToTileXY(pointer.worldX, pointer.worldY)!;
-    const path = await this.entity.map.findPath(
-      this.entity.tileX,
-      this.entity.tileY,
-      tile.x,
-      tile.y
-    );
+    const tile = this.#entity.map.worldToTileXY(pointer.worldX, pointer.worldY)!;
+    const path = await this.#entity.map.findPath(this.#entity.tileX, this.#entity.tileY, tile.x, tile.y);
 
     if (path.length === 0) return;
 
@@ -46,15 +45,15 @@ export class PlayerController extends GameObjects.GameObject {
   }
 
   possses(entity: MapEntity) {
-    this.entity = entity;
+    this.#entity = entity;
   }
 
   unposses() {
-    this.entity = undefined;
+    this.#entity = undefined;
   }
 
   private moveToNextPath() {
-    if (!this.entity) return;
+    if (!this.#entity) return;
 
     if (this.currentPathIndex === this.currentPath.length) {
       this.clearPath();
@@ -63,16 +62,13 @@ export class PlayerController extends GameObjects.GameObject {
 
     const nextPosition = this.currentPath[this.currentPathIndex];
 
-    const direction = xyToDirection(
-      nextPosition.x - this.entity.tileX,
-      nextPosition.y - this.entity.tileY
-    );
+    const direction = xyToDirection(nextPosition.x - this.#entity.tileX, nextPosition.y - this.#entity.tileY);
 
     this.client.send(new ClientPackets.ClientWalkPacket(direction, 0));
 
-    this.entity.moveInDirection(direction);
+    this.#entity.moveInDirection(direction);
 
-    this.entity.once(MapEntityEvents.MOVE_COMPLETE, this.moveToNextPath, this);
+    this.#entity.once(MapEntityEvents.MOVE_COMPLETE, this.moveToNextPath, this);
 
     this.currentPathIndex++;
   }

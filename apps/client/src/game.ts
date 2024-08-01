@@ -29,7 +29,12 @@ const game = new Phaser.Game({
     //@ts-ignore
     Dye: DyePipeline,
   },
+  dom: {
+    pointerEvents: 'none',
+  },
 });
+
+game.domContainer = document.getElementById('dom-container') as HTMLDivElement;
 
 game.scene.add('aisling', {}, true);
 

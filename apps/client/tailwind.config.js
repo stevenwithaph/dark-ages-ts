@@ -2,7 +2,7 @@ const colors = require('tailwindcss/colors');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html', './src/ui/**/*.svelte'],
+  content: ['./index.html', './src/**/*.{ts,svelte}'],
   theme: {
     extend: {},
     colors: {
