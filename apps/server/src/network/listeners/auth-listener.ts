@@ -45,7 +45,9 @@ export class AuthListener extends Listener {
 
       const finalize = await client.await(ClientPackets.CharacterCreationFinalizePacket);
 
-      await authService.finalize(aisling.id, finalize.hairStyle, finalize.hairColour, finalize.bodyType);
+      console.log(aisling);
+
+      await authService.finalize(aisling.id, finalize.hairStyle, finalize.hairColour, finalize.skinColour, finalize.bodyType);
 
       client.sendPacket(new ServerPackets.LoginMessagePacket(LoginMessageType.Confirm, 'Success!'));
     } catch (error) {

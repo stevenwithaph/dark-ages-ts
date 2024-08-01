@@ -10,9 +10,10 @@
     helmetId: number;
     helmetDye: number;
     gender: PaperDollGender;
+    skin: number;
   }
 
-  const { helmetId, helmetDye, gender }: Props = $props();
+  const { helmetId, helmetDye, gender, skin }: Props = $props();
 
   $effect(() => {
     const scene = game.scene.getScene('aisling');
@@ -26,6 +27,7 @@
     aisling.pieces.boots.setDye(85);
     aisling.pieces.helmet.setItemId(helmetId);
     aisling.pieces.helmet.setDye(helmetDye+78);
+    aisling.pieces.body.setDye(63+skin);
 
     aisling.on(PaperDollContainerEvents.PieceLoaded, onPieceLoaded);
 
@@ -57,6 +59,11 @@
 
   $effect(() => {
     aisling.pieces.helmet.setDye(helmetDye+78);
+    drawAisling();
+  });
+
+  $effect(() => {
+    aisling.pieces.body.setDye(skin+63);
     drawAisling();
   });
 

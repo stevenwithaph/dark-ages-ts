@@ -21,6 +21,9 @@ export class AislingEntity extends BaseEntity {
   hairColour: number = 1;
 
   @Column()
+  skinColour: number = 0;
+
+  @Column()
   mapId: number = 0;
 
   @Column()

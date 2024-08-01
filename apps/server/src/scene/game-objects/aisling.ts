@@ -35,7 +35,7 @@ export class Aisling extends MapEntity {
       restPosition: 0,
       overcoat: 0,
       overcoatColour: 0,
-      bodyColour: 0,
+      bodyColour: entity.skinColour,
       isTransparent: false,
       faceShape: 0,
     };

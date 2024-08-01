@@ -43,12 +43,12 @@ class AuthService {
     aisling.username = username;
     aisling.password = await hash(password);
 
-    aisling.save();
+    await aisling.save();
 
     return aisling;
   }
 
-  async finalize(id: number, hairStyle: number, hairColour: number, bodyType: number) {
+  async finalize(id: number, hairStyle: number, hairColour: number, skinColour: number, bodyType: number) {
     //TODO: validate appearances
     if (bodyType !== 1 && bodyType !== 2) {
       throw new AuthError('Invalid Appearance.', LoginMessageType.IncorrectPassword);
@@ -61,6 +61,7 @@ class AuthService {
       {
         hairColour,
         hairStyle,
+        skinColour,
         bodyType,
       }
     );

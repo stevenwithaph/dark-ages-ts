@@ -116,6 +116,8 @@ export class MapScene extends NetworkedScene {
     aisling.pieces.boots.setItemId(packet.info.boots);
     aisling.pieces.boots.setDye(79 + packet.info.bootsColour);
 
+    aisling.pieces.body.setDye(63 + packet.info.bodyColour);
+
     //  TODO: there has to be a better way
     if ((packet.info.bodyShape & BodyFlags.FemaleBody) === BodyFlags.FemaleBody) {
       if (packet.info.bodyShape === BodyFlags.FemaleBody) {

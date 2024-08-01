@@ -11,8 +11,11 @@
   let password:string = '';
   let confirm:string = '';
 
+  let skinColours = [0,1,2,4,5];
+
   let hairStyle: number = 1;
   let hairColour: number = 0;
+  let skin: number = 0;
   let gender: PaperDollGender = PaperDollGender.Male;
 
   let submitting: boolean = false;
@@ -42,7 +45,7 @@
   }
 
   async function confirmCharacter() {
-    const message = await clientManager.main.sendWithAck(new ClientPackets.CharacterCreationFinalizePacket(hairStyle, hairColour, gender === 'm' ? 1 : 2), ServerPackets.LoginMessagePacket);
+    const message = await clientManager.main.sendWithAck(new ClientPackets.CharacterCreationFinalizePacket(hairStyle, hairColour, skin, gender === 'm' ? 1 : 2), ServerPackets.LoginMessagePacket);
     
     switch(message.type) {
       case LoginMessageType.Confirm:
@@ -103,10 +106,15 @@
             <option class='bg-primary-700' value={index}>Hair Colour {index+1}</option>
           {/each}
         </select>
+        <select class='bg-primary-900 p-1 rounded' bind:value={skin}>
+          {#each skinColours as colour, index (colour)}
+            <option class='bg-primary-700' value={colour}>Skin Colour {index+1}</option>
+          {/each}
+        </select>
       </div>
 
       <div class='w-fit m-auto'>
-        <Aisling helmetId={hairStyle} helmetDye={hairColour+1} gender={gender} />
+        <Aisling helmetId={hairStyle} helmetDye={hairColour+1} gender={gender} skin={skin} />
       </div>
 
       <div class='flex justify-end gap-x-4 flex-row'>
