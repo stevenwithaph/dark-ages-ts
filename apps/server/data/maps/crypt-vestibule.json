@@ -1,0 +1,28 @@
+{
+  "name": "Crypt Vestibule",
+  "width": 16,
+  "height": 16,
+  "id": 425,
+  "music": 8,
+  "transfers": [
+    {
+      "startX": 8,
+      "startY": 6,
+      "endX": 9,
+      "endY": 7,
+      "zone": "crypt-1-1",
+      "zoneX": 12,
+      "zoneY": 48,
+      "direction": 0
+    },
+    {
+      "startX": 6,
+      "startY": 15,
+      "endX": 9,
+      "endY": 15,
+      "zone": "mileth",
+      "zoneX": 92,
+      "zoneY": 54
+    }
+  ]
+}

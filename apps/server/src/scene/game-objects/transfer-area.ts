@@ -1,12 +1,13 @@
 import { Rectangle } from '../../collision/geometry/rectangle';
-import { Shape } from '../../collision/geometry/shape';
 import { mapManager } from '../../maps/map-manager';
 import { EntityTypes } from '../entity-types';
-import { CollisionObject, CollisionObjectEvents } from '../physics/collision-object';
+import { ColliderNode, ColliderNodeEvents } from '../physics/collider-node';
 import { Player } from './player';
 
-export class TransferArea extends CollisionObject {
+export class TransferArea extends ColliderNode {
   constructor(
+    x: number,
+    y: number,
     width: number,
     height: number,
     private zone: string,
@@ -14,13 +15,13 @@ export class TransferArea extends CollisionObject {
     private zoneY: number,
     private direction?: number
   ) {
-    super(new Rectangle(0, 0, width, height));
+    super(x, y, new Rectangle(width, height));
 
     this.layer = EntityTypes.AISLING_AREA;
     this.mask = EntityTypes.AISLING;
 
-    this.on(CollisionObjectEvents.CollisionEnter, this.onEntityEnter, this);
-    this.on(CollisionObjectEvents.CollisionExit, this.onEntityExit, this);
+    this.on(ColliderNodeEvents.CollisionEnter, this.onEntityEnter, this);
+    this.on(ColliderNodeEvents.CollisionExit, this.onEntityExit, this);
   }
 
   onEntityEnter(player: Player) {

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "bun --watch ./src/index.ts",
+    "dev": "bun --inspect=4000  --watch ./src/index.ts",
     "dist": "bun ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

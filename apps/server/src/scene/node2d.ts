@@ -24,6 +24,13 @@ export class Node2D extends Node {
     this.setPosition(this.x, value);
   }
 
+  constructor(x: number, y: number) {
+    super();
+
+    this._position[0] = x;
+    this._position[1] = y;
+  }
+
   setPosition(x: number, y?: number) {
     this.notify(Notifications.PreTransformChanged);
 

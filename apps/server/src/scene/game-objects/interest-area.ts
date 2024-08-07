@@ -1,10 +1,11 @@
 import { Circle } from '../../collision/geometry/circle';
+import { Rectangle } from '../../collision/geometry/rectangle';
 import { EntityTypes } from '../entity-types';
-import { CollisionObject } from '../physics/collision-object';
+import { ColliderNode } from '../physics/collider-node';
 
-export class InterestArea extends CollisionObject {
+export class InterestArea extends ColliderNode {
   constructor() {
-    super(new Circle(0, 0, 12));
+    super(0, 0, new Rectangle(8, 8));
 
     this.nodeName = 'Interest Area';
 

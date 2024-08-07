@@ -3,7 +3,7 @@ import { ServerPackets } from '@medenia/network';
 import { AislingEntity } from '../../db/entities/aisling.entity';
 import { Client } from '../../network/client';
 import { Peer } from '../network/peer';
-import { CollisionObjectEvents } from '../physics/collision-object';
+import { ColliderNodeEvents } from '../physics/collider-node';
 import { Aisling } from './aisling';
 import { MapEntity } from './map-entity';
 import { EntityTypes } from '../entity-types';
@@ -57,8 +57,8 @@ export class Player extends Aisling {
     return this._equipment;
   }
 
-  constructor(client: Client, aisling: AislingEntity) {
-    super(aisling);
+  constructor(x: number, y: number, client: Client, aisling: AislingEntity) {
+    super(x, y, aisling);
 
     this.nodeName = client.id;
 
@@ -89,8 +89,8 @@ export class Player extends Aisling {
   createInterestArea() {
     this._interestArea = new InterestArea();
 
-    this._interestArea.on(CollisionObjectEvents.CollisionEnter, this.onInterestEnter, this);
-    this._interestArea.on(CollisionObjectEvents.CollisionExit, this.onInterestExit, this);
+    this._interestArea.on(ColliderNodeEvents.CollisionEnter, this.onInterestEnter, this);
+    this._interestArea.on(ColliderNodeEvents.CollisionExit, this.onInterestExit, this);
 
     this.addChild(this._interestArea);
   }

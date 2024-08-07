@@ -1,8 +1,8 @@
-export interface Transfers {
-  x: number;
-  y: number;
-  width: number;
-  height: number;
+export interface Transfer {
+  startX: number;
+  startY: number;
+  endX?: number;
+  endY?: number;
   zone: string;
   zoneX: number;
   zoneY: number;
@@ -15,5 +15,5 @@ export interface MapInfo {
   id: number;
   music: number;
   name: string;
-  transfers: Transfers[];
+  transfers: Transfer[];
 }

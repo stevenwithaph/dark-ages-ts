@@ -30,9 +30,25 @@ export class MapRoom extends Room {
     this.scene = new SceneTree(resource.info.width, resource.info.height);
     this.id = new UniqueId();
 
-    for (const transfer of resource.info.transfers) {
-      const area = new TransferArea(transfer.width, transfer.height, transfer.zone, transfer.zoneX, transfer.zoneY, transfer.direction);
-      area.setPosition(transfer.x, transfer.y);
+    this.createTransfers();
+  }
+
+  createTransfers() {
+    for (const transfer of this.resource.info.transfers) {
+      let width = (transfer.endX ?? transfer.startX) - transfer.startX;
+      let height = (transfer.endY ?? transfer.startY) - transfer.startY;
+
+      const area = new TransferArea(
+        transfer.startX + width / 2,
+        transfer.startY + height / 2,
+        width + 1,
+        height + 1,
+        transfer.zone,
+        transfer.zoneX,
+        transfer.zoneY,
+        transfer.direction
+      );
+      area.nodeName = transfer.zone;
       this.scene.addChild(area);
     }
   }

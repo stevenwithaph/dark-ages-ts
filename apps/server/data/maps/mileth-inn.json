@@ -3,13 +3,13 @@
   "width": 12,
   "height": 12,
   "id": 136,
-  "music": 3,
+  "music": 2,
   "transfers": [
     {
-      "x": 4.5,
-      "y": 11,
-      "width": 2,
-      "height": 1,
+      "startX": 6,
+      "startY": 11,
+      "endX": 7,
+      "endY": 11,
       "zone": "mileth",
       "zoneX": 27,
       "zoneY": 44

@@ -3,6 +3,7 @@ import { MapEntity, MapEntityEvents } from '../game-objects/map-entity';
 import { Client } from '../network/client';
 import { xyToDirection } from '../direction';
 import { ClientPackets } from '@medenia/network';
+import { CompassStore } from '../ui/stores/compass.svelte';
 
 //
 export class PlayerController extends GameObjects.GameObject {
@@ -69,6 +70,9 @@ export class PlayerController extends GameObjects.GameObject {
     }
 
     const nextPosition = this.currentPath[this.currentPathIndex];
+
+    CompassStore.x = nextPosition.x;
+    CompassStore.y = nextPosition.y;
 
     const direction = xyToDirection(nextPosition.x - this.#entity.tileX, nextPosition.y - this.#entity.tileY);
 

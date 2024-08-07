@@ -1,0 +1,19 @@
+{
+  "name": "Crypt 1-1",
+  "width": 50,
+  "height": 50,
+  "id": 1,
+  "music": 8,
+  "transfers": [
+    {
+      "startX": 12,
+      "startY": 49,
+      "endX": 18,
+      "endY": 49,
+      "zone": "crypt-vestibule",
+      "zoneX": 7,
+      "zoneY": 6,
+      "direction": 3
+    }
+  ]
+}

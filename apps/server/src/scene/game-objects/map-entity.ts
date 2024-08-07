@@ -1,10 +1,10 @@
 import { ChatMessageType, ServerPackets } from '@medenia/network';
 import { Identity, IdentityEvents } from '../network/identity';
 import { Peer } from '../network/peer';
-import { CollisionObject } from '../physics/collision-object';
+import { ColliderNode } from '../physics/collider-node';
 import { Point } from '../../collision/geometry/point';
 
-export abstract class MapEntity extends CollisionObject {
+export abstract class MapEntity extends ColliderNode {
   private _identity: Identity;
   private _direction: number = 0;
   private _observers: Set<Peer> = new Set();
@@ -23,8 +23,8 @@ export abstract class MapEntity extends CollisionObject {
     return this._direction;
   }
 
-  constructor(name: string) {
-    super(new Point(0, 0));
+  constructor(x: number, y: number, name: string) {
+    super(x, y, new Point());
 
     this._name = name;
 

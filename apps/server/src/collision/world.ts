@@ -1,31 +1,23 @@
+import { ColliderNodeEvents } from '../scene/physics/collider-node';
+import { Collider } from './collider';
+import { CollisionSolver } from './collision-solver';
 import { BBox } from './geometry/bbox';
 import { Shape } from './geometry/shape';
 
 const DEFAULT_GRID_SIZE = 25;
 
-export interface CellData<T> {
-  data: {
-    cells: CellNode<T>[][];
-    queryId: number;
-    bounds: BBox;
-  };
-  shape: Shape;
-  layer: number;
-  mask: number;
+export interface CellNode {
+  next: CellNode | null;
+  prev: CellNode | null;
+  collider: Collider;
 }
 
-export interface CellNode<T> {
-  next: CellNode<T> | null;
-  prev: CellNode<T> | null;
-  entity: T;
+export interface Cell {
+  head: CellNode | null;
 }
 
-export interface Cell<T> {
-  head: CellNode<T> | null;
-}
-
-export class SpatialHashGrid<T extends CellData<T>> {
-  private cells: Cell<T>[][] = [];
+export class World {
+  private cells: Cell[][] = [];
 
   private cols: number;
   private rows: number;
@@ -33,8 +25,8 @@ export class SpatialHashGrid<T extends CellData<T>> {
   private queryId: number = 0;
 
   constructor(
-    private width: number,
-    private height: number,
+    width: number,
+    height: number,
     private size: number = DEFAULT_GRID_SIZE
   ) {
     this.rows = Math.max(1, Math.ceil(width / size));
@@ -50,21 +42,21 @@ export class SpatialHashGrid<T extends CellData<T>> {
     }
   }
 
-  insert(client: T) {
-    const bbox = client.shape.bbox;
-    client.data.bounds = this.getCellBounds(bbox);
+  insert(collider: Collider) {
+    const bbox = collider.bbox;
+    collider.data.bounds = this.getCellBounds(bbox);
 
-    for (let y = client.data.bounds.minY; y <= client.data.bounds.maxY; y++) {
-      client.data.cells.push([]);
-      for (let x = client.data.bounds.minX; x <= client.data.bounds.maxX; x++) {
+    for (let y = collider.data.bounds.minY; y <= collider.data.bounds.maxY; y++) {
+      collider.data.cells.push([]);
+      for (let x = collider.data.bounds.minX; x <= collider.data.bounds.maxX; x++) {
         const node = this.cells[y][x];
 
-        const yi = y - client.data.bounds.minY;
+        const yi = y - collider.data.bounds.minY;
 
-        const head: CellNode<T> = {
+        const head: CellNode = {
           next: null,
           prev: null,
-          entity: client,
+          collider: collider,
         };
 
         head.next = node.head;
@@ -74,31 +66,35 @@ export class SpatialHashGrid<T extends CellData<T>> {
 
         node.head = head;
 
-        client.data.cells[yi].push(head);
+        collider.data.cells[yi].push(head);
       }
     }
   }
 
-  query(shape: Shape, mask: number) {
-    const bbox = shape.bbox;
-    const { minX, minY, maxX, maxY } = this.getCellBounds(bbox);
-    const currentQueryId = ++this.queryId;
+  intersects(collider: Collider) {
+    const colliders = this.query(collider.x, collider.y, collider.shape, collider.mask);
 
-    const clients: Set<T> = new Set();
+    return colliders;
+  }
+
+  query(queryX: number, queryY: number, shape: Shape, mask: number) {
+    const { minX, minY, maxX, maxY } = this.getCellBounds({ minX: queryX, minY: queryY, maxX: queryX + shape.width, maxY: queryY + shape.height });
+    const colliders: Set<Collider> = new Set();
+    const currentQueryId = ++this.queryId;
     for (let y = minY; y <= maxY; y++) {
       for (let x = minX; x <= maxX; x++) {
         const cell = this.cells[y][x];
         let currentNode = cell.head;
         while (currentNode) {
-          if (currentNode.entity.data.queryId !== currentQueryId) {
-            currentNode.entity.data.queryId = currentQueryId;
-
+          const { collider } = currentNode;
+          if (collider.data.queryId !== currentQueryId) {
+            collider.data.queryId = currentQueryId;
             if (
-              shape !== currentNode.entity.shape &&
-              (mask & currentNode.entity.layer) === currentNode.entity.layer &&
-              currentNode.entity.shape.intersects(shape)
+              collider.shape !== shape &&
+              (mask & collider.layer) === collider.layer &&
+              CollisionSolver.solve(queryX, queryY, shape, collider.x, collider.y, collider.shape)
             ) {
-              clients.add(currentNode.entity);
+              colliders.add(currentNode.collider);
             }
           }
 
@@ -107,19 +103,18 @@ export class SpatialHashGrid<T extends CellData<T>> {
       }
     }
 
-    return clients;
+    return colliders;
   }
 
-  queryPoint(x: number, y: number, mask: number) {
+  contains(x: number, y: number, mask: number) {
     const pos = this.getCellIndex(x, y);
-    const entities: T[] = [];
+    const entities: Collider[] = [];
     const cell = this.cells[pos.y][pos.x];
     let currentNode = cell.head;
     while (currentNode) {
-      if (currentNode.entity.layer & mask) {
-        if (currentNode.entity.shape.contains(x, y)) {
-          entities.push(currentNode.entity);
-        }
+      const { collider } = currentNode;
+      if ((mask & collider.layer) === collider.layer && CollisionSolver.contains(x, y, collider.x, collider.y, collider.shape)) {
+        entities.push(collider);
       }
 
       currentNode = currentNode.next;
@@ -128,15 +123,15 @@ export class SpatialHashGrid<T extends CellData<T>> {
     return entities;
   }
 
-  remove(entity: T) {
-    const { minX, minY, maxX, maxY } = entity.data.bounds;
+  remove(collider: Collider) {
+    const { minX, minY, maxX, maxY } = collider.data.bounds;
 
     for (let y = minY; y <= maxY; y++) {
       for (let x = minX; x <= maxX; x++) {
         const xi = x - minX;
         const yi = y - minY;
 
-        const node = entity.data.cells[yi][xi];
+        const node = collider.data.cells[yi][xi];
 
         if (node.next) {
           node.next.prev = node.prev;
@@ -151,21 +146,21 @@ export class SpatialHashGrid<T extends CellData<T>> {
       }
     }
 
-    entity.data.queryId = 0;
-    entity.data.cells = [];
+    collider.data.queryId = 0;
+    collider.data.cells = [];
   }
 
-  update(entity: T) {
-    const bbox = entity.shape.bbox;
+  update(collider: Collider) {
+    const bbox = collider.bbox;
 
     const { minX, minY, maxX, maxY } = this.getCellBounds(bbox);
 
-    if (entity.data.bounds.minX === minX && entity.data.bounds.maxX === maxX && entity.data.bounds.minY === minY && entity.data.bounds.maxY === maxY) {
+    if (collider.data.bounds.minX === minX && collider.data.bounds.maxX === maxX && collider.data.bounds.minY === minY && collider.data.bounds.maxY === maxY) {
       return;
     }
 
-    this.remove(entity);
-    this.insert(entity);
+    this.remove(collider);
+    this.insert(collider);
   }
 
   private getCellIndex(x: number, y: number) {

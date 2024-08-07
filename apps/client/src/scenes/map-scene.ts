@@ -8,6 +8,7 @@ import { MapEntity } from '../game-objects/map-entity';
 import { PaperDollContainer, PaperDollGender } from '../game-objects/paper-doll/paper-doll-container';
 import { Actor } from '../game-objects/actor';
 import { RouterStore } from '../ui/stores/router.svelte';
+import { CompassStore } from '../ui/stores/compass.svelte';
 
 enum BodyFlags {
   MaleBody = 16,
@@ -62,6 +63,8 @@ export class MapScene extends NetworkedScene {
     this.mapData = new Uint16Array(packet.width * packet.height * 3);
     this.map.setMapInfo(packet.areaId, packet.width, packet.height);
 
+    CompassStore.name = packet.name;
+
     for (const [_, entity] of this.entities) {
       entity.destroy(true);
     }
@@ -96,6 +99,9 @@ export class MapScene extends NetworkedScene {
   onLocation(packet: ServerPackets.LocationPacket) {
     const position = this.map.tileToWorldXY(packet.x, packet.y);
     this.cameras.main.centerOn(position.x, position.y);
+
+    CompassStore.x = packet.x;
+    CompassStore.y = packet.y;
 
     const player = this.entities.get(this.playerController.actorId);
     if (player) {

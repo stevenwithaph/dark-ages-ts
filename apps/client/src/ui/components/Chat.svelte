@@ -7,6 +7,7 @@
   let container: HTMLElement;
 
   let messages = $state<string[]>([]);
+  let hasFocus = $state(false);
 
   function handleKeyPress(e: KeyboardEvent) {
     switch(e.key) {
@@ -31,10 +32,12 @@
 
   //TODO: move this to something common
   function handleFocus() {
+    hasFocus = true;
     document.addEventListener('click', handleClick);
   }
 
   function handleBlur() {
+    hasFocus = false;
     document.removeEventListener('click', handleClick);
   }
 
@@ -71,7 +74,11 @@
 
 
 <div class='group has-[:focus]:bg-primary-900/60 absolute left-0 bottom-0 w-96 p-2 rounded space-y-2'>
-  <div bind:this={container} class='group-has-[:focus]:bg-primary-900 h-48 px-1 rounded flex-1 pointer-events-auto overflow-y-hidden'>
+  <div 
+    bind:this={container} 
+    class:pointer-events-auto={hasFocus}
+    class='group-has-[:focus]:bg-primary-900 h-48 px-1 rounded flex-1 overflow-y-hidden'
+  >
     {#each messages as message}
       <p class='select-none'>{message}</p>
     {/each}

@@ -4,8 +4,8 @@ import { MapEntity } from './map-entity';
 import { EntityTypes } from '../entity-types';
 
 export class Monster extends MapEntity {
-  constructor() {
-    super('monster');
+  constructor(x: number, y: number) {
+    super(x, y, 'monster');
 
     this.layer = EntityTypes.MONSTER;
     this.mask = EntityTypes.AREA;

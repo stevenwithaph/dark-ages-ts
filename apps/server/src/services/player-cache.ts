@@ -15,7 +15,7 @@ class PlayerCache {
       return;
     }
 
-    const player = new Player(client, aisling);
+    const player = new Player(0, 0, client, aisling);
 
     player.inventory.insert(1, {});
     player.spells.insert(1, {});
@@ -62,7 +62,7 @@ class PlayerCache {
     player.peer.client.sendPacket(attributes);
 
     this.add(client.id, player);
-    mapManager.transfer('mileth-inn', player, 6, 6, 2);
+    mapManager.transfer('mileth', player, 94, 55, 2);
 
     return aisling;
   }

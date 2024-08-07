@@ -1,7 +1,7 @@
 import { Node } from './node';
 import { Notifications } from './notifications';
-import { SpatialHashGrid } from '../collision/spatial-hash-grid';
-import { CollisionObject } from './physics/collision-object';
+import { World } from '../collision/world';
+import { ColliderNode } from './physics/collider-node';
 
 /**
  * Heavily inspired by godot's scene tree.
@@ -9,10 +9,10 @@ import { CollisionObject } from './physics/collision-object';
  */
 
 export class SceneTree extends Node {
-  private _grid: SpatialHashGrid<CollisionObject>;
+  private _world: World;
 
-  get grid() {
-    return this._grid;
+  get world() {
+    return this._world;
   }
 
   constructor(width: number, height: number) {
@@ -20,6 +20,6 @@ export class SceneTree extends Node {
 
     this.tree = this;
 
-    this._grid = new SpatialHashGrid(width, height);
+    this._world = new World(width, height);
   }
 }

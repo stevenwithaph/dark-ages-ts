@@ -12,8 +12,8 @@ import { AislingEntity } from '../../db/entities/aisling.entity';
 export class Aisling extends MapEntity {
   protected display: AislingDisplay;
 
-  constructor(entity: AislingEntity) {
-    super(entity.username);
+  constructor(x: number, y: number, entity: AislingEntity) {
+    super(x, y, entity.username);
 
     this.display = {
       helmet: entity.hairStyle,
