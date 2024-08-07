@@ -1,7 +1,8 @@
 import { Packet } from '@medenia/network';
 import { Client } from '../../network/client';
+import { Node } from '../node';
 
-export class Peer {
+export class Peer extends Node {
   private _id: number = 0;
   private _client: Client;
 
@@ -18,6 +19,7 @@ export class Peer {
   }
 
   constructor(client: Client) {
+    super();
     this._client = client;
   }
 

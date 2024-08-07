@@ -7,6 +7,10 @@ export class Astar {
 
   public static Sotp: Uint8Array;
 
+  constructor() {
+    this.easystar.setAcceptableTiles(0);
+  }
+
   create(mapData: Uint16Array, width: number, height: number) {
     const grid: number[][] = [];
 
@@ -21,10 +25,7 @@ export class Astar {
         const leftWallId = mapData[idx + 1];
         const rightWallId = mapData[idx + 2];
 
-        if (
-          Astar.Sotp[leftWallId - 1] === 0x0f ||
-          Astar.Sotp[rightWallId - 1] === 0x0f
-        ) {
+        if (Astar.Sotp[leftWallId - 1] === 0x0f || Astar.Sotp[rightWallId - 1] === 0x0f) {
           grid[i].push(1);
         } else {
           grid[i].push(0);
@@ -33,7 +34,6 @@ export class Astar {
     }
 
     this.easystar.setGrid(grid);
-    this.easystar.setAcceptableTiles(0);
   }
 
   async findPath(startX: number, startY: number, endX: number, endY: number) {
@@ -54,10 +54,10 @@ export class Astar {
   }
 
   avoidPoint(tileX: number, tileY: number) {
-    this.easystar.avoidAdditionalPoint(tileX, tileY);
+    //this.easystar.avoidAdditionalPoint(tileX, tileY);
   }
 
   stopAvoidingPoint(tileX: number, tileY: number) {
-    this.easystar.stopAvoidingAdditionalPoint(tileX, tileY);
+    //this.easystar.stopAvoidingAdditionalPoint(tileX, tileY);
   }
 }

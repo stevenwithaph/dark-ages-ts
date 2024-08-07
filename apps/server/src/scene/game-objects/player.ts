@@ -3,23 +3,26 @@ import { ServerPackets } from '@medenia/network';
 import { AislingEntity } from '../../db/entities/aisling.entity';
 import { Client } from '../../network/client';
 import { Peer } from '../network/peer';
-import { CollisionObject, CollisionObjectEvents } from '../physics/collision-object';
+import { CollisionObjectEvents } from '../physics/collision-object';
 import { Aisling } from './aisling';
 import { MapEntity } from './map-entity';
 import { EntityTypes } from '../entity-types';
-import { Circle } from '../../collision/geometry/circle';
 import { ObservableList } from '../../utils/observable-list';
+import { InterestArea } from './interest-area';
+import { MapRoom } from '../../maps/map-room';
 
 interface Item {}
 
 export class Player extends Aisling {
-  private _interestArea: CollisionObject;
+  private _interestArea: InterestArea;
   private _peer: Peer;
 
   private _inventory: ObservableList<Item>;
   private _spells: ObservableList<Item>;
   private _skills: ObservableList<Item>;
   private _equipment: ObservableList<Item>;
+
+  public map?: MapRoom;
 
   set networkId(value: number) {
     this.identity.networkId = value;
@@ -57,6 +60,8 @@ export class Player extends Aisling {
   constructor(client: Client, aisling: AislingEntity) {
     super(aisling);
 
+    this.nodeName = client.id;
+
     this.layer = EntityTypes.AISLING;
     this.mask = EntityTypes.AREA | EntityTypes.AISLING_AREA;
 
@@ -82,14 +87,10 @@ export class Player extends Aisling {
   }
 
   createInterestArea() {
-    this._interestArea = new CollisionObject(new Circle(0, 0, 12));
-    this._interestArea.nodeName = 'Interest Area';
+    this._interestArea = new InterestArea();
 
     this._interestArea.on(CollisionObjectEvents.CollisionEnter, this.onInterestEnter, this);
     this._interestArea.on(CollisionObjectEvents.CollisionExit, this.onInterestExit, this);
-
-    this._interestArea.layer = EntityTypes.AREA;
-    this._interestArea.mask = EntityTypes.AISLING | EntityTypes.MONSTER;
 
     this.addChild(this._interestArea);
   }
@@ -97,6 +98,8 @@ export class Player extends Aisling {
   createPeer(client: Client) {
     this._peer = new Peer(client);
     this._peer.id = this.identity.networkId;
+
+    this.addChild(this._peer);
   }
 
   onInterestEnter(entity: MapEntity) {

@@ -6,12 +6,16 @@ A [Dark Ages](https://www.darkages.com/index.html) private client / server writt
 
 ![screenshot](apps/client/public/preview.png)
 
+## Requirements
+
+bun@^1.1.17
+
 ## Running Locally
 
 Clone this repo and install dependancies using npm:
 
 ```sh
-npm install
+bun install
 ```
 
 Clone both /apps/client/.env.example and /apps/server/.env.example to .env
@@ -19,7 +23,7 @@ Clone both /apps/client/.env.example and /apps/server/.env.example to .env
 Run from root:
 
 ```sh
-npm run dev
+bun run dev
 ```
 
 This will start the client, the server and a file server for the assets.

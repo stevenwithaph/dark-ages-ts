@@ -1,3 +1,5 @@
+//TODO: this whole calss and the things surrounding it
+
 import { GameObjects } from 'phaser';
 import { IsoMap } from './iso-map';
 import { DisplayEntity } from './display-entity';
@@ -36,10 +38,10 @@ export class MapEntity extends GameObjects.GameObject {
   protected container: GameObjects.Container;
 
   public get map() {
-    return this._map;
+    return this.#map;
   }
 
-  protected _map: IsoMap;
+  #map: IsoMap;
 
   protected tween: Phaser.Tweens.Tween;
   protected bubble?: ChatBubble;
@@ -56,7 +58,7 @@ export class MapEntity extends GameObjects.GameObject {
     this.container = scene.add.container(0, 0);
     this.container.add(this.displayEntity);
 
-    this._map = map;
+    this.#map = map;
 
     this.setToTilePosition(tileX, tileY);
   }
@@ -78,7 +80,7 @@ export class MapEntity extends GameObjects.GameObject {
 
     const vector = directionToVector(direction);
 
-    const newPosition = this._map.tileToWorldXY(this.tileX + vector.x, this.tileY + vector.y);
+    const newPosition = this.#map.tileToWorldXY(this.tileX + vector.x, this.tileY + vector.y);
 
     this.tween = this.scene.tweens.add({
       targets: this,
@@ -109,7 +111,7 @@ export class MapEntity extends GameObjects.GameObject {
   }
 
   setToTilePosition(tileX: number, tileY: number) {
-    const newPosition = this._map.tileToWorldXY(tileX, tileY)!;
+    const newPosition = this.#map.tileToWorldXY(tileX, tileY)!;
 
     this.container.x = newPosition.x;
     this.container.y = newPosition.y;
@@ -120,12 +122,12 @@ export class MapEntity extends GameObjects.GameObject {
   }
 
   private updateTilePosition(tileX: number, tileY: number) {
-    this._map.stopAvoidingPoint(this.tileX, this.tileY);
+    this.#map.stopAvoidingPoint(this.tileX, this.tileY);
 
     this.tileX = tileX;
     this.tileY = tileY;
 
-    this._map.avoidPoint(this.tileX, this.tileY);
+    this.#map.avoidPoint(this.tileX, this.tileY);
   }
 
   destroy(fromScene?: boolean | undefined): void {

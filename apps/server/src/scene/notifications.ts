@@ -1,7 +1,11 @@
 export enum Notifications {
+  PreEnterTree,
   EnterTree,
+  PostEnterTree,
+  PreExitTree,
   ExitTree,
-  Ready,
-  Init,
+  PostExitTree,
+  PreTransformChanged,
   TransformChanged,
+  PostTransformChanged,
 }

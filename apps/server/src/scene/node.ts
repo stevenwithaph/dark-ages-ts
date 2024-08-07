@@ -1,6 +1,11 @@
 import EventEmitter from 'eventemitter3';
-import { Notifications } from './notifications';
 import { SceneTree } from './scene-tree';
+import { Notifications } from './notifications';
+
+export enum NodeEvents {
+  EntreTree = 'EntreTree',
+  ExitTree = 'ExitTree',
+}
 
 export class Node extends EventEmitter {
   parent?: Node;
@@ -19,48 +24,61 @@ export class Node extends EventEmitter {
 
   notify(notification: Notifications) {
     switch (notification) {
-      case Notifications.EnterTree:
-        this.enterTree();
-        this.notifyChildren(notification);
+      case Notifications.PreEnterTree:
+        for (const [_, child] of this._children) {
+          child.tree = this.tree;
+        }
         break;
-      case Notifications.ExitTree:
-        this.exitTree();
-        this.notifyChildren(notification);
+      case Notifications.PostExitTree:
+        for (const [_, child] of this._children) {
+          child.tree = undefined;
+        }
+
         break;
     }
-  }
 
-  enterTree() {
-    for (const [_, child] of this._children) {
-      child.tree = this.tree;
-    }
-  }
-
-  exitTree() {
-    for (const [_, child] of this._children) {
-      child.tree = undefined;
-    }
+    this.notifyChildren(notification);
   }
 
   addChild(node: Node) {
+    if (this._children.has(node.nodeName)) return;
+
     this._children.set(node.nodeName, node);
 
     node.parent = this;
+
+    if (!this.tree) return;
+
+    node.tree = this.tree;
+
+    node.notify(Notifications.PreEnterTree);
+    node.notify(Notifications.EnterTree);
+    node.notify(Notifications.PostEnterTree);
   }
 
   removeChild(node: Node) {
+    if (!this._children.has(node.nodeName)) return;
+
     this._children.delete(node.nodeName);
 
     node.parent = undefined;
+
+    if (!this.tree) return;
+
+    node.notify(Notifications.PreExitTree);
+    node.notify(Notifications.ExitTree);
+    node.notify(Notifications.PostExitTree);
+
+    node.tree = undefined;
   }
 
   getChild(name: string) {
     this._children.get(name);
   }
 
-  notifyChildren(notification: Notifications) {
-    for (const [_, value] of this._children) {
-      value.notify(notification);
+  private notifyChildren(notification: Notifications) {
+    for (const [_, child] of this._children) {
+      child.notify(notification);
     }
   }
 }

@@ -2,30 +2,34 @@ import { ServerPackets } from '@medenia/network';
 
 import { MapRoom } from './map-room';
 import { Client } from '../network/client';
+import { mapLoader } from './map-loader';
+import { Player } from '../scene/game-objects/player';
 
 class MapManager {
-  private maps: Map<number, MapRoom> = new Map();
+  private maps: Map<string, MapRoom> = new Map();
 
-  async get(id: number) {
-    let map = this.maps.get(id);
+  async get(name: string) {
+    let map = this.maps.get(name);
 
     if (!map) {
-      map = new MapRoom();
-      await map.loadMap(id);
-      this.maps.set(id, map);
+      const resource = await mapLoader.get(name);
+      map = new MapRoom(resource);
+      this.maps.set(name, map);
     }
 
     return map!;
   }
 
-  async transfer(id: number, client: Client, x: number, y: number, direction: number) {
+  async transfer(name: string, player: Player, x: number, y: number, direction: number) {
+    player.map?.removePlayer(player);
+
     //  TODO: we only need to send this packet if the map id is different.
-    client.sendPacket(new ServerPackets.MapChangePendingPacket());
+    player.peer.send(new ServerPackets.MapChangePendingPacket());
 
-    const map = await this.get(id);
-    map.addClient(client);
+    const map = await this.get(name);
+    map.addPlayer(player, x, y, direction);
 
-    client.sendPacket(new ServerPackets.MapChangeCompletePacket());
+    player.peer.send(new ServerPackets.MapChangeCompletePacket());
   }
 }
 

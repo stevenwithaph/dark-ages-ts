@@ -8,13 +8,12 @@ import { Player } from '../scene/game-objects/player';
 import { SceneTree } from '../scene/scene-tree';
 
 import { UniqueId } from '../utils/unique-id';
-import { playerCache } from '../services/player-cache';
-import { mapLoader } from './map-loader';
+import { TransferArea } from '../scene/game-objects/transfer-area';
+import { Point } from '../collision/geometry/point';
+import { MapResource } from './map-resource';
 
 export class MapRoom extends Room {
-  protected mapData: Uint16Array = new Uint16Array();
-  protected width: number = 0;
-  protected height: number = 0;
+  protected resource: MapResource;
 
   protected players: Map<string, Player> = new Map();
   protected entities: Map<number, MapEntity> = new Map();
@@ -23,91 +22,44 @@ export class MapRoom extends Room {
 
   protected id: UniqueId;
 
-  constructor() {
+  constructor(resource: MapResource) {
     super();
 
-    this.scene = new SceneTree();
+    this.resource = resource;
+
+    this.scene = new SceneTree(resource.info.width, resource.info.height);
     this.id = new UniqueId();
-  }
 
-  async loadMap(id: number) {
-    this.width = 100;
-    this.height = 100;
-    this.mapData = await mapLoader.get(id);
-  }
-
-  addClient(client: Client): void {
-    super.addClient(client);
-
-    const player = playerCache.get(client.id);
-
-    if (player) {
-      this.addPlayer(player, 25, 47, 0);
-    } else {
-      this.removeClient(client);
+    for (const transfer of resource.info.transfers) {
+      const area = new TransferArea(transfer.width, transfer.height, transfer.zone, transfer.zoneX, transfer.zoneY, transfer.direction);
+      area.setPosition(transfer.x, transfer.y);
+      this.scene.addChild(area);
     }
   }
 
   addPlayer(player: Player, x: number, y: number, direction: number) {
+    this.addClient(player.peer.client);
+    player.map = this;
     player.networkId = this.id.next();
     player.setPosition(x, y);
-    player.turn(direction);
+    player.setDirection(direction);
 
     this.players.set(player.peer.client.id, player);
 
-    player.peer.client.sendPacket(new ServerPackets.MapInfoPacket(0, this.width, this.height, 0, 0, 'map name'));
+    player.peer.client.sendPacket(
+      new ServerPackets.MapInfoPacket(this.resource.info.id, this.resource.info.width, this.resource.info.height, 0, 0, this.resource.info.name)
+    );
 
     player.peer.client.sendPacket(new ServerPackets.LocationPacket(x, y));
-    player.peer.client.sendPacket(new ServerPackets.UserIdPacket(player.networkId, 0, 1));
+    player.peer.client.sendPacket(new ServerPackets.UserIdPacket(player.networkId, player.direction, 1));
 
-    player.peer.client.sendPacket(new ServerPackets.SoundPacket(true, 3));
-
-    player.inventory.insert(1, {});
-    player.spells.insert(1, {});
-    player.skills.insert(1, {});
-    player.equipment.insert(1, {});
-
-    const attributes = new ServerPackets.AttributesPacket(AttributeFlags.Full);
-    attributes.primary = {
-      str: 1,
-      dex: 1,
-      wiz: 1,
-      con: 1,
-      int: 1,
-      level: 5,
-      ability: 0,
-      maxHp: 100,
-      maxMp: 100,
-      maxWeight: 100,
-      currentWeight: 0,
-      hasPoints: true,
-      points: 12,
-    };
-    attributes.current = {
-      currentHp: 100,
-      currentMp: 100,
-    };
-    attributes.currency = {
-      totalExP: 500,
-      nextLevel: 1000,
-      nextAbility: 100,
-      totalAbility: 100,
-      gamePoints: 200,
-      gold: 205,
-    };
-    attributes.secondary = {
-      blind: 0,
-      mail: 0,
-      offenseElement: 2,
-      defenseElement: 2,
-      ac: 12,
-      dmg: 13,
-      hit: 14,
-    };
-
-    player.peer.client.sendPacket(attributes);
+    player.peer.client.sendPacket(new ServerPackets.SoundPacket(true, this.resource.info.music));
 
     this.scene.addChild(player);
+  }
+
+  removePlayer(player: Player) {
+    this.removeClient(player.peer.client);
   }
 
   removeClient(client: Client) {
@@ -117,15 +69,16 @@ export class MapRoom extends Room {
     if (!player) return;
 
     this.players.delete(client.id);
-    this.scene.removeChild(player);
     this.id.free(player.identity.networkId);
+
+    this.scene.removeChild(player);
   }
 
   @PacketHandler(ClientPackets.RequestMapDataPacket)
   onRequestMapData(client: Client) {
-    for (let i = 0; i < this.height; i++) {
-      const start = this.width * i * 3;
-      const data = this.mapData.subarray(start, start + this.width * 3);
+    for (let i = 0; i < this.resource.info.height; i++) {
+      const start = this.resource.info.width * i * 3;
+      const data = this.resource.data.subarray(start, start + this.resource.info.width * 3);
 
       client.sendPacket(new ServerPackets.MapDataPacket(i, data));
     }
@@ -140,13 +93,13 @@ export class MapRoom extends Room {
   @PacketHandler(ClientPackets.ClientWalkPacket)
   onClientWalk(client: Client, packet: ClientPackets.ClientWalkPacket) {
     const aisling = this.players.get(client.id);
-    aisling?.move(packet.direction);
+    aisling?.moveInDirection(packet.direction);
   }
 
   @PacketHandler(ClientPackets.ClientTurnPacket)
   onClientTurn(client: Client, packet: ClientPackets.ClientTurnPacket) {
     const aisling = this.players.get(client.id);
-    aisling?.turn(packet.direction);
+    aisling?.setDirection(packet.direction);
   }
 
   @PacketHandler(ClientPackets.ChatMessagePacket)

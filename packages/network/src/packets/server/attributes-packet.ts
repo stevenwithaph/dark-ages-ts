@@ -38,7 +38,7 @@ export class AttributesPacket implements Packet {
       writer.writeUint8(primary.wiz);
       writer.writeUint8(primary.con);
       writer.writeUint8(primary.dex);
-      writer.writeBoolean(primary.hasPoints);
+      writer.writeBoolean(primary.points > 0);
       writer.writeUint8(primary.points);
       writer.writeUint16(primary.maxWeight);
       writer.writeUint16(primary.currentWeight);
@@ -48,8 +48,8 @@ export class AttributesPacket implements Packet {
     if ((this.flag & AttributeFlags.Current) === AttributeFlags.Current) {
       const current = this.current!;
 
-      writer.writeUint32(current.currentHp);
-      writer.writeUint32(current.currentMp);
+      writer.writeUint32(current.hp);
+      writer.writeUint32(current.mp);
     }
 
     if ((this.flag & AttributeFlags.Currency) === AttributeFlags.Currency) {

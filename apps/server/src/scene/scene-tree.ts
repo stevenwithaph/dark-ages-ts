@@ -15,23 +15,11 @@ export class SceneTree extends Node {
     return this._grid;
   }
 
-  constructor() {
+  constructor(width: number, height: number) {
     super();
 
-    this._grid = new SpatialHashGrid(100, 100);
-  }
+    this.tree = this;
 
-  addChild(node: Node): void {
-    super.addChild(node);
-
-    node.tree = this;
-    node.notify(Notifications.EnterTree);
-  }
-
-  removeChild(node: Node): void {
-    super.removeChild(node);
-
-    node.notify(Notifications.ExitTree);
-    node.tree = undefined;
+    this._grid = new SpatialHashGrid(width, height);
   }
 }

@@ -33,22 +33,33 @@ export abstract class MapEntity extends CollisionObject {
     this._identity.on(IdentityEvents.ObserverRemoved, this.onObserverRemoved, this);
   }
 
-  move(direction: number) {
+  moveInDirection(direction: number) {
     this._direction = direction;
     this.identity.broadcast(new ServerPackets.CreatureWalkPacket(this.identity.networkId, this.x, this.y, this.direction), false);
 
     let offsetX = 0;
     let offsetY = 0;
-    if (direction === 0) {
-      offsetY--;
-    } else if (direction === 1) {
-      offsetX++;
-    } else if (direction === 2) {
-      offsetY++;
-    } else if (direction === 3) {
-      offsetX--;
+
+    switch (direction) {
+      case 0:
+        offsetY--;
+        break;
+      case 1:
+        offsetX++;
+        break;
+      case 2:
+        offsetY++;
+        break;
+      case 3:
+        offsetX--;
+        break;
     }
+
     this.setPosition(this.x + offsetX, this.y + offsetY);
+  }
+
+  setDirection(direction: number) {
+    this._direction = direction;
   }
 
   turn(direction: number) {

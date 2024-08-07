@@ -54,7 +54,7 @@ class AuthService {
       throw new AuthError('Invalid Appearance.', LoginMessageType.IncorrectPassword);
     }
 
-    AislingEntity.update(
+    await AislingEntity.update(
       {
         id,
       },
@@ -75,9 +75,7 @@ class AuthService {
     }
 
     if (!(await verify(aisling.password, password))) {
-      if (!aisling) {
-        throw new AuthError('Incorrect Password.', LoginMessageType.IncorrectPassword);
-      }
+      throw new AuthError('Incorrect Password.', LoginMessageType.IncorrectPassword);
     }
 
     return aisling;

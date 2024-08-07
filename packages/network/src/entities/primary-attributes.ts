@@ -8,7 +8,6 @@ export interface PrimaryAttributes {
   wiz: number;
   con: number;
   dex: number;
-  hasPoints: boolean;
   points: number;
   maxWeight: number;
   currentWeight: number;

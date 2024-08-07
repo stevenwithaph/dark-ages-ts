@@ -26,7 +26,8 @@ export class AuthScene extends NetworkedScene {
     this.bgm.play(1);
     this.cameras.main.setZoom(2);
 
-    this.map = new IsoMap(this, -1, 100, 100);
+    this.map = new IsoMap(this);
+    this.map.setMapInfo(-1, 100, 100);
     this.map.setMapData(new Uint16Array(this.cache.binary.get('login-map')));
     this.add.existing(this.map);
 

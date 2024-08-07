@@ -3,7 +3,7 @@
   import { clientManager } from '../../../network/client-manager';
   import { RouterStore } from '../../stores/router.svelte';
   import { EventBus } from '../../event-bus';
-
+  import { ErrorStore } from '../../stores/error.svelte';
 
   let username:string = '';
   let password:string = '';
@@ -11,13 +11,22 @@
   $: disabled = username === '' || password === '';
 
   async function handleLogin() {
-    const { type } = await clientManager.main.sendWithAck(new ClientPackets.LoginPacket(username, password), ServerPackets.LoginMessagePacket);
+    const { type, message } = await clientManager.main.sendWithAck(new ClientPackets.LoginPacket(username, password), ServerPackets.LoginMessagePacket);
 
-    if (type === LoginMessageType.Confirm) {
-      clientManager.main.keySalts = username;
-      const redirect = await clientManager.main.await(ServerPackets.RedirectPacket);
-
-      EventBus.emit('logged-in', redirect);
+    switch(type) {
+      case LoginMessageType.Confirm:
+        clientManager.main.keySalts = username;
+        const redirect = await clientManager.main.await(ServerPackets.RedirectPacket);
+        EventBus.emit('logged-in', redirect);
+        break;
+      case LoginMessageType.IncorrectPassword:
+        password = '';
+        ErrorStore.show(message);
+        break;
+      case LoginMessageType.InvalidUsername:
+        username = '';
+        ErrorStore.show(message);
+        break;
     }
   }
 

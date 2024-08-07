@@ -46,7 +46,11 @@ export class MapScene extends NetworkedScene {
 
     this.cameras.main.centerOn(0, 0);
 
+    this.map = new IsoMap(this);
+    this.add.existing(this.map);
+
     this.playerController = new PlayerController(this, clientManager.main);
+    this.add.existing(this.playerController);
 
     this.cursor = this.add
       .image(0, 0, 'cursor')
@@ -60,12 +64,20 @@ export class MapScene extends NetworkedScene {
     this.height = packet.height;
 
     this.mapData = new Uint16Array(packet.width * packet.height * 3);
+    this.map.setMapInfo(packet.areaId, packet.width, packet.height);
+
+    for (const [_, entity] of this.actors) {
+      entity.destroy(true);
+    }
+
+    this.actors.clear();
+    this.playerController.actorId = 0;
 
     clientManager.main.send(new ClientPackets.RequestMapDataPacket());
-
-    this.map = new IsoMap(this, packet.areaId, packet.width, packet.height);
-    this.add.existing(this.map);
   }
+
+  @PacketHandler(ServerPackets.MapChangePendingPacket)
+  onMapChangePending() {}
 
   @PacketHandler(ServerPackets.SoundPacket)
   onSound(packet: ServerPackets.SoundPacket) {
@@ -135,10 +147,10 @@ export class MapScene extends NetworkedScene {
     const entity = new MapEntity(this, aisling, this.map, packet.x, packet.y);
 
     this.actors.set(packet.id, entity);
-
     this.add.existing(entity);
 
     if (this.playerController.actorId === packet.id) {
+      console.log('possesing');
       this.playerController.possses(entity);
     }
   }
@@ -167,6 +179,7 @@ export class MapScene extends NetworkedScene {
   @PacketHandler(ServerPackets.RemoveObjectPacket)
   onRemoveObject(packet: ServerPackets.RemoveObjectPacket) {
     const actor = this.actors.get(packet.entityId);
+
     if (actor) {
       actor.destroy(true);
     }
@@ -189,11 +202,9 @@ export class MapScene extends NetworkedScene {
       this.cameras.main.centerOn(player.x, player.y);
     }
 
-    if (this.map) {
-      const tile = this.map.worldToTileXY(this.input.mousePointer.worldX, this.input.mousePointer.worldY);
-      const world = this.map.tileToWorldXY(tile.x, tile.y);
+    const tile = this.map.worldToTileXY(this.input.mousePointer.worldX, this.input.mousePointer.worldY);
+    const world = this.map.tileToWorldXY(tile.x, tile.y);
 
-      this.cursor.setPosition(world.x, world.y);
-    }
+    this.cursor.setPosition(world.x, world.y);
   }
 }

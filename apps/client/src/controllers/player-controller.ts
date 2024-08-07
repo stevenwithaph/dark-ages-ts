@@ -45,6 +45,9 @@ export class PlayerController extends GameObjects.GameObject {
   }
 
   possses(entity: MapEntity) {
+    this.currentPath = [];
+    this.currentPathIndex = -1;
+
     this.#entity = entity;
   }
 

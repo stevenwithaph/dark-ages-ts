@@ -11,7 +11,7 @@ export enum CollisionObjectEvents {
 
 export class CollisionObject extends Node2D implements CellData<CollisionObject> {
   private _shape: Shape;
-  private _collisions: Set<CollisionObject> = new Set();
+  protected _collisions: Set<CollisionObject> = new Set();
 
   layer: number = 0;
   mask: number = 0;
@@ -44,21 +44,24 @@ export class CollisionObject extends Node2D implements CellData<CollisionObject>
 
     switch (notification) {
       case Notifications.TransformChanged:
-        if (this.parent instanceof Node2D) {
-          this._shape.setPosition(this.x + this.parent.x, this.y + this.parent.y);
-        } else {
-          this._shape.setPosition(this.x, this.y);
-        }
+        this.updateShapePosition();
 
         this.tree?.grid.update(this);
+        break;
+      case Notifications.PostTransformChanged:
         this.checkCollision();
         break;
       case Notifications.EnterTree:
+        this.updateShapePosition();
+
         this.tree?.grid.insert(this);
+        break;
+      case Notifications.PostEnterTree:
         this.checkCollision();
         break;
       case Notifications.ExitTree:
         this.tree?.grid.remove(this);
+
         for (const collision of this._collisions) {
           collision.collisionExit(this);
           this.collisionExit(collision);
@@ -67,10 +70,18 @@ export class CollisionObject extends Node2D implements CellData<CollisionObject>
     }
   }
 
+  private updateShapePosition() {
+    let x = this.parent === undefined || 'x' in this.parent ? (this.parent?.x as number) : 0;
+    let y = this.parent === undefined || 'y' in this.parent ? (this.parent?.y as number) : 0;
+
+    this._shape.setPosition(this.x + x, this.y + y);
+  }
+
   public checkCollision() {
     if (!this.tree) return;
 
     const entities = this.tree.grid.query(this.shape, this.mask);
+
     for (const entity of entities) {
       if (!this._collisions.has(entity)) {
         this.collisionEnter(entity);

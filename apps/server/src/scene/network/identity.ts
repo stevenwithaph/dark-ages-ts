@@ -1,13 +1,14 @@
 import { Packet } from '@medenia/network';
 import { Peer } from './peer';
-import EventEmitter from 'eventemitter3';
+import { Node } from '../node';
+import { Notifications } from '../notifications';
 
 export enum IdentityEvents {
   ObserverAdded = 'ObserverAdded',
   ObserverRemoved = 'ObserverRemoved',
 }
 
-export class Identity extends EventEmitter<IdentityEvents> {
+export class Identity extends Node {
   private _observers: Set<Peer>;
   private _networkId: number = 0;
 
