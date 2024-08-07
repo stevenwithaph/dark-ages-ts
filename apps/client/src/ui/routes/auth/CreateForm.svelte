@@ -60,9 +60,10 @@
 
     if (type === LoginMessageType.Confirm) {
       clientManager.main.keySalts = username;
-      const redirect = await clientManager.main.await(ServerPackets.RedirectPacket);
+        const redirect = await clientManager.main.await(ServerPackets.RedirectPacket);
+        await clientManager.main.redirect(redirect.ip, redirect.port, redirect.redirect);
 
-      EventBus.emit('logged-in', redirect);
+      EventBus.emit('logged-in');
     }
   }
 
