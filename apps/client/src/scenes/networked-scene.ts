@@ -52,4 +52,8 @@ export class NetworkedScene extends Phaser.Scene {
       }
     }
   }
+
+  update() {
+    clientManager.main.update();
+  }
 }

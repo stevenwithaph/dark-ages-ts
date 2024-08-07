@@ -98,6 +98,10 @@ export class MapEntity extends GameObjects.GameObject {
     this.updateTilePosition(this.tileX + vector.x, this.tileY + vector.y);
   }
 
+  playAnimation() {
+    this.displayEntity.playAnimation(1, 300);
+  }
+
   say(message: string) {
     if (!this.bubble) {
       this.bubble = new ChatBubble(this.scene, () => {

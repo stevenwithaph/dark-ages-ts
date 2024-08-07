@@ -1,0 +1,5 @@
+{
+  "search.exclude": {
+    "**/apps/client/public": true
+  }
+}

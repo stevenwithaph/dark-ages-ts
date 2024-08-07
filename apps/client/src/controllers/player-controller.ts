@@ -24,6 +24,7 @@ export class PlayerController extends GameObjects.GameObject {
     super(scene, 'player-controller');
 
     this.scene.input.on(Input.Events.POINTER_DOWN, this.onMapClick, this);
+    this.scene.input.keyboard?.on('keydown-SPACE', this.onSpaceDown, this);
   }
 
   async onMapClick(pointer: Input.Pointer) {
@@ -42,6 +43,10 @@ export class PlayerController extends GameObjects.GameObject {
       this.currentPath = path;
       this.currentPathIndex = 0;
     }
+  }
+
+  onSpaceDown() {
+    this.#entity?.playAnimation();
   }
 
   possses(entity: MapEntity) {

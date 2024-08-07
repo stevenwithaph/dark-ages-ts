@@ -62,7 +62,7 @@ class PlayerCache {
     player.peer.client.sendPacket(attributes);
 
     this.add(client.id, player);
-    mapManager.transfer('mileth-inn', player, 6, 6, 0);
+    mapManager.transfer('mileth-inn', player, 6, 6, 2);
 
     return aisling;
   }

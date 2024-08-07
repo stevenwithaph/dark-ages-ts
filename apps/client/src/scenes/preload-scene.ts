@@ -20,8 +20,6 @@ export class PreloadScene extends NetworkedScene {
 
     this.load.binary('sotp', 'sotp.dat');
 
-    this.load.html('chat-bubble', 'chat-bubble.html');
-
     this.load.binary('login-map', 'maps/login-map.map');
   }
 

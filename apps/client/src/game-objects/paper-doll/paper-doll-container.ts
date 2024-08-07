@@ -1,6 +1,6 @@
 import { Direction } from '../../direction';
 import { DisplayEntity } from '../display-entity';
-import { Idle, Walk } from './paper-doll-animations';
+import { Attack, Idle, Walk } from './paper-doll-animations';
 import { AnimationEvents, SpriteAtlasAnimator } from '../sprite-atlas/sprite-atlas-animator';
 import { PaperDollPiece, PaperDollPrefix, PaperDollPieceNames } from './paper-doll-piece';
 import { AtlasSpriteEvents } from '../sprite-atlas/atlas-sprite';
@@ -84,7 +84,9 @@ export class PaperDollContainer extends Phaser.GameObjects.Container implements 
     this.emit(PaperDollContainerEvents.PieceLoaded);
   }
 
-  playAnimation(animation: number, duration: number): void {}
+  playAnimation(animation: number, duration: number): void {
+    //this.animator.play(Attack, duration);
+  }
 
   playWalkAnimation(duration: number): void {
     this.animator.play(Walk, duration);

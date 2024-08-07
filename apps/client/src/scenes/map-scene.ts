@@ -26,7 +26,7 @@ export class MapScene extends NetworkedScene {
 
   private cursor: Phaser.GameObjects.Image;
 
-  private actors: Map<number, MapEntity> = new Map();
+  private entities: Map<number, MapEntity> = new Map();
 
   constructor(config: Phaser.Types.Scenes.SettingsConfig) {
     super({
@@ -35,14 +35,10 @@ export class MapScene extends NetworkedScene {
     });
   }
 
-  create(data: any) {
+  create() {
     RouterStore.push('game');
 
     this.cameras.main.setZoom(2);
-
-    if (data !== null) {
-      clientManager.main.redirect(data.ip, data.port, data.redirect);
-    }
 
     this.cameras.main.centerOn(0, 0);
 
@@ -66,11 +62,11 @@ export class MapScene extends NetworkedScene {
     this.mapData = new Uint16Array(packet.width * packet.height * 3);
     this.map.setMapInfo(packet.areaId, packet.width, packet.height);
 
-    for (const [_, entity] of this.actors) {
+    for (const [_, entity] of this.entities) {
       entity.destroy(true);
     }
 
-    this.actors.clear();
+    this.entities.clear();
     this.playerController.actorId = 0;
 
     clientManager.main.send(new ClientPackets.RequestMapDataPacket());
@@ -101,7 +97,7 @@ export class MapScene extends NetworkedScene {
     const position = this.map.tileToWorldXY(packet.x, packet.y);
     this.cameras.main.centerOn(position.x, position.y);
 
-    const player = this.actors.get(this.playerController.actorId);
+    const player = this.entities.get(this.playerController.actorId);
     if (player) {
       player.setToTilePosition(position.x, position.y);
     }
@@ -146,11 +142,10 @@ export class MapScene extends NetworkedScene {
 
     const entity = new MapEntity(this, aisling, this.map, packet.x, packet.y);
 
-    this.actors.set(packet.id, entity);
+    this.entities.set(packet.id, entity);
     this.add.existing(entity);
 
     if (this.playerController.actorId === packet.id) {
-      console.log('possesing');
       this.playerController.possses(entity);
     }
   }
@@ -163,13 +158,13 @@ export class MapScene extends NetworkedScene {
       const mapEntity = new MapEntity(this, actor, this.map, entity.x, entity.y);
 
       this.add.existing(mapEntity);
-      this.actors.set(entity.id, mapEntity);
+      this.entities.set(entity.id, mapEntity);
     }
   }
 
   @PacketHandler(ServerPackets.CreatureWalkPacket)
   onCreatureWalk(packet: ServerPackets.CreatureWalkPacket) {
-    const actor = this.actors.get(packet.actorId);
+    const actor = this.entities.get(packet.actorId);
 
     if (!actor) return;
 
@@ -178,7 +173,7 @@ export class MapScene extends NetworkedScene {
 
   @PacketHandler(ServerPackets.RemoveObjectPacket)
   onRemoveObject(packet: ServerPackets.RemoveObjectPacket) {
-    const actor = this.actors.get(packet.entityId);
+    const actor = this.entities.get(packet.entityId);
 
     if (actor) {
       actor.destroy(true);
@@ -187,7 +182,7 @@ export class MapScene extends NetworkedScene {
 
   @PacketHandler(ServerPackets.ChatMessagePacket)
   onChatMessage(packet: ServerPackets.ChatMessagePacket) {
-    const actor = this.actors.get(packet.entityId);
+    const actor = this.entities.get(packet.entityId);
 
     if (!actor) {
       return;
@@ -197,7 +192,9 @@ export class MapScene extends NetworkedScene {
   }
 
   update(): void {
-    const player = this.actors.get(this.playerController.actorId);
+    super.update();
+
+    const player = this.entities.get(this.playerController.actorId);
     if (player) {
       this.cameras.main.centerOn(player.x, player.y);
     }

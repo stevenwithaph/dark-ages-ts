@@ -8,14 +8,6 @@ export const Walk: SpriteAtlasAnimation = {
   loop: false,
 };
 
-export const CreateWalk: SpriteAtlasAnimation = {
-  startUp: 0,
-  startDown: 5,
-  frames: 5,
-  prefix: '01',
-  loop: true,
-};
-
 export const Idle: SpriteAtlasAnimation = {
   startUp: 0,
   startDown: 5,

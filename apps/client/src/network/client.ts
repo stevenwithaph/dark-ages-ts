@@ -8,6 +8,7 @@ const ACK_TIMEOUT = 10000;
 
 export class Client extends Events.EventEmitter {
   private ws?: WebSocket;
+  private packets: Packet[] = [];
 
   public get key() {
     return this.crypto.key;
@@ -121,9 +122,27 @@ export class Client extends Events.EventEmitter {
 
     const packets = PacketEncoder.decode(data, ServerPacketFactory, this.crypto);
 
-    for (const packet of packets) {
+    this.packets.push(...packets);
+  }
+
+  update() {
+    this.processPackets();
+  }
+
+  async waitForNextMicrotask() {
+    await new Promise<void>((resolve) => queueMicrotask(resolve));
+  }
+
+  async processPackets() {
+    if (this.packets.length === 0) return;
+
+    for (const packet of this.packets) {
       this.emitPacket(packet);
+      //  TODO: this is a bit of a hack, figure out how to fix this
+      await this.waitForNextMicrotask();
     }
+
+    this.packets = [];
   }
 
   private onConnected() {

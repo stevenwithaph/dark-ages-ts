@@ -2,8 +2,8 @@
   import { ClientPackets, LoginMessageType, ServerPackets } from '@medenia/network';
   import { clientManager } from '../../../network/client-manager';
   import { RouterStore } from '../../stores/router.svelte';
-  import { EventBus } from '../../event-bus';
   import { ErrorStore } from '../../stores/error.svelte';
+  import { EventBus } from '../../event-bus';
 
   let username:string = '';
   let password:string = '';
@@ -17,7 +17,8 @@
       case LoginMessageType.Confirm:
         clientManager.main.keySalts = username;
         const redirect = await clientManager.main.await(ServerPackets.RedirectPacket);
-        EventBus.emit('logged-in', redirect);
+        await clientManager.main.redirect(redirect.ip, redirect.port, redirect.redirect);
+        EventBus.emit('logged-in');
         break;
       case LoginMessageType.IncorrectPassword:
         password = '';

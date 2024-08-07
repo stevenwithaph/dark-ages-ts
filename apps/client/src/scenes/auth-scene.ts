@@ -53,8 +53,8 @@ export class AuthScene extends NetworkedScene {
   }
 
   @EventHandler('logged-in')
-  handleLoggedIn(redirect: Redirect) {
-    this.scene.start('map', redirect);
+  handleLoggedIn() {
+    this.scene.start('map');
   }
 
   fadeIn() {
@@ -62,6 +62,8 @@ export class AuthScene extends NetworkedScene {
   }
 
   update() {
+    super.update();
+
     this.cameras.main.centerOn(this.center.x, this.center.y);
   }
 }
