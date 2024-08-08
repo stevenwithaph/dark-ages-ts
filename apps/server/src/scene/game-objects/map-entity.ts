@@ -2,7 +2,7 @@ import { ChatMessageType, ServerPackets } from '@medenia/network';
 import { Identity, IdentityEvents } from '../network/identity';
 import { Peer } from '../network/peer';
 import { ColliderNode } from '../physics/collider-node';
-import { Point } from '../../collision/geometry/point';
+import { DefaultPoint } from '../../collision/geometry/point';
 
 export abstract class MapEntity extends ColliderNode {
   private _identity: Identity;
@@ -24,7 +24,7 @@ export abstract class MapEntity extends ColliderNode {
   }
 
   constructor(x: number, y: number, name: string) {
-    super(x, y, new Point());
+    super(x, y, DefaultPoint);
 
     this._name = name;
 

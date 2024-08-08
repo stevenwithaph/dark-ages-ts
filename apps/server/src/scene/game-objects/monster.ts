@@ -17,7 +17,15 @@ export class Monster extends MapEntity {
     //  TODO: We can send over all visible entities in a single movement
     peer.send(
       new ServerPackets.DisplayVisibleEntitiesPacket([
-        { id: this.identity.networkId, x: this.x, y: this.y, direction: this.direction, spriteId: 0x4002, creatureType: CreatureType.Hostile, name: 'tester' },
+        {
+          id: this.identity.networkId,
+          x: this.x,
+          y: this.y,
+          direction: this.direction,
+          spriteId: 0x4002,
+          creatureType: CreatureType.Hostile,
+          name: 'tester',
+        },
       ])
     );
   }

@@ -13,3 +13,5 @@ export class Point extends Shape {
     this._width = 1;
   }
 }
+
+export const DefaultPoint = new Point();

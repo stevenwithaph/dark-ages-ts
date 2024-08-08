@@ -35,22 +35,25 @@ export class ColliderNode extends Node2D {
     this.collider = new Collider(shape, this);
     this.collider.owner = this;
 
-    this.updateColliderPosition();
+    this.collider.x = this.x;
+    this.collider.y = this.y;
   }
 
-  notify(notification: Notifications): void {
-    super.notify(notification);
+  _notify(notification: Notifications): void {
+    super._notify(notification);
 
     switch (notification) {
       case Notifications.TransformChanged:
-        this.updateColliderPosition();
+        this.collider.x = this.x;
+        this.collider.y = this.y;
         this.tree?.world.update(this.collider);
         break;
       case Notifications.PostTransformChanged:
         this.checkCollision();
         break;
       case Notifications.EnterTree:
-        this.updateColliderPosition();
+        this.collider.x = this.x;
+        this.collider.y = this.y;
         this.tree?.world.insert(this.collider);
         break;
       case Notifications.PostEnterTree:
@@ -65,14 +68,6 @@ export class ColliderNode extends Node2D {
         }
         break;
     }
-  }
-
-  private updateColliderPosition() {
-    let x = this.parent === undefined || 'x' in this.parent ? (this.parent?.x as number) : 0;
-    let y = this.parent === undefined || 'y' in this.parent ? (this.parent?.y as number) : 0;
-
-    this.collider.x = this.x + x;
-    this.collider.y = this.y + y;
   }
 
   public checkCollision() {

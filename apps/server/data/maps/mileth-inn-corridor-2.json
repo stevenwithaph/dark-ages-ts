@@ -1,0 +1,18 @@
+{
+  "name": "Mileth Inn Corridor 2",
+  "width": 17,
+  "height": 5,
+  "id": 201,
+  "music": 3,
+  "transfers": [
+    {
+      "startX": 1,
+      "startY": 4,
+      "endX": 2,
+      "endY": 4,
+      "zone": "mileth-inn-corridor-1",
+      "zoneX": 2,
+      "zoneY": 1
+    }
+  ]
+}

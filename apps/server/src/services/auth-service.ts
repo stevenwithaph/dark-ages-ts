@@ -70,12 +70,8 @@ class AuthService {
   async login(username: string, password: string) {
     const aisling = await AislingEntity.findOneBy({ username });
 
-    if (!aisling) {
-      throw new AuthError('That name does not exist.', LoginMessageType.InvalidUsername);
-    }
-
-    if (!(await verify(aisling.password, password))) {
-      throw new AuthError('Incorrect Password.', LoginMessageType.IncorrectPassword);
+    if (!aisling || !(await verify(aisling.password, password))) {
+      throw new AuthError('Invalid credentials', LoginMessageType.InvalidUsername);
     }
 
     return aisling;

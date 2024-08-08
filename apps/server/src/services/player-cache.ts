@@ -24,25 +24,25 @@ class PlayerCache {
 
     const attributes = new ServerPackets.AttributesPacket(AttributeFlags.Full);
     attributes.primary = {
-      str: 1,
-      dex: 1,
-      wiz: 1,
-      con: 1,
-      int: 1,
-      level: 5,
+      str: 3,
+      dex: 3,
+      wiz: 3,
+      con: 3,
+      int: 3,
+      level: 1,
       ability: 0,
-      maxHp: 100,
-      maxMp: 100,
-      maxWeight: 100,
+      maxHp: 500,
+      maxMp: 500,
+      maxWeight: 0,
       currentWeight: 0,
-      points: 12,
+      points: 0,
     };
     attributes.current = {
-      hp: 100,
-      mp: 100,
+      hp: 500,
+      mp: 500,
     };
     attributes.currency = {
-      totalExP: 500,
+      totalExP: 0,
       nextLevel: 1000,
       nextAbility: 100,
       totalAbility: 100,
@@ -62,7 +62,7 @@ class PlayerCache {
     player.peer.client.sendPacket(attributes);
 
     this.add(client.id, player);
-    mapManager.transfer('mileth', player, 94, 55, 2);
+    mapManager.transfer('mileth-inn', player, 6, 6, 2);
 
     return aisling;
   }

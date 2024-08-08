@@ -140,3 +140,7 @@ export class MapEntity extends GameObjects.GameObject {
     this.container.destroy(fromScene);
   }
 }
+
+/**
+ * animator
+ */

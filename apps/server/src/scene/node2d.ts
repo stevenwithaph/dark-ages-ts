@@ -6,38 +6,67 @@ export enum Node2DEvents {
 }
 
 export class Node2D extends Node {
-  private _position: number[] = [0, 0];
+  private _local: number[] = [0, 0];
+  private _global: number[] = [0, 0];
 
   get x() {
-    return this._position[0];
+    return this._global[0];
   }
 
   get y() {
-    return this._position[1];
+    return this._global[1];
   }
 
-  set x(value: number) {
-    this.setPosition(value, this.y);
+  get localX() {
+    return this._local[0];
   }
 
-  set y(value: number) {
-    this.setPosition(this.x, value);
+  get localY() {
+    return this._local[1];
+  }
+
+  set localX(value: number) {
+    this.setPosition(value, this.localY);
+  }
+
+  set localY(value: number) {
+    this.setPosition(this.localX, value);
   }
 
   constructor(x: number, y: number) {
     super();
 
-    this._position[0] = x;
-    this._position[1] = y;
+    this._local[0] = x;
+    this._local[1] = y;
+
+    this.updateGlobalTransform();
+  }
+
+  protected _notify(notification: Notifications): void {
+    super._notify(notification);
+
+    switch (notification) {
+      case Notifications.TransformChanged:
+        this.updateGlobalTransform();
+        break;
+    }
   }
 
   setPosition(x: number, y?: number) {
     this.notify(Notifications.PreTransformChanged);
 
-    this._position[0] = x;
-    this._position[1] = y ?? x;
+    this._local[0] = x;
+    this._local[1] = y ?? x;
 
     this.notify(Notifications.TransformChanged);
     this.notify(Notifications.PostTransformChanged);
+  }
+
+  private updateGlobalTransform() {
+    let parentX = this.parent !== undefined && 'x' in this.parent ? (this.parent?.x as number) : 0;
+    let parentY = this.parent !== undefined && 'y' in this.parent ? (this.parent?.y as number) : 0;
+
+    this._global[0] = parentX + this._local[0];
+    this._global[1] = parentY + this._local[1];
   }
 }

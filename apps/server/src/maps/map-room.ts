@@ -108,8 +108,10 @@ export class MapRoom extends Room {
 
   @PacketHandler(ClientPackets.ClientWalkPacket)
   onClientWalk(client: Client, packet: ClientPackets.ClientWalkPacket) {
+    console.time('movement');
     const aisling = this.players.get(client.id);
     aisling?.moveInDirection(packet.direction);
+    console.timeEnd('movement');
   }
 
   @PacketHandler(ClientPackets.ClientTurnPacket)

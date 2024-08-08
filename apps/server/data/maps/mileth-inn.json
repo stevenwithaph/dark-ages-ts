@@ -6,13 +6,20 @@
   "music": 2,
   "transfers": [
     {
-      "startX": 6,
+      "startX": 5,
       "startY": 11,
-      "endX": 7,
+      "endX": 6,
       "endY": 11,
       "zone": "mileth",
       "zoneX": 27,
       "zoneY": 44
+    },
+    {
+      "startX": 0,
+      "startY": 9,
+      "zone": "mileth-inn-corridor-1",
+      "zoneX": 3,
+      "zoneY": 15
     }
   ]
 }

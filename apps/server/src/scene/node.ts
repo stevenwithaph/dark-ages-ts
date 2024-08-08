@@ -22,7 +22,7 @@ export class Node extends EventEmitter {
     this._nodeName = value;
   }
 
-  notify(notification: Notifications) {
+  protected _notify(notification: Notifications) {
     switch (notification) {
       case Notifications.PreEnterTree:
         for (const [_, child] of this._children) {
@@ -36,8 +36,17 @@ export class Node extends EventEmitter {
 
         break;
     }
+  }
 
+  notify(notification: Notifications) {
+    this._notify(notification);
     this.notifyChildren(notification);
+  }
+
+  private notifyChildren(notification: Notifications) {
+    for (const [_, child] of this._children) {
+      child.notify(notification);
+    }
   }
 
   addChild(node: Node) {
@@ -74,11 +83,5 @@ export class Node extends EventEmitter {
 
   getChild(name: string) {
     this._children.get(name);
-  }
-
-  private notifyChildren(notification: Notifications) {
-    for (const [_, child] of this._children) {
-      child.notify(notification);
-    }
   }
 }
