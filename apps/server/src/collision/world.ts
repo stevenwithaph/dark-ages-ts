@@ -124,6 +124,8 @@ export class World {
   }
 
   remove(collider: Collider) {
+    if (collider.data.cells.length === 0) return;
+
     const { minX, minY, maxX, maxY } = collider.data.bounds;
 
     for (let y = minY; y <= maxY; y++) {

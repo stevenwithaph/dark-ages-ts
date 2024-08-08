@@ -17,7 +17,7 @@ export class Rectangle extends Shape {
   _halfWidth: number;
   _halfHeight: number;
 
-  constructor(width: number, height: number) {
+  constructor(width: number, height: number = width) {
     super();
 
     this._halfWidth = width / 2;

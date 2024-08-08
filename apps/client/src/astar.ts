@@ -5,17 +5,23 @@ export class Astar {
   private width: number;
   private height: number;
 
+  private additional: Uint8Array;
+
   public static Sotp: Uint8Array;
 
   constructor() {
     this.easystar.setAcceptableTiles(0);
   }
 
-  create(mapData: Uint16Array, width: number, height: number) {
-    const grid: number[][] = [];
+  setSize(width: number, height: number) {
+    this.additional = new Uint8Array(width * height);
 
     this.width = width;
     this.height = height;
+  }
+
+  setGrid(mapData: Uint16Array) {
+    const grid: number[][] = [];
 
     for (let i = 0; i < this.height; i++) {
       grid.push([]);
@@ -54,10 +60,24 @@ export class Astar {
   }
 
   avoidPoint(tileX: number, tileY: number) {
-    //this.easystar.avoidAdditionalPoint(tileX, tileY);
+    const tileIdx = tileX + tileY * this.width;
+    const entities = this.additional[tileIdx];
+
+    this.additional[tileIdx]++;
+
+    if (entities === 1) {
+      this.easystar.avoidAdditionalPoint(tileX, tileY);
+    }
   }
 
   stopAvoidingPoint(tileX: number, tileY: number) {
-    //this.easystar.stopAvoidingAdditionalPoint(tileX, tileY);
+    const tileIdx = tileX + tileY * this.width;
+    const entities = this.additional[tileIdx];
+
+    this.additional[tileIdx]--;
+
+    if (entities === 0) {
+      this.easystar.stopAvoidingAdditionalPoint(tileX, tileY);
+    }
   }
 }

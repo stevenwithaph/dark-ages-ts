@@ -52,7 +52,7 @@ export class SpriteAtlasAnimator extends Phaser.Events.EventEmitter {
     this.currentFrameTime += delta;
 
     if (this.currentFrameTime >= this.frameMs) {
-      if (this.frame + 1 === this.animation.frames) {
+      if (this.frame === this.animation.frames - 1) {
         this.emit(AnimationEvents.COMPLETE);
         if (this.animation.loop) {
           this.frame = 0;

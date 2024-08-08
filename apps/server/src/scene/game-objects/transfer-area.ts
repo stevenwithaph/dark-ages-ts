@@ -21,12 +21,12 @@ export class TransferArea extends ColliderNode {
     this.mask = EntityTypes.AISLING;
 
     this.on(ColliderNodeEvents.CollisionEnter, this.onEntityEnter, this);
-    this.on(ColliderNodeEvents.CollisionExit, this.onEntityExit, this);
+
+    //TODO: create subarea that will start a timer to move the player bween zones
+    //TODO: could we just transfer entities instead? let enemies chase players between zones?
   }
 
   onEntityEnter(player: Player) {
     mapManager.transfer(this.zone, player, this.zoneX, this.zoneY, this.direction ?? player.direction);
   }
-
-  onEntityExit() {}
 }

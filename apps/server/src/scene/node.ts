@@ -53,7 +53,6 @@ export class Node extends EventEmitter {
     if (this._children.has(node.nodeName)) return;
 
     this._children.set(node.nodeName, node);
-
     node.parent = this;
 
     if (!this.tree) return;
@@ -69,7 +68,6 @@ export class Node extends EventEmitter {
     if (!this._children.has(node.nodeName)) return;
 
     this._children.delete(node.nodeName);
-
     node.parent = undefined;
 
     if (!this.tree) return;

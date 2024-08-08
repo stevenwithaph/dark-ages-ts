@@ -15,6 +15,7 @@ export class BodyAnimationPacket implements Packet {
     writer.writeUint32(this.actorId);
     writer.writeUint8(this.animationId);
     writer.writeUint16(this.speed);
+    writer.writeUint8(3);
   }
   deserialize(reader: BinaryReader): void {
     throw new Error('Method not implemented.');

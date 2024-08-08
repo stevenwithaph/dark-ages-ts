@@ -3,6 +3,7 @@ import { Identity, IdentityEvents } from '../network/identity';
 import { Peer } from '../network/peer';
 import { ColliderNode } from '../physics/collider-node';
 import { DefaultPoint } from '../../collision/geometry/point';
+import { EntityTypes } from '../entity-types';
 
 export abstract class MapEntity extends ColliderNode {
   private _identity: Identity;
@@ -80,7 +81,14 @@ export abstract class MapEntity extends ColliderNode {
     this.identity.broadcast(new ServerPackets.HealthBarPacket(this.identity.networkId, 25));
   }
 
-  useSkill(skillId: number) {}
+  useSkill(skillId: number) {
+    if (!this.tree) return;
+
+    const colliders = this.tree.world.contains(this.x + 1, this.y, EntityTypes.MONSTER);
+    console.log(colliders);
+
+    this.animate(1, 30);
+  }
 
   protected onObserverAdded(peer: Peer) {
     this._observers.add(peer);

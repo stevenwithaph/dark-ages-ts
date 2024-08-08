@@ -46,6 +46,8 @@ export class IsoMap extends GameObjects.GameObject {
     this.width = width;
     this.height = height;
 
+    this.astar.setSize(width, height);
+
     this.tileMap = new Tilemaps.Tilemap(
       this.scene,
       new Tilemaps.MapData({
@@ -62,7 +64,7 @@ export class IsoMap extends GameObjects.GameObject {
   setMapData(data: Uint16Array) {
     this.createSpriteSheets(data);
 
-    this.astar.create(data, this.width, this.height);
+    this.astar.setGrid(data);
   }
 
   private async createSpriteSheets(data: Uint16Array) {

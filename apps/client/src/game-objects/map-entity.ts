@@ -137,6 +137,8 @@ export class MapEntity extends GameObjects.GameObject {
   destroy(fromScene?: boolean | undefined): void {
     super.destroy(fromScene);
 
+    this.#map.stopAvoidingPoint(this.tileX, this.tileY);
+
     this.container.destroy(fromScene);
   }
 }

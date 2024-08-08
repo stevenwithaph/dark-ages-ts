@@ -11,6 +11,7 @@ import { UniqueId } from '../utils/unique-id';
 import { TransferArea } from '../scene/game-objects/transfer-area';
 import { Point } from '../collision/geometry/point';
 import { MapResource } from './map-resource';
+import { Monster } from '../scene/game-objects/monster';
 
 export class MapRoom extends Room {
   protected resource: MapResource;
@@ -103,15 +104,13 @@ export class MapRoom extends Room {
   @PacketHandler(ClientPackets.DefaultAttackPacket)
   onDefaultAttack(client: Client) {
     const aisling = this.players.get(client.id);
-    aisling?.animate(1, 15);
+    aisling?.useSkill(0);
   }
 
   @PacketHandler(ClientPackets.ClientWalkPacket)
   onClientWalk(client: Client, packet: ClientPackets.ClientWalkPacket) {
-    console.time('movement');
     const aisling = this.players.get(client.id);
     aisling?.moveInDirection(packet.direction);
-    console.timeEnd('movement');
   }
 
   @PacketHandler(ClientPackets.ClientTurnPacket)

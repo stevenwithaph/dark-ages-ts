@@ -1,9 +1,9 @@
-import { Circle } from '../../collision/geometry/circle';
 import { Rectangle } from '../../collision/geometry/rectangle';
 import { EntityTypes } from '../entity-types';
 import { ColliderNode } from '../physics/collider-node';
 
-const InterestAreaRect = new Rectangle(16, 16);
+const InterestAreaSize = 16;
+const InterestAreaRect = new Rectangle(InterestAreaSize);
 
 export class InterestArea extends ColliderNode {
   constructor() {
