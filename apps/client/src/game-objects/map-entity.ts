@@ -1,10 +1,12 @@
 //TODO: this whole calss and the things surrounding it
 
 import { GameObjects } from 'phaser';
+import { directionToVector } from '@/direction';
+
 import { IsoMap } from './iso-map';
 import { DisplayEntity } from './display-entity';
-import { directionToVector } from '../direction';
 import { ChatBubble } from './chat-bubble';
+import { HealthBar } from './health-bar';
 
 const DEFAULT_MOVE_DURATION = 415;
 
@@ -15,27 +17,13 @@ export const MapEntityEvents = {
 
 type GameObjectWithDisplay = GameObjects.GameObject & DisplayEntity;
 
-export class MapEntity extends GameObjects.GameObject {
+export class MapEntity extends GameObjects.Container {
   public tileX: number = 0;
   public tileY: number = 0;
 
-  public get x() {
-    return this.container.x;
+  public get display() {
+    return this._display;
   }
-
-  public get y() {
-    return this.container.y;
-  }
-
-  public set x(value: number) {
-    this.container.setX(value);
-  }
-
-  public set y(value: number) {
-    this.container.setY(value);
-  }
-
-  protected container: GameObjects.Container;
 
   public get map() {
     return this.#map;
@@ -45,38 +33,33 @@ export class MapEntity extends GameObjects.GameObject {
 
   protected tween: Phaser.Tweens.Tween;
   protected bubble?: ChatBubble;
+  protected health?: HealthBar;
+  protected _display: GameObjectWithDisplay;
 
-  constructor(
-    scene: Phaser.Scene,
-    private displayEntity: GameObjectWithDisplay,
-    map: IsoMap,
-    tileX: number,
-    tileY: number
-  ) {
-    super(scene, 'map-entity');
+  constructor(scene: Phaser.Scene, displayEntity: GameObjectWithDisplay, map: IsoMap, tileX: number, tileY: number) {
+    super(scene, 0, 0);
 
-    this.container = scene.add.container(0, 0);
-    this.container.add(this.displayEntity);
+    this.add(displayEntity);
+    this._display = displayEntity;
 
     this.#map = map;
 
-    this.setToTilePosition(tileX, tileY);
+    this.setTilePosition(tileX, tileY);
   }
 
-  moveFrom(fromX: number, fromY: number, direction: number) {
+  walkFrom(fromX: number, fromY: number, direction: number) {
     if (this.tween) {
       this.tween.destroy();
     }
 
-    this.setToTilePosition(fromX, fromY);
+    this.setTilePosition(fromX, fromY);
 
-    this.moveInDirection(direction);
+    this.walkInDirection(direction);
   }
 
-  moveInDirection(direction: number) {
-    this.displayEntity.setDirection(direction);
-
-    this.displayEntity.playWalkAnimation(DEFAULT_MOVE_DURATION);
+  walkInDirection(direction: number) {
+    this.display.setDirection(direction);
+    this.display.playWalkAnimation(DEFAULT_MOVE_DURATION);
 
     const vector = directionToVector(direction);
 
@@ -88,18 +71,16 @@ export class MapEntity extends GameObjects.GameObject {
       y: newPosition!.y,
       duration: DEFAULT_MOVE_DURATION,
       onComplete: () => {
-        this.displayEntity.playIdleAnimation();
         this.emit(MapEntityEvents.MOVE_COMPLETE);
       },
     });
 
-    this.container.setDepth(newPosition.y);
-
+    this.setDepth(newPosition.y);
     this.updateTilePosition(this.tileX + vector.x, this.tileY + vector.y);
   }
 
   playAnimation() {
-    this.displayEntity.playAnimation(1, 300);
+    this.display.playAnimation(1, 300);
   }
 
   say(message: string) {
@@ -108,19 +89,31 @@ export class MapEntity extends GameObjects.GameObject {
         this.bubble?.destroy();
         this.bubble = undefined;
       });
-      this.container.add(this.bubble);
+      this.add(this.bubble);
     }
 
     this.bubble.setText(message);
   }
 
-  setToTilePosition(tileX: number, tileY: number) {
+  setHealth(percent: number) {
+    if (!this.health) {
+      this.health = new HealthBar(this.scene, () => {
+        this.health?.destroy();
+        this.health = undefined;
+      });
+      this.add(this.health);
+    }
+
+    this.health.setHealth(percent);
+  }
+
+  setTilePosition(tileX: number, tileY: number) {
     const newPosition = this.#map.tileToWorldXY(tileX, tileY)!;
 
-    this.container.x = newPosition.x;
-    this.container.y = newPosition.y;
+    this.x = newPosition.x;
+    this.y = newPosition.y;
 
-    this.container.setDepth(this.container.y);
+    this.setDepth(this.y);
 
     this.updateTilePosition(tileX, tileY);
   }
@@ -138,11 +131,5 @@ export class MapEntity extends GameObjects.GameObject {
     super.destroy(fromScene);
 
     this.#map.stopAvoidingPoint(this.tileX, this.tileY);
-
-    this.container.destroy(fromScene);
   }
 }
-
-/**
- * animator
- */

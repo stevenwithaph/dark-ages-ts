@@ -4,7 +4,6 @@ import { Client } from './client';
 
 export class ClientHandler {
   protected clients: Map<string, Client> = new Map();
-
   protected handlerMap: Map<Function, Function> = new Map();
 
   constructor() {

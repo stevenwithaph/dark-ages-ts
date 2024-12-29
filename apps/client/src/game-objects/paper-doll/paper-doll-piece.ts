@@ -1,4 +1,4 @@
-import { AltasSprite } from '../sprite-atlas/atlas-sprite';
+import { AltasSprite } from '../atlas-sprite/atlas-sprite';
 import { PaperDollContainer } from './paper-doll-container';
 
 export enum PaperDollPrefix {
@@ -45,7 +45,7 @@ export class PaperDollPiece extends AltasSprite {
   }
 
   protected getFrameName() {
-    return `${this.textureName}${this.paperDollContainer.animator.prefix}_${this.paperDollContainer.directionFrame()}`;
+    return `${this.textureName}${this.paperDollContainer._animator.prefix}_${this.paperDollContainer.directionFrame()}`;
   }
 
   setDye(dye: number) {

@@ -1,13 +1,6 @@
 import { Crypto } from './crypto';
 import { EncryptionType } from './encryption-type';
-import {
-  generateKey,
-  generateValuePair,
-  getMd5Hash,
-  getClientEncryptionType,
-  xor,
-  getServerEncryptionType,
-} from './utils';
+import { generateKey, generateValuePair, getMd5Hash, getClientEncryptionType, xor, getServerEncryptionType } from './utils';
 
 export class ClientCrypto extends Crypto {
   encrypt(buffer: Uint8Array, opCode: number): Uint8Array {
@@ -80,8 +73,7 @@ export class ClientCrypto extends Crypto {
       return buffer;
     }
 
-    const a: number =
-      ((buffer[buffer.length - 1] << 8) | buffer[buffer.length - 3]) ^ 25716;
+    const a: number = ((buffer[buffer.length - 1] << 8) | buffer[buffer.length - 3]) ^ 25716;
     const b: number = buffer[buffer.length - 2] ^ 36;
 
     switch (encryptionType) {

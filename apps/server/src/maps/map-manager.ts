@@ -14,6 +14,7 @@ class MapManager {
     if (!map) {
       const resource = await mapLoader.get(name);
       map = new MapRoom(resource);
+      await map.initialize();
       this.maps.set(name, map);
     }
 

@@ -1,8 +1,10 @@
-import { NetworkedScene } from './networked-scene';
-import { clientManager } from '../network/client-manager';
-import { PacketHandler } from '../network/packet-handler';
 import { ClientPackets, ServerPackets } from '@medenia/network';
-import { Astar } from '../astar';
+
+import { clientManager } from '@/network/client-manager';
+import { PacketHandler } from '@/network/packet-handler';
+import { Astar } from '@/astar';
+
+import { NetworkedScene } from './networked-scene';
 
 export class PreloadScene extends NetworkedScene {
   constructor(config: Phaser.Types.Scenes.SettingsConfig) {
@@ -21,6 +23,8 @@ export class PreloadScene extends NetworkedScene {
     this.load.binary('sotp', 'sotp.dat');
 
     this.load.binary('login-map', 'maps/login-map.map');
+
+    this.input.setDefaultCursor('url(tile_0087.png), pointer');
   }
 
   create() {

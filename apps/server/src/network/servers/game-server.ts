@@ -1,7 +1,7 @@
 import { v4 as uuid } from 'uuid';
 
-import { ClientPackets, ServerPackets } from '@medenia/network';
-import { redirectManager } from '../../services/redirect-manager';
+import { ClientPackets } from '@medenia/network';
+import { RedirectManager } from '../../services/redirect-manager';
 import { Client } from '../client';
 import { ClientHandler } from '../client-handler';
 import { PacketHandler } from '../packet-handler';
@@ -29,7 +29,7 @@ export class GameServer extends ClientHandler {
     this.world = new WordListener();
 
     this.tcpServer = new TcpServer(2610);
-    this.webServer = new WebServer(80);
+    this.webServer = new WebServer(8080);
 
     this.tcpServer.on('connection', this.onConnection, this);
     this.webServer.on('connection', this.onConnection, this);
@@ -37,7 +37,7 @@ export class GameServer extends ClientHandler {
 
   @PacketHandler(ClientPackets.ClientRedirectedPacket)
   onClientRedirected(client: Client, packet: ClientPackets.ClientRedirectedPacket) {
-    const redirect = redirectManager.get(packet.redirect.id);
+    const redirect = RedirectManager.get(packet.redirect.id);
 
     if (!redirect || packet.redirect.key !== redirect.key || packet.redirect.seed !== redirect.seed || packet.redirect.keySalts !== redirect.keySalts) {
       client.disconnect();

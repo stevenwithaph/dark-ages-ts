@@ -1,6 +1,6 @@
-import { SpriteAtlasAnimation } from '../sprite-atlas/sprite-atlas-animator';
+import { AtlasSpriteAnimation } from '../atlas-sprite/atlas-sprite-animator';
 
-export const Walk: SpriteAtlasAnimation = {
+export const Walk: AtlasSpriteAnimation = {
   startUp: 1,
   startDown: 6,
   frames: 4,
@@ -8,7 +8,7 @@ export const Walk: SpriteAtlasAnimation = {
   loop: false,
 };
 
-export const Idle: SpriteAtlasAnimation = {
+export const Idle: AtlasSpriteAnimation = {
   startUp: 0,
   startDown: 5,
   frames: 1,
@@ -16,7 +16,7 @@ export const Idle: SpriteAtlasAnimation = {
   loop: false,
 };
 
-export const Attack: SpriteAtlasAnimation = {
+export const Attack: AtlasSpriteAnimation = {
   startUp: 0,
   startDown: 2,
   frames: 2,

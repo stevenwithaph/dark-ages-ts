@@ -1,8 +1,9 @@
 import { DisplayEntity } from './display-entity';
-import { AltasSprite } from './sprite-atlas/atlas-sprite';
-import { AnimationEvents, SpriteAtlasAnimation, SpriteAtlasAnimator } from './sprite-atlas/sprite-atlas-animator';
+import { AltasSprite } from './atlas-sprite/atlas-sprite';
+import { AnimationEvents, AtlasSpriteAnimation, AtlasSpriteAnimator } from './atlas-sprite/atlas-sprite-animator';
+import { TILE_HEIGHT, TILE_WIDTH } from './iso-map';
 
-const idle: SpriteAtlasAnimation = {
+const idle: AtlasSpriteAnimation = {
   startUp: 0,
   startDown: 2,
   frames: 2,
@@ -11,14 +12,21 @@ const idle: SpriteAtlasAnimation = {
 };
 
 export class Actor extends AltasSprite implements DisplayEntity {
-  private animator: SpriteAtlasAnimator;
+  public get animator() {
+    return this._animator;
+  }
+
+  private _animator: AtlasSpriteAnimator;
 
   constructor(scene: Phaser.Scene, spriteId: number) {
     super(scene);
-    this.animator = new SpriteAtlasAnimator(idle);
-    this.animator.play(idle, 1000);
+    this._animator = new AtlasSpriteAnimator(idle);
+    this._animator.play(idle, 1000);
 
-    this.animator.on(AnimationEvents.FRAME, () => this.refreshFrame());
+    this._animator.on(AnimationEvents.FRAME, () => this.refreshFrame());
+
+    //  TODO: change this to size of the sprite
+    this.setInteractive(new Phaser.Geom.Rectangle(TILE_WIDTH / 4, TILE_HEIGHT * 2, TILE_WIDTH / 2, TILE_HEIGHT), Phaser.Geom.Rectangle.Contains);
 
     this.setItemId(0x4000 ^ spriteId);
 
@@ -26,7 +34,7 @@ export class Actor extends AltasSprite implements DisplayEntity {
   }
 
   protected preUpdate(_: number, delta: number): void {
-    this.animator.update(delta);
+    this._animator.update(delta);
   }
 
   setDirection(direction: number): void {}
@@ -42,6 +50,6 @@ export class Actor extends AltasSprite implements DisplayEntity {
     return `mns${this.itemId}`;
   }
   protected getFrameName(): string {
-    return `${this.textureName}_${this.animator.directionFrame(0)}`;
+    return `${this.textureName}_${this._animator.directionFrame(0)}`;
   }
 }

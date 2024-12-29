@@ -10,8 +10,6 @@ export class PacketFactory {
   protected opCodeToSerializer: Map<number, Constructor<Packet>> = new Map();
 
   register(packet: Constructor<Packet>) {
-    //const instance = new serializer();
-    //this.packetToSerializer.set(instance.packet, instance);
     this.opCodeToSerializer.set(packet.prototype.opCode, packet);
   }
 

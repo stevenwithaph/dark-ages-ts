@@ -34,12 +34,7 @@ export class MaxRectsBin<T extends IRectangle = Rectangle> extends Bin<T> {
     this.height = this.options.smart ? 0 : maxHeight;
     this.border = this.options.border ? this.options.border : 0;
     this.freeRects.push(
-      new Rectangle(
-        this.maxWidth + this.padding - this.border * 2,
-        this.maxHeight + this.padding - this.border * 2,
-        this.border,
-        this.border
-      )
+      new Rectangle(this.maxWidth + this.padding - this.border * 2, this.maxHeight + this.padding - this.border * 2, this.border, this.border)
     );
     this.stage = new Rectangle(this.width, this.height);
   }
@@ -50,18 +45,11 @@ export class MaxRectsBin<T extends IRectangle = Rectangle> extends Bin<T> {
     let data: any;
     let rect: IRectangle;
     if (args.length === 1) {
-      if (typeof args[0] !== 'object')
-        throw new Error('MacrectsBin.add(): Wrong parameters');
+      if (typeof args[0] !== 'object') throw new Error('MacrectsBin.add(): Wrong parameters');
       rect = args[0] as T;
       // Check if rect.tag match bin.tag, if bin.tag not defined, it will accept any rect
-      let tag =
-        rect.data && rect.data.tag
-          ? rect.data.tag
-          : rect.tag
-            ? rect.tag
-            : undefined;
-      if (this.options.tag && this.options.exclusiveTag && this.tag !== tag)
-        return undefined;
+      let tag = rect.data && rect.data.tag ? rect.data.tag : rect.tag ? rect.tag : undefined;
+      if (this.options.tag && this.options.exclusiveTag && this.tag !== tag) return undefined;
     } else {
       data = args.length > 2 ? args[2] : null;
       // Check if data.tag match bin.tag, if bin.tag not defined, it will accept any rect
@@ -118,26 +106,13 @@ export class MaxRectsBin<T extends IRectangle = Rectangle> extends Bin<T> {
     this.width = this.options.smart ? 0 : this.maxWidth;
     this.height = this.options.smart ? 0 : this.maxHeight;
     this.border = this.options.border ? this.options.border : 0;
-    this.freeRects = [
-      new Rectangle(
-        this.maxWidth + this.padding - this.border * 2,
-        this.maxHeight + this.padding - this.border * 2,
-        this.border,
-        this.border
-      ),
-    ];
+    this.freeRects = [new Rectangle(this.maxWidth + this.padding - this.border * 2, this.maxHeight + this.padding - this.border * 2, this.border, this.border)];
     this.stage = new Rectangle(this.width, this.height);
     this._dirty = 0;
   }
 
   public clone(): MaxRectsBin<T> {
-    let clonedBin: MaxRectsBin<T> = new MaxRectsBin<T>(
-      this.maxWidth,
-      this.maxHeight,
-      this.padding,
-      this.index,
-      this.options
-    );
+    let clonedBin: MaxRectsBin<T> = new MaxRectsBin<T>(this.maxWidth, this.maxHeight, this.padding, this.index, this.options);
     for (let rect of this.rects) {
       clonedBin.add(rect);
     }
@@ -146,31 +121,18 @@ export class MaxRectsBin<T extends IRectangle = Rectangle> extends Bin<T> {
 
   private place(rect: IRectangle): T | undefined {
     // recheck if tag matched
-    let tag =
-      rect.data && rect.data.tag
-        ? rect.data.tag
-        : rect.tag
-          ? rect.tag
-          : undefined;
-    if (this.options.tag && this.options.exclusiveTag && this.tag !== tag)
-      return undefined;
+    let tag = rect.data && rect.data.tag ? rect.data.tag : rect.tag ? rect.tag : undefined;
+    if (this.options.tag && this.options.exclusiveTag && this.tag !== tag) return undefined;
 
     let node: IRectangle | undefined;
     let allowRotation: boolean | undefined;
     // getter/setter do not support hasOwnProperty()
-    if (
-      rect.hasOwnProperty('_allowRotation') &&
-      rect.allowRotation !== undefined
-    ) {
+    if (rect.hasOwnProperty('_allowRotation') && rect.allowRotation !== undefined) {
       allowRotation = rect.allowRotation; // Per Rectangle allowRotation override packer settings
     } else {
       allowRotation = this.options.allowRotation;
     }
-    node = this.findNode(
-      rect.width + this.padding,
-      rect.height + this.padding,
-      allowRotation
-    );
+    node = this.findNode(rect.width + this.padding, rect.height + this.padding, allowRotation);
 
     if (node) {
       this.updateBinSize(node);
@@ -194,43 +156,15 @@ export class MaxRectsBin<T extends IRectangle = Rectangle> extends Bin<T> {
       return rect as T;
     } else if (!this.verticalExpand) {
       if (
-        this.updateBinSize(
-          new Rectangle(
-            rect.width + this.padding,
-            rect.height + this.padding,
-            this.width + this.padding - this.border,
-            this.border
-          )
-        ) ||
-        this.updateBinSize(
-          new Rectangle(
-            rect.width + this.padding,
-            rect.height + this.padding,
-            this.border,
-            this.height + this.padding - this.border
-          )
-        )
+        this.updateBinSize(new Rectangle(rect.width + this.padding, rect.height + this.padding, this.width + this.padding - this.border, this.border)) ||
+        this.updateBinSize(new Rectangle(rect.width + this.padding, rect.height + this.padding, this.border, this.height + this.padding - this.border))
       ) {
         return this.place(rect);
       }
     } else {
       if (
-        this.updateBinSize(
-          new Rectangle(
-            rect.width + this.padding,
-            rect.height + this.padding,
-            this.border,
-            this.height + this.padding - this.border
-          )
-        ) ||
-        this.updateBinSize(
-          new Rectangle(
-            rect.width + this.padding,
-            rect.height + this.padding,
-            this.width + this.padding - this.border,
-            this.border
-          )
-        )
+        this.updateBinSize(new Rectangle(rect.width + this.padding, rect.height + this.padding, this.border, this.height + this.padding - this.border)) ||
+        this.updateBinSize(new Rectangle(rect.width + this.padding, rect.height + this.padding, this.width + this.padding - this.border, this.border))
       ) {
         return this.place(rect);
       }
@@ -238,11 +172,7 @@ export class MaxRectsBin<T extends IRectangle = Rectangle> extends Bin<T> {
     return undefined;
   }
 
-  private findNode(
-    width: number,
-    height: number,
-    allowRotation?: boolean
-  ): Rectangle | undefined {
+  private findNode(width: number, height: number, allowRotation?: boolean): Rectangle | undefined {
     let score: number = Number.MAX_VALUE;
     let areaFit: number;
     let r: Rectangle;
@@ -250,10 +180,7 @@ export class MaxRectsBin<T extends IRectangle = Rectangle> extends Bin<T> {
     for (let i in this.freeRects) {
       r = this.freeRects[i];
       if (r.width >= width && r.height >= height) {
-        areaFit =
-          this.options.logic === PACKING_LOGIC.MAX_AREA
-            ? r.width * r.height - width * height
-            : Math.min(r.width - width, r.height - height);
+        areaFit = this.options.logic === PACKING_LOGIC.MAX_AREA ? r.width * r.height - width * height : Math.min(r.width - width, r.height - height);
         if (areaFit < score) {
           bestNode = new Rectangle(width, height, r.x, r.y);
           score = areaFit;
@@ -264,10 +191,7 @@ export class MaxRectsBin<T extends IRectangle = Rectangle> extends Bin<T> {
 
       // Continue to test 90-degree rotated rectangle
       if (r.width >= height && r.height >= width) {
-        areaFit =
-          this.options.logic === PACKING_LOGIC.MAX_AREA
-            ? r.width * r.height - height * width
-            : Math.min(r.height - width, r.width - height);
+        areaFit = this.options.logic === PACKING_LOGIC.MAX_AREA ? r.width * r.height - height * width : Math.min(r.height - width, r.width - height);
         if (areaFit < score) {
           bestNode = new Rectangle(height, width, r.x, r.y, true); // Rotated node
           score = areaFit;
@@ -282,58 +206,29 @@ export class MaxRectsBin<T extends IRectangle = Rectangle> extends Bin<T> {
     if (!freeRect.collide(usedNode)) return false;
 
     // Do vertical split
-    if (
-      usedNode.x < freeRect.x + freeRect.width &&
-      usedNode.x + usedNode.width > freeRect.x
-    ) {
+    if (usedNode.x < freeRect.x + freeRect.width && usedNode.x + usedNode.width > freeRect.x) {
       // New node at the top side of the used node
-      if (
-        usedNode.y > freeRect.y &&
-        usedNode.y < freeRect.y + freeRect.height
-      ) {
-        let newNode: Rectangle = new Rectangle(
-          freeRect.width,
-          usedNode.y - freeRect.y,
-          freeRect.x,
-          freeRect.y
-        );
+      if (usedNode.y > freeRect.y && usedNode.y < freeRect.y + freeRect.height) {
+        let newNode: Rectangle = new Rectangle(freeRect.width, usedNode.y - freeRect.y, freeRect.x, freeRect.y);
         this.freeRects.push(newNode);
       }
       // New node at the bottom side of the used node
       if (usedNode.y + usedNode.height < freeRect.y + freeRect.height) {
-        let newNode = new Rectangle(
-          freeRect.width,
-          freeRect.y + freeRect.height - (usedNode.y + usedNode.height),
-          freeRect.x,
-          usedNode.y + usedNode.height
-        );
+        let newNode = new Rectangle(freeRect.width, freeRect.y + freeRect.height - (usedNode.y + usedNode.height), freeRect.x, usedNode.y + usedNode.height);
         this.freeRects.push(newNode);
       }
     }
 
     // Do Horizontal split
-    if (
-      usedNode.y < freeRect.y + freeRect.height &&
-      usedNode.y + usedNode.height > freeRect.y
-    ) {
+    if (usedNode.y < freeRect.y + freeRect.height && usedNode.y + usedNode.height > freeRect.y) {
       // New node at the left side of the used node.
       if (usedNode.x > freeRect.x && usedNode.x < freeRect.x + freeRect.width) {
-        let newNode = new Rectangle(
-          usedNode.x - freeRect.x,
-          freeRect.height,
-          freeRect.x,
-          freeRect.y
-        );
+        let newNode = new Rectangle(usedNode.x - freeRect.x, freeRect.height, freeRect.x, freeRect.y);
         this.freeRects.push(newNode);
       }
       // New node at the right side of the used node.
       if (usedNode.x + usedNode.width < freeRect.x + freeRect.width) {
-        let newNode = new Rectangle(
-          freeRect.x + freeRect.width - (usedNode.x + usedNode.width),
-          freeRect.height,
-          usedNode.x + usedNode.width,
-          freeRect.y
-        );
+        let newNode = new Rectangle(freeRect.x + freeRect.width - (usedNode.x + usedNode.width), freeRect.height, usedNode.x + usedNode.width, freeRect.y);
         this.freeRects.push(newNode);
       }
     }
@@ -370,24 +265,12 @@ export class MaxRectsBin<T extends IRectangle = Rectangle> extends Bin<T> {
   private updateBinSize(node: IRectangle): boolean {
     if (!this.options.smart) return false;
     if (this.stage.contain(node)) return false;
-    let tmpWidth: number = Math.max(
-      this.width,
-      node.x + node.width - this.padding + this.border
-    );
-    let tmpHeight: number = Math.max(
-      this.height,
-      node.y + node.height - this.padding + this.border
-    );
+    let tmpWidth: number = Math.max(this.width, node.x + node.width - this.padding + this.border);
+    let tmpHeight: number = Math.max(this.height, node.y + node.height - this.padding + this.border);
     if (this.options.allowRotation) {
       // do extra test on rotated node whether it's a better choice
-      const rotWidth: number = Math.max(
-        this.width,
-        node.x + node.height - this.padding + this.border
-      );
-      const rotHeight: number = Math.max(
-        this.height,
-        node.y + node.width - this.padding + this.border
-      );
+      const rotWidth: number = Math.max(this.width, node.x + node.height - this.padding + this.border);
+      const rotHeight: number = Math.max(this.height, node.y + node.width - this.padding + this.border);
       if (rotWidth * rotHeight < tmpWidth * tmpHeight) {
         tmpWidth = rotWidth;
         tmpHeight = rotHeight;
@@ -400,10 +283,7 @@ export class MaxRectsBin<T extends IRectangle = Rectangle> extends Bin<T> {
     if (this.options.square) {
       tmpWidth = tmpHeight = Math.max(tmpWidth, tmpHeight);
     }
-    if (
-      tmpWidth > this.maxWidth + this.padding ||
-      tmpHeight > this.maxHeight + this.padding
-    ) {
+    if (tmpWidth > this.maxWidth + this.padding || tmpHeight > this.maxHeight + this.padding) {
       return false;
     }
     this.expandFreeRects(tmpWidth + this.padding, tmpHeight + this.padding);
@@ -414,42 +294,17 @@ export class MaxRectsBin<T extends IRectangle = Rectangle> extends Bin<T> {
 
   private expandFreeRects(width: number, height: number) {
     this.freeRects.forEach((freeRect, index) => {
-      if (
-        freeRect.x + freeRect.width >=
-        Math.min(this.width + this.padding - this.border, width)
-      ) {
+      if (freeRect.x + freeRect.width >= Math.min(this.width + this.padding - this.border, width)) {
         freeRect.width = width - freeRect.x - this.border;
       }
-      if (
-        freeRect.y + freeRect.height >=
-        Math.min(this.height + this.padding - this.border, height)
-      ) {
+      if (freeRect.y + freeRect.height >= Math.min(this.height + this.padding - this.border, height)) {
         freeRect.height = height - freeRect.y - this.border;
       }
     }, this);
-    this.freeRects.push(
-      new Rectangle(
-        width - this.width - this.padding,
-        height - this.border * 2,
-        this.width + this.padding - this.border,
-        this.border
-      )
-    );
-    this.freeRects.push(
-      new Rectangle(
-        width - this.border * 2,
-        height - this.height - this.padding,
-        this.border,
-        this.height + this.padding - this.border
-      )
-    );
+    this.freeRects.push(new Rectangle(width - this.width - this.padding, height - this.border * 2, this.width + this.padding - this.border, this.border));
+    this.freeRects.push(new Rectangle(width - this.border * 2, height - this.height - this.padding, this.border, this.height + this.padding - this.border));
     this.freeRects = this.freeRects.filter((freeRect) => {
-      return !(
-        freeRect.width <= 0 ||
-        freeRect.height <= 0 ||
-        freeRect.x < this.border ||
-        freeRect.y < this.border
-      );
+      return !(freeRect.width <= 0 || freeRect.height <= 0 || freeRect.x < this.border || freeRect.y < this.border);
     });
     this.pruneFreeList();
   }

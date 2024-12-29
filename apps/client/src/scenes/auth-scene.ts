@@ -1,12 +1,13 @@
-import { ClientPackets, Redirect, ServerPackets } from '@medenia/network';
-import { clientManager } from '../network/client-manager';
+import { ClientPackets, ServerPackets } from '@medenia/network';
+import { clientManager } from '@/network/client-manager';
+import { PacketHandler } from '@/network/packet-handler';
+import { IsoMap, MapEvents } from '@/game-objects/iso-map';
+import { PaperDollContainer } from '@/game-objects/paper-doll/paper-doll-container';
+import { RouterStore } from '@/ui/stores/router.svelte';
+import { EventHandler } from '@/ui/event-handler';
+import { NoticeStore } from '@/ui/stores/notice.svelte';
+
 import { NetworkedScene } from './networked-scene';
-import { PacketHandler } from '../network/packet-handler';
-import { IsoMap, MapEvents } from '../game-objects/iso-map';
-import { PaperDollContainer } from '../game-objects/paper-doll/paper-doll-container';
-import { RouterStore } from '../ui/stores/router.svelte';
-import { EventHandler } from '../ui/event-handler';
-import { NoticeStore } from '../ui/stores/notice.svelte';
 
 export class AuthScene extends NetworkedScene {
   map: IsoMap;

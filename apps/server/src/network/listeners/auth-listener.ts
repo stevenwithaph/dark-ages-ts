@@ -4,7 +4,7 @@ import fs from 'fs';
 import { Client } from '../client';
 import { PacketHandler } from '../packet-handler';
 import { Listener } from './listener';
-import { AuthError, authService } from '../../services/auth-service';
+import { AuthError, AuthService } from '../../services/auth-service';
 
 export class AuthListener extends Listener {
   motd: string = '';
@@ -27,7 +27,7 @@ export class AuthListener extends Listener {
   @PacketHandler(ClientPackets.LoginPacket)
   async onLogin(client: Client, packet: ClientPackets.LoginPacket) {
     try {
-      await authService.login(packet.username, packet.password);
+      await AuthService.login(packet.username, packet.password);
       client.keySalts = packet.username;
       client.sendPacket(new ServerPackets.LoginMessagePacket(LoginMessageType.Confirm, 'Success!'));
 
@@ -40,12 +40,12 @@ export class AuthListener extends Listener {
   @PacketHandler(ClientPackets.CharacterCreationRequestPacket)
   async onCharacterCreationPacket(client: Client, packet: ClientPackets.CharacterCreationRequestPacket) {
     try {
-      const aisling = await authService.create(packet.name, packet.password);
+      const aisling = await AuthService.create(packet.name, packet.password);
       client.sendPacket(new ServerPackets.LoginMessagePacket(LoginMessageType.Confirm, 'Success!'));
 
       const finalize = await client.await(ClientPackets.CharacterCreationFinalizePacket);
 
-      await authService.finalize(aisling.id, finalize.hairStyle, finalize.hairColour, finalize.skinColour, finalize.bodyType);
+      await AuthService.finalize(aisling.id, finalize.hairStyle, finalize.hairColour, finalize.skinColour, finalize.bodyType);
 
       client.sendPacket(new ServerPackets.LoginMessagePacket(LoginMessageType.Confirm, 'Success!'));
     } catch (error) {

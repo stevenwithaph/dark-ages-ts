@@ -1,9 +1,9 @@
 import { Direction } from '../../direction';
 import { DisplayEntity } from '../display-entity';
 import { Attack, Idle, Walk } from './paper-doll-animations';
-import { AnimationEvents, SpriteAtlasAnimator } from '../sprite-atlas/sprite-atlas-animator';
+import { AnimationEvents, AtlasSpriteAnimator } from '../atlas-sprite/atlas-sprite-animator';
 import { PaperDollPiece, PaperDollPrefix, PaperDollPieceNames } from './paper-doll-piece';
-import { AtlasSpriteEvents } from '../sprite-atlas/atlas-sprite';
+import { AtlasSpriteEvents } from '../atlas-sprite/atlas-sprite';
 
 export const ANIM_COMPLETE = 'animation-complete';
 export const MOVE_COMPLETE = 'move-complete';
@@ -22,8 +22,12 @@ type PaperDollPieces = {
 };
 
 export class PaperDollContainer extends Phaser.GameObjects.Container implements DisplayEntity {
+  public get animator() {
+    return this._animator;
+  }
+
   pieces: PaperDollPieces;
-  animator: SpriteAtlasAnimator;
+  private _animator: AtlasSpriteAnimator;
   private paperDollKeys: string[];
 
   constructor(
@@ -33,7 +37,7 @@ export class PaperDollContainer extends Phaser.GameObjects.Container implements 
   ) {
     super(scene);
 
-    this.animator = new SpriteAtlasAnimator(Idle);
+    this._animator = new AtlasSpriteAnimator(Idle, 0);
 
     this.pieces = {
       [PaperDollPieceNames.Shield]: new PaperDollPiece(this.scene, this, PaperDollPrefix.Shield),
@@ -67,8 +71,8 @@ export class PaperDollContainer extends Phaser.GameObjects.Container implements 
 
     this.setDirection(this.direction);
 
-    this.animator.play(Idle, 0);
-    this.animator.on(AnimationEvents.FRAME, () => this.refreshFrames());
+    this._animator.play(Idle, 0);
+    this._animator.on(AnimationEvents.FRAME, () => this.refreshFrames());
 
     this.setInteractive(new Phaser.Geom.Rectangle(-9, -51 - 14, 18, 51), (shape: Phaser.Geom.Rectangle, x: number, y: number) => {
       return shape.contains(x, y);
@@ -85,15 +89,15 @@ export class PaperDollContainer extends Phaser.GameObjects.Container implements 
   }
 
   playAnimation(animation: number, duration: number): void {
-    //this.animator.play(Attack, duration);
+    this.animator.play(Attack, duration * 20);
   }
 
   playWalkAnimation(duration: number): void {
-    this.animator.play(Walk, duration);
+    this._animator.play(Walk, duration);
   }
 
   playIdleAnimation(): void {
-    this.animator.play(Idle, 0);
+    this._animator.play(Idle, 0);
   }
 
   setGender(gender: PaperDollGender) {
@@ -128,7 +132,7 @@ export class PaperDollContainer extends Phaser.GameObjects.Container implements 
   }
 
   preUpdate(_: number, delta: number) {
-    this.animator.update(delta);
+    this._animator.update(delta);
   }
 
   refreshAtlases() {
@@ -144,6 +148,6 @@ export class PaperDollContainer extends Phaser.GameObjects.Container implements 
   }
 
   public directionFrame() {
-    return this.animator.directionFrame(this.direction);
+    return this._animator.directionFrame(this.direction);
   }
 }

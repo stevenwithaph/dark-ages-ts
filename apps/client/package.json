@@ -27,13 +27,15 @@
     "vite": "^5.2.0",
     "vite-plugin-comlink": "^4.0.3",
     "vite-plugin-node-polyfills": "^0.21.0",
-    "vite-plugin-top-level-await": "^1.4.1"
+    "vite-plugin-top-level-await": "^1.4.1",
+    "vite-tsconfig-paths": "^5.0.1"
   },
   "dependencies": {
     "@medenia/encryption": "*",
     "@medenia/maxrects-packer": "*",
     "@medenia/network": "*",
     "@medenia/serialization": "*",
+    "@medenia/fsm": "*",
     "comlink": "^4.4.1",
     "phaser": "^3.80.1",
     "reflect-metadata": "^0.2.2",

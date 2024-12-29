@@ -1,7 +1,7 @@
 import { AislingDisplay, NameDisplay, ServerPackets } from '@medenia/network';
 import { Peer } from '../network/peer';
 import { MapEntity } from './map-entity';
-import { AislingEntity } from '../../db/entities/aisling.entity';
+import { AislingEntity } from '../../database/entities/aisling.entity';
 
 /**
  * 0- 15 no body - still pants

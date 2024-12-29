@@ -1,6 +1,6 @@
 import { ServerPackets } from '@medenia/network';
 
-import { AislingEntity } from '../../db/entities/aisling.entity';
+import { AislingEntity } from '../../database/entities/aisling.entity';
 import { Client } from '../../network/client';
 import { Peer } from '../network/peer';
 import { ColliderNodeEvents } from '../physics/collider-node';

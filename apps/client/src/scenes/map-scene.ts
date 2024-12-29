@@ -1,14 +1,15 @@
 import { ClientPackets, ServerPackets } from '@medenia/network';
-import { IsoMap } from '../game-objects/iso-map';
-import { PacketHandler } from '../network/packet-handler';
+import { IsoMap } from '@/game-objects/iso-map';
+import { PacketHandler } from '@/network/packet-handler';
+import { clientManager } from '@/network/client-manager';
+import { PlayerController } from '@/game-objects/controllers/player/player-controller';
+import { MapEntity } from '@/game-objects/map-entity';
+import { PaperDollContainer, PaperDollGender } from '@/game-objects/paper-doll/paper-doll-container';
+import { Actor } from '@/game-objects/actor';
+import { RouterStore } from '@/ui/stores/router.svelte';
+import { CompassStore } from '@/ui/stores/compass.svelte';
+
 import { NetworkedScene } from './networked-scene';
-import { clientManager } from '../network/client-manager';
-import { PlayerController } from '../controllers/player-controller';
-import { MapEntity } from '../game-objects/map-entity';
-import { PaperDollContainer, PaperDollGender } from '../game-objects/paper-doll/paper-doll-container';
-import { Actor } from '../game-objects/actor';
-import { RouterStore } from '../ui/stores/router.svelte';
-import { CompassStore } from '../ui/stores/compass.svelte';
 
 enum BodyFlags {
   MaleBody = 16,
@@ -95,17 +96,17 @@ export class MapScene extends NetworkedScene {
     }
   }
 
+  //  TODO: this packet stupid
   @PacketHandler(ServerPackets.LocationPacket)
   onLocation(packet: ServerPackets.LocationPacket) {
     const position = this.map.tileToWorldXY(packet.x, packet.y);
     this.cameras.main.centerOn(position.x, position.y);
 
-    CompassStore.x = packet.x;
-    CompassStore.y = packet.y;
+    CompassStore.setPosition(packet.x, packet.y);
 
     const player = this.entities.get(this.playerController.actorId);
     if (player) {
-      player.setToTilePosition(position.x, position.y);
+      player.setTilePosition(position.x, position.y);
     }
   }
 
@@ -159,13 +160,27 @@ export class MapScene extends NetworkedScene {
   @PacketHandler(ServerPackets.DisplayVisibleEntitiesPacket)
   onDisplayVisibleEntities(packet: ServerPackets.DisplayVisibleEntitiesPacket) {
     for (const entity of packet.entities) {
-      const actor = new Actor(this, entity.spriteId);
+      const actor = new Actor(this, entity.sprite);
 
       const mapEntity = new MapEntity(this, actor, this.map, entity.x, entity.y);
+
+      mapEntity.display.on(Phaser.Input.Events.GAMEOBJECT_POINTER_DOWN, (_entity: MapEntity, _x: number, _y: number, e: Phaser.Types.Input.EventData) => {
+        e.stopPropagation();
+        this.playerController.moveToTarget(mapEntity);
+      });
 
       this.add.existing(mapEntity);
       this.entities.set(entity.id, mapEntity);
     }
+  }
+
+  @PacketHandler(ServerPackets.HealthBarPacket)
+  onHealthBarPacket(packet: ServerPackets.HealthBarPacket) {
+    const entity = this.entities.get(packet.actorId);
+
+    if (!entity) return;
+
+    entity.setHealth(packet.percent);
   }
 
   @PacketHandler(ServerPackets.CreatureWalkPacket)
@@ -174,7 +189,7 @@ export class MapScene extends NetworkedScene {
 
     if (!actor) return;
 
-    actor.moveFrom(packet.fromX, packet.fromY, packet.direction);
+    actor.walkFrom(packet.fromX, packet.fromY, packet.direction);
   }
 
   @PacketHandler(ServerPackets.RemoveObjectPacket)
@@ -190,11 +205,18 @@ export class MapScene extends NetworkedScene {
   onChatMessage(packet: ServerPackets.ChatMessagePacket) {
     const actor = this.entities.get(packet.entityId);
 
-    if (!actor) {
-      return;
-    }
+    if (!actor) return;
 
     actor.say(packet.message);
+  }
+
+  @PacketHandler(ServerPackets.BodyAnimationPacket)
+  onBodyAnimationPacket(packet: ServerPackets.BodyAnimationPacket) {
+    const actor = this.entities.get(packet.actorId);
+
+    if (!actor) return;
+
+    actor.display.playAnimation(1, packet.speed);
   }
 
   update(): void {

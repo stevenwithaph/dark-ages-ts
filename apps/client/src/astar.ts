@@ -5,7 +5,8 @@ export class Astar {
   private width: number;
   private height: number;
 
-  private additional: Uint8Array;
+  private grid: number[][] = [];
+  private additional: Map<number, number>;
 
   public static Sotp: Uint8Array;
 
@@ -14,17 +15,17 @@ export class Astar {
   }
 
   setSize(width: number, height: number) {
-    this.additional = new Uint8Array(width * height);
+    this.additional = new Map();
 
     this.width = width;
     this.height = height;
   }
 
   setGrid(mapData: Uint16Array) {
-    const grid: number[][] = [];
+    this.grid = [];
 
     for (let i = 0; i < this.height; i++) {
-      grid.push([]);
+      this.grid.push([]);
       for (let j = 0; j < this.width; j++) {
         const idx = (i * this.width + j) * 3;
 
@@ -32,14 +33,14 @@ export class Astar {
         const rightWallId = mapData[idx + 2];
 
         if (Astar.Sotp[leftWallId - 1] === 0x0f || Astar.Sotp[rightWallId - 1] === 0x0f) {
-          grid[i].push(1);
+          this.grid[i].push(1);
         } else {
-          grid[i].push(0);
+          this.grid[i].push(0);
         }
       }
     }
 
-    this.easystar.setGrid(grid);
+    this.easystar.setGrid(this.grid);
   }
 
   async findPath(startX: number, startY: number, endX: number, endY: number) {
@@ -59,25 +60,40 @@ export class Astar {
     });
   }
 
+  isObstacle(x: number, y: number) {
+    const tileIdx = x + y * this.width;
+
+    return this.grid[x][y] === 0x0f || this.additional.has(tileIdx);
+  }
+
   avoidPoint(tileX: number, tileY: number) {
     const tileIdx = tileX + tileY * this.width;
-    const entities = this.additional[tileIdx];
+    let entities = this.additional.get(tileIdx) ?? 0;
 
-    this.additional[tileIdx]++;
+    entities++;
 
     if (entities === 1) {
       this.easystar.avoidAdditionalPoint(tileX, tileY);
+    }
+
+    if (entities > 0) {
+      this.additional.set(tileIdx, entities);
+    } else {
+      this.additional.delete(tileIdx);
     }
   }
 
   stopAvoidingPoint(tileX: number, tileY: number) {
     const tileIdx = tileX + tileY * this.width;
-    const entities = this.additional[tileIdx];
+    let entities = this.additional.get(tileIdx) ?? 1;
 
-    this.additional[tileIdx]--;
+    entities--;
 
     if (entities === 0) {
       this.easystar.stopAvoidingAdditionalPoint(tileX, tileY);
+      this.additional.delete(tileIdx);
+    } else {
+      this.additional.set(tileIdx, entities);
     }
   }
 }

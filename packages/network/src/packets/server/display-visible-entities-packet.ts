@@ -7,7 +7,7 @@ interface VisibleEntity {
   x: number;
   y: number;
   id: number;
-  spriteId: number;
+  sprite: number;
   direction: number;
   creatureType: CreatureType;
   name: string;
@@ -26,7 +26,7 @@ export class DisplayVisibleEntitiesPacket implements Packet {
       writer.writeUint16(entity.y);
 
       writer.writeUint32(entity.id);
-      writer.writeUint16(entity.spriteId);
+      writer.writeUint16(entity.sprite);
       writer.offset += 4;
 
       writer.writeUint8(entity.direction);
@@ -59,7 +59,7 @@ export class DisplayVisibleEntitiesPacket implements Packet {
         x,
         y,
         id,
-        spriteId,
+        sprite: spriteId,
         direction,
         creatureType,
         name,

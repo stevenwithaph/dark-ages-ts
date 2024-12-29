@@ -32,6 +32,9 @@ const game = new Phaser.Game({
   dom: {
     pointerEvents: 'none',
   },
+  fps: {
+    //limit: 20,
+  },
 });
 
 game.domContainer = document.getElementById('dom-container') as HTMLDivElement;

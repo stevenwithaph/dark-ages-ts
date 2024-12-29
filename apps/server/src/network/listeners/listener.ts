@@ -2,7 +2,7 @@ import { ClientPackets, ServerPackets } from '@medenia/network';
 
 import { ClientHandler } from '../client-handler';
 import { Client } from '../client';
-import { redirectManager } from '../../services/redirect-manager';
+import { RedirectManager } from '../../services/redirect-manager';
 
 export abstract class Listener extends ClientHandler {
   clientRedirected(client: Client, _packet: ClientPackets.ClientRedirectedPacket) {
@@ -10,7 +10,7 @@ export abstract class Listener extends ClientHandler {
   }
 
   protected redirect(client: Client, address: string, _port: number, subject: string) {
-    const redirect = redirectManager.add(client.seed, client.key, client.keySalts, subject);
+    const redirect = RedirectManager.add(client.seed, client.key, client.keySalts, subject);
     client.sendPacket(new ServerPackets.RedirectPacket(address, 2610, redirect));
   }
 }

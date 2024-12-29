@@ -16,11 +16,9 @@ function createCompassStore() {
     set name(value: string) {
       name = value;
     },
-    set x(value: number) {
-      x = value;
-    },
-    set y(value: number) {
-      y = value;
+    setPosition(newX: number, newY: number) {
+      x = newX;
+      y = newY;
     },
   };
 }

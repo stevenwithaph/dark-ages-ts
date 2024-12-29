@@ -3,35 +3,31 @@ import { Redirect } from '@medenia/network';
 import { TimedCache } from '../utils/timed-cache';
 import { UniqueId } from '../utils/unique-id';
 
-class RedirectManager {
-  #cache: TimedCache<number, Redirect> = new TimedCache(5000);
-  #uniqueId: UniqueId = new UniqueId();
+export module RedirectManager {
+  const cache: TimedCache<number, Redirect> = new TimedCache(5000);
+  const uniqueId: UniqueId = new UniqueId();
 
-  constructor() {
-    this.#cache.on('removed', this.onCacheRemoved, this);
-  }
+  cache.on('removed', onCacheRemoved);
 
-  add(seed: number, key: string, keySalts: string, subject: string) {
-    const redirect = new Redirect(seed, key, keySalts, this.#uniqueId.next(), subject);
+  export function add(seed: number, key: string, keySalts: string, subject: string) {
+    const redirect = new Redirect(seed, key, keySalts, uniqueId.next(), subject);
 
-    this.#cache.add(redirect.id, redirect);
+    cache.add(redirect.id, redirect);
 
     return redirect;
   }
 
-  get(id: number) {
-    const redirect = this.#cache.get(id);
+  export function get(id: number) {
+    const redirect = cache.get(id);
 
     if (redirect) {
-      this.#cache.remove(id);
+      cache.remove(id);
     }
 
     return redirect;
   }
 
-  private onCacheRemoved(redirect: Redirect) {
-    this.#uniqueId.free(redirect.id);
+  function onCacheRemoved(redirect: Redirect) {
+    uniqueId.free(redirect.id);
   }
 }
-
-export const redirectManager = new RedirectManager();

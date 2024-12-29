@@ -1,5 +1,6 @@
 {
   "search.exclude": {
     "**/apps/client/public": true
-  }
+  },
+  "exportall.config.relExclusion": ["/packages/network/src/entities/index.ts"]
 }

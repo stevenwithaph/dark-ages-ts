@@ -1,4 +1,7 @@
-import { ServerPackets, ClientPackets, AttributeFlags } from '@medenia/network';
+import { ServerPackets, ClientPackets, CreatureType } from '@medenia/network';
+
+import { v4 as uuid } from 'uuid';
+import * as fs from 'fs/promises';
 
 import { Room } from '../network/room';
 import { Client } from '../network/client';
@@ -9,9 +12,17 @@ import { SceneTree } from '../scene/scene-tree';
 
 import { UniqueId } from '../utils/unique-id';
 import { TransferArea } from '../scene/game-objects/transfer-area';
-import { Point } from '../collision/geometry/point';
 import { MapResource } from './map-resource';
 import { Monster } from '../scene/game-objects/monster';
+
+interface MobData {
+  name: string;
+  sprite: number;
+  lvl: number;
+  exp: number;
+  dmg: number;
+  hp: number;
+}
 
 export class MapRoom extends Room {
   protected resource: MapResource;
@@ -30,11 +41,15 @@ export class MapRoom extends Room {
 
     this.scene = new SceneTree(resource.info.width, resource.info.height);
     this.id = new UniqueId();
-
-    this.createTransfers();
   }
 
-  createTransfers() {
+  async initialize() {
+    await this.createTransfers();
+    await this.createEntities();
+    await this.createMobs();
+  }
+
+  async createTransfers() {
     for (const transfer of this.resource.info.transfers) {
       let width = (transfer.endX ?? transfer.startX) - transfer.startX;
       let height = (transfer.endY ?? transfer.startY) - transfer.startY;
@@ -51,6 +66,25 @@ export class MapRoom extends Room {
       );
       area.nodeName = transfer.zone;
       this.scene.addChild(area);
+    }
+  }
+
+  async createEntities() {
+    for (const entity of this.resource.info.entities) {
+      const newEntity = new Monster(entity.x, entity.y, entity.name, entity.sprite, CreatureType.Merchant);
+      newEntity.identity.networkId = this.id.next();
+      newEntity.nodeName = uuid();
+      this.scene.addChild(newEntity);
+    }
+  }
+
+  async createMobs() {
+    for (const mob of this.resource.info.mobs) {
+      const mobTemplate = JSON.parse(await fs.readFile(`./data/mobs/${mob.template}.json`, 'utf-8')) as MobData;
+      const newEntity = new Monster(mob.x, mob.y, mobTemplate.name, mobTemplate.sprite, CreatureType.Hostile);
+      newEntity.identity.networkId = this.id.next();
+      newEntity.nodeName = uuid();
+      this.scene.addChild(newEntity);
     }
   }
 
@@ -124,4 +158,7 @@ export class MapRoom extends Room {
     const aisling = this.players.get(client.id);
     aisling?.say(packet.message);
   }
+
+  @PacketHandler(ClientPackets.ClickPacket)
+  onClientClick(client: Client, packet: ClientPackets.ClickPacket) {}
 }

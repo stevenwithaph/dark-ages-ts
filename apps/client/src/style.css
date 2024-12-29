@@ -20,4 +20,38 @@ select {
   .pixelated {
     image-rendering: pixelated;
   }
+
+  .health-bar::before {
+    transform: scaleX(var(--health-bar-width));
+    background-color: var(--health-bar-colour);
+  }
+
+  .image-border {
+    border-image-slice: 30 fill;
+    border-image-width: 30px;
+    border-width: 10px;
+  }
+
+  .panel {
+    border-image-source: url(panel.png);
+    @apply image-border text-white p-4;
+  }
+
+  .button {
+    border-image-source: url(button.png);
+    @apply image-border text-white;
+  }
+
+  .button[disabled] {
+    @apply brightness-75;
+  }
+
+  .input {
+    border-image-source: url(input.png);
+    @apply image-border text-white;
+
+    [disabled] {
+      @apply brightness-50;
+    }
+  }
 }

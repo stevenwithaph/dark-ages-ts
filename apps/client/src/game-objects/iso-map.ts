@@ -1,8 +1,8 @@
 import { GameObjects, Scene, Tilemaps } from 'phaser';
 
-import { Astar } from '../astar';
-import { AtlasGid } from '../tilemap-generator/tilemap-factory';
-import { TileMapGenerator } from '../tilemap-generator';
+import { Astar } from '@/astar';
+import { AtlasGid } from '@/tilemap-generator/tilemap-factory';
+import { TileMapGenerator } from '@/tilemap-generator';
 
 export const TILE_WIDTH = 56;
 export const TILE_HEIGHT = 27;
@@ -17,9 +17,13 @@ const TILE_HALF_WIDTH = TILE_WIDTH / 2;
 const TILE_HALF_HEIGHT = TILE_HEIGHT / 2;
 
 export class IsoMap extends GameObjects.GameObject {
+  public get astar() {
+    return this._astar;
+  }
+
   protected tileMap: Tilemaps.Tilemap;
   protected tileSets: Tilemaps.Tileset[];
-  protected astar: Astar;
+  protected _astar: Astar;
 
   protected id: number;
   protected width: number;
@@ -32,7 +36,7 @@ export class IsoMap extends GameObjects.GameObject {
     super(scene, 'iso-map');
 
     this.walls = new Phaser.GameObjects.Group(this.scene);
-    this.astar = new Astar();
+    this._astar = new Astar();
   }
 
   setMapInfo(id: number, width: number, height: number) {
@@ -46,7 +50,7 @@ export class IsoMap extends GameObjects.GameObject {
     this.width = width;
     this.height = height;
 
-    this.astar.setSize(width, height);
+    this._astar.setSize(width, height);
 
     this.tileMap = new Tilemaps.Tilemap(
       this.scene,
@@ -64,7 +68,7 @@ export class IsoMap extends GameObjects.GameObject {
   setMapData(data: Uint16Array) {
     this.createSpriteSheets(data);
 
-    this.astar.setGrid(data);
+    this._astar.setGrid(data);
   }
 
   private async createSpriteSheets(data: Uint16Array) {
@@ -147,15 +151,15 @@ export class IsoMap extends GameObjects.GameObject {
   }
 
   async findPath(startX: number, startY: number, endX: number, endY: number) {
-    return await this.astar.findPath(startX, startY, endX, endY);
+    return await this._astar.findPath(startX, startY, endX, endY);
   }
 
   avoidPoint(tileX: number, tileY: number) {
-    this.astar.avoidPoint(tileX, tileY);
+    this._astar.avoidPoint(tileX, tileY);
   }
 
   stopAvoidingPoint(tileX: number, tileY: number) {
-    this.astar.stopAvoidingPoint(tileX, tileY);
+    this._astar.stopAvoidingPoint(tileX, tileY);
   }
 
   tileToWorldXY(tileX: number, tileY: number) {

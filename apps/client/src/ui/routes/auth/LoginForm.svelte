@@ -4,6 +4,7 @@
   import { RouterStore } from '../../stores/router.svelte';
   import { ErrorStore } from '../../stores/error.svelte';
   import { EventBus } from '../../event-bus';
+  import Panel from '../../components/Panel.svelte';
 
   let username:string = '';
   let password:string = '';
@@ -35,18 +36,22 @@
     RouterStore.push('auth/create');
   }
 </script>
-  
-<form class='bg-primary-700/50 p-4 backdrop-blur rounded' autocomplete='off'>
-  <div>
-    <label for='username' class='block'>Username</label>
-    <input class='bg-primary-900 p-1 rounded' bind:value={username} id='username'  autocomplete='off'  />
-  </div>
-  <div>
-    <label for='password' class='block'>Password</label>
-    <input class='bg-primary-900 p-1 rounded' bind:value={password} id='password' type='password' />
-  </div>
-  <div class='flex flex-row justify-between'>
-    <button on:click|preventDefault={handleLogin} type='submit' disabled={disabled}>Login</button>
-    <button on:click|preventDefault={handleCreate} type='button'>Create</button>
-  </div>
-</form>
+
+<Panel>
+  <form class='space-y-4' autocomplete='off'>
+    <div>
+      <fieldset>
+        <label for='username' class='block'>Username</label>
+        <input class='input' bind:value={username} id='username'  autocomplete='off'  />
+      </fieldset>
+      <fieldset>
+        <label for='password' class='block'>Password</label>
+        <input class='input' bind:value={password} id='password' type='password' />
+      </fieldset>
+    </div>
+    <div class='flex flex-row justify-between'>
+      <button on:click|preventDefault={handleLogin} type='submit' class='button' disabled={disabled}>Login</button>
+      <button on:click|preventDefault={handleCreate} type='button' class='button'>Create</button>
+    </div>
+  </form>
+</Panel>

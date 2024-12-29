@@ -4,8 +4,16 @@ import { MapEntity } from './map-entity';
 import { EntityTypes } from '../entity-types';
 
 export class Monster extends MapEntity {
-  constructor(x: number, y: number) {
-    super(x, y, 'monster');
+  constructor(
+    x: number,
+    y: number,
+    name: string,
+    protected sprite: number,
+    protected creatureType: CreatureType
+  ) {
+    super(x, y, name);
+
+    this._direction = 1;
 
     this.layer = EntityTypes.MONSTER;
     this.mask = EntityTypes.AREA;
@@ -22,9 +30,9 @@ export class Monster extends MapEntity {
           x: this.x,
           y: this.y,
           direction: this.direction,
-          spriteId: 0x4002,
-          creatureType: CreatureType.Hostile,
-          name: 'tester',
+          sprite: 16384 + this.sprite,
+          creatureType: this.creatureType,
+          name: this.name,
         },
       ])
     );

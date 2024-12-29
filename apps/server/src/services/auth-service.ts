@@ -1,6 +1,6 @@
 import { hash, verify } from 'argon2';
 import { LoginMessageType } from '@medenia/network';
-import { AislingEntity } from '../db/entities/aisling.entity';
+import { AislingEntity } from '../database/entities/aisling.entity';
 
 export class AuthError extends Error {
   constructor(
@@ -11,11 +11,11 @@ export class AuthError extends Error {
   }
 }
 
-//  TODO: move this to a util function
+//  TODO: move this
 const alphaRegex = /^[a-zA-Z]+$/;
 
-class AuthService {
-  async create(username: string, password: string) {
+export module AuthService {
+  export async function create(username: string, password: string) {
     if (username.length < 3 || username.length > 12 || !alphaRegex.test(username)) {
       throw new AuthError(
         'That name is invalid. A valid name can only be between 3 to 12 letters long, with no spaces, numbers or special characters.',
@@ -48,7 +48,7 @@ class AuthService {
     return aisling;
   }
 
-  async finalize(id: number, hairStyle: number, hairColour: number, skinColour: number, bodyType: number) {
+  export async function finalize(id: number, hairStyle: number, hairColour: number, skinColour: number, bodyType: number) {
     //TODO: validate appearances
     if (bodyType !== 1 && bodyType !== 2) {
       throw new AuthError('Invalid Appearance.', LoginMessageType.IncorrectPassword);
@@ -67,7 +67,7 @@ class AuthService {
     );
   }
 
-  async login(username: string, password: string) {
+  export async function login(username: string, password: string) {
     const aisling = await AislingEntity.findOneBy({ username });
 
     if (!aisling || !(await verify(aisling.password, password))) {
@@ -77,5 +77,3 @@ class AuthService {
     return aisling;
   }
 }
-
-export const authService = new AuthService();

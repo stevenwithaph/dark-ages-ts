@@ -2,7 +2,7 @@ import { ClientPackets, ServerPackets, PanelType } from '@medenia/network';
 import { Client } from '../client';
 import { PacketHandler } from '../packet-handler';
 import { Listener } from './listener';
-import { playerCache } from '../../services/player-cache';
+import { PlayerCache } from '../../services/player-cache';
 
 export class WordListener extends Listener {
   constructor() {
@@ -11,7 +11,7 @@ export class WordListener extends Listener {
 
   async clientRedirected(client: Client, packet: ClientPackets.ClientRedirectedPacket) {
     super.clientRedirected(client, packet);
-    playerCache.connect(client, packet.redirect.keySalts);
+    PlayerCache.connect(client, packet.redirect.keySalts);
   }
 
   @PacketHandler(ClientPackets.RequestProfilePacket)
@@ -21,7 +21,7 @@ export class WordListener extends Listener {
 
   @PacketHandler(ClientPackets.UnequipPacket)
   onUnequip(client: Client, packet: ClientPackets.UnequipPacket) {
-    const player = playerCache.get(client.id);
+    const player = PlayerCache.get(client.id);
 
     if (!player) {
       return;
@@ -32,7 +32,7 @@ export class WordListener extends Listener {
 
   @PacketHandler(ClientPackets.SwapSlotPacket)
   onSwapSlot(client: Client, packet: ClientPackets.SwapSlotPacket) {
-    const player = playerCache.get(client.id);
+    const player = PlayerCache.get(client.id);
 
     if (!player) {
       return;

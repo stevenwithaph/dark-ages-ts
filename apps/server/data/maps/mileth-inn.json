@@ -21,5 +21,20 @@
       "zoneX": 3,
       "zoneY": 15
     }
+  ],
+  "entities": [
+    {
+      "x": 3,
+      "y": 3,
+      "sprite": 22,
+      "name": "Riona"
+    }
+  ],
+  "mobs": [
+    {
+      "template": "rat",
+      "x": 6,
+      "y": 7
+    }
   ]
 }

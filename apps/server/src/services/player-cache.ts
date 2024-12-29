@@ -1,13 +1,13 @@
 import { Client } from '../network/client';
 import { mapManager } from '../maps/map-manager';
 import { Player } from '../scene/game-objects/player';
-import { AislingEntity } from '../db/entities/aisling.entity';
+import { AislingEntity } from '../database/entities/aisling.entity';
 import { AttributeFlags, ServerPackets } from '@medenia/network';
 
-class PlayerCache {
-  #players: Map<string, Player> = new Map();
+export module PlayerCache {
+  const players: Map<string, Player> = new Map();
 
-  async connect(client: Client, username: string) {
+  export async function connect(client: Client, username: string) {
     const aisling = await AislingEntity.findOneBy({ username });
 
     if (!aisling) {
@@ -61,28 +61,26 @@ class PlayerCache {
 
     player.peer.client.sendPacket(attributes);
 
-    this.add(client.id, player);
+    add(client.id, player);
     mapManager.transfer('mileth-inn', player, 6, 6, 2);
 
     return aisling;
   }
 
-  async disconnect(client: Client) {
+  export async function disconnect(client: Client) {
     // TODO: synchronize the player here probably
-    this.remove(client.id);
+    remove(client.id);
   }
 
-  private add(id: string, player: Player) {
-    this.#players.set(id, player);
+  function add(id: string, player: Player) {
+    players.set(id, player);
   }
 
-  private remove(id: string) {
-    this.#players.delete(id);
+  function remove(id: string) {
+    players.delete(id);
   }
 
-  get(id: string) {
-    return this.#players.get(id);
+  export function get(id: string) {
+    return players.get(id);
   }
 }
-
-export const playerCache = new PlayerCache();

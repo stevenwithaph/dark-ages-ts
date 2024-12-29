@@ -13,9 +13,11 @@ export class HealthBarPacket implements Packet {
   serialize(writer: BinaryWriter): void {
     writer.writeUint32(this.actorId);
     writer.offset += 1;
-    writer.writeUint8(this.percent);
+    writer.writeInt8(this.percent);
   }
   deserialize(reader: BinaryReader): void {
-    throw new Error('Method not implemented.');
+    this.actorId = reader.readUint32();
+    reader.offset += 1;
+    this.percent = reader.readInt8();
   }
 }

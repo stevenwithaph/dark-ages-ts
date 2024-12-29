@@ -4,13 +4,18 @@ import { Peer } from '../network/peer';
 import { ColliderNode } from '../physics/collider-node';
 import { DefaultPoint } from '../../collision/geometry/point';
 import { EntityTypes } from '../entity-types';
+import { Monster } from './monster';
 
 export abstract class MapEntity extends ColliderNode {
   private _identity: Identity;
-  private _direction: number = 0;
+  protected _direction: number = 0;
   private _observers: Set<Peer> = new Set();
 
   private _name: string = '';
+
+  private _canAct: boolean = true;
+
+  private _hp: number = 100;
 
   public get name() {
     return this._name;
@@ -61,10 +66,6 @@ export abstract class MapEntity extends ColliderNode {
 
   setDirection(direction: number) {
     this._direction = direction;
-  }
-
-  turn(direction: number) {
-    this._direction = direction;
 
     this.identity.broadcast(new ServerPackets.CreatureTurnPacket(this.identity.networkId, direction), false);
   }
@@ -78,16 +79,46 @@ export abstract class MapEntity extends ColliderNode {
   }
 
   health() {
-    this.identity.broadcast(new ServerPackets.HealthBarPacket(this.identity.networkId, 25));
+    this._hp--;
+    this.identity.broadcast(new ServerPackets.HealthBarPacket(this.identity.networkId, this._hp));
   }
 
   useSkill(skillId: number) {
-    if (!this.tree) return;
+    //if (!this.tree || !this._canAct) return;
 
-    const colliders = this.tree.world.contains(this.x + 1, this.y, EntityTypes.MONSTER);
-    console.log(colliders);
+    let offsetX = 0;
+    let offsetY = 0;
+
+    switch (this.direction) {
+      case 0:
+        offsetY--;
+        break;
+      case 1:
+        offsetX++;
+        break;
+      case 2:
+        offsetY++;
+        break;
+      case 3:
+        offsetX--;
+        break;
+    }
+
+    //this._canAct = false;
+    const colliders = this.tree!.world.contains(this.x + offsetX, this.y + offsetY, EntityTypes.MONSTER);
+
+    for (const collider of colliders) {
+      (collider.owner as Monster).health();
+    }
+
+    console.log(colliders.length);
 
     this.animate(1, 30);
+    this.playSound(1);
+  }
+
+  playSound(soundId: number) {
+    this.identity.broadcast(new ServerPackets.SoundPacket(false, soundId));
   }
 
   protected onObserverAdded(peer: Peer) {
