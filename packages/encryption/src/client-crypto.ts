@@ -26,7 +26,7 @@ export class ClientCrypto extends Crypto {
         encryptedBuffer = new Uint8Array(buffer.length + 8);
         break;
       case EncryptionType.MD5:
-        encryptionKey = generateKey(a, b, this.keySaltsBuffer);
+        encryptionKey = generateKey(25, 25, this.keySaltsBuffer); //generateKey(a, b, this.keySaltsBuffer);
 
         //ordinal + length + opCode + 4 bytes md5 + 3 salt
         encryptedBuffer = new Uint8Array(buffer.length + 9);
@@ -36,9 +36,10 @@ export class ClientCrypto extends Crypto {
         break;
     }
 
+    encryptedBuffer.set(buffer);
     const ordinal = this.nextOrdinal();
 
-    xor(buffer, encryptionKey, ordinal, this.seed);
+    xor(encryptedBuffer, encryptionKey, ordinal, this.seed);
 
     encryptedBuffer[0] = ordinal;
     encryptedBuffer.set(buffer, 1);

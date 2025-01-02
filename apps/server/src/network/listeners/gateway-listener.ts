@@ -21,7 +21,8 @@ export class GatewayListener extends Listener {
   }
 
   @PacketHandler(ClientPackets.VersionPacket)
-  protected onVersionPacket(client: Client) {
+  protected onVersionPacket(client: Client, packet: ClientPackets.VersionPacket) {
+    console.log('on version packet');
     client.sendPacket(new ServerPackets.ConnectionInfoPacket(false, 12, client.seed, client.key));
   }
 

@@ -1,3 +1,5 @@
+import iconv from 'iconv-lite';
+
 import { Serializable } from './serializable';
 
 export class BinaryWriter {
@@ -52,10 +54,7 @@ export class BinaryWriter {
   }
 
   writeString(value: string) {
-    this.grow(value.length);
-    this.buffer.write(value, this.offset, 'ascii');
-
-    this.offset += value.length;
+    this.writeBytes(iconv.encode(value, 'cp949'));
   }
 
   writeBoolean(value: boolean) {

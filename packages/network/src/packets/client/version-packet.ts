@@ -9,8 +9,11 @@ export class VersionPacket implements Packet {
   }
   serialize(writer: BinaryWriter): void {
     writer.writeUint16(this.version);
+    writer.writeString('LK');
   }
   deserialize(reader: BinaryReader): void {
     this.version = reader.readUint16();
+
+    console.log(this.version);
   }
 }

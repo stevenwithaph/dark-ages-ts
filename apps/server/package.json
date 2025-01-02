@@ -17,6 +17,7 @@
     "easystarjs": "^0.4.4",
     "eventemitter3": "^5.0.1",
     "gl-matrix": "^3.4.3",
+    "iconv-lite": "^0.6.3",
     "intersects": "^2.7.2",
     "reflect-metadata": "^0.2.2",
     "sqlite3": "^5.1.7",

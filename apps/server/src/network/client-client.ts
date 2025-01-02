@@ -4,12 +4,14 @@ import { ClientCrypto, ServerCrypto } from '@medenia/encryption';
 import { ClientPacketFactory, Packet, PacketEncoder, PacketPayload, ServerPacketFactory } from '@medenia/network';
 
 import { Socket } from './servers/socket';
+import { Socket as RealTcpSocket } from 'net';
 import { Constructor } from 'type-fest';
+import { TcpSocket } from './servers/tcp/tcp-socket';
 
 const ACK_TIMEOUT = 5000;
 
 export class Client extends EventEmitter {
-  private readonly crypto: ClientCrypto;
+  public readonly crypto: ClientCrypto;
 
   public get key() {
     return this.crypto.key;
@@ -40,14 +42,14 @@ export class Client extends EventEmitter {
     private socket: Socket
   ) {
     super();
-    this.crypto = new ServerCrypto(0);
+    this.crypto = new ClientCrypto(0);
 
     socket.on('data', this.onData, this);
     socket.on('disconnect', this.onDisconnect, this);
   }
 
   protected onData(buffer: Uint8Array) {
-    const packets = PacketEncoder.decode(buffer, ClientPacketFactory, this.crypto);
+    const packets = PacketEncoder.decode(buffer, ServerPacketFactory, this.crypto);
 
     for (const packet of packets) {
       this.emit('packet', packet, this);
@@ -90,5 +92,10 @@ export class Client extends EventEmitter {
 
   disconnect() {
     this.socket.disconnect();
+  }
+
+  connect(ip: string, port: number) {
+    const socket = new RealTcpSocket();
+    this.socket = new TcpSocket(socket);
   }
 }

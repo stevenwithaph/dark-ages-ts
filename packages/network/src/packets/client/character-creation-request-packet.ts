@@ -13,6 +13,7 @@ export class CharacterCreationRequestPacket implements Packet {
   serialize(writer: BinaryWriter): void {
     writer.writeString8(this.name);
     writer.writeString8(this.password);
+    writer.writeString8('');
   }
   deserialize(reader: BinaryReader): void {
     this.name = reader.readString8();

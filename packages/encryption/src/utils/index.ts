@@ -88,12 +88,7 @@ export function generateValuePair() {
   return { a, b };
 }
 
-export function xor(
-  data: Uint8Array,
-  key: Uint8Array,
-  ordinal: number,
-  seed: number
-) {
+export function xor(data: Uint8Array, key: Uint8Array, ordinal: number, seed: number) {
   for (let i = 0; i < data.length; i++) {
     var saltIndex = Math.floor(i / key.length) % 256;
     data[i] ^= SALT_TABLE[seed][saltIndex] ^ key[i % key.length];

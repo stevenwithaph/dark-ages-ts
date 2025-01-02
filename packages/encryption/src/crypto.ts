@@ -27,7 +27,7 @@ export abstract class Crypto {
   protected keySaltsBuffer!: Uint8Array;
   private _keySalts!: string;
 
-  private currentOrdinal: number = 0;
+  public currentOrdinal: number = 0;
 
   constructor(
     public seed: number,

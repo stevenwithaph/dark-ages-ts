@@ -6,10 +6,6 @@ export class RequestProfilePacket implements Packet {
   get opCode(): number {
     return ClientOpCode.RequestProfile;
   }
-  serialize(writer: BinaryWriter): void {
-    throw new Error('Method not implemented.');
-  }
-  deserialize(reader: BinaryReader): void {
-    throw new Error('Method not implemented.');
-  }
+  serialize(writer: BinaryWriter): void {}
+  deserialize(reader: BinaryReader): void {}
 }

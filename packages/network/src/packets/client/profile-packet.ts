@@ -7,9 +7,8 @@ export class ProfilePacket implements Packet {
     return ClientOpCode.Profile;
   }
   serialize(writer: BinaryWriter): void {
-    throw new Error('Method not implemented.');
+    writer.writeBytes(new Uint8Array([3, 0, 0, 0, 0, 0]));
   }
-  deserialize(reader: BinaryReader): void {
-    throw new Error('Method not implemented.');
-  }
+
+  deserialize(reader: BinaryReader): void {}
 }
